@@ -1,0 +1,117 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #ff4802;
+    --ifm-color-primary-dark: #e74000;
+    --ifm-color-primary-darker: #da3c00;
+    --ifm-color-primary-darkest: #b43200;
+    --ifm-color-primary-light: #ff5b1c;
+    --ifm-color-primary-lighter: #ff6429;
+    --ifm-color-primary-lightest: #ff804f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    --ifm-color-primary: #ff4802;
+    --ifm-color-primary-dark: #e74000;
+    --ifm-color-primary-darker: #da3c00;
+    --ifm-color-primary-darkest: #b43200;
+    --ifm-color-primary-light: #ff5b1c;
+    --ifm-color-primary-lighter: #ff6429;
+    --ifm-color-primary-lightest: #ff804f;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.anchor-link {
+  display: none; /* Hide the anchor links */
+}
+
+.my-special-links {
+  text-decoration: dashed;
+  color: #0b00d1;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.my-special-links:hover {
+  text-decoration: dashed;
+  background-color: #0a00d14e; /* Add a background color on hover */
+  color: #0b00d1;
+  position: relative; /* Set position to relative for pseudo-element */
+}
+
+/* Style regular linked text */
+a {
+  color: blue; /* Set the color of linked text to blue */
+  text-decoration: none; /* Remove the default underline */
+}
+
+/* Add underline when hovering over regular linked text */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+ul {
+  list-style-type: square;
+}
+
+ul li::marker {
+  color: #0b00d1; /* Set bullet color to blue */
+  margin-right: 5px; /* Add space between bullet and text */
+}
+
+/* Change the background image of the homepage */
+.hero {
+  background-image: URL('/static/img/jorge-fernandez-salas-ChSZETOal-I-unsplash.jpg'); /* Replace 'path/to/your/image.jpg' with the URL or path to your desired image */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Adjust background position as needed */
+  /* Add any additional background properties here */
+  color: white;
+}
+
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px; /* Adjust the margin as needed */
+  border: 1px solid #e3e2df; /* Border color */
+  padding: 8px;
+  text-align: left;
+}
+
+.markdown table td {
+  background-color: white;
+}
+
+.markdown table th {
+  background-color: white;
+}
+
+body {
+  background-color: var(--#e3e2df); /* Use variable for body color */
+}
+
+.custom-quote {
+  padding: 20px; /* Padding inside the box */
+  background-color: white; /* Background color of the box */
+  width: 750px;
+  padding-bottom: 5px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif; /* Replace 'Open Sans' with the desired font-family */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap')
+
+/* src/css/custom.css */
+
