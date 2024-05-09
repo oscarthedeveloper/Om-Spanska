@@ -16,6 +16,8 @@ export const Highlight = ({children, color}) => (
 
 # <Highlight color="#0b00d1">Ordlista för nördar 🤓</Highlight>
 
+## <Highlight color="#0b00d1">Ordlista</Highlight>
+
 Kortfattat finns det svåra ord som betecknar olika typer av ord. Nedan ser du först den grammatiska termen och dess betydelse.
 
 - **Substantiv** - 🎶 saker och ting, till exempel hatt och ring.
@@ -31,7 +33,7 @@ Kortfattat finns det svåra ord som betecknar olika typer av ord. Nedan ser du f
         - **Perfekt** - något som har skett, t.ex. *jag har ätit*.
         - **Gerundium** - något som sker just nu. Finns inte i svenskan, men finns i engelskan (I am eat**ing**).
         - **Preteritum** - något som skedde, t.ex. *jag åt*.
-        - **Imperfekt** - något som skedde, t.ex. *jag åt*. I svenskan skiljer vi inte på imperfekt och preteritum.
+        - **Imperfekt** - något som skedde upprepade gånger, t.ex. *jag åt*. I svenskan skiljer vi inte på imperfekt och preteritum.
         - **Futurum** - något som ska ske, t.ex. *jag ska äta*.
         - **Futuro simple** - spanskan har två framtidstempus, varav denna uttrycker en mer osäker framtid.
         - **Konditionalis** - något som skulle ske, t.ex. *jag skulle äta*.
@@ -54,3 +56,8 @@ Kortfattat finns det svåra ord som betecknar olika typer av ord. Nedan ser du f
 - **Numerus** - uttrycker antal av substantiv.
     - **Singular** - uttrycker att antalet substantiv är **1**, t.ex. *bil*.
     - **Plural** - uttrycker att antalet substsantiv är **2 eller fler**, t:ex. *bil**ar***.
+
+## <Highlight color="#0b00d1">Ord som är bra att kunna</Highlight>
+
+- **Ändelse** - ett verb kan få olika ändelser beroende av **person**, **tempus** och **modus**. I grundform kan ett verb ha ändelsen **-ar**, **-er** eller **-ir**. 
+- **Stam** - ett verbs stam är verbet utan ändelsen, t.ex. **hablar** - **ar** = **habl**. Stammen brukar inte förändras, men ibland gör den det och då brukar man säga att verbet är **oregelbundet**.

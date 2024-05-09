@@ -4,44 +4,55 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Gratis resurs',
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+<>
+      <p>
+        Denna hemsida är en helt gratis resurs för dig som studerar spanska. 
+      </p>
+      <p>
+      Om du upplever att hemsidan är hjälpsam och vill göra den bättre, varför inte tipsa en kompis?
+      </p>
+    </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Förståelig och konsis',
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+<>
+      <p>
+      Hemsidan är konstruerad för att vara lätt att förstå, men samtidigt ingående och detaljerande.
+      </p>
+      <p>
+      Den är gjord utifrån pedagogiska tillvägagångssätt för att simplifiera det som ofta framstår som svårt.
+      </p>
+     </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'En del av en familj',
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+<>
+      <p>
+        Hemsidan är en del av en liten mysig familj av hemsidor. Spana in dess syskon! 😎
+      </p>
+      <p>
+        <ul>
+        <li> <a href="https://" class="my-special-links" target="_blank">X</a> </li>         
+        <li> <a href="https://" class="my-special-links" target="_blank">X</a> </li>
+
+        </ul>
+      </p>
+      
+</>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--left padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>

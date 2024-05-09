@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 export const Highlight = ({children, color}) => (
@@ -18,9 +18,8 @@ export const Highlight = ({children, color}) => (
 
 ## <Highlight color="#ff4802">Vanlig böjning</Highlight>
 
-<div class="my-special-links">
-<p> Adjektiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett adjektiv slutar alltså på någon av nedanstående ändelse beroende av detta, **oftast**. </p>
-</div>
+Adjektiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett adjektiv slutar alltså på någon av nedanstående ändelse beroende av detta, **oftast**. 
+
 
 | Genus      | Singular   | Plural  |
 | ---------- | ---------- | ------- |
@@ -30,10 +29,14 @@ export const Highlight = ({children, color}) => (
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La chica es hermos**a***    
-*Las chicas son hermos**as***    
-*El chico es hermos**o***    
-*Los chicos son hermos**os***    
+*La chica es hermos**a**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickan är fin.*</small>    
+*Las chicas son hermos**as**.*     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickorna är fina.*</small>    
+*El chico es hermos**o**.*     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojken är fin.*</small>    
+*Los chicos son hermos**os**.*     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är fina.*</small>    
 </div>
 
 ## <Highlight color="#0b00d1">Adjektiv som slutar på -e</Highlight>
@@ -63,15 +66,19 @@ En del adjektiv slutar på **-e**, och böjs då endast i 🔢 **Numerus**. Med 
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La chica es sociabl**e***    
-*Las chicas son sociabl**es***    
-*El chico es sociabl**e***    
-*Los chicos son sociabl**es***    
+*La chica es sociabl**e**.*     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickan är social.*</small>    
+*Las chicas son sociabl**es**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickorna är sociala.*</small>    
+*El chico es sociabl**e**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojken är social.*</small>    
+*Los chicos son sociabl**es**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är sociala.*</small>    
 </div>
 
 ## <Highlight color="#0b00d1">Adjektiv som slutar på -z</Highlight>
 
-En del adjektiv slutar på **-z**, och böjs då endast i 🔢 **Numerus**. Med detta menas att adjektivet inte får en annorlunda ändelse beroende av 👱‍♀️ **Genus**. I plural sker en liten bokstavsförändring, där **-z** 🔀 omvandlas till **-c**.
+En del adjektiv slutar på **-z**, och böjs då endast i 🔢 **Numerus**. I plural sker en liten bokstavsförändring, där **-z** 🔀 omvandlas till **-c**.
 
 <table>
   <thead>
@@ -97,10 +104,14 @@ En del adjektiv slutar på **-z**, och böjs då endast i 🔢 **Numerus**. Med 
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La chica es feli**z***    
-*Las chicas son feli**ces***    
-*El chico es feli**z***    
-*Los chicos son feli**ces***    
+*La chica es feli**z**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickan är lycklig.*</small>    
+*Las chicas son feli**ces**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickorna är lyckliga.*</small>    
+*El chico es feli**z**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojken är lycklig.*</small>    
+*Los chicos son feli**ces**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är lyckliga.*</small>    
 </div>
 
 
@@ -116,15 +127,19 @@ Adjektiv kan förstärkas med ändelserna ***ísimo/a***, vilket i princip motsv
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La chica es hermos**ísima***    
-*Las chicas son hermos**ísimas***    
-*El chico es hermos**ísimo***    
-*Los chicos son hermos**ísimos***    
+*La chica es hermos**ísima**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickan är jättefin.*</small>    
+*Las chicas son hermos**ísimas**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickorna är jättefina.*</small>    
+*El chico es hermos**ísimo**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojken är jättefin.*</small>    
+*Los chicos son hermos**ísimos**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är jättefina.*</small>    
 </div>
 
 ### <Highlight color="#ff4802">Rico</Highlight>
 
-Vissa adjektiv har ett **c** innan en ändelse (**-o**, **-a** etc), t.ex. ri**c**o. Dessa får en liten stavningsändring när **ísimo** används, där **-c** 🔀 omvandlas till **-qu**.
+Vissa adjektiv har ett **c** före en ändelse (**-o**, **-a** etc), t.ex. ri**c**o. Dessa får en liten stavningsändring när **ísimo** används, där **-c** 🔀 omvandlas till **-qu**.
 
 | Genus      | Singular   | Plural  |
 | ---------- | ---------- | ------- |
@@ -134,10 +149,14 @@ Vissa adjektiv har ett **c** innan en ändelse (**-o**, **-a** etc), t.ex. ri**c
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La albondiga está ri**quísima***    
-*Las albondigas están ri**quísimas***    
-*El plátano está ri**quísimo***    
-*Los plátanos están ri**quísimos***    
+*La albondiga está ri**quísima**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Köttbullen är supergod.*</small>    
+*Las albondigas están ri**quísimas**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kuttbullarna är supergoda.*</small>    
+*El plátano está ri**quísimo**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Bananen är supergod.*</small>    
+*Los plátanos están ri**quísimos**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Bananerna är supergoda.*</small>    
 </div>
 
 ### <Highlight color="#ff4802">Feliz</Highlight>
@@ -152,15 +171,19 @@ Adjektiv som slutar på **-z**, t.ex. feli**z**, får en liten stavningsändring
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La chica es feli**císima***    
-*Las chicas son feli**císimas***    
-*El chico es feli**císimo***    
-*Los chicos son feli**císimos***    
+*La chica es feli**císima**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickan är jättelycklig.*</small>    
+*Las chicas son feli**císimas**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Flickorna är jättelyckliga.*</small>    
+*El chico es feli**císimo**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojken är jättelycklig.*</small>    
+*Los chicos son feli**císimos**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är jättelyckliga.*</small>    
 </div>
 
 ### <Highlight color="#ff4802">Largo</Highlight>
 
-Adjektiv som har ett **g** innan en ändelse, t.ex. lar**g**o, får en liten stavningsändring när **ísimo** används, där **-g** 🔀 omvandlas till **-gu**.
+Adjektiv som har ett **g** före en ändelse, t.ex. lar**g**o, får en liten stavningsändring när **ísimo** används, där **-g** 🔀 omvandlas till **-gu**.
 
 | Genus      | Singular   | Plural  |
 | ---------- | ---------- | ------- |
@@ -170,8 +193,12 @@ Adjektiv som har ett **g** innan en ändelse, t.ex. lar**g**o, får en liten sta
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-*La playa es larg**uísima***    
-*Las playas son larg**uísimas***    
-*El camino es larg**uísimo***    
-*Los caminos son larg**uísimos***    
+*La playa es larg**uísima**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stranden är superlång.*</small>    
+*Las playas son larg**uísimas**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stränderna är superlånga.*</small>    
+*El camino es larg**uísimo**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vägen är superlång.*</small>    
+*Los caminos son larg**uísimos**.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vägarna är superlånga.*</small>    
 </div>

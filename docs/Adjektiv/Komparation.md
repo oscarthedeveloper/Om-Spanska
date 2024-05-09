@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 export const Highlight = ({children, color}) => (
@@ -20,9 +20,9 @@ export const Highlight = ({children, color}) => (
 
 👨‍⚖️ <span class="tooltip-trigger" data-tooltip="🇪🇸 el grado">**Komparation**</span> används när man gör jämförelser. Komparationsgrader i 🇸🇪 **svenskan** samt 🇪🇸 **spanskan** är:
 
-- 🙂 Positiv
-- 😀 Komparativ
-- 😁 Superlativ
+- 🙂 **Positiv**
+- 😀 **Komparativ**
+- 😁 **Superlativ**
 
 :::info Vad betyder de?
 **Positiv** kan man säga är grundformen av ett substantiv, t.ex. *glad*.    
