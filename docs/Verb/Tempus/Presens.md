@@ -507,7 +507,7 @@ Observera att vissa verb även är vokalskiftande, t.ex. ***seguir***, eller dif
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contengo***, ***supongo***, ***convengo*** etc.
 

@@ -381,7 +381,7 @@ De som har oregelbunden stam i futurum II har samma oregelbundna stam här!
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contendría***, ***supondría***, ***convendría*** etc.
 

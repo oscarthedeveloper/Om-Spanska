@@ -32,11 +32,18 @@
   .custom-quote {
 background-color: #e3e2df;
   }
-  table {
-    background-color: #e3e2df;
-  }
   .my-special-table {
     background-color: #e3e2df;
+  }
+  .footer {
+    background-color: #242526;
+    color: white;
+  }
+  .my-special-links {
+    color: white;
+  }
+  .my-special-links:hover {
+    background-color: #b5b5ff;
   }
 }
 
@@ -89,21 +96,22 @@ ul li::marker {
 }
 
 table {
-  background-color: white;
-  width: fit-content;
-  border-radius: 10px;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-spacing: 0 2px;
+  border-spacing: 0px;
+  max-width: fit-content;
+  border-radius: 12px;
   color: black;
-  text-align: center;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
 .my-special-table {
   background-color: white;
-  width: 750px;
+  max-width: 750px;
   border-radius: 10px;
   color: black;
-  text-align: center;
   overflow-x: auto;
   overflow-y: hidden;
   margin: 40px;
@@ -112,7 +120,7 @@ table {
 .custom-quote {
   padding: 20px; /* Padding inside the box */
   background-color: white; /* Background color of the box */
-  width: 750px;
+  max-width: 750px;
   padding-bottom: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -132,24 +140,79 @@ body {
 }
 
 .box {
+  min-width: 100px;
+  width: 200px;
   color: #0b00d1;
   padding: 10px;
   margin-bottom: 20px;
-  width: 200px;
-  height: fit-content;
+  height: 80px;
   border-radius: 10px;
-  font-size: large;
+  font-size: medium;
   font-weight: 500;
   text-align: left;
-  background-color: white;
+  background-color: #ffffff95;
   margin: 10px;
 }
 
 .box:hover {
-  background-color: #0a00d14e; /* Add underline on hover */
+  background-color: rgba(101, 101, 213, 0.511); /* Add underline on hover */
   text-decoration: 0;
 }
 
 .box-container {
   display: flex; /* Use flexbox for layout */
+  min-width: 400px;
+}
+
+.button {
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.hero__container {
+  text-align: center; /* Center the content horizontally */
+}
+
+.hero__title, .hero__subtitle {
+  width: fit-content; /* Allow elements to shrink to fit their content */
+  margin: 0 auto; /* Center the elements horizontally */
+}
+
+.hero__title {
+  background-color: #0b00d1; /* Change to the desired highlight color */
+  padding: 0.5rem 1rem; /* Add padding for better visual appearance */
+  font-family: IBM Plex Sans;
+  margin-bottom: 10px;
+}
+
+.hero__subtitle {
+  background-color: white; /* Change to the desired highlight color */
+  color: black;
+  padding: 0.5rem 1rem; /* Add padding for better visual appearance */
+  font-size: larger;
+}
+
+.footer {
+  background-color: #ffffff7d; 
+  color: black;
+}
+
+.footer {
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Display ellipsis for overflow */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__copyright {
+  display: block;
+}
+
+h3 {
+  font-family: IBM Plex Sans;
 }

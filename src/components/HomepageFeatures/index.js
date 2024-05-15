@@ -11,7 +11,7 @@ const FeatureList = [
         Denna hemsida är en helt gratis resurs för dig som studerar spanska. 
       </p>
       <p>
-      Om du upplever att hemsidan är hjälpsam och vill göra den bättre, varför inte tipsa en kompis?
+      Om du upplever att hemsidan är hjälpsam, tipsa en kompis!
       </p>
     </>
     ),
@@ -34,13 +34,12 @@ const FeatureList = [
     description: (
 <>
       <p>
-        Hemsidan är en del av en liten mysig familj av hemsidor. Spana in dess syskon! 😎
+        Hemsidan är en del av en liten mysig familj av hemsidor. Besök dess syskon!
       </p>
       <p>
         <ul>
-        <li> <a href="https://" class="my-special-links" target="_blank">X</a> </li>         
+        <li> <a href="https://petigsvenska.se" class="my-special-links" target="_blank">🇸🇪 Petig Svenska</a> </li>      
         <li> <a href="https://" class="my-special-links" target="_blank">X</a> </li>
-
         </ul>
       </p>
       

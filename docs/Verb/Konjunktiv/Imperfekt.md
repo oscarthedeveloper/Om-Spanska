@@ -561,7 +561,7 @@ Det finns en mycket värdefull **minnesregel** längre ner!
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contuviera***, ***supusiera***, ***conviniera*** etc.
 

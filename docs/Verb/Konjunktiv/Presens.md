@@ -169,7 +169,7 @@ I konjunktiv presens förekommer sex klurigheter:
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tror inte att du kan.*</small>    
 ***Está bien que p<mark>ie</mark>nsas en tus amigos.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är bra att du tänker på dina kompisar.*</small>      
-**Es posible que qu<mark>ie</mark>ran comer esta noche***    
+***Es posible que qu<mark>ie</mark>ran comer esta noche.***    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är möjligt att de vill äta ikväll.*</small>  
 </p>
 </div>
@@ -550,7 +550,7 @@ Det finns en mycket värdefull **minnesregel** längre ner!
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contenga***, ***suponga***, ***convenga*** etc.
 

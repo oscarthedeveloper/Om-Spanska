@@ -421,7 +421,7 @@ För tydlighetens skull är de oregelbundna markerade med <span style={{color: '
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contuve***, ***supuse***, ***convine*** etc.
 

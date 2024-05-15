@@ -58,6 +58,7 @@ I imperativ förekommer tre sorters klurigheter:
 
 - 🔃 **Accenter**
 - 🦄 **Artighet**
+- 🦺 **Reflexiva verb**
 - 🖕 **Oregelbundna verb**
 
 ### <Highlight color="#ff4802">Exempel</Highlight>
@@ -81,6 +82,19 @@ I imperativ förekommer tre sorters klurigheter:
 <p>
 ***Señor, tom<mark>e</mark>.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Herrn, varsågod och ta.*</small>    
+***Señora, siént<mark>e</mark>se aquí.***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Frun, sätt Er här.*</small>    
+***¡Señores, Díg<mark>an</mark>me!***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Herrar, berätta för mig!*</small> 
+</p>
+</div>
+
+#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+ 
+<div class="custom-quote">  
+<p>
+***Amigo, acuésta<mark>te</mark> ahora mismo.***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kompis, gå och lägg dig nu.*</small>    
 ***Señora, siént<mark>e</mark>se aquí.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Frun, sätt Er här.*</small>    
 ***¡Señores, Díg<mark>an</mark>me!***   
@@ -179,7 +193,7 @@ Nedan är de vanligaste oregelbundna verben för ***tú***.
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. con**tener**, su**poner** och con**venir**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
 
 Dessa blir ***contén***, ***supón***, ***convén*** etc.
 

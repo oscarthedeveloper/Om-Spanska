@@ -286,7 +286,7 @@ Det förekommer verb som har **oregelbunden perfekt particip**.
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. pre**decir** och su**poner**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. pre**decir** och su**poner**.
 
 Dessa blir ***predicho*** och ***supuesto***.
 

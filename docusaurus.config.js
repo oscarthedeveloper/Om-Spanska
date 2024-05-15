@@ -63,12 +63,18 @@ const config = {
       }),
     ],
     [
-      "docusaurus-plugin-dotenv",
-      {
-        path: "./.env.local",
-        systemvars: true,
-      },
-    ],
+      'docusaurus-pushfeedback',{
+          project: 'j1i4qhmja6'
+      }
+  ]
+  ],
+
+  scripts: [
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3972947789744940',
+      async: true,
+      crossorigin: 'anonymous',
+    }
   ],
 
   themeConfig:
@@ -76,11 +82,12 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus.png',
-      navbar: {
+      navbar:  { 
         title: 'Om Spanska',
-        logo: {
+        logo :
+          {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.png', 
         },
         items: [
           {
@@ -95,15 +102,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-          },
-          {
-          },
-          {
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} X`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,

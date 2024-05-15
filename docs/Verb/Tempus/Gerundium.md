@@ -395,7 +395,7 @@ Det förekommer verb som har **oregelbunden gerundium**.
 
 :::info OBS
 
-Vissa verb har ett oregelbundet verb "inbyggt" i dem, t.ex. son**reír**.
+Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. son**reír**.
 
 Det blir då ***sonriendo***.
 

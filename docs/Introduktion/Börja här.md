@@ -31,3 +31,15 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
     Verb
   </a>
 </div>
+
+<div class="box-container">
+  <a href="/docs/Pronomen/Personliga pronomen" class="box">
+    Pronomen
+  </a>
+  <a href="/docs/Pronomen/Personliga pronomen" class="box">
+    Adverb
+  </a>
+  <a href="/docs/Pronomen/Personliga pronomen" class="box">
+    Prepositioner
+  </a>
+</div>
