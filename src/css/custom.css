@@ -197,22 +197,107 @@ body {
   color: black;
 }
 
-.footer {
-  overflow: hidden; /* Hide overflow */
-  text-overflow: ellipsis; /* Display ellipsis for overflow */
-  white-space: nowrap; /* Prevent wrapping */
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .footer__copyright {
   display: block;
 }
 
 h3 {
   font-family: IBM Plex Sans;
+}
+
+.bokstavsbox {
+  min-width: 130px;
+  color: #0b00d1;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  align-items: left;
+}
+
+.IPA {
+  min-width: 130px;
+  color: #0b00d1;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0;
+  align-items: left;
+}
+
+.bokstavsbox-container {
+  display: flex; /* Use flexbox for layout */
+  margin: 10px;
+  flex-direction: row;
+  justify-content: left; /* Distribute space evenly */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 20px; /* Add some space between the items */
+}
+
+.bokstavsbox:hover {
+  color: #0b00d1; /* or the default color you want */
+  text-decoration: none;
+}
+
+button {
+  background-color: #0b00d1;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: IBM Plex Sans;
+  border-radius: 7px;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  min-width: 200px;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  border-radius: 7px;
+  font-size: large;
+  font-family: IBM Plex Sans;
+  padding: 7px;
+}
+
+textarea {
+  min-width: 200px;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  border-radius: 7px;
+  font-size: medium;
+  font-family: IBM Plex Sans;
+  padding: 7px;
+  font-style: italic;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.bokstavstable {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-spacing: 0 2px;
+  border-spacing: 0px;
+  max-width: fit-content;
+  border-radius: 12px;
+  color: black;
+  text-align: center;
+}
+
+a {
+color: black;
+}
+
+a:hover {
+  text-decoration: none;
 }

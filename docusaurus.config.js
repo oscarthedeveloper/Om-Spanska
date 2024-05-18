@@ -62,11 +62,6 @@ const config = {
         hashed: true,
       }),
     ],
-    [
-      'docusaurus-pushfeedback',{
-          project: 'j1i4qhmja6'
-      }
-  ]
   ],
 
   scripts: [
@@ -74,8 +69,9 @@ const config = {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3972947789744940',
       async: true,
       crossorigin: 'anonymous',
-    }
+    },
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -98,6 +94,7 @@ const config = {
           },
           {to: '/blog', label: 'Blogg', position: 'left'},
           {to: '/markdown-page', label: 'Inför prov', position: 'left'},
+          {to: '/kontakt', label: 'Kontakt', position: 'right'},
         ],
       },
       footer: {

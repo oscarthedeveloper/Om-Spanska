@@ -31,7 +31,7 @@ Det finns många verb som böjs som ***gustar***. Vet du hur man böjer ***gusta
 🇸🇪 *Verkar det som en bra idé för er?*    
 
 ***Faltar*** (Att sakna):     
-🇪🇸 *Les faltan jugadores fuertes en el equipo.*      
+🇪🇸 *Les faltan los jugadores fuertes en el equipo.*      
 🇸🇪 *De saknar starka spelare i laget.*     
 
 ***Aburrir*** (Att uttråka):    
