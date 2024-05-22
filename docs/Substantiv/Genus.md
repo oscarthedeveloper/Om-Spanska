@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Genus</Highlight>
+# <Highlight color="var(--highlight)">Genus</Highlight>
 
 Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
 

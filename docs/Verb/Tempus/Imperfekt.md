@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Imperfekt</Highlight>
+# <Highlight color="var(--highlight)">Imperfekt</Highlight>
 
 ## <Highlight color="#ff4802">Användning</Highlight>
 
@@ -140,7 +140,7 @@ I imperfekt förekommer tre sorters klurigheter:
 ***¡Yo <mark>Era</mark> tu amigo!***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var din vän!*</small>    
 ***Siempre <mark>ibas</mark> al supermercado.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du gich alltid till mataffären.*</small>    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du gick alltid till mataffären.*</small>    
 ***<mark>Veíamos</mark> toda la ciudad aquí durante las madrugadas.***    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi såg hela staden här under solnedgångarna.*</small>  
 </p>

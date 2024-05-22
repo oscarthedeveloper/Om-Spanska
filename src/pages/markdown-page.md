@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Inför prov</Highlight>
+# <Highlight color="var(--highlight)">Inför prov</Highlight>
 
 Prov snart?! Här är en lista på hur du kan plugga effektivt.
 
@@ -26,7 +26,7 @@ Prov snart?! Här är en lista på hur du kan plugga effektivt.
 
 Efter att du har gjort ovanstående, **skriv texter** och försök att få in så mycket som möjligt av det du har lärt dig. Du kan exempelvis låtsas att du är i Barcelona och ska **skriva ett brev** till din farmor om hur din resa har varit.
 
-## <Highlight color="#0b00d1">Består provet av att skriva en text?</Highlight>
+## <Highlight color="var(--highlight)">Består provet av att skriva en text?</Highlight>
 
 Isåfall, tänk på att följande saker höjer nivån på din text:
 
@@ -34,7 +34,7 @@ Isåfall, tänk på att följande saker höjer nivån på din text:
 - Ett bra flyt, vilket kan uppnås med många beskrivningar och sambandsord.
 - *Perifraser*
 
-## <Highlight color="#0b00d1">Hur lär jag mig verben?</Highlight>
+## <Highlight color="var(--highlight)">Hur lär jag mig verben?</Highlight>
 
 Mitt bästa tips är att organisera de olika verbformerna, annars är det lätt att blanda ihop dem. Såhär kan det se ut:
 
@@ -47,7 +47,7 @@ Mitt bästa tips är att organisera de olika verbformerna, annars är det lätt 
 | Vosotros | habl**áis**  | com**éis**  | viv**ís**  |
 | Ellos    | habl**an**  | com**en**  | viv**en**  |
 
-## <Highlight color="#0b00d1">Gamla prov</Highlight>
+## <Highlight color="var(--highlight)">Gamla prov</Highlight>
 
 Övning ger resultat! Gör några gamla prov från Skolverket på din nivå nedan.
 

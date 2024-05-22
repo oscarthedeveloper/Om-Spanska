@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Tips och verktyg</Highlight>
+# <Highlight color="var(--highlight)">Tips och verktyg</Highlight>
 
 Att lära sig spanska och dess grammatik behöver inte vara så svårt som det låter, utan det kan faktiskt vara ganska enkelt. Nedanstående är mycket bra hjälpmedel som rekommenderas för optimal inlärning.
 

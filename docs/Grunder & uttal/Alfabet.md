@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Alfabet</Highlight>
+# <Highlight color="var(--highlight)">Alfabet</Highlight>
 
 Det 🔡 **spanska alfabetet** består av 27 bokstäver. 
 

@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => (
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# <Highlight color="#0b00d1">Numerus</Highlight>
+# <Highlight color="var(--highlight)">Numerus</Highlight>
 
 Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
 
@@ -46,3 +46,12 @@ För att bilda plural av ett substantiv är **genus** inte intressant. Det är g
   | Femininum  | la catedral | las catedral**es**  |  
   </TabItem>
 </Tabs>
+
+### <Highlight color="#ff4802">Substantiv som slutar på -z</Highlight>
+
+Substantiv som slutar på **-z** genomgår en stavningsförändring där **-z** omvandlas till **-ces** i **plural**.
+
+| Singular | Plural          |
+| -------- | --------------- |
+| la vez    | las ve**ces**     |
+| la voz    | las vo**ces**  |  

@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Futurum II</Highlight>
+# <Highlight color="var(--highlight)">Futurum II</Highlight>
 
 ## <Highlight color="#ff4802">Användning</Highlight>
 

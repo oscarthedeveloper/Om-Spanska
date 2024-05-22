@@ -30,20 +30,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'En del av en familj',
+    title: 'Säker källa',
     description: (
 <>
       <p>
-        Hemsidan är en del av en liten mysig familj av hemsidor. Besök dess syskon!
+      Denna hemsida är en pålitlig resurs för alla som vill förbättra sina kunskaper i det spanska språket.
       </p>
       <p>
-        <ul>
-        <li> <a href="https://petigsvenska.se" class="my-special-links" target="_blank">🇸🇪 Petig Svenska</a> </li>      
-        <li> <a href="https://" class="my-special-links" target="_blank">X</a> </li>
-        </ul>
+      Den är gjord i strävan efter att erbjuda korrekt, tydlig och aktuell information av hög kvalitet.      
       </p>
-      
-</>
+      </>
     ),
   },
 ];

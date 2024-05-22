@@ -55,6 +55,7 @@ const config = {
       }),
     ],
   ],
+
   plugins: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -62,7 +63,17 @@ const config = {
         hashed: true,
       }),
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs2', // Unique ID for the new docs section
+        path: 'docs2', // Path to the new docs directory
+        routeBasePath: 'docs2', // URL base path for the new docs section
+        sidebarPath: require.resolve('./sidebars2.js'), // Path to the new sidebar configuration
+      },
+    ],
   ],
+
 
   scripts: [
     {

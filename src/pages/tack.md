@@ -16,7 +16,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Tack!</Highlight>
+# <Highlight color="var(--highlight)">Tack!</Highlight>
 
 Ditt meddelande har skickats 🤩
 

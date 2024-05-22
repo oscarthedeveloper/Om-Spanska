@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Genitiv</Highlight>
+# <Highlight color="var(--highlight)">Genitiv</Highlight>
 
 **Genitiv** uttrycker tillhörighet/ägande. I 🇸🇪 svenskan lägger vi till ett **-s** på substantivet, t.ex. *pelle**s** hus*. 
 
@@ -28,8 +28,8 @@ I 🇪🇸 spanskan fungerar det lite annorlunda. Man lägger **inte** på ett *
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Juans hus.*</small>    
 ***Es el móvil de Miguel.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är Miguels mobil.*</small>      
-***¿De quién son estas gafas?***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vems är de här glasögonen?*</small>   
+***¿De quién son las gafas?***    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vems är glasögonen?*</small>   
 </p>
 </div>
 

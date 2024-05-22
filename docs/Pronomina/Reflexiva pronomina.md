@@ -14,4 +14,4 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Reflexiva pronomen</Highlight>
+# <Highlight color="var(--highlight)">Reflexiva pronomen</Highlight>

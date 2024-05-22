@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Komparation</Highlight>
+# <Highlight color="var(--highlight)">Komparation</Highlight>
 
 👨‍⚖️ **Komparation** används när man gör jämförelser. I svenskan använder vi:
 

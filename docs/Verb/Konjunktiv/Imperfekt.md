@@ -14,13 +14,13 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Konjunktiv imperfekt</Highlight>
+# <Highlight color="var(--highlight)">Konjunktiv imperfekt</Highlight>
 
 ## <Highlight color="#ff4802">Användning</Highlight>
 
 **Konjunktiv** preteritum används på samma sätt som konjunktiv presens, förutom att det uttrycker dåtid. I konjunktiv skiljer man inte på preteritum och imperfekt, utan det finns bara en dåtid. 
 
-**Konjunktiv** används ofta när **i dåtid** man vill uttrycka:
+**Konjunktiv** används ofta när man **i dåtid** vill uttrycka:
 
 - 🙏 **vilja & hopp**
 - 😬 **osäkerhet & tvekan**
@@ -108,7 +108,7 @@ Konjunktiv imperfekt förekommer också i vissa **uttryck**.
 
 ## <Highlight color="#ff4802">Bildning</Highlight>
 
-I konjunktiv imperfekt byts verbets ändelse ut mot nedanstående ändelser. Det finns två alternativ, men alternativ 1 är generellt sett vanligast i Spanien.
+I konjunktiv imperfekt byts verbets ändelse ut mot nedanstående ändelser. Det finns två alternativ, men alternativ 1 är generellt sett vanligare i Spanien.
 
 <table>
   <thead>
@@ -255,7 +255,7 @@ I konjunktiv imperfekt byts verbets ändelse ut mot nedanstående ändelser. Det
 
 **Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
 
-I konjunktiv presens förekommer sex klurigheter:
+I konjunktiv presens förekommer fyra klurigheter:
 
 - 🦺 **Reflexiva verb**
 - 🦄 **Vokalskiftande verb**

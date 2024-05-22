@@ -16,6 +16,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   background-color: #e3e2df;
+    --highlight: #0b00cb;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,11 +28,9 @@
     --ifm-color-primary-light: #ff5b1c;
     --ifm-color-primary-lighter: #ff6429;
     --ifm-color-primary-lightest: #ff804f;
+    --highlight: #908aff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   background-color: #1b1b1d;
-  .custom-quote {
-background-color: #e3e2df;
-  }
   .my-special-table {
     background-color: #e3e2df;
   }
@@ -45,6 +44,15 @@ background-color: #e3e2df;
   .my-special-links:hover {
     background-color: #b5b5ff;
   }
+  .box {
+    background-color: #242526;
+  }
+  .box:hover {
+    background-color: #242526;
+  }
+  .custom-quote {
+    border-left: #6f6f6f 2px solid;
+  }
 }
 
 .anchor-link {
@@ -53,7 +61,7 @@ background-color: #e3e2df;
 
 .my-special-links {
   text-decoration: dashed;
-  color: #0b00d1;
+  color: var(--highlight);
   font-weight: bold;
   font-style: italic;
 }
@@ -61,13 +69,13 @@ background-color: #e3e2df;
 .my-special-links:hover {
   text-decoration: dashed;
   background-color: #0a00d14e; /* Add a background color on hover */
-  color: #0b00d1;
+  color: var(--highlight);
   position: relative; /* Set position to relative for pseudo-element */
 }
 
 /* Style regular linked text */
 a {
-  color: blue; /* Set the color of linked text to blue */
+  color: var(--highlight);
   text-decoration: none; /* Remove the default underline */
 }
 
@@ -82,7 +90,7 @@ ul {
 }
 
 ul li::marker {
-  color: #0b00d1; /* Set bullet color to blue */
+  color: var(--highlight);
   margin-right: 5px; /* Add space between bullet and text */
 }
 
@@ -112,9 +120,18 @@ table {
   max-width: 750px;
   border-radius: 10px;
   color: black;
-  overflow-x: auto;
-  overflow-y: hidden;
   margin: 40px;
+}
+
+.tablepronomina {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-spacing: 0 2px;
+  border-spacing: 0px;
+  max-width: fit-content;
+  border-radius: 12px;
+  color: black;
+  text-align: center;
 }
 
 .custom-quote {
@@ -126,6 +143,7 @@ table {
   border-bottom-right-radius: 7px;
   color: black;
   margin-bottom: 20px;
+  border-left: #8080805d 2px solid;
 }
 
 body {
@@ -142,16 +160,25 @@ body {
 .box {
   min-width: 100px;
   width: 200px;
-  color: #0b00d1;
+  color: var(--highlight);
   padding: 10px;
   margin-bottom: 20px;
   height: 80px;
   border-radius: 10px;
-  font-size: medium;
-  font-weight: 500;
+  font-size: large;
+  font-weight: 700;
   text-align: left;
   background-color: #ffffff95;
   margin: 10px;
+
+}
+
+.boxText {
+  transition: transform 0.2s ease-in-out; /* Add this line to slow down the hover effect */
+
+  &:hover {
+    transform: translateX(2px);
+    }
 }
 
 .box:hover {
@@ -179,7 +206,7 @@ body {
 }
 
 .hero__title {
-  background-color: #0b00d1; /* Change to the desired highlight color */
+  background-color: var(--highlight);
   padding: 0.5rem 1rem; /* Add padding for better visual appearance */
   font-family: IBM Plex Sans;
   margin-bottom: 10px;
@@ -207,7 +234,7 @@ h3 {
 
 .bokstavsbox {
   min-width: 130px;
-  color: #0b00d1;
+  color: var(--highlight);
   font-size: 40px;
   font-weight: bold;
   margin: 0;
@@ -216,7 +243,7 @@ h3 {
 
 .IPA {
   min-width: 130px;
-  color: #0b00d1;
+  color: var(--highlight);
   font-size: 40px;
   font-weight: normal;
   margin: 0;
@@ -233,14 +260,14 @@ h3 {
 }
 
 .bokstavsbox:hover {
-  color: #0b00d1; /* or the default color you want */
+  color: var(--highlight);
   text-decoration: none;
 }
 
 button {
-  background-color: #0b00d1;
-  border: none;
   color: white;
+  background-color: var(--highlight);
+  border: none;
   padding: 12px 25px;
   text-align: center;
   display: inline-block;
@@ -295,9 +322,70 @@ label {
 }
 
 a {
-color: black;
+color: var(--highlight);
 }
 
 a:hover {
   text-decoration: none;
 }
+
+.musikbox {
+  min-width: 100px;
+  width: fit-content;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: fit-content;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: 500;
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 0,1em;
+}
+
+/* src/css/custom.css */
+
+.lyrics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lyrics-line {
+  font-size: 2em; /* Adjust the size as needed */
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.translation-line {
+  font-size: 1em; /* Adjust the size as needed */
+  margin-top: 0;
+  margin-bottom: 0.5em; /* Adjust the spacing between sets of lines */
+  color: gray; /* Optional: change the color of the translation text */
+}
+
+.text-and-image-container {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  padding: 0px;
+  width: 100%;
+}
+
+.text {
+  flex: 1; /* Allow the text to grow and shrink as needed */
+  margin-left: 20px;
+}
+
+.image {
+  padding: 0px;
+  max-width: 200px;
+}
+
+.iframe {
+  padding: 0px;
+  max-width: 200px;
+}
+

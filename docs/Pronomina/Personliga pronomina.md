@@ -14,105 +14,64 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Personliga pronomen</Highlight>
+# <Highlight color="var(--highlight)">Personliga pronomina</Highlight>
 
 ## <Highlight color="#ff4802">Användning</Highlight>
 
-**Personliga pronomen** är ord som *jag*, *mig*, *du*, *dig*, *han*, *honom*, osv. Ofta är det personliga pronomen som utför ett verb, t.ex. ***vi** äter mat*.
+**Personliga pronomina** är ord som *jag*, *mig*, *du*, *dig*, *han*, *honom*, osv. Ofta är det personliga pronomina som utför ett verb, t.ex. ***vi** äter mat*.
 
+<div class="tablepronomina">  
+<p>
 <table>
   <thead>
     <tr>
-      <th colspan="2"> Subjektsform</th>
-      <th colspan="2"> Objektsform</th>
-      <th colspan="2"> Indirekt objektsform</th>
-      <th colspan="2"> Efter preposition</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td> 🇸🇪 **Svenska**</td>
-      <td> 🇪🇸 **Spanska**</td>
-      <td> 🇸🇪 **Svenska**</td>
-      <td> 🇪🇸 **Spanska**</td>
-      <td> 🇸🇪 **Svenska**</td>
-      <td> 🇪🇸 **Spanska**</td>
-      <td> 🇪🇸 **Spanska**</td>
+      <th> **Subjektsform**</th>
+      <th> **Efter preposition**</th>
+      <th> **Objektsform**</th>
+      <th> **Indirekt objektsform**</th>
+    </tr>
+      <td> yo</td>
+      <td> mí</td>
+      <td colspan="2">me</td>
+    <tr>
+      <td> tú</td>
+      <td> ti</td>
+      <td colspan="2">te</td>
     </tr>
     <tr>
-      <td>*jag*</td>
-      <td>*yo*</td>
-      <td>*mig*</td>
-      <td>*me*</td>
-      <td>*mig*</td>
-      <td>*me*</td>
-      <td>*mí*</td>
+      <td colspan="2">él</td>
+      <td> lo</td>
+      <td rowspan="3">le</td>
     </tr>
     <tr>
-      <td>*du*</td>
-      <td>*tú*</td>
-      <td>*dig*</td>
-      <td>*te*</td>
-      <td>*dig*</td>
-      <td>*te*</td>
-      <td>*ti*</td>
+      <td colspan="2">ella</td>
+      <td> la</td>
     </tr>
     <tr>
-      <td>*han*</td>
-      <td>*él*</td>
-      <td>*honom*</td>
-      <td>*lo*</td>
-      <td>*honom*</td>
-      <td>*le*</td>
-      <td>*él*</td>
+      <td colspan="2">ello</td>
+      <td> lo</td>
     </tr>
     <tr>
-      <td>*hon*</td>
-      <td>*ella*</td>
-      <td>*henne*</td>
-      <td>*la*</td>
-      <td>*henne*</td>
-      <td>*le*</td>
-      <td>*ella*</td>
+      <td colspan="2">nosotros, nosotras</td>
+      <td colspan="2">nos</td>
     </tr>
     <tr>
-      <td>*den/det*</td>
-      <td>*ello*</td>
-      <td>*den/det*</td>
-      <td>*lo*</td>
-      <td>*den/det*</td>
-      <td>*lo*</td>
-      <td>*ello*</td>
+      <td colspan="2">vosotros, vosotras</td>
+      <td colspan="2">os</td>
     </tr>
     <tr>
-      <td>*vi*</td>
-      <td>*nosotros*</td>
-      <td>*oss*</td>
-      <td>*nos*</td>
-      <td>*oss*</td>
-      <td>*nos*</td>
-      <td>*nosotros*</td>
-    </tr>
-    <tr>
-      <td>*ni*</td>
-      <td>*vosotros*</td>
-      <td>*er*</td>
-      <td>*os*</td>
-      <td>*er*</td>
-      <td>*os*</td>
-      <td>*vosotros*</td>
-    </tr>
-    <tr>
-      <td>*de*</td>
-      <td>*ellos*</td>
-      <td>*dem*</td>
-      <td>*los*</td>
-      <td>*dem*</td>
-      <td>*les*</td>
-      <td>*ellos*</td>
+      <td colspan="2">ellos, ellas</td>
+      <td>los, las</td>
+      <td>les</td>
     </tr>
   </tbody>
 </table>
+</p>
+</div>
 
 :::info Indirekt objektsform
 
@@ -184,13 +143,13 @@ Eftersom verben i de allra flesta fall är olika för de olika personerna behöv
 
 Till exempel: ***Te quiero.***
 
-När man sätter ut personliga pronomen är det oftast för att förtydliga eller betona subjektet.
+När man sätter ut de personliga pronomina är det oftast för att förtydliga eller betona subjektet.
 
 :::
 
 ## <Highlight color="#ff4802">Exempel</Highlight>
 
-#### <Highlight color="#ff4802">Subjektspronomen</Highlight>
+#### <Highlight color="#ff4802">Subjektspronomina</Highlight>
 
 <div class="custom-quote">  
 ***<mark>Yo</mark> hablo español.***   
@@ -205,7 +164,7 @@ När man sätter ut personliga pronomen är det oftast för att förtydliga elle
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kan tala spanska.*</small>   
 </div>
 
-#### <Highlight color="#ff4802">Objektspronomen</Highlight>
+#### <Highlight color="#ff4802">Objektspronomina</Highlight>
 
 <div class="custom-quote">  
 ***(Yo) <mark>Te</mark> quiero.***   
@@ -220,7 +179,7 @@ När man sätter ut personliga pronomen är det oftast för att förtydliga elle
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon älskar dig jättemycket.*</small>   
 </div>
 
-#### <Highlight color="#ff4802">Indirekta objektspronomen</Highlight>
+#### <Highlight color="#ff4802">Indirekta objektspronomina</Highlight>
 
 <div class="custom-quote">  
 ***(Yo) <mark>Te</mark> doy un libro.***   
@@ -235,7 +194,7 @@ När man sätter ut personliga pronomen är det oftast för att förtydliga elle
 
 :::caution "le" blir "se"...
 
-Två objektspronomen som börjar på **l-** kan inte stå bredvid varandra! ***Le*** och ***les*** ersätts då av ***se***.
+Två objektspronomina som börjar på **l-** kan inte stå bredvid varandra! ***Le*** och ***les*** ersätts då av ***se***.
 
 ***Le** lo he dicho.* 🔀 ***Se** lo he dicho.*
 

@@ -14,39 +14,13 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Artiklar</Highlight>
+# <Highlight color="var(--highlight)">Artiklar</Highlight>
 
 **Artiklar** sätts före ett substantiv för att markera bestämdhet. Man kan använda artiklar för att markera **bestämd form** eller **obestämd form**.
 
-Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
+Substantiv böjs efter 👱‍♀️ [**genus**](/docs/Substantiv/Genus) och 🔢 [**numerus**](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
 
 ## <Highlight color="#ff4802">Bestämd form</Highlight>
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-<table>
-  <thead>
-    <tr>
-      <th>Genus</th>
-      <th colspan="2">Artikel</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <th>Singular</th>
-      <th>Plural</th>
-    </tr>
-    <tr>
-      <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> el </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> los </div></td>
-    </tr>
-      <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> la </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> las </div></td>
-  </tbody>
-</table>
 
 ### <Highlight color="#ff4802">Användning</Highlight>
 
@@ -98,7 +72,50 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skadade foten.*</small>    
 </div>
 
+### <Highlight color="#ff4802">Bildning</Highlight>
+
+<table>
+  <thead>
+    <tr>
+      <th>Genus</th>
+      <th colspan="2">Artikel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <th>Singular</th>
+      <th>Plural</th>
+    </tr>
+    <tr>
+      <td>Maskulinum</td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> el </div></td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> los </div></td>
+    </tr>
+      <td>Femininum</td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> la </div></td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> las </div></td>
+  </tbody>
+</table>
+
 ## <Highlight color="#ff4802">Obestämd form</Highlight>
+
+### <Highlight color="#ff4802">Användning</Highlight>
+
+Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
+
+- 🤷‍♂️ **något ospecifikt**
+
+### <Highlight color="#ff4802">Exempel</Highlight>
+
+#### <Highlight color="#ff4802">Något ospecifikt</Highlight>
+ 
+<div class="custom-quote">  
+***Quiero un gato negro.***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vill ha en svart katt.*</small>    
+***¿Ves una casa?***    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ser du ett hus?*</small>    
+</div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
 
@@ -122,21 +139,3 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
       <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> una </div></td>
   </tbody>
 </table>
-
-### <Highlight color="#ff4802">Användning</Highlight>
-
-Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
-
-- 🤷‍♂️ **något ospecifikt**
-
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Något ospecifikt</Highlight>
- 
-<div class="custom-quote">  
-***Quiero un gato negro.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vill ha en svart katt.*</small>    
-***¿Ves una casa?***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ser du ett hus?*</small>    
-</div>
-
