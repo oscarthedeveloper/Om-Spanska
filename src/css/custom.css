@@ -6,56 +6,64 @@
 
 /* You can override the default Infima variables here. */
 :root {
-    --ifm-color-primary: #ff4802;
-    --ifm-color-primary-dark: #e74000;
-    --ifm-color-primary-darker: #da3c00;
-    --ifm-color-primary-darkest: #b43200;
-    --ifm-color-primary-light: #ff5b1c;
-    --ifm-color-primary-lighter: #ff6429;
-    --ifm-color-primary-lightest: #ff804f;
+  --ifm-color-primary: #ff4802;
+  --ifm-color-primary-dark: #e74000;
+  --ifm-color-primary-darker: #da3c00;
+  --ifm-color-primary-darkest: #b43200;
+  --ifm-color-primary-light: #ff5b1c;
+  --ifm-color-primary-lighter: #ff6429;
+  --ifm-color-primary-lightest: #ff804f;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --highlight: #0b00cb;
   background-color: #e3e2df;
-    --highlight: #0b00cb;
-    .footer {
-      background-color: #ffffff95;
-    }
+}
+
+.footer {
+  background-color: #ffffff95;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-    --ifm-color-primary: #ff4802;
-    --ifm-color-primary-dark: #e74000;
-    --ifm-color-primary-darker: #da3c00;
-    --ifm-color-primary-darkest: #b43200;
-    --ifm-color-primary-light: #ff5b1c;
-    --ifm-color-primary-lighter: #ff6429;
-    --ifm-color-primary-lightest: #ff804f;
-    --highlight: #908aff;
+  --ifm-color-primary: #ff4802;
+  --ifm-color-primary-dark: #e74000;
+  --ifm-color-primary-darker: #da3c00;
+  --ifm-color-primary-darkest: #b43200;
+  --ifm-color-primary-light: #ff5b1c;
+  --ifm-color-primary-lighter: #ff6429;
+  --ifm-color-primary-lightest: #ff804f;
+  --highlight: #908aff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   background-color: #1b1b1d;
-  .my-special-table {
-    background-color: #e3e2df;
-  }
-  .footer {
-    background-color: #242526;
-    color: white;
-  }
-  .my-special-links {
-    color: white;
-  }
-  .my-special-links:hover {
-    background-color: #b5b5ff;
-  }
-  .box {
-    background-color: #242526;
-  }
-  .box:hover {
-    background-color: #242526;
-  }
-  .custom-quote {
-    border-left: #6f6f6f 2px solid;
-  }
+}
+
+[data-theme='dark'] .my-special-table {
+  background-color: #e3e2df;
+}
+
+[data-theme='dark'] .footer {
+  background-color: #242526;
+  color: white;
+}
+
+[data-theme='dark'] .my-special-links {
+  color: white;
+}
+
+[data-theme='dark'] .my-special-links:hover {
+  background-color: #b5b5ff;
+}
+
+[data-theme='dark'] .box {
+  background-color: #242526;
+}
+
+[data-theme='dark'] .box:hover {
+  background-color: #242526;
+}
+
+[data-theme='dark'] .custom-quote {
+  border-left: #6f6f6f 2px solid;
 }
 
 .anchor-link {
@@ -86,7 +94,6 @@ a {
 a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
-
 
 ul {
   list-style-type: square;
@@ -173,15 +180,14 @@ body {
   text-align: left;
   background-color: #ffffff95;
   margin: 10px;
-
 }
 
 .boxText {
   transition: transform 0.3s ease-in-out; /* Add this line to slow down the hover effect */
+}
 
-  &:hover {
-    transform: translateX(3px);
-    }
+.boxText:hover {
+  transform: translateX(3px);
 }
 
 .box:hover {
@@ -203,7 +209,8 @@ body {
   text-align: center; /* Center the content horizontally */
 }
 
-.hero__title, .hero__subtitle {
+.hero__title,
+.hero__subtitle {
   width: fit-content; /* Allow elements to shrink to fit their content */
   margin: 0 auto; /* Center the elements horizontally */
 }
