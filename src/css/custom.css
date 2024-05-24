@@ -17,6 +17,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   background-color: #e3e2df;
     --highlight: #0b00cb;
+    .footer {
+      background-color: #ffffff95;
+    }
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -174,15 +177,15 @@ body {
 }
 
 .boxText {
-  transition: transform 0.2s ease-in-out; /* Add this line to slow down the hover effect */
+  transition: transform 0.3s ease-in-out; /* Add this line to slow down the hover effect */
 
   &:hover {
-    transform: translateX(2px);
+    transform: translateX(3px);
     }
 }
 
 .box:hover {
-  background-color: rgba(101, 101, 213, 0.511); /* Add underline on hover */
+  background-color: #9c9cd782; /* Add underline on hover */
   text-decoration: 0;
 }
 
@@ -220,7 +223,6 @@ body {
 }
 
 .footer {
-  background-color: #ffffff7d; 
   color: black;
 }
 

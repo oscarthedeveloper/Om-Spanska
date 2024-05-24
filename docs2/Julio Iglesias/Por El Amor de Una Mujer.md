@@ -15,7 +15,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Por El Amor de Una Mujer</Highlight>
+# <Highlight color="var(--highlight)">Por El Amor de Una Mujer</Highlight>
 
 <div class="text-and-image-container">
   <div class="iframe">

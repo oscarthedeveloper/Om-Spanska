@@ -15,14 +15,14 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="#0b00d1">Julio Iglesias</Highlight>
+# <Highlight color="var(--highlight)">Julio Iglesias</Highlight>
 
 <div class="text-and-image-container">
   <div class="image">
     <img src="/img/julio_cool.jpeg" alt="Example Image"/>
   </div>
   <div class="text">
-    <p> **Julio Iglesias** är Spaniens mest säljande sångare genom tiderna. Han är känd för sina lugna, kärleksfulla och harmoniska låtar, men även för att han var en riktig tjetjusare. </p>
+    <p> **Julio Iglesias** är Spaniens mest säljande sångare genom tiderna. Han är känd för sina lugna, kärleksfulla och harmoniska låtar, men även för att han var en riktig tjejtjusare. </p>
 
     <p> Hans musik är väldig skön att spela i bakgrunden om man t.ex. äter middag eller bara vill ha lite skön musik att ha i bakgrunden under en lugn och härlig sommarkväll.</p>
   </div>

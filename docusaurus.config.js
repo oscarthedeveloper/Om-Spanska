@@ -86,7 +86,7 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    ({ 
       // Replace with your project's social card
       image: 'img/docusaurus.png',
       navbar:  { 
@@ -95,6 +95,7 @@ const config = {
           {
           alt: 'My Site Logo',
           src: 'img/docusaurus.png', 
+          srcDark: 'img/vitt.png', // Specify the logo for dark mode
         },
         items: [
           {
@@ -104,8 +105,9 @@ const config = {
             label: 'Grammatika',
           },
           {to: '/blog', label: 'Blogg', position: 'left'},
-          {to: '/markdown-page', label: 'Inför prov', position: 'left'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
+          {to: '/docs2/Musik/Info', label: 'Musik', position: 'left'},
+          {to: '/markdown-page', label: 'Inför prov', position: 'left'},
         ],
       },
       footer: {
