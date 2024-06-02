@@ -286,15 +286,9 @@ I konjunktiv presens fungerar vokalskiftande verb likadant fast med konjunktiven
 | **Yo**           | p**i**da      | me v**i**sta   |
 | **Tú**           | p**i**das     | te v**i**stas  |
 | **Él, ella**     | p**i**da      | se v**i**sta   |
-| **Nosotros**     | pedamos       | nos vestamos   |
-| **Vosotros**     | pedáis        | os vestáis     |
+| **Nosotros**     | p**i**damos   | nos v**i**stamos   |
+| **Vosotros**     | p**i**dáis    | os v**i**stáis     |
 | **Ellos**        | p**i**dan     | se v**i**stan  |
-
-:::caution OBS
-
-Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**. Och ja, ***vestirse*** är både reflexivt och vokalskiftande.
-
-:::
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
@@ -597,6 +591,6 @@ Vi använder verbet ***Tener*** som exempel.
 
 :::danger OBS
 
-Det finns däremot undantag från denna minnesregel, men de är få. Verb som i vanlig presens första person inte slutar på -o, t.ex. ***soy*** & ***sé***, följer inte denna minnesregel. De får man lära sig utantill!
+Det finns däremot undantag från denna minnesregel, men de är få. Verb som i vanlig presens första person inte slutar på -o, t.ex. ***soy*** & ***sé***, följer inte denna minnesregel. Diftongerande verb är också ett undantag.
 
 :::

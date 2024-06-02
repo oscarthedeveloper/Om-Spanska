@@ -365,12 +365,6 @@ Man kan fortfarande använda alternativ 2, men nedan visas endast alternativ 1 d
 | **Vosotros**     | p**i**dierais        | os v**i**stierais     |
 | **Ellos**        | p**i**dieran     | se v**i**stieran  |
 
-:::caution OBS
-
-Observera att vokalen nu **genomgår** en förändring för även **nosotros** och **vosotros**.
-
-:::
-
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
 💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
@@ -595,7 +589,7 @@ Vi använder verbet ***Tener*** som exempel.
 | **Vosotros**     | tuvieron    |
 | **Ellos**        | tuvieron     | 
 
-3. Ersätt o:et med ett a och tag bort n:et.
+3. Ersätt **-on** med **-a**.
 
 |                  | Tener            | 
 | ---------------- | ---------------- |

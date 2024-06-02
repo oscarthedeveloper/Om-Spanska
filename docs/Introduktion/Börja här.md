@@ -34,14 +34,6 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
 
 <div class="box-container">
   <a href="/docs/Pronomen/Personliga pronomen" class="box">
-    <div class="boxText">Pronomen</div>
-  </a>
-  <a href="/docs/Pronomen/Personliga pronomen" class="box">
-    <div class="boxText">Adverb</div>
-  </a>
-  <a href="/docs/Pronomen/Personliga pronomen" class="box">
-    <div class="boxText">Prepositioner</div>
+    <div class="boxText">Pronomina</div>
   </a>
 </div>
-
----

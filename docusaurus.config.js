@@ -98,16 +98,8 @@ const config = {
           srcDark: 'img/vitt.png', // Specify the logo for dark mode
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Grammatika',
-          },
-          {to: '/blog', label: 'Blogg', position: 'left'},
+          {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
-          {to: '/docs2/Musik/Info', label: 'Musik', position: 'left'},
-          {to: '/markdown-page', label: 'Inför prov', position: 'left'},
         ],
       },
       footer: {
