@@ -169,26 +169,35 @@ body {
 }
 
 .box {
-  min-width: 100px;
-  width: 200px;
   color: var(--highlight);
-  padding: 10px;
-  margin-bottom: 20px;
-  height: 80px;
+  background: #ffffffa7;
+  margin: 5px;
   border-radius: 10px;
-  font-size: large;
+  display: flex;
+  flex: 0 1 calc(25% - 1em);
+  font-size: 125%;
   font-weight: 700;
-  text-align: left;
-  background-color: #ffffff95;
-  margin: 10px;
+  height: 5em;
+  padding: .75em;
+  min-width: fit-content;
 }
 
-.boxText {
-  transition: transform 0.3s ease-in-out; /* Add this line to slow down the hover effect */
+.switch, .term, a.box {
+  position: relative;
 }
 
-.boxText:hover {
-  transform: translateX(3px);
+article a {
+  transition: .25s;
+}
+
+.box:after {
+  bottom: .2em;
+  content: "»";
+  color: #da3c00;
+  font-size: 125%;
+  position: absolute;
+  right: 1em;
+  transition: 0.5s;
 }
 
 .box:hover {
@@ -198,12 +207,21 @@ body {
 
 .box-container {
   display: flex; /* Use flexbox for layout */
-  min-width: 400px;
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 768px) {
+  .box-container {
+    display: block;
+  }
+}
+
+.box:hover:after {
+  right: 0.8em; /* Move the arrow to the right on hover */
 }
 
 .button {
   margin: 5px;
-  margin-top: 20px;
 }
 
 .hero__container {
@@ -292,7 +310,7 @@ button:hover {
 }
 
 input {
-  min-width: 200px;
+  min-width: 100px;
   width: 300px;
   height: 50px;
   border: 0;
@@ -407,7 +425,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-color: var(--highlight);
   border-radius: 4px;
   color: #fff;
-  content: "Beta";
+  content: "BETA";
   margin: 0 .75em;
   padding: .2em .5em;
 }
@@ -435,4 +453,8 @@ h1, h2, h3, h4, h5, h6, h7 {
 .button.button--secondary:hover {
   background-color: var(--highlight);
   color: white;
+}
+
+.menu {
+  font-weight: 500;
 }

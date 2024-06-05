@@ -22,7 +22,7 @@ export const Highlight = ({children, color}) => (
 <iframe width="200" height="200" src="https://www.youtube.com/embed/yAnc_40ZuUc" title="Por El Amor De Una Mujer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="text">
-    <p>**Spanish Girl** utkom 1978 med albumet **Emociones**.</p>
+    <p>**Spanish Girl** utkom 1978 i albumet **Emociones**.</p>
   </div>
 </div>
 

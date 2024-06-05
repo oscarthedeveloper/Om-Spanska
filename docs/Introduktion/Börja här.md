@@ -30,10 +30,17 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
   <a href="/docs/Verb/Tempus/Presens" class="box">
     <div class="boxText">Verb</div>
   </a>
-</div>
-
-<div class="box-container">
   <a href="/docs/Pronomen/Personliga pronomen" class="box">
     <div class="boxText">Pronomina</div>
   </a>
 </div>
+
+<div class="box-container">
+  <a href="/docs/Verb/Tempus/Presens" class="box">
+    <div class="boxText">Adverb</div>
+  </a>
+  <a href="/docs/Verb/Tempus/Presens" class="box">
+    <div class="boxText">Prepositioner</div>
+  </a>
+</div>
+

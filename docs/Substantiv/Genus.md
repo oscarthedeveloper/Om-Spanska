@@ -27,14 +27,30 @@ I spanskan finns **två** genus:
 
 Grundregeln för vilket genus ett substantiv tillhör är:    
 
-| Genus      | Ändelser   | Exempel | Undantag ⚠️ |
-| ---------- | ---------- | ------- | ---------- |
-| Maskulinum |  <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -o </div>  | *El perro, el amigo* | la foto, la mano, la moto, la radio |
-| Femininum  |  <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -a </div> | *La casa, la amiga* | el día, el mapa, el problema, el planeta, el tranvía, el aroma, el clima, el idioma, el programa, el sistema, el tema |
+<table>
+  <thead>
+    <tr>
+      <th>Genus</th>
+      <th colspan="2">Ändelse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Femininum</td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -a </div></td>
+    </tr>
+      <td>Maskulinum</td>
+      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -o </div></td>
+  </tbody>
+</table>
 
-:::tip Substantiv som slutar på -ma
+:::tip Undantag
 
-Många substantiv, men inte alla, som slutar på **-ma** motsäger grundregeln och är maskulina. Dessa är grekiska lånord 🇬🇷
+Det finns några substantiv som avviker från denna grundregel, bland annat:
+
+***el día, el mapa, el problema, el planeta, el tranvía, el aroma, el clima, el idioma, el programa, el sistema, el tema***
+
+Många substantiv, men inte alla, som slutar på **-ma** motsäger alltså grundregeln och är maskulina. Dessa är grekiska lånord 🇬🇷
 
 :::
 
