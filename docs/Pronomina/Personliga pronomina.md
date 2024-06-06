@@ -127,7 +127,7 @@ Men då måste HELA gruppen utgöras av tjejer. En grupp kan utgöras av en milj
 
 :::
 
-## <Highlight color="#ff4802">Pronomina i ordföljden</Highlight>
+## <Highlight color="#ff4802">Personliga pronomina i ordföljden</Highlight>
 
 I 🇸🇪 **svenskan** sätter vi subjektspronomina **före** verbet och objektspronomina **efter** verbet. 
 

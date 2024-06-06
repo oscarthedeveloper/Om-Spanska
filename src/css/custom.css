@@ -148,7 +148,7 @@ table {
 .custom-quote {
   padding: 20px; /* Padding inside the box */
   background-color: white; /* Background color of the box */
-  max-width: 750px;
+  max-width: 650px;
   padding-bottom: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -456,5 +456,5 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 .menu {
-  font-weight: 500;
+  font-weight: 400;
 }

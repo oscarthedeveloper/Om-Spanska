@@ -16,7 +16,7 @@ export const Highlight = ({children, color}) => (
 
 # <Highlight color="var(--highlight)">Börja här</Highlight>
 
-Välkommen till ***omspanska.se***! Detta är en omfattande grammatika för 🇪🇸 ***el idioma español***, gjord för dig som studerar spanska. Hemsidan är uppdelad på ett traditionellt sätt med de olika ordklasserna, så att du lätt hittar runt. Om du inte är familjär med de olika ordklasserna, se [**Ordlista för nördar**](/docs/Introduktion/Ordlista%20för%20nördar).
+Välkommen till ***omspanska.se***! Detta är en omfattande grammatika för 🇪🇸 ***el idioma español***, gjord för dig som studerar spanska. Hemsidan är uppdelad på ett traditionellt sätt med de olika ordklasserna, så att du lätt hittar runt. 
 
 Denna hemsida är konstruerad för att vara så förståelig och konsis som möjligt och i bästa förmåga att inte komplicera saker och ting **samtidigt** som den är ingående och detaljerande. 
 

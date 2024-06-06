@@ -98,9 +98,30 @@ const config = {
           srcDark: 'img/vitt.png', // Specify the logo for dark mode
         },
         items: [
+          /*
+          {
+            type: 'dropdown',
+            label: 'Språk',
+            position: 'right',
+            items: [
+              {
+                label: '🇬🇧 English',
+                href: 'https://example.com/1',
+              },
+              {
+                label: '🇫🇷 Français',
+                href: 'https://example.com/2',
+              },
+              {
+                label: '🇩🇪 Deutsch',
+                href: 'https://example.com/3',
+              },        
+            ],
+          },
+          */
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
-        ],
+        ]
       },
       footer: {
         style: 'dark',

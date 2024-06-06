@@ -37,7 +37,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.3.2",
-    "@docusaurus/types": "^3.3.2"
+    "@docusaurus/types": "^3.3.2",
+    "@netlify/plugin-sitemap": "^0.8.1"
   },
   "browserslist": {
     "production": [
