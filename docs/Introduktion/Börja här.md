@@ -36,10 +36,10 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
 </div>
 
 <div class="box-container">
-  <a href="/docs/Verb/Tempus/Presens" class="box">
+  <a href="/docs/Adverb/Användning av adverb" class="box">
     <div class="boxText">Adverb</div>
   </a>
-  <a href="/docs/Verb/Tempus/Presens" class="box">
+  <a href="/docs/Prepositioner/Användning av prepositioner" class="box">
     <div class="boxText">Prepositioner</div>
   </a>
 </div>

@@ -189,7 +189,7 @@ När man sätter ut de personliga pronomina är det oftast för att förtydliga 
 ***(Nosotros) <mark>Se</mark> lo hemos preguntado.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi har frågat henne det.*</small>    
 ***(Vosotros) <mark>Les</mark> habéis escrito.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni har skrivit (till) dem.*</small>     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni har skrivit till dem.*</small>     
 </div>
 
 :::caution "le" blir "se"...

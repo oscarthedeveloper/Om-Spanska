@@ -123,7 +123,7 @@ I imperativ förekommer tre sorters klurigheter:
 
 Som du har sett ovan sätts pronomina **på** verbet i imperativ, till exempel säger man *¡sígue**la**!*. 
 
-När ett pronomen sätts på ett verb blir får **oftast** en vokal en accent.
+När ett pronomen sätts på ett verb får **oftast** en vokal en accent.
 
 Det är lite knepigt var accenten sätts, men här kommer en härlig minnesregel: 
 
@@ -147,16 +147,14 @@ Om verbet är **kort**, sätt accenten på **första** vokalen. Om verbet är **
 
 För att bilda artig imperativ använder man **konjunktiv**. För att vara artig mot en person använder man konjunktiv presens tredje person, och mot flera personer konjunktiv sjätte person.
 
-:::info reflexiva verb
-
-Vid artig imperativ sätts pronomet ***se*** på verbet, exempelvis:
+Reflexiva verb använder i artig form pronomet ***se*** på verbet, exempelvis:
 
 | Person      | Sentarse    |
 | ----------- | ----------- |
 | Usted       | Siéntese    |
 | Ustedes     | Siéntense   |
 
-:::
+
 
 **Accenter** förekommer även här, och den ovanstående minnesregeln kan användas här också.
 
