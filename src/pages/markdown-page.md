@@ -49,7 +49,7 @@ Mitt bästa tips är att organisera de olika verbformerna, annars är det lätt 
 
 ## <Highlight color="var(--highlight)">Gamla prov</Highlight>
 
-Övning ger resultat! Gör några gamla prov från Skolverket på din nivå nedan.
+Repetition ger färdighet! Gör några gamla prov från Skolverket på din nivå nedan.
 
 <details>
   <summary>**Steg 2 (Åk. 8-9)**</summary>

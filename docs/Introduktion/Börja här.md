@@ -42,5 +42,8 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
   <a href="/docs/Prepositioner/Användning av prepositioner" class="box">
     <div class="boxText">Prepositioner</div>
   </a>
+  <a href="/docs/Listor/Reflexiva verb" class="box">
+    <div class="boxText">Listor</div>
+  </a>
 </div>
 
