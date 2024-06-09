@@ -18,7 +18,7 @@ export const Highlight = ({children, color}) => (
 
 **Artiklar** sätts före ett substantiv för att markera bestämdhet. Man kan använda artiklar för att markera **bestämd form** eller **obestämd form**.
 
-Substantiv böjs efter 👱‍♀️ [**genus**](/docs/Substantiv/Genus) och 🔢 [**numerus**](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
+Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
 
 ## <Highlight color="#ff4802">Bestämd form</Highlight>
 
