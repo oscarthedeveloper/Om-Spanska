@@ -63,19 +63,13 @@ Dessa pronomina används alltså för att peka ut något, som antingen är **nä
 
 För att peka ut något som ligger **längre bort** används nedanstående pronomina som också böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
-<div class="tablepronomina">  
-<p>
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <th> </th>
-      <th> fem.</th>
-      <th> mask.</th>
-      <th> 😶 neutral</th>
+      <td> </td>
+      <td> fem.</td>
+      <td> mask.</td>
+      <td> 😶 neutral</td>
     </tr>
       <td> **singular**</td>
       <td> esa</td>
@@ -88,8 +82,7 @@ För att peka ut något som ligger **längre bort** används nedanstående prono
     </tr>
   </tbody>
 </table>
-</p>
-</div>
+
 
 :::info neutral?
 

@@ -36,12 +36,12 @@ Adjektiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [num
     </tr>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -a </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -as </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -a </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -as </div></td>
     </tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -o </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -os </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -o </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -os </div></td>
   </tbody>
 </table>
 
@@ -88,8 +88,8 @@ En del adjektiv slutar på **-e**, och böjs då endast i 🔢 **Numerus**. Med 
   <tbody>
     <tr>
       <td>Femininum</td>
-      <td rowspan="2"> <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -e </div></td>
-      <td rowspan="2"> <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -es </div></td>
+      <td rowspan="2"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -e </div></td>
+      <td rowspan="2"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -es </div></td>
     </tr>
     <tr>
       <td>Maskulinum</td>
@@ -125,8 +125,8 @@ En del adjektiv slutar på **-z**, och böjs då endast i 🔢 **Numerus**. I pl
   <tbody>
     <tr>
       <td>Femininum</td>
-      <td rowspan="2"> <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -z </div></td>
-      <td rowspan="2"> <div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -ces </div></td>
+      <td rowspan="2"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -z </div></td>
+      <td rowspan="2"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -ces </div></td>
     </tr>
     <tr>
       <td>Maskulinum</td>
@@ -168,12 +168,12 @@ Adjektiv kan förstärkas med ändelserna ***ísimo/a/os/as***, vilket i princip
     </tr>
     <tr>
       <td>Famininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> ísima </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> ísimas </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> ísima </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> ísimas </div></td>
     </tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> ísimo </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> ísimos </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> ísimo </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> ísimos </div></td>
   </tbody>
 </table>
 
@@ -209,12 +209,12 @@ Vissa adjektiv har ett **c** före en ändelse (**-o**, **-a** etc), t.ex. ri**c
     </tr>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -quísima </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -quísimas </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -quísima </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -quísimas </div></td>
     </tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -quísimo </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -quísimos </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -quísimo </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -quísimos </div></td>
   </tbody>
 </table>
 
@@ -250,12 +250,12 @@ Adjektiv som slutar på **-z**, t.ex. feli**z**, får en liten stavningsändring
     </tr>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -císima </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -císimas </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -císima </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -císimas </div></td>
     </tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -císimo </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -císimos </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -císimo </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -císimos </div></td>
   </tbody>
 </table>
 
@@ -291,12 +291,12 @@ Adjektiv som har ett **g** före en ändelse, t.ex. lar**g**o, får en liten sta
     </tr>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -guísima </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -guísimas </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -guísima </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -guísimas </div></td>
     </tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -guísimo </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -guísimos </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -guísimo </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -guísimos </div></td>
   </tbody>
 </table>
 

@@ -31,17 +31,11 @@ export const Highlight = ({children, color}) => (
 
 Dessa possessiva pronomina böjs endast efter genus för **nosotros** och **vosotros**. Alla possessiva pronomina böjs i plural genom att lägga på ett **-s**. 
 
-<div class="tablepronomina">  
-<p>
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <th> **Pers. pron.**</th>
-      <th colspan="4"> **Poss. pron.**</th>
+      <td> **Pers. pron.**</td>
+      <td colspan="4"> **Poss. pron.**</td>
       </tr>
     <tr>
       <td rowspan="2"></td>
@@ -88,8 +82,6 @@ Dessa possessiva pronomina böjs endast efter genus för **nosotros** och **voso
     </tr>
   </tbody>
 </table>
-</p>
-</div>
 
 :::danger tú & tu
 
@@ -131,18 +123,12 @@ Man kan säga att dessa possessiva pronomina fungerar lite som adjektiv då de l
 
 **Alla** dessa pronomina böjs efter genus, till skillnad från de andra (ovanstående) possessiva pronomina. Plural bildas genom att lägga till ett **-s**.
 
-<div class="tablepronomina">  
-<p>
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <th> **Pers. pron.**</th>
-      <th colspan="4"> **Poss. pron.**</th>
-      </tr>
+      <td> **Pers. pron.**</td>
+      <td colspan="4"> **Poss. pron.**</td>
+    </tr>
     <tr>
       <td rowspan="2"></td>
       <td colspan="2">**singular**</td>
@@ -196,5 +182,3 @@ Man kan säga att dessa possessiva pronomina fungerar lite som adjektiv då de l
     </tr>
   </tbody>
 </table>
-</p>
-</div>

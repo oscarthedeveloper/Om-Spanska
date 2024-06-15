@@ -89,12 +89,12 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
     </tr>
     <tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> el </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> los </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> el </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> los </div></td>
     </tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> la </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> las </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> la </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> las </div></td>
   </tbody>
 </table>
 
@@ -133,9 +133,9 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
     </tr>
     <tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> un </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> un </div></td>
     </tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> una </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> una </div></td>
   </tbody>
 </table>

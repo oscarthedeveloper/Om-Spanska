@@ -1,3 +1,14 @@
+:root {
+    --background-color: #fff;
+    --highlight: #0b00cb;
+    --border-color: #f2f0ec;
+}
+
+[data-theme='dark'] {
+    --background-color: #242526;
+    --highlight: #908aff;
+    --border-color: #1b1b1d;
+}
 
 .datatable-container {
     overflow-x: auto;
@@ -18,20 +29,17 @@
   .datatable td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid;
     width: 200px;
   }
   
   .datatable th, .datatable td {
-    background-color: #f0f0f0;
-  }
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+}
 
   .datatable td:hover {
     cursor: auto;
-  }
-  
-  .datatable th:active {
-    background-color: #ccc;
   }
   
   .datatable td:first-child {
@@ -43,7 +51,8 @@
 }
 
 .datatable th.sortable-header {
-    color: #0b00cb;
+    cursor: pointer;
+    color: var(--highlight);
 }
 
 .datatable th {

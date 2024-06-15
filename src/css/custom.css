@@ -16,7 +16,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --highlight: #0b00cb;
-  background-color: #e3e2df;
+  --border-color: #f2f0ec;
+background-color: #f2f0ec;
 }
 
 .footer {
@@ -34,14 +35,25 @@
   --ifm-color-primary-lightest: #ff804f;
   --highlight: #908aff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  background-color: #1b1b1d;
+  --background-color: #1b1b1d;
+background-color: #1b1b1d;
 }
 
 [data-theme='dark'] .my-special-table {
   background-color: #e3e2df;
 }
 
+[data-theme='dark'] .custom-quote {
+  background-color: #242526;
+  color: white;
+}
+
 [data-theme='dark'] .footer {
+  background-color: #242526;
+  color: white;
+}
+
+[data-theme='dark'] table {
   background-color: #242526;
   color: white;
 }
@@ -115,15 +127,26 @@ ul li::marker {
 }
 
 table {
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-spacing: 0 2px;
-  border-spacing: 0px;
-  max-width: fit-content;
-  border-radius: 12px;
-  color: black;
-  overflow-x: auto;
-  overflow-y: hidden;
+  max-width: fit-content; /* Make table width full */
+  border-collapse: collapse; /* Collapse borders */
+  background-color: white;
+  border-radius: 10px; /* Adds rounded corners to the entire table */
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px; /* Padding inside cells */
+  text-align: left; /* Text alignment */
+  border-color: var(--border-color);
+}
+
+th {
+  background-color: #f2f2f2; /* Header background color */
+  border-color: var(--border-color);
+}
+
+tbody {
+  border-color: var(--border-color);
 }
 
 .my-special-table {

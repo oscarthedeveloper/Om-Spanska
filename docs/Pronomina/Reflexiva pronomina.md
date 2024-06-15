@@ -31,20 +31,16 @@ I den första meningen hänvisar subjektet och objektet till samma person och d�
 
 De reflexiva pronomina används i samband med **reflexiva verb**, vilka finns att läsa om här: [Presens](/docs/Verb/Tempus/Presens). Nedanstående tabell visar de olika pronomina samt deras tillhörande reflexiva verb.
 
-<div class="tablepronomina">  
-<p>
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <th> **Pers. pron.**</th>
-      <th> **Refl. pron.**</th>
+      <td> **Pers. pron.**</td>
+      <td> **Refl. pron.**</td>
     </tr>
+    <tr>
       <td> yo</td>
       <td> me</td>
+    </tr>
     <tr>
       <td> tú</td>
       <td> te</td>
@@ -67,8 +63,7 @@ De reflexiva pronomina används i samband med **reflexiva verb**, vilka finns at
     </tr>
   </tbody>
 </table>
-</p>
-</div>
+
 
 ## <Highlight color="#ff4802">Reflexiva pronomina i ordföljden</Highlight>
 

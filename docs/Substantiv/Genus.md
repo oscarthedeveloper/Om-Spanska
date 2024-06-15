@@ -37,10 +37,12 @@ Grundregeln för vilket genus ett substantiv tillhör är:
   <tbody>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -a </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -a </div></td>
     </tr>
+    <tr>
       <td>Maskulinum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -o </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -o </div></td>
+      </tr>
   </tbody>
 </table>
 
@@ -72,15 +74,15 @@ Använd dessa **tumregler**, men observera undantagen!
   <tbody>
     <tr>
       <td>Maskulinum</td>
-      <th colspan="3"><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}>konsonant</div></th>
+      <th colspan="3"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}>konsonant</div></th>
       <td>*el hotel, el reloj, el calor, el mes*</td>
       <td>*la catedral, la imagen*</td>
     </tr>
     <tr>
       <td>Femininum</td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -dad </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -ión </div></td>
-      <td><div style={{ border: '4px solid #0b00d1', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: '#0b00d1', textAlign: 'center' }}> -z </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -dad </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -ión </div></td>
+      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -z </div></td>
       <td>*la verdad, la canción, la vez*</td>
       <td>*el avión, el camión*</td>
     </tr>
