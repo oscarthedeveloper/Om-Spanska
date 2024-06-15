@@ -1,0 +1,53 @@
+
+.datatable-container {
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  
+.datatable {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+.datatable {
+    width: fit-content;
+    font-size: large;
+}
+  
+  .datatable th,
+  .datatable td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  .datatable th, .datatable td {
+    background-color: #f0f0f0;
+  }
+
+  .datatable td:hover {
+    cursor: auto;
+  }
+  
+  .datatable th:active {
+    background-color: #ccc;
+  }
+  
+  .datatable td:first-child {
+    width: 200px;
+  }
+
+.datatable th.sortable-header:hover {
+    background-color: #0901d01a;
+}
+
+.datatable th.sortable-header {
+    color: #0b00cb;
+}
+
+.datatable th {
+    text-align: center;
+}
+
+  

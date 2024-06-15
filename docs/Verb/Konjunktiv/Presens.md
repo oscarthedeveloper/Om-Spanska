@@ -65,8 +65,8 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Känslor & värderinger</Highlight>
  
 <div class="custom-quote">  
-***Me alegro que limpies la casa.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gläds åt att du städar huset.*</small>    
+***Me alegra que limpies la casa.***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det gläder mig att du städar huset.*</small>    
 ***Está mal que no estudiéis.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är dåligt att ni inte studerar.*</small>    
 ***Es una pena que trabajes demasiado.***    
@@ -82,7 +82,7 @@ export const Highlight = ({children, color}) => (
 <div class="custom-quote">  
 ***Es importante que entrenemos mucho.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är viktigt att vi tränar mycket.*</small>    
-***Te recomiendo que escuchéis.***   
+***Os recomiendo que escuchéis.***   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag rekommenderar er att ni lyssnar.*</small>    
 ***Hace falta que alguien decida.***    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är nödvändigt att någon bestämmer.*</small>     

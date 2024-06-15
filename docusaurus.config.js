@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import {Tabulator} from 'tabulator-tables';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -74,12 +75,23 @@ const config = {
     ],
   ],
 
+  stylesheets: [
+    'https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css',
+  ],
 
   scripts: [
     {
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3972947789744940',
       async: true,
       crossorigin: 'anonymous',
+    },
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js',
+      async: true,
+    },
+    {
+      src: '/js/initList.js',
+      async: true,
     },
   ],
 
