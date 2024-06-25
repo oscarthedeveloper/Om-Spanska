@@ -28,22 +28,22 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Något som sker i framtiden</Highlight>
  
 <div class="custom-quote">  
-***Voy a comprar dos libros.***   
+***Voy a comprar** dos libros.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska köpa två böcker.*</small>    
-***¿Vamos a bailar?***   
+*¿**Vamos a bailar**?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ska vi dansa?*</small>    
-***Vais a jugar al fútbol.***    
+***Vais a jugar** al fútbol.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni ska spela fotboll.*</small> 
 </div>
 
 #### <Highlight color="#ff4802">Något som är planerat i framtiden</Highlight>
  
 <div class="custom-quote">  
-***La próxima semana voy a viajar a España.***   
+*La próxima semana **voy a viajar** a España.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nästa vecka ska jag resa till Spanien.*</small>    
-***Mi primo va a visitar el museo el 21 de junio.***   
+*Mi primo **va a visitar** el museo el 21 de junio.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Min kusin ska besöka museet den 21 juni.*</small>    
-***Vamos a tomar el sol mañana a las diez.***    
+***Vamos a tomar** el sol mañana a las diez.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi ska sola imorgon klockan tio.*</small> 
 </div>
 
@@ -89,31 +89,25 @@ I futurum förekommer två sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> voy a bañar en el mar cada domingo.***   
+***Me** voy a bañar en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska bada i havet varje söndag.*</small>    
-***¿Vas a duchar<mark>te</mark> en la mañana?***   
+*¿Vas a duchar**te** en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ska du duscha på morgonen?*</small>    
-***Creen que <mark>os</mark> vais a relajar todo el tiempo.***   
+*Creen que **os** vais a relajar todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni ska chilla hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¿<mark>Te va a gustar</mark> el calor?***   
+*¿**Te va a gustar** el calor?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kommer du att gilla värmen?*</small>    
-***No, <mark>me va a encantar</mark> el calor.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag kommer att älska värmen.*</small>   
-***<mark>Va a gustarme</mark> comer.***   
+***Va a gustarme** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att gilla att äta.*</small>      
-***<mark>Van a gustarme</mark> los gatos negros.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att gilla svarta katter.*</small>    
-***<mark>Me van a interesar</mark> las ciencias sociales.***   
+***Van a gustarme** los gatos negros.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kommer att gilla svarta katter.*</small>    
+***Me van a interesar** las ciencias sociales.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att vara intresserad av SO.*</small>
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -122,55 +116,7 @@ I futurum förekommer två sorters klurigheter:
 
 För reflexiva verb finns det två sätt att bilda futurum.
 
-**Alternativ 1**:
-
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> Reflexiva pronomen</th>
-      <th> Ir</th>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th> Yo</th>
-      <td> me</td>
-      <td> <span style={{color: 'red'}}>voy</span> </td>
-      <td rowspan="6">a</td>
-      <td rowspan="6">grundform</td>
-    </tr>
-    <tr>
-      <th> Tú</th>
-      <td> te</td>
-      <td> <span style={{color: 'red'}}>vas</span> </td>
-    </tr>
-    <tr>
-      <th> Él, ella</th>
-      <td> se</td>
-      <td> <span style={{color: 'red'}}>va</span> </td>
-    </tr>
-    <tr>
-      <th> Nosotros</th>
-      <td> nos</td>
-      <td> <span style={{color: 'red'}}>vamos</span> </td>
-    </tr>
-    <tr>
-      <th> Vosotros</th>
-      <td> os</td>
-      <td> <span style={{color: 'red'}}>vais</span> </td>
-    </tr>
-    <tr>
-      <th> Ellos</th>
-      <td> se</td>
-      <td> <span style={{color: 'red'}}>van</span> </td>
-    </tr>
-  </tbody>
-</table>
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
+**Alternativ 1**: Refl. pron. **före** *ir + a + grundform*.
 
 |                  | Bañar**se**      | 
 | ---------------- | ---------------- |
@@ -181,53 +127,7 @@ För reflexiva verb finns det två sätt att bilda futurum.
 | **Vosotros**     | **os** vais a bañar    |
 | **Ellos**        | **se** van a bañar     | 
 
-**Alternativ 2**:
-
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> Ir</th>
-      <th> </th>
-      <th> </th>
-      <th> Reflexiva pronomen</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th> Yo</th>
-      <td> <span style={{color: 'red'}}>voy</span> </td>
-      <td rowspan="6">a</td>
-      <td rowspan="6">grundform +</td>
-      <td> me</td>
-    </tr>
-    <tr>
-      <th> Tú</th>
-      <td> <span style={{color: 'red'}}>vas</span> </td>
-      <td> te</td>
-    </tr>
-    <tr>
-      <th> Él, ella</th>
-      <td> <span style={{color: 'red'}}>va</span> </td>
-      <td> se</td>
-    </tr>
-    <tr>
-      <th> Nosotros</th>
-      <td> <span style={{color: 'red'}}>vamos</span> </td>
-      <td> nos</td>
-    </tr>
-    <tr>
-      <th> Vosotros</th>
-      <td> <span style={{color: 'red'}}>vais</span> </td>
-      <td> os</td>
-    </tr>
-    <tr>
-      <th> Ellos</th>
-      <td> <span style={{color: 'red'}}>van</span> </td>
-      <td> se</td>
-    </tr>
-  </tbody>
-</table>
+**Alternativ 2**: Refl. pron. **efter** verbet i grundform.
 
 #### <Highlight color="#ff4802">Exempel</Highlight>
 

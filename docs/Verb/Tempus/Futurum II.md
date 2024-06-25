@@ -250,7 +250,6 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
 
-<div class="my-special-table">  
 <table>
   <thead>
     <tr>
@@ -369,7 +368,6 @@ Detta gäller däremot **inte** namn, länder och verb.
     </tr>
   </tbody>
 </table>
-</div>
 
 :::info OBS
 

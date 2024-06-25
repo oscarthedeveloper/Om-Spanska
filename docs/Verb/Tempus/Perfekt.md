@@ -27,11 +27,11 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Något som har skett</Highlight>
  
 <div class="custom-quote">  
-***He vivido en Estocolmo por cinco días.***   
+***He vivido** en Estocolmo por cinco días.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har bott i Stockholm i fem dagar.*</small>    
-***¿Has trabajado con los deberes?***   
+*¿**Has trabajado** con los deberes?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har ni jobbat med läxorna?*</small>    
-***Me han dado tres regalos.***    
+*Me **han dado** tres regalos.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De har gett mig tre presenter.*</small> 
 </div>
 
@@ -83,101 +83,45 @@ I perfekt förekommer tre sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> he bañado en el mar cada domingo.***   
+***Me** he bañado en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har badat i havet varje söndag.*</small>    
-***¿<mark>Te</mark> has duchado en la mañana?***   
+*¿**Te** has duchado en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du duschat du på morgonen?*</small>    
-***Creen que <mark>os</mark> habéis relajado todo el tiempo.***   
+*Creen que **os** habéis relajado todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni har chillat hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¿<mark>Te ha gustado</mark> el calor?***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du gillat du värmen?*</small>    
-***No, <mark>me ha encantado</mark> el calor.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag har älskat värmen.*</small>   
-***<mark>Me ha gustado</mark> comer.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har gillat att äta.*</small>      
-***<mark>Me han gustado</mark> los gatos negros.***   
+*¿**Te ha gustado** el calor?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du gillat värmen?*</small>    
+*Siempre **me ha gustado** comer.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gillat att äta.*</small>      
+***Me han gustado** los gatos negros.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har gillat svarta katter.*</small>    
-***<mark>Me han interesado</mark> las ciencias sociales.***   
+***Me han interesado** las ciencias sociales.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har varit intresserad av SO.*</small>
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡Le he <mark>dicho</mark> todo!***   
+*¡Le he **dicho** todo!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har berättat allt för honom!*</small>    
-***Siempre he <mark>hecho</mark> mis deberes.***   
+*Siempre he **hecho** mis deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gjort mina läxor*</small>    
-***Hemos <mark>puesto</mark> la mesa.***   
+*Hemos **puesto** la mesa.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har dukat bordet.*</small>    
-***Han <mark>visto</mark> toda la ciudad.***    
+*Han **visto** toda la ciudad.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De har sett hela staden.*</small>  
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
 
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
-
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> Reflexiva pronomen</th>
-      <th> Haber</th>
-      <th> </th>
-      <th> -ar</th>
-      <th> -er & -ir</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th> Yo</th>
-      <td> me</td>
-      <td> <span style={{color: 'red'}}>he</span> </td>
-      <td rowspan="6">stam +</td>
-      <td rowspan="6">ado</td>
-      <td rowspan="6">ido</td>
-    </tr>
-    <tr>
-      <th> Tú</th>
-      <td> te</td>
-      <td> <span style={{color: 'red'}}>has</span> </td>
-    </tr>
-    <tr>
-      <th> Él, ella</th>
-      <td> se</td>
-      <td> <span style={{color: 'red'}}>ha</span> </td>
-    </tr>
-    <tr>
-      <th> Nosotros</th>
-      <td> nos</td>
-      <td> <span style={{color: 'red'}}>hemos</span> </td>
-    </tr>
-    <tr>
-      <th> Vosotros</th>
-      <td> os</td>
-      <td> habéis</td>
-    </tr>
-    <tr>
-      <th> Ellos</th>
-      <td> se</td>
-      <td> <span style={{color: 'red'}}>han</span> </td>
-    </tr>
-  </tbody>
-</table>
+🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**. I perfekt sätter man alltid det reflexiva pronomet **före** *haber* + perfekt particip.
 
 #### <Highlight color="#ff4802">Exempel</Highlight>
 
@@ -237,12 +181,10 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
+🖕 **Oregelbundna verb** är verb som inte följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
 
 Det förekommer verb som har **oregelbunden perfekt particip**. 
 
-<div class="my-special-table">  
-<p>
 <table>
   <thead>
     <tr>
@@ -281,8 +223,6 @@ Det förekommer verb som har **oregelbunden perfekt particip**.
     </tr>
   </tbody>
 </table>
-</p>
-</div>
 
 :::info OBS
 

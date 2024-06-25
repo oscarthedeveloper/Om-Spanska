@@ -20,13 +20,14 @@ export const Highlight = ({children, color}) => (
 
 **Personliga pronomina** är ord som *jag*, *mig*, *du*, *dig*, *han*, *honom*, osv. Ofta är det personliga pronomina som utför ett verb, t.ex. ***vi** äter mat*.
 
+<div class="tablepronomina">  
 <table>
   <tbody>
     <tr>
-      <th> **Subjektsform**</th>
-      <th> **Efter preposition**</th>
-      <th> **Objektsform**</th>
-      <th> **Indirekt objektsform**</th>
+      <td> **Subjektsform**</td>
+      <td> **Efter preposition**</td>
+      <td> **Objektsform**</td>
+      <td> **Indirekt objektsform**</td>
     </tr>
     <tr>
       <td> yo</td>
@@ -66,6 +67,7 @@ export const Highlight = ({children, color}) => (
     </tr>
   </tbody>
 </table>
+</div>
 
 :::info Indirekt objektsform
 

@@ -258,7 +258,6 @@ I glasskiosken:
 
 De som har oregelbunden stam i futurum II har samma oregelbundna stam här!
 
-<div class="my-special-table">  
 <table>
   <thead>
     <tr>
@@ -377,7 +376,6 @@ De som har oregelbunden stam i futurum II har samma oregelbundna stam här!
     </tr>
   </tbody>
 </table>
-</div>
 
 :::info OBS
 

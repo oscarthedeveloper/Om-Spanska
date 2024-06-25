@@ -91,7 +91,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *soy*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *somos*</td>
       </tr>
@@ -126,7 +126,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *fui*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *fuimos*</td>
       </tr>
@@ -161,7 +161,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *era*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *éramos*</td>
       </tr>
@@ -196,7 +196,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *sea*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *seamos*</td>
       </tr>
@@ -231,7 +231,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *fuera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *fuéramos*</td>
       </tr>
@@ -275,7 +275,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *estoy*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *estamos*</td>
       </tr>
@@ -310,7 +310,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *estuve*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *estuvimos*</td>
       </tr>
@@ -345,7 +345,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *esté*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *estemos*</td>
       </tr>
@@ -380,7 +380,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *estuviera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *estuviéramos*</td>
       </tr>
@@ -427,7 +427,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *digo*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *decimos*</td>
       </tr>
@@ -462,7 +462,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *dije*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *dijimos*</td>
       </tr>
@@ -497,7 +497,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *diga*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *digamos*</td>
       </tr>
@@ -532,7 +532,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *dijera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *dijéramos*</td>
       </tr>
@@ -567,7 +567,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *diré*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *diremos*</td>
       </tr>
@@ -602,7 +602,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
       <td> *yo*</td>
       <td> *diría*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *diríamos*</td>
       </tr>
@@ -663,7 +663,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *voy*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vamos*</td>
       </tr>
@@ -698,7 +698,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *fui*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *fuimos*</td>
       </tr>
@@ -733,7 +733,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *iba*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *íbamos*</td>
       </tr>
@@ -768,7 +768,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *vaya*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vayamos*</td>
       </tr>
@@ -803,7 +803,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *fuera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *fuéramos*</td>
       </tr>
@@ -850,7 +850,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *hago*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hacemos*</td>
       </tr>
@@ -885,7 +885,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *hice*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hicimos*</td>
       </tr>
@@ -920,7 +920,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *haga*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hagamos*</td>
       </tr>
@@ -955,7 +955,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *hiciera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hiciéramos*</td>
       </tr>
@@ -990,7 +990,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *haré*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *haremos*</td>
       </tr>
@@ -1025,7 +1025,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *haría*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *haríamos*</td>
       </tr>
@@ -1081,7 +1081,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *vengo*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *venimos*</td>
       </tr>
@@ -1116,7 +1116,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *vine*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vinimos*</td>
       </tr>
@@ -1151,7 +1151,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *venga*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vengamos*</td>
       </tr>
@@ -1186,7 +1186,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *viniera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *viniéramos*</td>
       </tr>
@@ -1221,7 +1221,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *vendré*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vendremos*</td>
       </tr>
@@ -1256,7 +1256,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *vendría*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *vendríamos*</td>
       </tr>
@@ -1302,7 +1302,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *he*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hemos*</td>
       </tr>
@@ -1337,7 +1337,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *hube*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hubimos*</td>
       </tr>
@@ -1372,7 +1372,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *haya*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hayamos*</td>
       </tr>
@@ -1407,7 +1407,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *hubiera*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *hubiéramos*</td>
       </tr>
@@ -1442,7 +1442,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *habré*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *habremos*</td>
       </tr>
@@ -1477,7 +1477,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
       <td> *yo*</td>
       <td> *habría*</td>
       <td rowspan="3"> **plural**</td>
-      <td> **2:a**</td>
+      <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *habríamos*</td>
       </tr>

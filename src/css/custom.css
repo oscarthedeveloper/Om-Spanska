@@ -86,7 +86,6 @@ background-color: #1b1b1d;
   text-decoration: dashed;
   color: var(--highlight);
   font-weight: bold;
-  font-style: italic;
 }
 
 .my-special-links:hover {
@@ -131,7 +130,7 @@ table {
   border-collapse: collapse; /* Collapse borders */
   background-color: white;
   border-radius: 10px; /* Adds rounded corners to the entire table */
-  overflow: hidden;
+  overflow: scroll;
 }
 
 table th, table td {
@@ -149,35 +148,41 @@ tbody {
   border-color: var(--border-color);
 }
 
-.my-special-table {
+.tablepronomina {
+  max-width: fit-content; /* Make table width full */
+  border-collapse: collapse; /* Collapse borders */
   background-color: white;
-  max-width: 750px;
-  border-radius: 10px;
-  color: black;
-  margin: 40px;
+  border-radius: 10px; /* Adds rounded corners to the entire table */
 }
 
-.tablepronomina {
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-spacing: 0 2px;
-  border-spacing: 0px;
-  max-width: fit-content;
-  border-radius: 12px;
-  color: black;
-  text-align: center;
+.tablepronomina th, .tablepronomina td {
+  padding: 12px; /* Padding inside cells */
+  text-align: center; /* Text alignment */
+  border-color: var(--border-color);
+}
+
+.tablepronomina tbody {
+  border-color: var(--border-color);
 }
 
 .custom-quote {
-  padding: 20px; /* Padding inside the box */
+  padding: 10px; /* Padding inside the box */
   background-color: white; /* Background color of the box */
   max-width: 650px;
-  padding-bottom: 5px;
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
-  color: black;
-  margin-bottom: 20px;
+  color: #575757;
   border-left: #8080805d 2px solid;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.custom-quote>:first-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin-left: 10px;
 }
 
 body {
@@ -448,7 +453,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-color: var(--highlight);
   border-radius: 4px;
   color: #fff;
-  content: "BETA";
+  content: "ALFA";
   margin: 0 .75em;
   padding: .2em .5em;
 }

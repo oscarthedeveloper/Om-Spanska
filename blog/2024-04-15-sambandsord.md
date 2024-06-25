@@ -9,16 +9,6 @@ Sambandsord förbättrar flytet i ens text och tal **markant**. Det blir mindre 
 
 <!--truncate-->
 
-Notera skillnaden på de två följande texterna:
-
-**UTAN SAMBANDSORD**     
-*Hoy he jugado al fútbol. Fue muy divertido. Jugué con mis dos amigos. Se llaman Juan y Miguel. Viven en Barcelona también. No viven cerca de mí.*
-
-**MED SAMBANDSORD**    
-*Hoy he jugado al fútbol **y** fue muy divertido. Jugué con mis dos amigos **que** se llaman Juan y Miguel. Viven en Barcelona también **pero** no viven cerca de mí.*
-
-Som du märker har texten **med** sambandsord **bättre flyt**. Nedan kommer en lista på sambandsord och hur du kan använda dem i meningar 🤩.
-
 ***Y*** (och):     
 🇪🇸 *María **y** Juan van al cine juntos.*     
 🇸🇪 *Maria **och** Juan går på bio tillsammans.*

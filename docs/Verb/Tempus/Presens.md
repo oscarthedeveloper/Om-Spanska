@@ -30,46 +30,46 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Något som sker nu</Highlight>
  
 <div class="custom-quote">  
-***Vivo en Estocolmo.***   
+***Vivo** en Estocolmo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag bor i Stockholm.*</small>    
-***¿Trabajáis con los deberes?***   
+*¿**Trabajáis** con los deberes?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jobbar ni med läxorna?*</small>    
-***Hoy hace viento.***    
+*Hoy **hace** viento.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Idag är det blåsigt.*</small> 
 </div>
 
 #### <Highlight color="#ff4802">Något som sker regelbundet</Highlight>
  
 <div class="custom-quote">  
-***Juego al fútbol.***   
+***Juego** al fútbol.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag spelar fotboll.*</small>    
-***Entrenamos cada martes.***    
+***Entrenamos** cada martes.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi tränar varje tisdag.*</small>    
-***Siempre hablan de la escuela.***    
+*Siempre **hablan** de la escuela.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De pratar alltid om skolan.*</small>
 </div>
 
 #### <Highlight color="#ff4802">Tillstånd</Highlight>
  
 <div class="custom-quote">  
-***Soy médico.***   
+***Soy** médico.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är läkare.*</small>    
-***Estás con tus amigos.***    
+***Estás** con tus amigos.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du är med dina kompisar.*</small>    
-***Estamos nerviosos.***    
+***Estamos** nerviosos.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi är nervösa.*</small>     
-***Tengo hambre.***    
+***Tengo** hambre.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är hungrig.*</small>
 </div>
 
 #### <Highlight color="#ff4802">Något som sker i framtiden</Highlight>
  
 <div class="custom-quote">  
-***Te digo mañana.***   
+*Te **digo** mañana.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag berättar för dig imorgon.*</small>    
-***Bailamos la próxima semana.***    
+***Bailamos** la próxima semana.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi dansar nästa vecka.*</small>    
-***Me llamas mañana.***    
+*Me **llamas** mañana.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du ringer mig imorgon.*</small>
 </div>
 
@@ -117,11 +117,11 @@ I presens förekommer fem sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***<mark>Me</mark> baño en el mar cada domingo.***   
+***Me** baño en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badar i havet varje söndag.*</small>    
-***¿<mark>Te</mark> duchas en la mañana?***   
+*¿**Te** duchas en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschar du på morgonen?*</small>    
-***Creen que <mark>os</mark> relajáis todo el tiempo.***   
+*Creen que **os** relajáis todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillar hela tiden.*</small> 
 </p>
 </div>
@@ -130,13 +130,13 @@ I presens förekommer fem sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***J<mark>ue</mark>go al fútbol.***   
+*J**ue**go al fútbol.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag spelar fotboll.*</small>    
-***¿P<mark>ie</mark>nsas en tus amigos?***   
+*¿P**ie**nsas en tus amigos?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänker du på dina kompisar?*</small>    
-***Creen que p<mark>ue</mark>den conquistar el mundo.***   
+*Creen que p**ue**den conquistar el mundo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att de kan erövra världen.*</small>    
-***¿Qué qu<mark>ie</mark>res comer esta noche?***    
+*¿Qué qu**ie**res comer esta noche?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad vill du äta ikväll?*</small>  
 </p>
 </div>
@@ -145,11 +145,11 @@ I presens förekommer fem sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***¿Qué p<mark>i</mark>des?***   
+*¿Qué p**i**des?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställer du?*</small>    
-***Ahora rep<mark>i</mark>tes todo.***   
+*Ahora rep**i**tes todo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nu upprepar du allt.*</small>     
-***D<mark>i</mark>cen que debo escuchar.***   
+*D**i**cen que debo escuchar.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De säger att jag bör lyssna.*</small>
 </p>
 </div>
@@ -158,15 +158,15 @@ I presens förekommer fem sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***¿<mark>Te gusta</mark> el calor?***   
+*¿**Te gusta** el calor?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillar du värmen?*</small>    
-***No, <mark>me encanta</mark> el calor.***   
+*No, **me encanta** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskar värmen.*</small>   
-***<mark>Me gusta</mark> comer.***   
+***Me gusta** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar att äta.*</small>      
-***<mark>Me gustan</mark> los gatos negros.***   
+***Me gustan** los gatos negros.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar svarta katter.*</small>    
-***<mark>Me interesan</mark> las ciencias sociales.***   
+***Me interesan** las ciencias sociales.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är intresserad av SO.*</small>
 </p>
 </div>
@@ -175,13 +175,13 @@ I presens förekommer fem sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***¡<mark>Soy</mark> tu amigo!***   
+*¡**Soy** tu amigo!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är din vän!*</small>    
-***Siempre <mark>hago</mark> mis deberes.***   
+*Siempre **hago** mis deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gör alltid mina läxor*</small>    
-***Te <mark>doy</mark> el dinero.***   
+*Te **doy** el dinero.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ger dig pengarna.*</small>    
-***<mark>Veo</mark> toda la ciudad aquí.***    
+***Veo** toda la ciudad aquí.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ser hela staden här.*</small>  
 </p>
 </div>
@@ -192,14 +192,14 @@ I presens förekommer fem sorters klurigheter:
 
 🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
 
-|       | Reflexiva pronomen |  -ar   | -er   | -ir   |
-| ----- | ------------------ | ----- | ----- | ----- |
-| **Yo**          | me       | o     | o     | o     |
-| **Tú**          | te       | as    | es    | es    |
-| **Él, ella**    | se       | a     | e     | e     |
-| **Nosotros**    | nos      | amos     | emos     | imos     |
-| **Vosotros**    | os       | áis     | éis     | ís     |
-| **Ellos**       | se       | an     | en     | en     |
+| Person          | Refl. pron. |
+| --------------- | -------- | 
+| **Yo**          | me       | 
+| **Tú**          | te       | 
+| **Él, ella**    | se       | 
+| **Nosotros**    | nos      | 
+| **Vosotros**    | os       | 
+| **Ellos**       | se       | 
 
 #### <Highlight color="#ff4802">Exempel</Highlight>
 
@@ -320,8 +320,6 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. Många verb är nämligen bara oregelbundna i första person, ***Yo***.
 
-<div class="my-special-table">  
-<p>
 <table>
   <thead>
     <tr>
@@ -496,8 +494,6 @@ För tydlighetens skull är de oregelbundna markerade med <span style={{color: '
     </tr>
   </tbody>
 </table>
-</p>
-</div>
 
 :::caution OBS
 

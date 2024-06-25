@@ -277,7 +277,6 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. 
 
-<div class="my-special-table">  
 <table>
   <thead>
     <tr>
@@ -417,7 +416,6 @@ För tydlighetens skull är de oregelbundna markerade med <span style={{color: '
     </tr>
   </tbody>
 </table>
-</div>
 
 :::info OBS
 

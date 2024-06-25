@@ -363,8 +363,6 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 Det finns en mycket värdefull **minnesregel** längre ner!
 
-<div class="my-special-table">  
-<p>
 <table>
   <thead>
     <tr>
@@ -539,8 +537,6 @@ Det finns en mycket värdefull **minnesregel** längre ner!
     </tr>
   </tbody>
 </table>
-</p>
-</div>
 
 :::info OBS
 

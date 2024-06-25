@@ -21,25 +21,20 @@ export const Highlight = ({children, color}) => (
 **Demonstrativa pronomina** används för att **peka ut** någon eller någonting.
 
 <div class="custom-quote">  
-***Me encanta este móvil.***   
+*Me encanta **este** móvil.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar den här mobilen.*</small>    
-***Esta comida sabía riquísimo.***   
+***Esta** comida sabía riquísimo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här maten smakade supergott.*</small>    
-***¿Dónde encontraste ese hombre?***   
+*¿Dónde encontraste **ese** hombre?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var hittade du den (där) mannen?*</small>   
-***No me gusta eso.***   
+*No me gusta **eso**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar inte det (där).*</small> 
 </div>
 
 Dessa pronomina används alltså för att peka ut något, som antingen är **nära** eller **längre bort**. För att peka ut något som ligger **nära** används nedanstående pronomina som böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
 <div class="tablepronomina">  
-<p>
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <th> </th>
@@ -58,11 +53,11 @@ Dessa pronomina används alltså för att peka ut något, som antingen är **nä
     </tr>
   </tbody>
 </table>
-</p>
 </div>
 
 För att peka ut något som ligger **längre bort** används nedanstående pronomina som också böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
+<div class="tablepronomina">  
 <table>
   <tbody>
     <tr>
@@ -82,14 +77,13 @@ För att peka ut något som ligger **längre bort** används nedanstående prono
     </tr>
   </tbody>
 </table>
-
+</div>
 
 :::info neutral?
 
 Vad innebär **neutral** 😶? Jämför med svenskans **den** och **det**, där **det** ofta är mer neutral. Jämför '*Jag gillar den*' och '*jag gillar det*'. **Det** är mer abstrakt och behöver inte handla om något specifikt substantiv, precis som ***esto/eso***.
 
 '*No me gusta **esto***' = *Jag gillar inte **detta**.*     
-
 '*No me gusta **esta***' = *Jag gilla inte **denna**.*
 
 :::

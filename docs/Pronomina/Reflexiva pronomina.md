@@ -33,37 +33,37 @@ De reflexiva pronomina används i samband med **reflexiva verb**, vilka finns at
 
 <table>
   <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *me*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td> 
+      <td> *nos*</td>
+      </tr>
     <tr>
-      <td> **Pers. pron.**</td>
-      <td> **Refl. pron.**</td>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *te*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td> 
+      <td> *os*</td>
     </tr>
     <tr>
-      <td> yo</td>
-      <td> me</td>
-    </tr>
-    <tr>
-      <td> tú</td>
-      <td> te</td>
-    </tr>
-    <tr>
-      <td> él/ella/ello</td>
-      <td> se</td>
-    </tr>
-    <tr>
-      <td> nosotros</td>
-      <td> nos</td>
-    </tr>
-    <tr>
-      <td> vosotros</td>
-      <td> os</td>
-    </tr>
-    <tr>
-      <td> ellos</td>
-      <td> se</td>
+      <td> **3:e**</td>
+      <td> *él*      
+      *ella*            
+      *usted*</td>
+      <td> *se*</td>
+      <td> **3:e**</td>
+      <td> *ellos*      
+      *ustedes*</td> 
+      <td> *se*</td>
     </tr>
   </tbody>
 </table>
-
 
 ## <Highlight color="#ff4802">Reflexiva pronomina i ordföljden</Highlight>
 
