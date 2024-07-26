@@ -77,25 +77,207 @@ export const Highlight = ({children, color}) => (
 
 I presens byts verbets ändelse ut mot följande ändelser:
 
-|       | -ar   | -er   | -ir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | o     | o     | o     |
-| **Tú**    | as    | es    | es    |
-| **Él, ella**    | a     | e     | e     |
-| **Nosotros**    | amos     | emos     | imos     |
-| **Vosotros**    | áis     | éis     | ís     |
-| **Ellos**    | an     | en     | en     |
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | bail**o**     | com**o**     | viv**o**     |
-| **Tú**    | bail**as**    | com**es**    | viv**es**    |
-| **Él, ella**    | bail**a**     | com**e**     | viv**e**     |
-| **Nosotros**    | bail**amos**     | com**emos**     | viv**imos**     |
-| **Vosotros**    | bail**áis**     | com**éis**     | viv**ís**     |
-| **Ellos**    | bail**an**     | com**en**     | viv**en**     |
+<Tabs>
+  <TabItem value="ar" label="-AR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>o</b> </th>
+    <td> <i>hablo</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>as</b> </th>
+    <td> <i>hablas</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>a</b></th>
+    <td> <i>habla</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>amos</b> </th>
+    <td> <i>hablamos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>áis</b> </th>
+    <td> <i>habláis</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>an</b> </th>
+    <td> <i>hablan</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="er" label="-ER" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>o</b> </th>
+    <td> <i>como</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>es</b> </th>
+    <td> <i>comes</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>e</b></th>
+    <td> <i>come</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>emos</b> </th>
+    <td> <i>comemos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>éis</b> </th>
+    <td> <i>coméis</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>en</b> </th>
+    <td> <i>comen</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="ir" label="-IR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>o</b> </th>
+    <td> <i>vivo</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>es</b> </th>
+    <td> <i>vives</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>e</b></th>
+    <td> <i>vive</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>imos</b> </th>
+    <td> <i>vivimos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>ís</b> </th>
+    <td> <i>vivís</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>en</b> </th>
+    <td> <i>viven</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="full" label="Alla ändelser" default>
+<table>
+<tbody>
+<tr>
+    <td colspan="3"></td>
+    <th>-AR</th>
+    <th>-ER</th>
+    <th>-IR</th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>o</b> </th>
+    <th width="100px"> -<b>o</b> </th>
+    <th width="100px"> -<b>o</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>as</b> </th>
+    <th width="100px"> -<b>es</b> </th>
+    <th width="100px"> -<b>es</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>a</b> </th>
+    <th width="100px"> -<b>e</b> </th>
+    <th width="100px"> -<b>e</b> </th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>amos</b> </th>
+    <th width="100px"> -<b>emos</b> </th>
+    <th width="100px"> -<b>imos</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>áis</b> </th>
+    <th width="100px"> -<b>éis</b> </th>
+    <th width="100px"> -<b>ís</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>an</b> </th>
+    <th width="100px"> -<b>en</b> </th>
+    <th width="100px"> -<b>en</b> </th>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+</Tabs>
 
 ---
 
@@ -116,74 +298,56 @@ I presens förekommer fem sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***Me** baño en el mar cada domingo.*   
+***Me baño** en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badar i havet varje söndag.*</small>    
-*¿**Te** duchas en la mañana?*   
+*¿**Te duchas** en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschar du på morgonen?*</small>    
-*Creen que **os** relajáis todo el tiempo.*   
+*Creen que **os relajáis** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillar hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Diftongerande verb</Highlight>
  
 <div class="custom-quote">  
-<p>
 *J**ue**go al fútbol.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag spelar fotboll.*</small>    
 *¿P**ie**nsas en tus amigos?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänker du på dina kompisar?*</small>    
 *Creen que p**ue**den conquistar el mundo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att de kan erövra världen.*</small>    
-*¿Qué qu**ie**res comer esta noche?*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad vill du äta ikväll?*</small>  
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
  
 <div class="custom-quote">  
-<p>
 *¿Qué p**i**des?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställer du?*</small>    
 *Ahora rep**i**tes todo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nu upprepar du allt.*</small>     
 *D**i**cen que debo escuchar.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De säger att jag bör lyssna.*</small>
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
 *¿**Te gusta** el calor?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillar du värmen?*</small>    
-*No, **me encanta** el calor.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskar värmen.*</small>   
 ***Me gusta** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar att äta.*</small>      
-***Me gustan** los gatos negros.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar svarta katter.*</small>    
-***Me interesan** las ciencias sociales.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är intresserad av SO.*</small>
-</p>
+***Os gustan** los gatos negros.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni gillar svarta katter.*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
 *¡**Soy** tu amigo!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är din vän!*</small>    
 *Siempre **hago** mis deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gör alltid mina läxor*</small>    
 *Te **doy** el dinero.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ger dig pengarna.*</small>    
-***Veo** toda la ciudad aquí.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ser hela staden här.*</small>  
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -192,25 +356,46 @@ I presens förekommer fem sorters klurigheter:
 
 🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
 
-| Person          | Refl. pron. |
-| --------------- | -------- | 
-| **Yo**          | me       | 
-| **Tú**          | te       | 
-| **Él, ella**    | se       | 
-| **Nosotros**    | nos      | 
-| **Vosotros**    | os       | 
-| **Ellos**       | se       | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *baño*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *bañamos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *bañas*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *bañáis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *baña*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *bañan*</td>
+    </tr>
+  </tbody>
+</table> 
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** baño      | 
-| **Tú**           | **te** bañas     |
-| **Él, ella**     | **se** baña      |
-| **Nosotros**     | **nos** bañamos  |   
-| **Vosotros**     | **os** bañáis    |
-| **Ellos**        | **se** bañan     | 
+Till skillnad från svenskan sätts det reflexiva pronomet **före** verbet. 
 
 #### <Highlight color="#ff4802">Diftongerande verb</Highlight>
 
@@ -219,24 +404,54 @@ I presens förekommer fem sorters klurigheter:
 - **e** ➡️ **ie**
 - **o** ➡️ **ue**
 
-Man lära sig vilka som är diftongerande utantill 🥲
+Man får lära sig vilka som är diftongerande utantill 🥲
 
 :::tip TIPS
 
-Om du ska öva glosor och någon av dem är ett diftongerande verb, som ***Pensar*** - skriv diftongen i parantes därefter! Såhär: ***Pensar (ie)***. Då blir livet lite lättare.
+Om du ska öva glosor och någon av dem är ett diftongerande verb, som ***Pensar*** - skriv diftongen i parantes därefter! Såhär: ***Pensar (ie)***, så att man lägger det på minnet.
 
 :::
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+Se nedan hur *pensar* (ie) och *poder* (ue) böjs.
 
-|                  | Pensar (ie)     | Poder (ue)     |
-| ---------------- | --------------- | -------------- |
-| **Yo**           | p**ie**nso      | p**ue**do      |
-| **Tú**           | p**ie**nsas     | p**ue**des     |
-| **Él, ella**     | p**ie**nsa      | p**ue**de      |
-| **Nosotros**     | pensamos        | podemos        |
-| **Vosotros**     | pensáis         | podéis         |
-| **Ellos**        | p**ie**nsan     | p**ue**den     |
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *p**ie**nso*      
+      *p**ue**do*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *pensamos*      
+      *podemos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *p**ie**nsas*      
+      *p**ue**des*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *pensáis*      
+      *podéis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *p**ie**nsa*       
+      *p**ue**de*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**ie**nsan*       
+      *p**ue**den*</td>
+    </tr>
+  </tbody>
+</table>
 
 :::caution OBS
 
@@ -252,20 +467,42 @@ Observera att vokalen inte genomgår en förändring för **nosotros** och **vos
 
 Man lära sig vilka som är vokalskiftande utantill 🥲
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Pedir         | Vestirse       |
-| ---------------- | ------------- | -------------- |
-| **Yo**           | p**i**do      | me v**i**sto   |
-| **Tú**           | p**i**des     | te v**i**stes  |
-| **Él, ella**     | p**i**de      | se v**i**ste   |
-| **Nosotros**     | pedimos       | nos vestimos   |
-| **Vosotros**     | pedís         | os vestís      |
-| **Ellos**        | p**i**den     | se v**i**sten  |
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *p**i**do*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *pedimos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *p**i**des*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *pedís*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *p**i**de*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**i**den*</td>
+    </tr>
+  </tbody>
+</table>
 
 :::caution OBS
 
-Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**. Och ja, ***vestirse*** är både reflexivt och vokalskiftande.
+Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**. 
 
 :::
 
@@ -274,14 +511,12 @@ Observera att vokalen inte genomgår en förändring för **nosotros** och **vos
 💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
 
 <table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td> **Person**</td>
+      <td> **En sak**</td>
+      <td> **Flera saker**</td>
+    </tr>
     <tr>
       <td>**Me**</td>
       <td rowspan="6">gusta</td>
@@ -318,7 +553,7 @@ Detta gäller däremot **inte** namn, länder och verb.
 
 🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
 
-För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. Många verb är nämligen bara oregelbundna i första person, ***Yo***.
+För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. Många verb är nämligen bara oregelbundna i första person, ***Yo***. Skrolla till höger!
 
 <table>
   <thead>

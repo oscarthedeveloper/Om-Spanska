@@ -20,18 +20,14 @@ Uttalet i spanska är inte precis som i svenskan, men beroende på dialekt kan d
 
 ## <Highlight color="#ff4802">Uttal av alfabetet</Highlight>
 
-<div class="bokstavstable">  
-<p>
 <table>
-  <thead>
+  <tbody>
     <tr>
       <th> Bokstav</th>
       <th> Namn</th>
       <th> Uttal</th>
       <th> IPA</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">A a</div></div></td>
       <td> **a**</td>
@@ -40,7 +36,6 @@ Uttalet i spanska är inte precis som i svenskan, men beroende på dialekt kan d
 </figure></td>
       <td><div className="bokstavsbox-container"><div className="IPA">[a]</div></div></td>
     </tr>
-  </tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">B b</div></div></td>
       <td> **be**</td>
@@ -249,9 +244,8 @@ Uttalet i spanska är inte precis som i svenskan, men beroende på dialekt kan d
 </figure></td>
       <td><div className="bokstavsbox-container"><div className="IPA">[θ]</div></div></td>
     </tr>
+</tbody>
 </table>
-</p>
-</div>
 
 :::info Vad är IPA?
 
@@ -261,24 +255,22 @@ Det *internationella fonetiska alfabetet*, förkortat **IPA**, är ett fonetiskt
 
 :::danger H
 
-Observera att **H** inte uttalas.
+Observera att **h** inte uttalas.
+
+För att uttrycka skratt skriftligt används i svenskan ofta *hahaha*, men i spanskan används istället *jajaja* eftersom **h** inte uttalas.
 
 :::
 
 ## <Highlight color="#ff4802">Bokstävernas uttal i ord</Highlight>
 
-<div class="bokstavstable">  
-<p>
 <table>
-  <thead>
+  <tbody>
     <tr>
       <th> Bokstav</th>
       <th> Exempel</th>
       <th> Uttal</th>
       <th> Bokstavens uttal</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">A a</div></div></td>
       <td> **casa**</td>
@@ -287,7 +279,6 @@ Observera att **H** inte uttalas.
 </figure></td>
       <td>uttalas som **ah** på svenska</td>
     </tr>
-  </tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">B b</div></div></td>
       <td> **beber**</td>
@@ -499,13 +490,11 @@ Observera att **H** inte uttalas.
 </figure></td>
       <td> uttalas som **s**, men ofta med läspning (**th**)</td>
     </tr>
+</tbody>
 </table>
-</p>
-</div>
 
-<div class="bokstavstable">  
-<p>
   <table>
+  <tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">Ll ll</div></div></td>
       <td> **ella**</td>
@@ -514,7 +503,6 @@ Observera att **H** inte uttalas.
 </figure></td>
       <td> uttalas som **j** i **ja**</td>
     </tr>
-  <tbody>
     <tr>
       <td><div className="bokstavsbox-container"><div className="bokstavsbox">Ch ch</div></div></td>
       <td> **escuchar**</td>
@@ -525,5 +513,3 @@ Observera att **H** inte uttalas.
     </tr>
   </tbody>
 </table>
-</p>
-</div>

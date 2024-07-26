@@ -1,40 +1,276 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
 
-.heroBanner {
-  padding: 4rem 0;
+:root {
+  --ifm-color-primary: #ff4802;
+  --ifm-color-primary-dark: #e74000;
+  --ifm-color-primary-darker: #da3c00;
+  --ifm-color-primary-darkest: #b43200;
+  --ifm-color-primary-light: #ff5b1c;
+  --ifm-color-primary-lighter: #ff6429;
+  --ifm-color-primary-lightest: #ff804f;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --highlight: #0b00cb;
+  --border-color: #f2f0ec;
+background-color: #f2f0ec;
+}
+
+.footer {
+  background-color: #ffffff95;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff4802;
+  --ifm-color-primary-dark: #e74000;
+  --ifm-color-primary-darker: #da3c00;
+  --ifm-color-primary-darkest: #b43200;
+  --ifm-color-primary-light: #ff5b1c;
+  --ifm-color-primary-lighter: #ff6429;
+  --ifm-color-primary-lightest: #ff804f;
+  --highlight: #908aff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --background-color: #1b1b1d;
+background-color: #1b1b1d;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--background-color);
+}
+
+@media (min-width: 1024px) {
+  .headerContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 36px;
+  }
+}
+
+.textSection {
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .textSection {
+    text-align: left;
+    margin-right: 50px; /* Increase the margin to push the text section further right */
+    /* Optionally, you could also use padding-left to adjust the positioning */
+    padding-left: 30px; /* Adjust this value as needed */
+  }
+}
+
+.title {
+  font-size: 3rem; /* Increased font size */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--highlight);
+  border-radius: 25px;
+  text-decoration: none;
   position: relative;
   overflow: hidden;
 }
 
-@media (max-width: 500px) {
-  .heroBanner {
-    padding: 4rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+.button:hover,
+.button:focus {
+  color: #ffffff; /* Keep text color white on hover */
+}
+
+.buttonIcon {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover .buttonIcon,
+.button:focus .buttonIcon {
+  transform: translateX(5px); /* Move the icon slightly to the right */
+  opacity: 1; /* Ensure the icon remains fully opaque */
+}
+
+.logoSection {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .logoSection {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px; /* Increase the margin to push the text section further right */
+    /* Optionally, you could also use padding-left to adjust the positioning */
+    padding-left: 30px; /* Adjust this value as needed */
   }
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.logo {
+  width: 75%; /* Set a specific width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 0;
+  animation: fadeInRight 3s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px); /* Start from the right side */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* End at the final position */
   }
 }
 
-.buttons {
+[data-theme='dark'] .logo {
+  content: url('/img/spain-svgrepo-com.dark.svg'); /* Different logo for dark mode */
+}
+
+/* New Text Section Styles */
+.textSectionWrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 20px;
+  padding: 40px 20px; /* Adjust padding as needed */
+  background-color: #e9ecef; /* Light grey background for the text section */
 }
 
-@media (max-width: 500px) {
-  .buttons {
-    display: grid;
+@media (min-width: 1024px) {
+  .textSectionWrapper {
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    padding: 40px 20px; /* Adjust padding as needed */
   }
+}
+
+.textContent {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .textContent {
+    text-align: left;
+    max-width: 600px; /* Set a max-width for larger screens */
+    margin-left: 40px; /* Space between text and image */
+  }
+}
+
+.secondaryTitle {
+  font-size: 2.5rem; /* Adjust font size */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.secondarySubtitle {
+  font-size: 1.125rem; /* Adjust font size */
+  margin-bottom: 30px;
+}
+
+.featureButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .featureButtons {
+    justify-content: flex-start; /* Align buttons to the left on larger screens */
+  }
+}
+
+.imageSection {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .imageSection {
+    text-align: left;
+  }
+}
+
+.featureImage {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Adjust max-width as needed */
+}
+
+/* Styles for the second section */
+
+.headerContainerSecond {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  padding: 40px 20px; /* Adjust padding as needed */
+  background-color: var(--background-color); /* Light grey background for the text section */
+}
+
+@media (min-width: 1024px) {
+  .headerContainerSecond {
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 20px; /* Adjust padding as needed */
+  }
+}
+
+.logoSectionSecond {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .logoSectionSecond {
+    text-align: left;
+    width: 50%;
+    padding-right: 20px; /* Space between image and text */
+  }
+}
+
+.textSectionSecond {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .textSectionSecond {
+    text-align: right;
+    max-width: 600px; /* Set a max-width for larger screens */
+  }
+}
+
+.titleSecond {
+  font-size: 2.5rem; /* Adjust font size */
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.subtitleSecond {
+  font-size: 1.125rem; /* Adjust font size */
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.logoSecond {
+  width: 50%; /* Adjust width */
+  height: auto;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
 }

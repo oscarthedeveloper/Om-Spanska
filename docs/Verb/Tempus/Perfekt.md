@@ -39,14 +39,38 @@ export const Highlight = ({children, color}) => (
 
 Perfekt bildas med hjälp av verbet ***Haber*** i presens, som är oregelbundet, och perfekt particip. Haber motsvarar alltså *att ha*, men används **endast** som *att ha* i detta sammanhang. Perfekt particip är t.ex. *ätit* eller *varit*. 
 
-|       | Haber   | 
-| ----- | ----- | 
-| **Yo**    | <span style={{color: 'red'}}>he</span>     | 
-| **Tú**    | <span style={{color: 'red'}}>has</span>    |
-| **Él, ella**    | <span style={{color: 'red'}}>ha</span>     |
-| **Nosotros**    | <span style={{color: 'red'}}>hemos</span>     | 
-| **Vosotros**    | habéis     | 
-| **Ellos**    | <span style={{color: 'red'}}>han</span>     | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *he*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *hemos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *has*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *habéis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *ha*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *han*</td>
+    </tr>
+  </tbody>
+</table>
 
 Verben bildar **perfekt particip** genom att byta ut följande ändelser:
 
@@ -83,11 +107,11 @@ I perfekt förekommer tre sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-***Me** he bañado en el mar cada domingo.*   
+***Me he bañado** en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har badat i havet varje söndag.*</small>    
-*¿**Te** has duchado en la mañana?*   
+*¿**Te has duchado** en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du duschat du på morgonen?*</small>    
-*Creen que **os** habéis relajado todo el tiempo.*   
+*Creen que **os habéis relajado** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni har chillat hela tiden.*</small> 
 </div>
 
@@ -98,10 +122,8 @@ I perfekt förekommer tre sorters klurigheter:
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du gillat värmen?*</small>    
 *Siempre **me ha gustado** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gillat att äta.*</small>      
-***Me han gustado** los gatos negros.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har gillat svarta katter.*</small>    
-***Me han interesado** las ciencias sociales.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har varit intresserad av SO.*</small>
+***Os han gustado** los gatos negros.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni har gillat svarta katter.*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
@@ -113,8 +135,6 @@ I perfekt förekommer tre sorters klurigheter:
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gjort mina läxor*</small>    
 *Hemos **puesto** la mesa.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har dukat bordet.*</small>    
-*Han **visto** toda la ciudad.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De har sett hela staden.*</small>  
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -125,28 +145,56 @@ I perfekt förekommer tre sorters klurigheter:
 
 #### <Highlight color="#ff4802">Exempel</Highlight>
 
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** he bañado  | 
-| **Tú**           | **te** has bañado     |
-| **Él, ella**     | **se** ha bañado      |
-| **Nosotros**     | **nos** hemos bañado  |   
-| **Vosotros**     | **os** habéis bañado    |
-| **Ellos**        | **se** han bañado     | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *he bañado*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *hemos bañado*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *has bañado*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *habéis bañado*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *ha bañado*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *han bañado*</td>
+    </tr>
+  </tbody>
+</table>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
 💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
 
 <table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td> **Person**</td>
+      <td> **En sak**</td>
+      <td> **Flera saker**</td>
+    </tr>
     <tr>
       <td>**Me**</td>
       <td rowspan="6">ha gustado</td>
@@ -229,5 +277,15 @@ Det förekommer verb som har **oregelbunden perfekt particip**.
 Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. pre**decir** och su**poner**.
 
 Dessa blir ***predicho*** och ***supuesto***.
+
+:::
+
+:::danger VIKTIG REGEL
+
+*Haber* och perfekt particip är **alltid** "tillsammans". 
+
+Man kan t.ex. **inte** säga '*Qué **has tú hecho** esta semana*' ❌
+
+Man säger '*Qué **has hecho tú** esta semana*' ✅
 
 :::

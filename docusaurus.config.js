@@ -5,7 +5,6 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-import {Tabulator} from 'tabulator-tables';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -133,6 +132,8 @@ const config = {
           */
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
+          {to: '/docs/Introduktion/Börja här', label: 'Grammatika', position: 'left'},
+          {to: '/blog', label: 'Blogg', position: 'left'},
         ]
       },
       footer: {

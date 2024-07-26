@@ -24,11 +24,11 @@ I 🇪🇸 spanskan fungerar det lite annorlunda. Man lägger **inte** på ett *
 
 <div class="custom-quote">  
 <p>
-***La casa de Juan.***   
+***La** casa **de** Juan.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Juans hus.*</small>    
-***Es el móvil de Miguel.***   
+*Es **el** móvil **de** Miguel.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är Miguels mobil.*</small>      
-***¿De quién son las gafas?***    
+*¿**De** quién son **las** gafas?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vems är glasögonen?*</small>   
 </p>
 </div>

@@ -148,43 +148,43 @@ När man sätter ut de personliga pronomina är det oftast för att förtydliga 
 #### <Highlight color="#ff4802">Subjektspronomina</Highlight>
 
 <div class="custom-quote">  
-***<mark>Yo</mark> hablo español.***   
+***Yo** hablo español.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag talar spanska.*</small>   
-***<mark>Tú</mark> hablas sueco.***   
+***Tú** hablas sueco.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du talar svenska.*</small>      
-***<mark>Tú y yo</mark> hablamos español muy bien.***   
+***Tú** y **yo** hablamos español muy bien.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du och jag talar spanska mycket bra.*</small>    
-***<mark>Tú y él</mark> habláis sueco.***   
+***Tú** y **él** habláis sueco.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du och han talar svenska.*</small>    
-***<mark>Ellas</mark> saben hablar español.***   
+***Ellas** saben hablar español.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kan tala spanska.*</small>   
 </div>
 
 #### <Highlight color="#ff4802">Objektspronomina</Highlight>
 
 <div class="custom-quote">  
-***(Yo) <mark>Te</mark> quiero.***   
+***Te** quiero.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar dig.*</small>   
-***(Tú) Siempre <mark>me</mark> has querido.***   
+*Siempre **me** has querido.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du har alltid älskat mig.*</small>      
-***(Nosotros) <mark>Os</mark> veo.***   
+***Os** veo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi ser er.*</small>    
-***(Vosotros) <mark>Los</mark> queréis.***   
+***Los** queréis.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni älskar dem.*</small>    
-***(Ella) <mark>Te</mark> ama muchísimo.***   
+***Te** ama muchísimo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon älskar dig jättemycket.*</small>   
 </div>
 
 #### <Highlight color="#ff4802">Indirekta objektspronomina</Highlight>
 
 <div class="custom-quote">  
-***(Yo) <mark>Te</mark> doy un libro.***   
+***Te** doy un libro.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ger dig en bok.*</small>   
-***(Tú) <mark>Le</mark> has dicho.***   
+***Le** has dicho.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du har berättat för honom.*</small>      
-***(Nosotros) <mark>Se</mark> lo hemos preguntado.***   
+***Se** lo hemos preguntado.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi har frågat henne det.*</small>    
-***(Vosotros) <mark>Les</mark> habéis escrito.***   
+***Les** habéis escrito*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni har skrivit till dem.*</small>     
 </div>
 
@@ -199,12 +199,12 @@ Två objektspronomina som börjar på **l-** kan inte stå bredvid varandra! ***
 #### <Highlight color="#ff4802">Efter preposition</Highlight>
 
 <div class="custom-quote">  
-***(Yo) Pienso en <mark>ti</mark>.***   
+*Pienso en **ti**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tänker på dig.*</small>   
-***(Tú) Vienes <mark>conmigo</mark>.***   
+*Vienes **conmigo**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer med mig.*</small>      
-***(Nosotros) Hemos pensado en <mark>vosotros</mark>.***   
+*Hemos pensado en **vosotros**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi har tänkt på er.*</small>    
-***Para <mark>mí</mark> es importante la naturaleza.***   
+*Para **mí** es importante la naturaleza.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *För mig är naturen viktig.*</small>     
 </div>

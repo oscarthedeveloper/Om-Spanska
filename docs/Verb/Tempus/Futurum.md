@@ -51,14 +51,38 @@ export const Highlight = ({children, color}) => (
 
 Futurum bildas med hjälp av verbet ***Ir*** i presens, som är oregelbundet, och ***a*** och verbet i **grundform**. 
 
-|       | Ir   | 
-| ----- | ----- | 
-| **Yo**    | <span style={{color: 'red'}}>voy</span>     | 
-| **Tú**    | <span style={{color: 'red'}}>vas</span>    |
-| **Él, ella**    | <span style={{color: 'red'}}>va</span>     |
-| **Nosotros**    | <span style={{color: 'red'}}>vamos</span>     | 
-| **Vosotros**    | <span style={{color: 'red'}}>vais</span>     | 
-| **Ellos**    | <span style={{color: 'red'}}>van</span>     | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *voy*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *vamos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *vas*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *vais*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *va*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *van*</td>
+    </tr>
+  </tbody>
+</table>
 
 Därefter lägger man på ***a*** och **verbet i grundform**.
 
@@ -89,11 +113,11 @@ I futurum förekommer två sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-***Me** voy a bañar en el mar cada domingo.*   
+***Me voy a bañar** en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska bada i havet varje söndag.*</small>    
-*¿Vas a duchar**te** en la mañana?*   
+*¿**Vas a ducharte** en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ska du duscha på morgonen?*</small>    
-*Creen que **os** vais a relajar todo el tiempo.*   
+*Creen que **os vais a relajar** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni ska chilla hela tiden.*</small> 
 </div>
 
@@ -104,10 +128,10 @@ I futurum förekommer två sorters klurigheter:
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kommer du att gilla värmen?*</small>    
 ***Va a gustarme** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att gilla att äta.*</small>      
-***Van a gustarme** los gatos negros.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kommer att gilla svarta katter.*</small>    
-***Me van a interesar** las ciencias sociales.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att vara intresserad av SO.*</small>
+***Van a gustarnos** los gatos negros.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi kommer att gilla svarta katter.*</small>    
+***Les van a interesar** las ciencias sociales.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kommer att vara intresserad av SO.*</small>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>

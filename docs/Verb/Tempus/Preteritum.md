@@ -30,37 +30,36 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Återge ett händelseförlopp</Highlight>
  
 <div class="custom-quote">  
-***Oímos un tren. Empezamos a correr y llegamos a una casa grande.
-Entonces empezó a llover. Nos sentimos felices.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi hörde ett tåg. Vi började springa och vi kom fram till ett stort hus. Då började det regna. Vi kände oss lyckliga.*</small>    
+***Oímos** un tren. **Empezamos** a correr y **llegamos** a una casa grande.
+Entonces **empezó** a llover. Nos **sentimos** felices.*    
 </div>
 
 #### <Highlight color="#ff4802">Återge en fullbordad händelse</Highlight>
  
 <div class="custom-quote">  
-***Los españoles perdieron el primer set.***   
+*Los españoles **perdieron** el primer set.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Spanjorerna förlorade det första settet.*</small>    
-***La conocí en mi primera visita a Barcelona.***    
+*La **conocí** en mi primera visita a Barcelona.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag lärde känna henne under mitt första besök i Barcelona.*</small>    
-***¿Comisteis las albondigas?***    
+*¿**Comisteis** las albondigas?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De åt köttbullarna.*</small>
 </div>
 
 #### <Highlight color="#ff4802">Återge något som skedde under en bestämd tid</Highlight>
  
 <div class="custom-quote">  
-***Luis jugó al fútbol durante cinco años.***   
+*Luis **jugó** al fútbol durante cinco años.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Luis spelade fotboll i fem år.*</small>    
-***La Guerra Civil duró de 1936 a 1939.***    
+*La Guerra Civil **duró** de 1936 a 1939.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Inbördeskriget varade från 1936 till 1939.*</small>    
-***Vivimos en España durante veinte años.***    
+***Vivimos** en España durante veinte años.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi bodde i Spanien under 20 år.*</small>     
 </div>
 
 #### <Highlight color="#ff4802">Ge ett omdöme om något i det förflutna</Highlight>
  
 <div class="custom-quote">  
-***La película fue muy divertida.***   
+*La película **fue** muy divertida.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Filmen var mycket rolig.*</small>    
 </div>
 
@@ -68,25 +67,161 @@ Entonces empezó a llover. Nos sentimos felices.***
 
 I preteritum byts verbets ändelse ut mot följande ändelser:
 
-|       | -ar   | -er & -ir   |
-| ----- | ----- | ----- | 
-| **Yo**    | é     | í     | 
-| **Tú**    | aste    | iste    | 
-| **Él, ella**    | ó     | ió     | 
-| **Nosotros**    | amos     | imos     | 
-| **Vosotros**    | asteis     | isteis     |
-| **Ellos**    | aron     | ieron     | 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | bail**é**     | com**í**     | viv**í**     |
-| **Tú**    | bail**aste**    | com**iste**    | viv**iste**    |
-| **Él, ella**    | bail**ó**     | com**ió**     | viv**ió**     |
-| **Nosotros**    | bail**amos**     | com**imos**     | viv**imos**     |
-| **Vosotros**    | bail**asteis**     | com**isteis**     | viv**isteis**     |
-| **Ellos**    | bail**aron**     | com**ieron**     | viv**ieron**     |
+<Tabs>
+  <TabItem value="ar" label="-AR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>é</b> </th>
+    <td> <i>hablé</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>aste</b> </th>
+    <td> <i>hablaste</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>ó</b></th>
+    <td> <i>habló</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>amos</b> </th>
+    <td> <i>hablamos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>asteis</b> </th>
+    <td> <i>hablasteis</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>aron</b> </th>
+    <td> <i>hablaron</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="erir" label="-ER & -IR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>í</b> </th>
+    <td> <i>comí</i> </td>
+    <td> <i>viví</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>iste</b> </th>
+    <td> <i>comiste</i> </td>
+    <td> <i>viviste</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>ió</b></th>
+    <td> <i>comió</i> </td>
+    <td> <i>vivió</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>imos</b> </th>
+    <td> <i>comimos</i> </td>
+    <td> <i>vivimos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>isteis</b> </th>
+    <td> <i>comisteis</i> </td>
+    <td> <i>vivisteis</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>ieron</b> </th>
+    <td> <i>comieron</i> </td>
+    <td> <i>vivieron</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="full" label="Alla ändelser" default>
+<table>
+<tbody>
+<tr>
+    <td colspan="3"></td>
+    <th>-AR</th>
+    <th>-ER</th>
+    <th>-IR</th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>é</b> </th>
+    <th colspan="2" width="100px"> -<b>í</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>aste</b> </th>
+    <th colspan="2" width="100px"> -<b>iste</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>ó</b> </th>
+    <th colspan="2" width="100px"> -<b>ió</b> </th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>amos</b> </th>
+    <th colspan="2" width="100px"> -<b>imos</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>asteis</b> </th>
+    <th colspan="2" width="100px"> -<b>isteis</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>eron</b> </th>
+    <th colspan="2" width="100px"> -<b>ieron</b> </th>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+</Tabs>
 
 ---
 
@@ -107,59 +242,47 @@ I preteritum förekommer fyra sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> bañé en el mar ayer.***   
+***Me bañé** en el mar ayer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet igår.*</small>    
-***¿<mark>Te</mark> duchaste en la mañana?***   
+*¿**Te duchaste** en la mañana?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschade du på morgonen?*</small>    
-***Creen que <mark>os</mark> relajasteis todo el tiempo.***   
+*Creen que **os relajasteis** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¿Qué p<mark>i</mark>dió?***   
+*¿Qué p**i**dió?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställde han?*</small>    
-***Ayer rep<mark>i</mark>tieron todo.***   
+*Ayer rep**i**tieron todo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Igår upprepade de allt.*</small>     
-***Me s<mark>i</mark>rvieron comida rica.***   
+*Me s**i**rvieron comida rica.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De serverade mig god mat.*</small>
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¿<mark>Te gustó</mark> el calor?***   
+*¿**Te gustó** el calor?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillade du värmen?*</small>    
-***No, <mark>me encantó</mark> el calor.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskade värmen.*</small>   
-***<mark>Me gustó</mark> comer.***   
+***Me encantaron** las casas.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskade husen.*</small>   
+***Me gustó** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillade att äta.*</small>      
-***<mark>Me gustaron</mark> los gatos negros.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillade svarta katter.*</small>    
-***<mark>Me interesaron</mark> las ciencias sociales.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var intresserad av SO.*</small>
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡<mark>Fuimos</mark> al supermercado!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi gick till mataffären!*</small>    
-***<mark>Hice</mark> mis deberes.***   
+***Fuimos** al supermercado.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi gick till mataffären.*</small>    
+***Hice** mis deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gjorde mina läxor*</small>    
-***Te <mark>di</mark> el dinero.***   
+*Te **di** el dinero.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gav dig pengarna.*</small>    
-***<mark>Vi</mark> toda la ciudad aquí.***    
+***Vi** toda la ciudad aquí.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag såg hela staden här.*</small>  
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -168,58 +291,95 @@ I preteritum förekommer fyra sorters klurigheter:
 
 🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
 
-|       | Reflexiva pronomen |  -ar     | -er & -ir   |
-| ----- | ------------------ | -------- | ---------- |
-| **Yo**          | me       | é        | í      |
-| **Tú**          | te       | aste     | iste   |
-| **Él, ella**    | se       | ó        | ió     |
-| **Nosotros**    | nos      | amos     | imos   |
-| **Vosotros**    | os       | asteis   | isteis |
-| **Ellos**       | se       | aron     | ieron  |
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** bañé      | 
-| **Tú**           | **te** bañaste   |
-| **Él, ella**     | **se** bañó      |
-| **Nosotros**     | **nos** bañamos  |   
-| **Vosotros**     | **os** bañasteis |
-| **Ellos**        | **se** bañaron  | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *bañé*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *bañamos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *bañaste*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *bañasteis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *bañó*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *bañaron*</td>
+    </tr>
+  </tbody>
+</table> 
 
 #### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
 
-🦄 **Vokalskiftande verb** har alltid ett **e** i stammen och **-ir** som ändelse, och genomgår en förändring där detta **e** i stammen omvandlas till ett **i**. I **preteritum** sker detta endast för 3:e och 6:e person.
+🦄 **Vokalskiftande verb** har alltid ett **e** i stammen och **-ir** som ändelse, och genomgår en förändring där detta **e** i stammen omvandlas till ett **i**. I **preteritum** sker detta endast för 3:e person singular och 3:e person plural.
 
 - **e** ➡️ **i**
 
-Man lära sig vilka som är vokalskiftande utantill 🥲
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Pedir         | Vestirse       |
-| ---------------- | ------------- | -------------- |
-| **Yo**           | pedí          | me vestí       |
-| **Tú**           | pediste       | te vestiste    |
-| **Él, ella**     | p**i**dió     | se v**i**stió    |
-| **Nosotros**     | pedimos       | nos vestimos     |
-| **Vosotros**     | pedisteis     | os vestisteis    |
-| **Ellos**        | p**i**dieron  | se v**i**stieron |
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *pido*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *pedimos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *pides*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *pedís*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *p**i**dió*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**i**dieron*</td>
+    </tr>
+  </tbody>
+</table>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
 💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
 
 <table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td> **Person**</td>
+      <td> **En sak**</td>
+      <td> **Flera saker**</td>
+    </tr>
     <tr>
       <td>**Me**</td>
       <td rowspan="6">gustó</td>
@@ -245,7 +405,7 @@ Man lära sig vilka som är vokalskiftande utantill 🥲
 
 :::info Regler
 
-*Jag älskar fotboll.* = *Me encantó **el** fútbol.*
+*Jag älskade fotboll.* = *Me encantó **el** fútbol.*
 
 Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
 Detta gäller däremot **inte** namn, länder och verb.

@@ -19,14 +19,10 @@ export const Highlight = ({children, color}) => (
 **Tidsadverb** används för att markera **när** något hände. Nedan kommer en lista på vanliga tidsadverb som är bra att kunna.
 
 <table>
-  <thead>
-    <tr>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <th> 🇸🇪 Svenska</th>
-      <th> 🇪🇸 Spanska</th>
+      <td> 🇸🇪 Svenska</td>
+      <td> 🇪🇸 Spanska</td>
     </tr>
     <tr>
       <td> Alltid</td>

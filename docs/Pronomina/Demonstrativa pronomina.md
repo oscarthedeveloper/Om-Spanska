@@ -37,19 +37,19 @@ Dessa pronomina används alltså för att peka ut något, som antingen är **nä
 <table>
   <tbody>
     <tr>
-      <th> </th>
-      <th> fem.</th>
-      <th> mask.</th>
-      <th> 😶 neutral</th>
+      <td> </td>
+      <td> **fem.**</td>
+      <td> **mask.**</td>
+      <td> 😶 **neutral**</td>
     </tr>
       <td> **singular**</td>
-      <td> esta</td>
-      <td> este</td>
-      <td> esto</td>
+      <td> *esta*</td>
+      <td> *este*</td>
+      <td> *esto*</td>
     <tr>
       <td> **plural**</td>
-      <td> estas</td>
-      <td colspan="2"> estos</td>
+      <td> *estas*</td>
+      <td colspan="2"> *estos*</td>
     </tr>
   </tbody>
 </table>
@@ -62,18 +62,18 @@ För att peka ut något som ligger **längre bort** används nedanstående prono
   <tbody>
     <tr>
       <td> </td>
-      <td> fem.</td>
-      <td> mask.</td>
-      <td> 😶 neutral</td>
+      <td> **fem.**</td>
+      <td> **mask.**</td>
+      <td> 😶 **neutral**</td>
     </tr>
       <td> **singular**</td>
-      <td> esa</td>
-      <td> ese</td>
-      <td> eso</td>
+      <td> *esa*</td>
+      <td> *ese*</td>
+      <td> *eso*</td>
     <tr>
       <td> **plural**</td>
-      <td> esas</td>
-      <td colspan="2"> esos</td>
+      <td> *esas*</td>
+      <td colspan="2"> *esos*</td>
     </tr>
   </tbody>
 </table>

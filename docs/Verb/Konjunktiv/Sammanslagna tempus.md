@@ -71,12 +71,12 @@ För att bilda konjunktivens **perfekt** står ***haber*** i konjunktiv presens,
 ### <Highlight color="#ff4802">Exempel</Highlight>
  
 <div class="custom-quote">  
-***Está bien que hayas vivido en Estocolmo.***   
+*Está bien que **hayas** vivido en Estocolmo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är bra att du har bott i Stockholm.*</small>    
-***Estaba bien que hubieras vivido en Estocolmo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var bra att du hade bott i Stockholm.*</small>    
-***No crees que hayamos hecho los deberes.***    
+*Está bien que **hubieras** vivido en Estocolmo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är bra att du hade bott i Stockholm.*</small>    
+*No crees que **hayamos** hecho los deberes.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du tror inte att vi har gjort läxorna.*</small>     
-***No creías que hubiéramos hecho los deberes.***    
+*No creías que **hubiéramos** hecho los deberes.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du trodde inte att vi hade gjort läxorna.*</small> 
 </div>

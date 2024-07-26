@@ -25,11 +25,11 @@ export const Highlight = ({children, color}) => (
 Följande meningar kan alltså ha olika betydelser!
 
 <div class="custom-quote">  
-***Aquí he puesto mi móvil.***   
+***Aquí** he puesto mi móvil.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Här har jag lagt min mobil.*</small>    
-***Allí he puesto mi móvil.***   
+***Allí** he puesto mi móvil.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Där har jag lagt min mobil.*</small>    
-***Ahí he puesto mi móvil.***   
+***Ahí** he puesto mi móvil.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Där (nära dig) har jag lagt min mobil.*</small>   
 </div>
 

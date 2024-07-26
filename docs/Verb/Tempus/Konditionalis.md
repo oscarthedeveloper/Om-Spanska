@@ -29,29 +29,29 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Något som skulle kunna ske</Highlight>
  
 <div class="custom-quote">  
-***Yo comería mucha comida.***   
+*Yo **comería** mucha comida.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle äta mycket mat.*</small>    
-***Yo subiría el aútobus ahora mismo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle stiga på bussen nu.*</small>  
-***Sería muy divertido.***   
+*Él **subiría** el aútobus ahora mismo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Han skulle stiga på bussen nu.*</small>  
+***Sería** muy divertido.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det vore jättekul.*</small>  
 </div>
 
 #### <Highlight color="#ff4802">Något som var på väg att ske</Highlight>
  
 <div class="custom-quote">  
-***Jugaríamos al fútbol pero hacía demasiado frío.***   
+***Jugaríamos** al fútbol pero hacía demasiado frío.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi skulle spela fotboll men det var för kallt.*</small>    
-***Compraríais esta chaqueta pero no teníais dinero.***    
+***Compraríais** esta chaqueta pero no teníais dinero.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni skulle köpa denna jacka men ni hade inga pengar.*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Konsekvenser</Highlight>
  
 <div class="custom-quote">  
-***Estarían locos si pierdes el juego.***   
+***Enloquecerían** si pierdes el juego.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De skulle bli galna om du förlorar matchen.*</small>    
-***Ganaríamos el juego si juegas.***    
+***Ganaríamos** el juego si juegas.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi skulle vinna om du spelar.*</small>        
 </div>
 
@@ -96,44 +96,44 @@ I konditionalis förekommer tre sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> bañaría en el mar.***   
+***Me bañaría** en el mar.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle bada i havet.*</small>    
-***No <mark>te</mark> ducharías en la mañana.***   
+*No **te ducharías** en la mañana.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du skulle inte duscha på morgonen.*</small>    
-***Creen que <mark>os</mark> relajaríais todo el tiempo.***   
+*Creen que **os relajaríais** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni skulle chilla hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Te gustaría</mark> el calor.***   
+***Te gustaría** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du skulle gilla värmen.*</small>    
-***No, <mark>me encantaría</mark> el calor.***   
+*No, **me encantaría** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag skulle älska värmen.*</small>   
-***<mark>Me gustaría</mark> comer.***   
+***Me gustaría** comer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle vilja äta.*</small>      
-***<mark>Les gustarían</mark> los gatos negros.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De skulle gilla svarta katter.*</small>    
-***<mark>Me interesarían</mark> las ciencias sociales.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle vara intresserad av SO.*</small>
-</p>
 </div>
+
+:::info Gustaría
+
+***Me gustaría*** kan betyda både *jag skulle gilla* och *jag skulle vilja*. Uttrycket används ofta vid t.ex. beställningar:
+
+'*me gustaría una cerveza*' = '*jag skulle vilja ha en öl*'
+
+Jämför med 🇬🇧 **engelskans** 'I would like'.
+
+:::
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡<mark>Habría</mark> mucha gente en el supermercado!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det skulle vara mycket folk i mataffären!*</small>    
-***No <mark>Harías</mark> tus deberes.***   
+*¡**Habría** mucho calor sin las nubes!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det skulle vara mycket varmt utan molnen!*</small>    
+*No **harías** tus deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du skulle inte göra dina läxor*</small>    
-***<mark>Pondrías</mark> la mesa.***   
+***Pondrías** la mesa.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du skulle duka bordet.*</small>    
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -235,20 +235,10 @@ I konditionalis förekommer tre sorters klurigheter:
 
 :::info Regler
 
-*Du kommer att älska fotboll.* = *Te encantaría **el** fútbol.*
+*Du skulle älska fotboll.* = *Te encantaría **el** fútbol.*
 
 Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
 Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-:::tip me gustaría
-
-***Me gustaría*** betyder bokstavligen *jag skulle gilla*, men används ofta som *jag skulle vilja*. 
-
-I glasskiosken:    
-🇪🇸 ***Me gustaría un helado de chocolate***.    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skulle vilja ha en chockladglass*</small>
 
 :::
 
@@ -256,7 +246,7 @@ I glasskiosken:
 
 🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
 
-De som har oregelbunden stam i futurum II har samma oregelbundna stam här!
+**De som har oregelbunden stam i futurum II har samma oregelbundna stam här!**
 
 <table>
   <thead>

@@ -130,12 +130,17 @@ table {
   border-collapse: collapse; /* Collapse borders */
   background-color: white;
   border-radius: 10px; /* Adds rounded corners to the entire table */
-  overflow: scroll;
 }
 
-table th, table td {
+table td {
   padding: 12px; /* Padding inside cells */
   text-align: left; /* Text alignment */
+  border-color: var(--border-color);
+}
+
+table th {
+  padding: 12px; /* Padding inside cells */
+  text-align: center; /* Text alignment */
   border-color: var(--border-color);
 }
 
@@ -366,17 +371,6 @@ label {
   margin-bottom: 5px; /* Adjust as needed */
 }
 
-.bokstavstable {
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-spacing: 0 2px;
-  border-spacing: 0px;
-  max-width: fit-content;
-  border-radius: 12px;
-  color: black;
-  text-align: center;
-}
-
 a {
 color: var(--highlight);
 }
@@ -453,7 +447,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-color: var(--highlight);
   border-radius: 4px;
   color: #fff;
-  content: "ALFA";
+  content: "1.1";
   margin: 0 .75em;
   padding: .2em .5em;
 }
@@ -491,4 +485,6 @@ ul.breadcrumbs {
   display: none;
 }
 
-
+a.button_src-pages-index-module {
+  margin: 5px;
+}

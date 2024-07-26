@@ -28,13 +28,11 @@ I spanskan finns **två** genus:
 Grundregeln för vilket genus ett substantiv tillhör är:    
 
 <table>
-  <thead>
-    <tr>
-      <th>Genus</th>
-      <th colspan="2">Ändelse</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td>**Genus**</td>
+      <td colspan="2">**Ändelse**</td>
+    </tr>
     <tr>
       <td>Femininum</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -a </div></td>
@@ -52,7 +50,7 @@ Det finns några substantiv som avviker från denna grundregel, bland annat:
 
 ***el día, el mapa, el problema, el planeta, el tranvía, el aroma, el clima, el idioma, el programa, el sistema, el tema***
 
-Många substantiv, men inte alla, som slutar på **-ma** motsäger alltså grundregeln och är maskulina. Dessa är grekiska lånord 🇬🇷
+Många substantiv, men inte alla, som slutar på **-ma** motsäger grundregeln och är maskulina. Dessa är grekiska lånord 🇬🇷
 
 :::
 
@@ -63,15 +61,13 @@ Grundregeln fungerar i de flesta fall, utöver **undantagen** ⚠️, men hur g�
 Använd dessa **tumregler**, men observera undantagen!
 
 <table>
-  <thead>
-    <tr>
-      <th>Genus</th>
-      <th colspan="3">Ändelser</th>
-      <th>Exempel</th>
-      <th>Undantag ⚠️</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td>**Genus**</td>
+      <td colspan="3">**Ändelser**</td>
+      <td>**Exempel**</td>
+      <td>**Undantag ⚠️**</td>
+    </tr>
     <tr>
       <td>Maskulinum</td>
       <th colspan="3"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}>konsonant</div></th>

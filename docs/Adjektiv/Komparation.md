@@ -32,18 +32,16 @@ I 🇪🇸 **spanskan** använder de också dessa, men de bildar dem på ett ann
 ## <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-<p>
-***Juan es más alto que Miguel.***   
+*Juan es **más alto** que Miguel.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Juan är längre än Miguel.*</small>    
-***Verónica es la más feliz.***   
+*Verónica es **la más feliz**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Veronika är gladast.*</small>      
-***No, Miguel es más feliz.***    
+*No, Miguel es **más feliz**.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, Miguel är gladare.*</small>   
-***¿No hay coches más barratos?***    
+*¿No hay coches **más barratos**?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Finns det inga billigare bilar?*</small>    
-***Lo más importante es recordar.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det viktigaste är att minnas.*</small> 
-</p>
+***Lo más importante** es vivir.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det viktigaste är att leva.*</small> 
 </div>
 
 :::info EL/LA MÁS FELIZ
@@ -69,16 +67,13 @@ När använder man ***lo*** iställer för ***el/la***? Jämför med 🇸🇪 **
 Vissa adjektiv har både regelbunden och oregelbunden komparation.
 
 <table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th colspan="2"> Regelbunden</th>
-      <th colspan="2"> Oregelbunden</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td></td>
+      <td rowspan="2">**Adjektiv**</td>
+      <td colspan="2"> **Regelbunden**</td>
+      <td colspan="2"> **Oregelbunden**</td>
+    </tr>
+    <tr>
       <td>**Komparativ**</td>
       <td>**Superlativ**</td>
       <td>**Komparativ**</td>
@@ -119,16 +114,46 @@ Vilken komparationsform man använder beror på vilket sammanhang adjektivet st�
 
 Den regelbundna formen har ofta mer **konkret** betydelse och den oregelbundna formen har ofta mer **abstrakt** betydelse. 
 
-| komparationsform | betydelse |
-| --------- | ---------------- |
-| **más bueno** | **snällare, godare** |
-| **mejor**       | **bättre**           |
-| **más malo**    | **elakare, dummare, busigare** |
-| **peor**        | **sämre**           |
-| **más grande**  | **större** (konkret) |
-| **mayor**       | **större, äldre**           |
-| **más pequeño** | **mindre** (konkret) |
-| **menor**       | **mindre, yngre**           |
+<table>
+  <tbody>
+    <tr>
+      <td>**Komparationsform**</td>
+      <td> **Betydelse**</td>
+    </tr>
+    <tr>
+      <td>*más bueno*</td>
+      <td>*snällare, godare*</td>
+    </tr>
+    <tr>
+      <td>*mejor*</td>
+      <td>*bättre*</td>
+    </tr>
+      <tr>
+      <td>*más malo*</td>
+      <td>*elakare, dummare, busigare*</td>
+    </tr>
+    <tr>
+      <td>*peor*</td>
+      <td>*sämre*</td>
+    </tr>
+    <tr>
+      <td>*más grande*</td>
+      <td>*större* (konkret)</td>
+    </tr>
+    <tr>
+      <td>*mayor*</td>
+      <td>*större, äldre*</td>
+    </tr>
+    <tr>
+      <td>*más pequeño*</td>
+      <td>*mindre* (konkret)</td>
+    </tr>
+    <tr>
+      <td>*menor*</td>
+      <td>*mindre, yngre*</td>
+    </tr>
+  </tbody>
+</table>
 
 ## <Highlight color="#ff4802">För övrigt</Highlight>
 
@@ -137,9 +162,7 @@ Ett adjektiv kan dessutom kompareras med ***menos*** (mindre).
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-<p>
-***Este coche es menos complicado.***   
+*Este coche es **menos** complicado.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här bilen är mindre komplicerad.*</small>    
-</p>
 </div>
 

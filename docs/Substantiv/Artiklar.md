@@ -37,62 +37,59 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
 #### <Highlight color="#ff4802">Något specifikt</Highlight>
  
 <div class="custom-quote">  
-***Dónde está el libro?***   
+*Dónde está **el** libro?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var är boken?*</small>    
-***El sol brilla.***    
+***El** sol brilla.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Solen skiner.*</small>    
-***La luna es hermosa.***    
+***La** luna es hermosa.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Månen är underbar.*</small> 
 </div>
 
 #### <Highlight color="#ff4802">Veckodagar</Highlight>
  
 <div class="custom-quote">  
-***Voy al cine el viernes.***   
+*Voy al cine **el** viernes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska på bio på fredag.*</small>    
-***Nos vemos el sábado.***    
+*Nos vemos **el** sábado.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi ses på lördag.*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Titlar</Highlight>
  
 <div class="custom-quote">  
-***El presidente está aquí.***   
+***El** presidente está aquí.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Presidenten är här.*</small>    
-***¿Cómo está la doctora hoy?***    
+*¿Cómo está **la** doctora hoy?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hur mår doktorn idag?*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Kroppsdelar</Highlight>
  
 <div class="custom-quote">  
-***Me duelen las piernas.***   
+*Me duelen **las** piernas.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har ont i benen.*</small>    
-***Me lastimé el pie.***    
+*Me lastimé **el** pie.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag skadade foten.*</small>    
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
 
 <table>
-  <thead>
-    <tr>
-      <th>Genus</th>
-      <th colspan="2">Artikel</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td></td>
-      <th>Singular</th>
-      <th>Plural</th>
+      <td rowspan="2">**Genus**</td>
+      <td colspan="2">**Artikel**</td>
     </tr>
     <tr>
-      <td>Maskulinum</td>
+      <td>**Singular**</td>
+      <td>**Plural**</td>
+    </tr>
+    <tr>
+      <td>**Maskulinum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> el </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> los </div></td>
     </tr>
-      <td>Femininum</td>
+      <td>**Femininum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> la </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> las </div></td>
   </tbody>
@@ -111,25 +108,22 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
 #### <Highlight color="#ff4802">Något ospecifikt</Highlight>
  
 <div class="custom-quote">  
-***Quiero un gato negro.***   
+*Quiero **un** gato negro.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vill ha en svart katt.*</small>    
-***¿Ves una casa?***    
+*¿Ves **una** casa?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ser du ett hus?*</small>    
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
 
 <table>
-  <thead>
-    <tr>
-      <th>Genus</th>
-      <th>Artikel</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td></td>
-      <th>Singular</th>
+      <td rowspan="2">Genus</td>
+      <td>Artikel</td>
+    </tr>
+    <tr>
+      <td>Singular</td>
     </tr>
     <tr>
       <td>Maskulinum</td>

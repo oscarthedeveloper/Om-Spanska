@@ -30,64 +30,199 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Vid beskrivningar i dåtid</Highlight>
  
 <div class="custom-quote">  
-***El sol brillaba. No había nadie en la playa. Solo tomábamos el sol y leíamos.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Solen sken. Det var ingen på stranden. Vi bara solade och läste.*</small>    
+*El sol **brillaba**. No **había** nadie en la playa. Solo **tomábamos** el sol y **leíamos**.*   
 </div>
 
 #### <Highlight color="#ff4802">För att återge vanor i dåtid</Highlight>
  
 <div class="custom-quote">  
-***Cuando hacía sol, cenábamos en la terraza.***   
+*Cuando **hacía** sol, **cenábamos** en la terraza.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *När det var soligt åt vi på terrassen.*</small>    
-***Yo siempre comía en este café.***    
+*Yo siempre **comía** en este café.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag åt alltid på detta café.*</small>    
-***¿Solías jugar al fútbol?***    
+***¿Solías** jugar al fútbol?*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Brukade du spela fotboll?*</small>
 </div>
 
 #### <Highlight color="#ff4802">Om något som pågick</Highlight>
  
 <div class="custom-quote">  
-***Hacía frío cuando llegaron.***   
+***Hacía** frío cuando llegaron.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var kallt när de kom fram.*</small>    
-***En 1983 vivían en Estocolmo.***    
+*En 1983 **vivían** en Estocolmo.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *1983 bodde de i Stockholm.*</small>    
-***Te pregunté de dónde venías.***    
+*Te pregunté de dónde **venías**.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag frågade dig var du kom ifrån.*</small>     
 </div>
 
 #### <Highlight color="#ff4802">För att uttrycka en artig förfrågan</Highlight>
  
 <div class="custom-quote">  
-***Quería preguntarle algo.***   
+***Quería** preguntarle algo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ville fråga dig något.*</small>    
-***Me preguntaba si usted aún lo tenía.***    
+*Me **preguntaba** si usted aún lo **tenía**.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag undrade om du fortfarande har den.*</small>    
 </div>
 
 ## <Highlight color="#ff4802">Bildning</Highlight>
 
-I presens byts verbets ändelse ut mot följande ändelser:
+I imperfekt byts verbets ändelse ut mot följande ändelser:
 
-|                 | -ar     | -er & -ir   |
-| --------------- | ------- | ----------- |
-| **Yo**          | aba     | ía          |
-| **Tú**          | abas    | ías         |
-| **Él, ella**    | aba     | ía          |
-| **Nosotros**    | ábamos  | íamos       |
-| **Vosotros**    | abais   | íais        |
-| **Ellos**       | aban    | ían         |
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | bail**aba**     | com**ía**     | viv**ía**     |
-| **Tú**    | bail**abas**    | com**ías**    | viv**ías**    |
-| **Él, ella**    | bail**aba**     | com**ía**     | viv**ía**     |
-| **Nosotros**    | bail**ábamos**     | com**íamos**     | viv**íamos**     |
-| **Vosotros**    | bail**abais**     | com**íais**     | viv**íais**     |
-| **Ellos**    | bail**aban**     | com**ían**     | viv**ían**     |
+<Tabs>
+  <TabItem value="ar" label="-AR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>aba</b> </th>
+    <td> <i>hablaba</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>abas</b> </th>
+    <td> <i>hablabas</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>aba</b></th>
+    <td> <i>hablaba</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>ábamos</b> </th>
+    <td> <i>hablábamos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>abais</b> </th>
+    <td> <i>hablabais</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>aban</b> </th>
+    <td> <i>hablaban</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="erir" label="-ER & -IR" default>
+<table>
+<tbody>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>ía</b> </th>
+    <td> <i>comía</i> </td>
+    <td> <i>vivía</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>ías</b> </th>
+    <td> <i>comías</i> </td>
+    <td> <i>vivías</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>ía</b></th>
+    <td> <i>comía</i> </td>
+    <td> <i>vivía</i> </td>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>íamos</b> </th>
+    <td> <i>comíamos</i> </td>
+    <td> <i>vivíamos</i> </td>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>íais</b> </th>
+    <td> <i>comíais</i> </td>
+    <td> <i>vivíais</i> </td>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>ían</b> </th>
+    <td> <i>comían</i> </td>
+    <td> <i>vivían</i> </td>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+  <TabItem value="full" label="Alla ändelser" default>
+<table>
+<tbody>
+<tr>
+    <td colspan="3"></td>
+    <th>-AR</th>
+    <th>-ER</th>
+    <th>-IR</th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Singular</b></td>
+    <td> <b>1:a</b></td>
+    <td> <i>yo</i></td>
+    <th width="100px"> -<b>aba</b> </th>
+    <th colspan="2" width="100px"> -<b>ías</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b></td>
+    <td> <i>tú</i></td>
+    <th width="100px"> -<b>abas</b> </th>
+    <th colspan="2" width="100px"> -<b>ías</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b></td>
+    <td> <i>él</i><br></br>
+    <i>ella</i><br></br>
+    <i>ello</i></td>
+    <th width="100px"> -<b>aba</b> </th>
+    <th colspan="2" width="100px"> -<b>ía</b> </th>
+</tr>
+<tr>
+    <td rowspan="3"> <b>Plural</b></td>
+    <td> <b>1:a</b> </td>
+    <td> <i>nosotros</i></td>
+    <th width="100px"> -<b>ábamos</b> </th>
+    <th colspan="2" width="100px"> -<b>íamos</b> </th>
+</tr>
+<tr>
+<td> <b>2:a</b> </td>
+    <td> <i>vosotros</i></td>
+    <th width="100px"> -<b>abais</b> </th>
+    <th colspan="2" width="100px"> -<b>íais</b> </th>
+  </tr>
+<tr>
+<td> <b>3:e</b> </td>
+    <td> <i>ellos</i></td>
+    <th width="100px"> -<b>aban</b> </th>
+    <th colspan="2" width="100px"> -<b>ían</b> </th>
+</tr>
+</tbody>
+</table>  
+</TabItem>
+</Tabs>
 
 ---
 
@@ -106,44 +241,34 @@ I imperfekt förekommer tre sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> bañaba en el mar cada domingo.***   
+***Me bañaba** en el mar cada domingo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet varje söndag.*</small>    
-***¿<mark>Te</mark> duchabas en la mañana?***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duchade du på morgonen?*</small>    
-***Creen que <mark>os</mark> relajabais todo el tiempo.***   
+*¿**Te duchabas** por las mañanas?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duchade du på morgnarna?*</small>    
+*Creen que **os relajabais** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¿<mark>Te gustaba</mark> el calor?***   
+*¿**Te gustaba** el calor?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillade du värmen?*</small>    
-***No, <mark>me encantaba</mark> el calor.***   
+*No, **me encantaba** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskade värmen.*</small>   
-***<mark>Me gustaba</mark> comer.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillade att äta.*</small>      
-***<mark>Me gustaban</mark> los gatos negros.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillade svarta katter.*</small>    
-***<mark>Me interesaban</mark> las ciencias sociales.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var intresserad av SO.*</small>
-</p>
+***Le interesaban** las ciencias naturales.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon gillade att äta.*</small>      
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡Yo <mark>Era</mark> tu amigo!***   
+*¡Yo **era** tu amigo!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var din vän!*</small>    
-***Siempre <mark>ibas</mark> al supermercado.***   
+*Siempre **ibas** al supermercado.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du gick alltid till mataffären.*</small>    
-***<mark>Veíamos</mark> toda la ciudad aquí durante las madrugadas.***    
+***Veíamos** toda la ciudad aquí durante las madrugadas.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi såg hela staden här under solnedgångarna.*</small>  
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
@@ -152,39 +277,56 @@ I imperfekt förekommer tre sorters klurigheter:
 
 🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
 
-|       | Reflexiva pronomen |  -ar    | -er & -ir   |
-| ----- | ------------------ | ------- | ----------- |
-| **Yo**          | me       | aba     | ía          |
-| **Tú**          | te       | abas    | ías         |
-| **Él, ella**    | se       | aba     | ía          |
-| **Nosotros**    | nos      | ábamos  | íamos       |
-| **Vosotros**    | os       | abais   | íais        |
-| **Ellos**       | se       | aban    | ían         |
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** bañaba      | 
-| **Tú**           | **te** bañabas     |
-| **Él, ella**     | **se** bañaba      |
-| **Nosotros**     | **nos** bañábamos  |   
-| **Vosotros**     | **os** bañabais    |
-| **Ellos**        | **se** bañaban    | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *bañaba*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *bañábamos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *bañabas*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *bañabais*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *bañaba*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *bañaban*</td>
+    </tr>
+  </tbody>
+</table> 
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
 💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
 
 <table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
   <tbody>
+    <tr>
+      <td> **Person**</td>
+      <td> **En sak**</td>
+      <td> **Flera saker**</td>
+    </tr>
     <tr>
       <td>**Me**</td>
       <td rowspan="6">gustaba</td>
@@ -210,7 +352,7 @@ I imperfekt förekommer tre sorters klurigheter:
 
 :::info Regler
 
-*Jag älskar fotboll.* = *Me encantaba **el** fútbol.*
+*Jag älskade fotboll.* = *Me encantaba **el** fútbol.*
 
 Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
 Detta gäller däremot **inte** namn, länder och verb.
@@ -220,8 +362,6 @@ Detta gäller däremot **inte** namn, länder och verb.
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
 🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
-
-För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. Många verb är nämligen bara oregelbundna i första person, ***Yo***.
 
 I imperfekt finns det endast **tre** oregelbundna verb! 😄
 

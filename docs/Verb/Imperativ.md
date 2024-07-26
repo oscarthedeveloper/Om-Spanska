@@ -27,13 +27,13 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">Uppmaning</Highlight>
 
 <div class="custom-quote">  
-***¡Piensa en mí!***   
+*¡**Piensa** en mí!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänk på mig!*</small>    
-***¡Estudiad!***   
+*¡**Estudiad**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Studera!*</small>    
-***¡Déjame en paz!***    
+*¡**Déjame** en paz!*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Lämna mig i fred!*</small>     
-***¡Sígueme en Instagram!***    
+*¡**Sígueme** en Instagram!*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Följ mig på Instagram!*</small> 
 </div>
 
@@ -67,11 +67,11 @@ I imperativ förekommer tre sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***D<mark>á</mark>me mis llaves.***   
+*D**á**me mis llaves.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ge mig mina nycklar.*</small>    
-***Si<mark>é</mark>ntate aquí.***   
+*Si**é**ntate aquí.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Sätt dig här.*</small>    
-***¡S<mark>í</mark>guela!***   
+*¡S**í**guela!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Följ efter henne!*</small> 
 </p>
 </div>
@@ -80,11 +80,11 @@ I imperativ förekommer tre sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***Señor, tom<mark>e</mark>.***   
+*Señor, **tome**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Herrn, varsågod och ta.*</small>    
-***Señora, siént<mark>e</mark>se aquí.***   
+*Señora, **siéntese** aquí.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Frun, sätt Er här.*</small>    
-***¡Señores, Díg<mark>an</mark>me!***   
+*¡Señores, **Díganme**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Herrar, berätta för mig!*</small> 
 </p>
 </div>
@@ -93,12 +93,12 @@ I imperativ förekommer tre sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***Amigo, acuésta<mark>te</mark> ahora mismo.***   
+*Amigo, acuésta**te** ahora mismo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kompis, gå och lägg dig nu.*</small>    
-***Señora, siént<mark>e</mark>se aquí.***   
+*Señora, siénte**se** aquí.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Frun, sätt Er här.*</small>    
-***¡Señores, Díg<mark>an</mark>me!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Herrar, berätta för mig!*</small> 
+*¡Juan, **báñate** ya!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Juan, bada nu!*</small> 
 </p>
 </div>
 
@@ -106,13 +106,13 @@ I imperativ förekommer tre sorters klurigheter:
  
 <div class="custom-quote">  
 <p>
-***¡<mark>Di</mark>me!.***   
+*¡**Di**me!.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Säg mig!*</small>    
-***<mark>Pon</mark> la mesa.***   
+***Pon** la mesa!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duka bordet.*</small>    
-***¡<mark>Ven</mark> aquí!***   
+*¡**Ven** aquí!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kom hit!*</small>    
-***<mark>Ten</mark>lo presente que soy ambicioso.***   
+***Ten**lo presente que soy ambicioso.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ha i åtanke att jag är ambitiös.*</small> 
 </p>
 </div>
@@ -123,7 +123,7 @@ I imperativ förekommer tre sorters klurigheter:
 
 Som du har sett ovan sätts pronomina **på** verbet i imperativ, till exempel säger man *¡sígue**la**!*. 
 
-När ett pronomen sätts på ett verb får **oftast** en vokal en accent.
+När ett pronomen sätts på ett verb får en vokal **oftast** en accent.
 
 Det är lite knepigt var accenten sätts, men här kommer en härlig minnesregel: 
 
@@ -145,7 +145,7 @@ Om verbet är **kort**, sätt accenten på **första** vokalen. Om verbet är **
 
 #### <Highlight color="#ff4802">Artighet</Highlight>
 
-För att bilda artig imperativ använder man **konjunktiv**. För att vara artig mot en person använder man konjunktiv presens tredje person, och mot flera personer konjunktiv sjätte person.
+För att bilda artig imperativ använder man **konjunktiv**. För att vara artig mot en person använder man konjunktiv presens tredje person singular, och mot flera personer konjunktiv tredje person plural.
 
 Reflexiva verb använder i artig form pronomet ***se*** på verbet, exempelvis:
 
@@ -154,9 +154,30 @@ Reflexiva verb använder i artig form pronomet ***se*** på verbet, exempelvis:
 | Usted       | Siéntese    |
 | Ustedes     | Siéntense   |
 
-
-
 **Accenter** förekommer även här, och den ovanstående minnesregeln kan användas här också.
+
+#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+
+Imperativ med reflexiva verb bildas genom att böja verbet som vanligt, och sedan lägga på det reflexiva pronomet. Såklart sätts oftast en accent ut också, men **inte** för *vosotros*.
+
+<div class="custom-quote">  
+***Levántate**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stig upp!*</small>    
+***Maquíllate**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Sminka dig!*</small>    
+***Levantaos**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stig upp!*</small>    
+***Maquillaos**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Sminka er!*</small>    
+</div>
+
+:::caution -d försvinner
+
+*Levánta**d**os!* blir *levántaos!* och *maquílla**d**os!* blir *maquíllaos!*. 
+
+**-ad**, **-ed** och **-id** blir av med sitt **d** vid reflexiva verb.
+
+:::
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
@@ -216,13 +237,13 @@ Ovan har endast **jakande** imperativ tagits upp. Nu ska du få lära dig om **n
 ### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
-***¡No pienses en mí!***   
+*¡No **pienses** en mí!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänk inte på mig!*</small>    
-***¡No estudiéis!***   
+*¡No **estudiéis**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Studera inte!*</small>    
-***No me dejes en paz!***    
+*No me **dejes** en paz!*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Lämna mig inte i fred!*</small>     
-***No me sigas en Instagram!***    
+*No me **sigas** en Instagram!*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Följ mig inte på Instagram!*</small> 
 </div>
 
@@ -237,7 +258,7 @@ Ovan har endast **jakande** imperativ tagits upp. Nu ska du få lära dig om **n
 
 :::caution OBS
 
-Nekande imperativ är detsamma som konjunktiv presens. Oregelbundna verb i konjunktiv förekommer alltså här också, t.ex. *¡No me **sigas** en Instagram!*
+Nekande imperativ böjs som konjunktiv presens. Oregelbundna verb i konjunktiv förekommer alltså här också, t.ex. *¡No me **sigas** en Instagram!*
 
 :::
 

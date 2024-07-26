@@ -34,232 +34,82 @@ Konjunktiv imperfekt förekommer också i vissa **uttryck**.
 #### <Highlight color="#ff4802">Vilja & hopp</Highlight>
  
 <div class="custom-quote">  
-***Quería que hablaras español.***   
+*Quería que **hablaras** español.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon ville att du skulle tala spanska.*</small>    
-***Prefería que me escuchase.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föredrog att hon skulle lyssna på mig.*</small>    
-***Te dije que te arreglaras.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag sa åt dig att du skulle göra dig i ordning.*</small>    
-***Esperábamos que bailaran bien.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi hoppades att de skulle dansa bra.*</small> 
+*Prefería que me **escuche**.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föredrog att hon lyssnade på mig.*</small>      
+*Esperábamos que **bailaran** bien.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi hoppades att de dansade bra.*</small> 
 </div>
 
 #### <Highlight color="#ff4802">Osäkerhet & tvekan</Highlight>
  
 <div class="custom-quote">  
-***No creía que bastara.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag trodde inte att det skulle räcka.*</small>    
-***Dudaban que bailase bien.***   
+*No creía que **bastara**.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag trodde inte att det räckte.*</small>    
+*Dudaron que **bailara** bien.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tvivlade på att jag dansade bra.*</small>    
-***No estaba segura de que yo viviera en España.***    
+*No estaba segura de que yo **viviera** en España.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon var inte säker på att jag bodde i Spanien.*</small>    
-***No pensaba que los estudiantes comiesen buena comida.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tyckte inte att studenterna åt bra mat.*</small> 
 </div>
 
 #### <Highlight color="#ff4802">Känslor & värderinger</Highlight>
  
 <div class="custom-quote">  
-***Me alegraba que limpiaras la casa.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gläddes åt att du städade huset.*</small>    
-***Estaba mal que no estudiarais.***   
+*Me alegró que **limpiaras** la casa.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det gladde mig att du städade huset.*</small>    
+*Estaba mal que no **estudiarais**.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var dåligt att ni inte studerade.*</small>    
-***Era una pena que trabajaras demasiado.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var synd att du jobbade för mycket.*</small>     
-***Les parecía absurdo que vivieras así.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tyckte att det var absurt att du levde såhär.*</small>     
-***Temábamos que no hablara sueco.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi var rädda att hon inte talade svenska.*</small> 
+*Es una pena que **trabajaras** tanto.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är synd att du jobbade så mycket.*</small>     
+*Les parece absurdo que **vivieras** así.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tycker att det är absurt att du levde såhär.*</small>     
 </div>
 
 #### <Highlight color="#ff4802">Påverkan och råd</Highlight>
  
 <div class="custom-quote">  
-***Era importante que entrenáramos mucho.***   
+*Era importante que **entrenáramos** mucho.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var viktigt att vi tränade mycket.*</small>    
-***Te recomendé que escucharais.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag rekommenderade er att ni skulle lyssna.*</small>    
-***Hacía falta que alguien decidara.***    
+*Hacía falta que alguien **decidiera**.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var nödvändigt att någon bestämde.*</small>     
-***Era hora de que le preguntases.***    
+*Era hora de que le **preguntaras**.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var dags för dig att fråga honom.*</small>     
-***Propuse que estudiáramos pronto.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föreslog att vi skulle studera snart.*</small> 
+*Propuse que **estudiáramos** pronto.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föreslog att vi studerade snart.*</small> 
 </div>
-
-#### <Highlight color="#ff4802">Uttryck</Highlight>
-
-<div class="custom-quote">  
-***Quién supiera hablar español.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den som ändå kunde tala spanska.*</small>    
-***¡Ojalá fuera verdad!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänk om det ändå vore sant!*</small>      
-***Si yo hubiera sabido, habría dicho algo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Om jag hade vetat skulle jag ha sagt något.*</small>    
-</div>
-
-:::info
-
-***Quién*** + konjunktiv imperfekt motsvaras av svenskans *den som ändå...*   
-***Ojalá*** + konjunktiv imperfekt motsvaras av svenskans *tänk om...*    
-***Si*** + konjunktiv imperfekt används för att uttrycka något som  faktiskt inte hände i dåtid. 
-
-:::
 
 ## <Highlight color="#ff4802">Bildning</Highlight>
 
-I konjunktiv imperfekt byts verbets ändelse ut mot nedanstående ändelser. Det finns två alternativ, men alternativ 1 är generellt sett vanligare i Spanien.
+**Tryck på knappen** för att se hur verben böjs i konjunktiv.
 
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th colspan="2"> -ar</th>
-      <th colspan="2"> -er & -ir</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>**Alt. 1**</td>
-      <td>**Alt. 2**</td>
-      <td>**Alt. 1**</td>
-      <td>**Alt. 2**</td>
-    </tr>
-    <tr>
-      <td>**Yo**</td>
-      <td>ara</td>
-      <td>ase</td>
-      <td>iera</td>
-      <td>iese</td>
-    </tr>
-    <tr>
-      <td>**Tú**</td>
-      <td>aras</td>
-      <td>ases</td>
-      <td>ieras</td>
-      <td>ieses</td>
-    </tr>
-    <tr>
-      <td>**Él, ella**</td>
-      <td>ara</td>
-      <td>ase</td>
-      <td>iera</td>
-      <td>iese</td>
-    </tr>
-    <tr>
-      <td>**Nosotros**</td>
-      <td>áramos</td>
-      <td>ásemos</td>
-      <td>iéramos</td>
-      <td>iésemos</td>
-    </tr>
-    <tr>
-      <td>**Vosotros**</td>
-      <td>arais</td>
-      <td>aseis</td>
-      <td>ierais</td>
-      <td>ieseis</td>
-    </tr>
-    <tr>
-      <td>**Ellos**</td>
-      <td>aran</td>
-      <td>asen</td>
-      <td>ieran</td>
-      <td>iesen</td>
-    </tr>
-  </tbody>
-</table>
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+<Tabs>
+  <TabItem value="ar" label="-AR" default>
+import KonjunktivIMPAR from '@site/src/components/KonjunktivIMPAR.js';
 
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th colspan="2"> Bailar</th>
-      <th colspan="2"> Comer</th>
-      <th colspan="2"> Vivir</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>**Alt. 1**</td>
-      <td>**Alt. 2**</td>
-      <td>**Alt. 1**</td>
-      <td>**Alt. 2**</td>
-      <td>**Alt. 1**</td>
-      <td>**Alt. 2**</td>
-    </tr>
-    <tr>
-      <td>**Yo**</td>
-      <td>bailara</td>
-      <td>bailase</td>
-      <td>comiera</td>
-      <td>comiese</td>
-      <td>viviera</td>
-      <td>viviese</td>
-    </tr>
-    <tr>
-      <td>**Tú**</td>
-      <td>bailaras</td>
-      <td>bailases</td>
-      <td>comieras</td>
-      <td>comieses</td>
-      <td>vivieras</td>
-      <td>vivieses</td>
-    </tr>
-    <tr>
-      <td>**Él, ella**</td>
-      <td>bailara</td>
-      <td>bailase</td>
-      <td>comiera</td>
-      <td>comiese</td>
-      <td>viviera</td>
-      <td>viviese</td>
-    </tr>
-    <tr>
-      <td>**Nosotros**</td>
-      <td>bailáramos</td>
-      <td>bailásemos</td>
-      <td>comiéramos</td>
-      <td>comiésemos</td>
-      <td>viviéramos</td>
-      <td>viviésemos</td>
-    </tr>
-    <tr>
-      <td>**Vosotros**</td>
-      <td>bailarais</td>
-      <td>bailaseis</td>
-      <td>comierais</td>
-      <td>comieseis</td>
-      <td>vivierais</td>
-      <td>vivieseis</td>
-    </tr>
-    <tr>
-      <td>**Ellos**</td>
-      <td>bailaran</td>
-      <td>bailasen</td>
-      <td>comieran</td>
-      <td>comiesen</td>
-      <td>vivieran</td>
-      <td>viviesen</td>
-    </tr>
-  </tbody>
-</table>
+<KonjunktivIMPAR />
+  </TabItem>
+  <TabItem value="erir" label="-ER/-IR">
+import KonjunktivIMPERIR from '@site/src/components/KonjunktivIMPERIR.js';
 
----
+<KonjunktivIMPERIR />
+</TabItem>
+</Tabs>
 
 ## <Highlight color="#ff4802">Klurigheter</Highlight>
 
 **Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
 
-I konjunktiv presens förekommer fyra klurigheter:
+I konjunktiv presens förekommer sex klurigheter:
 
 - 🦺 **Reflexiva verb**
+- 🔃 **Diftongerande verb**
 - 🦄 **Vokalskiftande verb**
 - 💩 **Verb utan dativ**
+- 🔄 **Verb som slutar på -zar, -gar och -car**
 - 🖕 **Oregelbundna verb**
 
 ### <Highlight color="#ff4802">Exempel</Highlight>
@@ -267,86 +117,158 @@ I konjunktiv presens förekommer fyra klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***Yo dudaba que <mark>se</mark> bañara en el mar cada domingo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tvivlade på att han badade i havet varje söndag.*</small>    
-***Yo esperaba que <mark>te</mark> ducharas en la mañana.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag hoppades att du duschade på morgonen.*</small>    
-***No creían que <mark>os</mark> relajarais todo el tiempo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De trodde inte att ni chillade hela tiden.*</small> 
-</p>
+*Dudo que **se** bañara en el mar cada domingo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tvivlar på att han badade i havet varje söndag.*</small>    
+*Espero que **te** duches en la mañana.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag hoppas att du duschar på morgonen.*</small>    
+*No creen que **os** relajéis todo el tiempo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror inte att ni chillar hela tiden.*</small> 
+</div>
+
+#### <Highlight color="#ff4802">Diftongerande verb</Highlight>
+ 
+<div class="custom-quote">  
+*No creo que p**ue**das.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tror inte att du kan.*</small>    
+*Está bien que p**ie**nsas en tus amigos.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är bra att du tänker på dina kompisar.*</small>      
+*Es posible que qu**ie**ran comer esta noche.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är möjligt att de vill äta ikväll.*</small>  
 </div>
 
 #### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***Yo quería que p<mark>i</mark>dieras una bebida.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ville att du skulle beställa en dricka.*</small>    
-***Era importante que rep<mark>i</mark>tieras todo.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var viktigt att du upprepade du allt.*</small>     
-</p>
+*Quiero que p**i**das una bebida.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vill att du beställer en dricka.*</small>    
+*Es importante que rep**i**tas todo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är viktigt att du upprepar du allt.*</small>     
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
 <p>
-***No creíamos que <mark>te gustara</mark> el calor.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi trodde inte att du gillade värmen.*</small>    
-***Dudaban que <mark>me encantara</mark> el calor.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tvivlade på att jag älskade värmen.*</small>   
-***Era posible que <mark>me gustara</mark> comer.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var möjligt att jag gillade att äta.*</small>      
-***Era lindo que <mark>les gustaran</mark> los gatos.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var gulligt att de gillade katter.*</small>    
-***Era raro que <mark>le interesaran</mark> las ciencias naturales.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var konstigt att hon gillade NO.*</small>
+*No creemos que **te guste** el calor.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi tror inte att du gillar värmen.*</small>    
+*Es posible que **me guste** comer.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är möjligt att jag gillar att äta.*</small>      
+*Es lindo que **les gusten** los gatos.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är gulligt att de gillar katter.*</small>    
 </p>
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡Quería que <mark>fueras</mark> mi amigo!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ville att du skulle vara min vän!*</small>    
-***Preferíais que <mark>hiciéramos</mark> los deberes.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni föredrog att vi gjorde läxorna.*</small>    
-***Busqué a alguien que <mark>supiera</mark> cocinar.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag sökte någon som kunde laga mat.*</small>    
-***No estaba seguro de que <mark>tuvieras</mark> razón.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var inte säker på att du hade rätt.*</small>  
-</p>
+*¡Quiero que **seas** mi amigo!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vill att du är min vän!*</small>    
+*Busco a alguien que **sepa** cocinar.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag söker någon som kan laga mat.*</small>    
+*No estoy seguro de que **tengas** razón.*    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är inte säker på att du har rätt.*</small>  
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
 
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**.
+🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**.
 
-Man kan fortfarande använda alternativ 2, men nedan visas endast alternativ 1 då den är vanligast.
+I konjunktiv presens fungerar det likadant fast med konjunktivens ändelser. Se *bañarse* böjas i konjunktiv nedan.
 
-|       | Reflexiva pronomen |  -ar   | -er & -ir  |
-| ----- | ------------------ | ----- | ---------- |
-| **Yo**          | me       | ara     | iera     | 
-| **Tú**          | te       | aras    | ieras    | 
-| **Él, ella**    | se       | ara     | iera     | 
-| **Nosotros**    | nos      | áramos     | iéramos     | 
-| **Vosotros**    | os       | arais     | ierais     | 
-| **Ellos**       | se       | aran     | ieran     | 
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *bañe*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *bañemos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *bañes*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *bañéis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *bañe*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *bañen*</td>
+    </tr>
+  </tbody>
+</table>
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+#### <Highlight color="#ff4802">Diftongerande verb</Highlight>
 
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** bañara      | 
-| **Tú**           | **te** bañaras     |
-| **Él, ella**     | **se** bañara      |
-| **Nosotros**     | **nos** bañáramos  |   
-| **Vosotros**     | **os** bañarais    |
-| **Ellos**        | **se** bañaran     | 
+🔃 **Diftongerande verb** är verb vars stam förändras i ett särskilt mönster. Vissa verb som har vokalen **e** eller **o** i stammen genomgår en förändring där vokalen byts ut mot en diftong. 
+
+- **e** ➡️ **ie**
+- **o** ➡️ **ue**
+
+I konjunktiv presens fungerar diftongerande verb **likadant fast med konjunktivens ändelser**. Se nedan hur *pensar* och *poder* böjs i konjunktiv.
+
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *p**ie**nse*      
+      *p**ue**da*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *pensemos*      
+      *podamos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *p**ie**nses*      
+      *p**ue**das*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *penséis*      
+      *podáis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *p**ie**nse*       
+      *p**ue**da*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**ie**nsen*       
+      *p**ue**dan*</td>
+    </tr>
+  </tbody>
+</table>
+
+:::caution OBS
+
+Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**.
+
+:::
 
 #### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
 
@@ -354,16 +276,40 @@ Man kan fortfarande använda alternativ 2, men nedan visas endast alternativ 1 d
 
 - **e** ➡️ **i**
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+I konjunktiv presens genomgår **alla** personer ett vokalbyte. Se nedan hur *pedir* böjs i konjunktiv.
 
-|                  | Pedir         | Vestirse       |
-| ---------------- | ------------- | -------------- |
-| **Yo**           | p**i**diera      | me v**i**stiera   |
-| **Tú**           | p**i**dieras     | te v**i**stieras  |
-| **Él, ella**     | p**i**diera      | se v**i**stiera   |
-| **Nosotros**     | p**i**diéramos      | nos v**i**stiéramos   |
-| **Vosotros**     | p**i**dierais        | os v**i**stierais     |
-| **Ellos**        | p**i**dieran     | se v**i**stieran  |
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *p**i**da*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *p**i**damos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *p**i**das*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *p**i**dáis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> *p**i**da*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**i**dan*</td>
+    </tr>
+  </tbody>
+</table>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
 
@@ -563,7 +509,9 @@ Här kommer en liten guide på hur du kan lista ut nästan alla verbs böjning i
 
 Vi använder verbet ***Tener*** som exempel.
 
-1. Tag fram verbets böjning i vanlig preteritum:
+<Tabs>
+  <TabItem value="1" label="Steg 1" default>
+Tag fram verbets böjning i vanlig preteritum:
 
 |                  | Tener            | 
 | ---------------- | ---------------- |
@@ -573,8 +521,9 @@ Vi använder verbet ***Tener*** som exempel.
 | **Nosotros**     | tuvimos  |   
 | **Vosotros**     | tuvisteis    |
 | **Ellos**        | tuvieron     | 
-
-2. Ersätt alla personers böjning med den sjätte personens böjning, i detta fall ***tuvieron***.
+</TabItem>
+<TabItem value="2" label="Steg 2">
+Ersätt alla personers böjning med böjningen i 3:e person plural, i detta fall ***tuvieron***.
 
 |                  | Tener            | 
 | ---------------- | ---------------- |
@@ -584,8 +533,9 @@ Vi använder verbet ***Tener*** som exempel.
 | **Nosotros**     | tuvieron  |   
 | **Vosotros**     | tuvieron    |
 | **Ellos**        | tuvieron     | 
-
-3. Ersätt **-on** med **-a**.
+</TabItem>
+<TabItem value="3" label="Steg 3">
+Ersätt **-on** med **-a**.
 
 |                  | Tener            | 
 | ---------------- | ---------------- |
@@ -595,8 +545,9 @@ Vi använder verbet ***Tener*** som exempel.
 | **Nosotros**     | tuviera  |   
 | **Vosotros**     | tuviera    |
 | **Ellos**        | tuviera     | 
-
-4. Anpassa ändelserna så att de stämmer överens med personen.
+</TabItem>
+<TabItem value="4" label="Steg 4">
+Justera ändelserna så att de stämmer överens med personen.
 
 |                  | Tener            | 
 | ---------------- | ---------------- |
@@ -606,4 +557,6 @@ Vi använder verbet ***Tener*** som exempel.
 | **Nosotros**     | tuviéramos  |   
 | **Vosotros**     | tuvierais    |
 | **Ellos**        | tuvieran     | 
+</TabItem>
+</Tabs>
 

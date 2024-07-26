@@ -22,9 +22,9 @@ Det finns **två** fall då det **alltid** sker en ordförändring.
 - **de** + **el** blir **del**
 
 <div class="custom-quote">  
-***Es hora de volver al hotel.***   
+*Es hora de volver **al** hotel.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är dags att återvända till hotellet.*</small>    
-***Es el coche del hotel.***   
+*Es el coche **del** hotel.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är hotellets bil.*</small>    
 </div>
 
@@ -34,8 +34,8 @@ Sedan finns det **två** fall då det **ibland** sker en ordförändring.
 - **o** blir **u** om **o** följs av ett ord som börjar med ett **o-liknande** ljud
 
 <div class="custom-quote">  
-***Estoy con Isabel e Irene***   
+*Estoy con Isabel **e** Irene*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är med Isabel och Irene.*</small>    
-***Español u otro idioma.***   
+*Español **u** otro idioma.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Spanska eller ett annat språk.*</small>    
 </div>

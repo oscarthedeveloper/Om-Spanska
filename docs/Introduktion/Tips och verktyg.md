@@ -20,3 +20,4 @@ Att lära sig spanska och dess grammatik behöver inte vara så svårt som det l
 
 - <a href="https://quizlet.com/" class="my-special-links" target="_blank">Quizlet</a> - är utmärkt verktyg för att lära sig glosor 🔠.
 - <a href="https://www.spanishdict.com/conjugation" class="my-special-links" target="_blank">SpanishDictionary.com</a> - erbjuder "*Conjugation Drills*" som gör dig till en stjärna på att böja verb 🌟.
+

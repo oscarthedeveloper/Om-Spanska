@@ -29,31 +29,29 @@ export const Highlight = ({children, color}) => (
 #### <Highlight color="#ff4802">En avsikt angående framtiden</Highlight>
  
 <div class="custom-quote">  
-***Mañana ordenaré los documentos.***   
+*Mañana **ordenaré** los documentos.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Imorgon ska jag beställa dokumenten.*</small>    
-***Estaremos en casa antes de las ocho.***   
+***Estaremos** en casa antes de las ocho.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi kommer att vara hemma före klockan åtta.*</small>    
 </div>
 
 #### <Highlight color="#ff4802">Förespåenden angående framtiden</Highlight>
  
 <div class="custom-quote">  
-***No lo acabarás en un día.***   
+*No lo **acabarás** en un día.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att bli klar med det på en dag.*</small>    
-***Encontraré una casa bonita.***    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att hitta ett fint hus.*</small>    
-***Será muy exitosa en el futuro.***    
+***Será** muy exitosa en el futuro.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Han kommer att bli mycket framgångsrik i framtiden.*</small>    
-***Creo que ganarán el concurso.***    
+*Creo que **ganarán** el concurso.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tror att de kommer att vinna tävlingen.*</small>
 </div>
 
 #### <Highlight color="#ff4802">Antaganden angående nutiden</Highlight>
  
 <div class="custom-quote">  
-***¿Estará enamorado?***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Är han förälskad?*</small>    
-***Me imagino que tu oficina estará desordenada.***    
+*¿**Estará** enamorado?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kan han vara förälskad?*</small>    
+*Me imagino que tu oficina **estará** desordenada.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föreställer mig att ditt kontor är stökigt.*</small>        
 </div>
 
@@ -98,46 +96,36 @@ I futurum II förekommer tre sorters klurigheter:
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Me</mark> bañaré en el mar mañana.***   
+***Me bañaré** en el mar mañana.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska bada i havet imorgon.*</small>    
-***No <mark>te</mark> ducharás en la mañana.***   
+*No **te ducharás** en la mañana.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att duscha på morgonen.*</small>    
-***Creen que <mark>os</mark> relajaréis todo el tiempo.***   
+*Creen que **os relajaréis** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni kommer att chilla hela tiden.*</small> 
-</p>
 </div>
 
 #### <Highlight color="#ff4802">Verb utan dativ</Highlight>
  
 <div class="custom-quote">  
-<p>
-***<mark>Te gustará</mark> el calor.***   
+***Te gustará** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer att gilla värmen.*</small>    
-***No, <mark>me encantará</mark> el calor.***   
+*No, **me encantará** el calor.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag kommer att älska värmen.*</small>   
-***<mark>Me gustará</mark> comer.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag kommer att gilla att äta.*</small>      
-***<mark>Les gustarán</mark> los gatos negros.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De kommer att gilla svarta katter.*</small>    
-***<mark>Me interesarán</mark> las ciencias sociales.***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag lär vara intresserad av SO.*</small>
-</p>
+***Os gustará** comer.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni kommer att gilla att äta.*</small>      
 </div>
 
 #### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-<p>
-***¡<mark>Habrá</mark> mucha gente en el supermercado!***   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det kommer att vara mycket folk i mataffären!*</small>    
-***No <mark>Harás</mark> tus deberes.***   
+*¡**Habrá** tanta gente en el supermercado!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det kommer att vara så mycket folk i mataffären!*</small>    
+*No **harás** tus deberes.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att göra dina läxor*</small>    
-***<mark>Pondrás</mark> la mesa.***   
+***Pondrás** la mesa.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer att duka bordet.*</small>    
-***En el futuro <mark>querrá</mark> viajar.***    
+*En el futuro **querrá** viajar.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *I framtiden kommer hon att vilja resa.*</small>  
-</p>
 </div>
 
 ### <Highlight color="#ff4802">Bildning</Highlight>
