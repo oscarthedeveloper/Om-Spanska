@@ -90,6 +90,10 @@ background-color: #1b1b1d;
   overflow: hidden;
 }
 
+a.button_src-pages-index-module {
+  margin: 5px;
+}
+
 .button:hover,
 .button:focus {
   color: #ffffff; /* Keep text color white on hover */
