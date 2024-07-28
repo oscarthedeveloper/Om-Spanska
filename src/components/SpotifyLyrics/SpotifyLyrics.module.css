@@ -1,0 +1,66 @@
+.spotifyLyricsContainer {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .playerInterface {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .close, .minimize, .maximize {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff5f56; /* Close button color */
+  }
+  
+  .minimize {
+    background-color: #ffbd2e; /* Minimize button color */
+  }
+  
+  .maximize {
+    background-color: #27c93f; /* Maximize button color */
+  }
+  
+  .songInfo {
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .songTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .artistName {
+    font-size: 1rem;
+    color: #b3b3b3;
+  }
+  
+  .lyricsContainer {
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .lyricLine {
+    margin: 0;
+    padding: 0;
+  }
+  
+

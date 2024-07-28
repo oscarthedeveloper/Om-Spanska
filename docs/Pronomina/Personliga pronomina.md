@@ -71,21 +71,7 @@ export const Highlight = ({children, color}) => (
 
 :::info Indirekt objektsform
 
-I svenskan skiljer vi inte på objektsform och indirekt objektsform, men det gör de i spanskan.
-
-Indirekt objektsform innebär att personen påverkas indirekt av verbet. Exempel:
-
-***Le** doy un libro.* - *Jag ger **henne** en bok.* (Jag ger en bok till henne)
-
-Man brukar framförallt använda de indirekta objektspronomina när någon:
-
-- **säger något till någon** - *decir, regalar, escribir*
-- **berättar något för någon** - *contar, enseñar, explicar*
-- **tar något av någon** - *quitar, comprar, alquilar*
-- **frågar/ber någon om något** - *preguntar, pedir*
-- **svarar någon något** - *contestar*
-
-Däremot är de inte så noga med skillnaden i Spanien, utan de brukar faktiskt överanvända ***le*** istället för ***lo/la***. Detta kallas *leísmo*.
+Läs mer [här](/docs/Syntax/Introduktion)
 
 :::
 

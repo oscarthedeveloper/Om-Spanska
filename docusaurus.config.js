@@ -133,7 +133,7 @@ const config = {
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
           {to: '/docs/Introduktion/Börja här', label: 'Grammatika', position: 'left'},
-          {to: '/blog', label: 'Blogg', position: 'left'},
+          {to: '/blog', label: 'Smått & gott', position: 'left'},
         ]
       },
       footer: {

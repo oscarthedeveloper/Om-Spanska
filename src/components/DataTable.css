@@ -1,14 +1,3 @@
-:root {
-    --background-color: #fff;
-    --highlight: #0b00cb;
-    --border-color: #f2f0ec;
-}
-
-[data-theme='dark'] {
-    --background-color: #242526;
-    --highlight: #908aff;
-    --border-color: #1b1b1d;
-}
 
 .datatable-container {
     overflow-x: auto;
@@ -34,8 +23,8 @@
   }
   
   .datatable th, .datatable td {
-    background-color: var(--background-color);
-    border-color: var(--border-color);
+    background-color: var(--whiteblack-color);
+    border-color: var(--background-color);
 }
 
   .datatable td:hover {

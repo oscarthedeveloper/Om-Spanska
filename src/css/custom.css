@@ -16,7 +16,8 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --highlight: #0b00cb;
-  --border-color: #f2f0ec;
+  --background-color: #f2f0ec;
+  --whiteblack-color: white;
 background-color: #f2f0ec;
 }
 
@@ -36,6 +37,7 @@ background-color: #f2f0ec;
   --highlight: #908aff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --background-color: #1b1b1d;
+  --whiteblack-color: #242526;
 background-color: #1b1b1d;
 }
 
@@ -78,6 +80,14 @@ background-color: #1b1b1d;
   border-left: #6f6f6f 2px solid;
 }
 
+[data-theme='dark'] .subject-box {
+  background-color: #242526;
+}  
+
+[data-theme='dark'] .subject-text {
+  color: white;
+}  
+
 .anchor-link {
   display: none; /* Hide the anchor links */
 }
@@ -116,41 +126,33 @@ ul li::marker {
   margin-right: 5px; /* Add space between bullet and text */
 }
 
-/* Change the background image of the homepage */
-.hero {
-  background-image: URL('/static/img/jorge-fernandez-salas-ChSZETOal-I-unsplash.jpg'); /* Replace 'path/to/your/image.jpg' with the URL or path to your desired image */
-  background-size: cover; /* Adjust background size as needed */
-  background-position: center; /* Adjust background position as needed */
-  /* Add any additional background properties here */
-  color: white;
-}
-
 table {
   max-width: fit-content; /* Make table width full */
   border-collapse: collapse; /* Collapse borders */
   background-color: white;
   border-radius: 10px; /* Adds rounded corners to the entire table */
+  border-color: var(--background-color);
 }
 
 table td {
   padding: 12px; /* Padding inside cells */
   text-align: left; /* Text alignment */
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 table th {
   padding: 12px; /* Padding inside cells */
   text-align: center; /* Text alignment */
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 th {
   background-color: #f2f2f2; /* Header background color */
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 tbody {
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 .tablepronomina {
@@ -163,11 +165,11 @@ tbody {
 .tablepronomina th, .tablepronomina td {
   padding: 12px; /* Padding inside cells */
   text-align: center; /* Text alignment */
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 .tablepronomina tbody {
-  border-color: var(--border-color);
+  border-color: var(--background-color);
 }
 
 .custom-quote {
@@ -195,6 +197,8 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .custom-summary {
   font-weight: bold;
@@ -447,7 +451,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-color: var(--highlight);
   border-radius: 4px;
   color: #fff;
-  content: "1.1";
+  content: "1.2";
   margin: 0 .75em;
   padding: .2em .5em;
 }
@@ -485,6 +489,57 @@ ul.breadcrumbs {
   display: none;
 }
 
-a.button_src-pages-index-module {
-  margin: 5px;
+.subject-box {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.blue-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--highlight);
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.red-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.aqua-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: lightseagreen;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.magenta-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: magenta;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.subject-text {
+  font-size: 1rem;
+  color: black;
 }

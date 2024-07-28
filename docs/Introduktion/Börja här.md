@@ -16,7 +16,7 @@ export const Highlight = ({children, color}) => (
 
 # <Highlight color="var(--highlight)">Börja här</Highlight>
 
-Välkommen till ***omspanska.se***! Detta är en omfattande grammatika för 🇪🇸 ***el idioma español***, gjord för dig som studerar spanska. Hemsidan är uppdelad på ett traditionellt sätt med de olika ordklasserna, så att du lätt hittar runt. 
+Välkommen till ***omspanska.se***! Detta är en omfattande grammatika för 🇪🇸 ***el idioma español*** för dig som studerar spanska. Hemsidan är uppdelad på ett traditionellt sätt med de olika ordklasserna, så att du lätt hittar runt. 
 
 Denna hemsida är konstruerad för att vara så förståelig och konsis som möjligt och i bästa förmåga att inte komplicera saker och ting **samtidigt** som den är ingående och detaljerande. 
 
@@ -27,7 +27,7 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
   <a href="/docs/Adjektiv/Böjning" class="box">
     <div class="boxText">Adjektiv</div>
   </a>
-  <a href="/docs/Verb/Tempus/Presens" class="box">
+  <a href="/docs/Verb/Introduktion" class="box">
     <div class="boxText">Verb</div>
   </a>
   <a href="/docs/Pronomina/Personliga pronomina" class="box">
@@ -42,8 +42,8 @@ Denna hemsida är konstruerad för att vara så förståelig och konsis som möj
   <a href="/docs/Prepositioner/Användning av prepositioner" class="box">
     <div class="boxText">Prepositioner</div>
   </a>
-  <a href="/docs/Listor/Reflexiva verb" class="box">
-    <div class="boxText">Listor</div>
+  <a href="/docs/Syntax/Introduktion" class="box">
+    <div class="boxText">Syntax</div>
   </a>
 </div>
 

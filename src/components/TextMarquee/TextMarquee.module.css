@@ -1,0 +1,26 @@
+.marqueeWrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%; /* Ensure it takes the full width of its container */
+}
+
+.marqueeContent {
+  display: flex;
+  animation: marquee 20s linear infinite; /* Adjust duration for desired speed */
+}
+
+.marqueeText {
+  font-size: 1rem; /* Adjust font size as needed */
+  font-weight: bold;
+  padding-right: 4rem; /* Space between repeated texts */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
