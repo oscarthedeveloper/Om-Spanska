@@ -240,6 +240,7 @@ article a {
 .box:hover {
   background-color: #9c9cd782; /* Add underline on hover */
   text-decoration: 0;
+  color: var(--highlight);
 }
 
 .box-container {

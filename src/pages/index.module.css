@@ -72,6 +72,16 @@ background-color: #1b1b1d;
   font-weight: 900;
 }
 
+@media (max-width: 500px) {
+  .title {
+    font-size: 4rem; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-weight: 900;
+  }
+}
+
 .subtitle {
   font-size: 1rem;
   margin-bottom: 20px;

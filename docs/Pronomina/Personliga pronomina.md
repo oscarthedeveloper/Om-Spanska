@@ -105,19 +105,11 @@ Om **hela** gruppen utgörs av tjejer, ändras pronomet. Detta gäller endast f�
 ***Vosotras** sois de Suecia.*    
 ***Ellas** son de Suecia.*    
 
-Men då måste HELA gruppen utgöras av tjejer. En grupp kan utgöras av en miljon människor, varav alla utom en person är tjejer, och pronomet ändras inte. 100% av gruppen måste alltså vara tjejer.
+Men då måste **hela** gruppen utgöras av tjejer.
 
 :::
 
-## <Highlight color="#ff4802">Personliga pronomina i ordföljden</Highlight>
-
-I 🇸🇪 **svenskan** sätter vi subjektspronomina **före** verbet och objektspronomina **efter** verbet. 
-
-Till exempel: ***Jag** älskar **dig**.*
-
-I 🇪🇸 **spanskan** sätter de (oftast) **både** subjektspronomina **och** objektspronomina före verbet.
-
-Till exempel: ***Yo** **te** quiero.*
+Läs mer om pronomina i ordföljden [här](/docs/Syntax/Introduktion)
 
 :::tip Tips
 

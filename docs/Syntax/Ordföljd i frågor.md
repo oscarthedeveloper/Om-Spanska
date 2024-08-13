@@ -46,7 +46,7 @@ När man använder **frågepronomina**, t.ex. *qué*, *quién*, *cómo*, *dónde
 *¿<span style={{color: 'magenta'}}>De dónde</span> <span style={{color: 'red'}}>eres</span> <span style={{color: 'var(--highlight)'}}>tú</span>?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var kommer du ifrån?*</small>      
 *¿<span style={{color: 'magenta'}}>Qué</span> <span style={{color: 'red'}}>habéis hecho</span> <span style={{color: 'var(--highlight)'}}>vosotros</span>?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 Vad har ni gjort?*</small>    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad har ni gjort?*</small>    
 </div>
 
 <div class="subject-box">

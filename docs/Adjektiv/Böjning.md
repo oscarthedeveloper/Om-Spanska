@@ -55,19 +55,6 @@ Adjektiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [num
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Pojkarna är fina.*</small>    
 </div>
 
-## <Highlight color="#ff4802">Adjektivets placering</Highlight>
-
-Tills skillnad från 🇸🇪 **svenskan** placerar spanjorerna adjektivet **efter** substantivet. 
-
-<div class="custom-quote">  
-*¿Dónde están los chicos gorditos?*     
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var är de knubbiga pojkarna?.*</small>    
-*¿De dónde es el chico alto?*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var kommer den långe killen från?*</small>    
-*La chica baja es mi amiga.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den korta tjejen är min väninna.*</small>       
-</div>
-
 ## <Highlight color="#ff4802">Klurigheter</Highlight>
 
 ### <Highlight color="#ff4802">Adjektiv som slutar på -e</Highlight>
