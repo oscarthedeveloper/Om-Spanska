@@ -18,8 +18,6 @@ export const Highlight = ({children, color}) => (
 
 # <Highlight color="var(--highlight)">Tack!</Highlight>
 
-Ditt meddelande har skickats 🤩
+Ditt meddelande har skickats ✅
 
-Din åsikt är av största prioritet, vilket ska speglas i behandlingen av ditt meddelande. 
-
-Med vänliga hälsningar 😊
+Med vänliga hälsningar 🕺😊

@@ -145,7 +145,7 @@ När man sätter ut de personliga pronomina är det oftast för att förtydliga 
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar dig.*</small>   
 *Siempre **me** has querido.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du har alltid älskat mig.*</small>      
-***Os** veo.*   
+***Os** vemos.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi ser er.*</small>    
 ***Los** queréis.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni älskar dem.*</small>    

@@ -132,7 +132,7 @@ const config = {
           */
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
-          {to: '/docs/Introduktion/Börja här', label: 'Grammatika', position: 'left'},
+          {to: '/docs/Introduktion/Börja här', label: 'Grammatik', position: 'left'},
           {to: '/blog', label: 'Smått & gott', position: 'left'},
         ]
       },

@@ -27,6 +27,22 @@ export const Highlight = ({children, color}) => (
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Han lämnade huset snabbt.*</small>    
 </div>
 
+För att bilda ett adverb lägger man bara på **-mente** på adjektivet. Om adjektivet slutar på **-o** används adjektivets feminina form som slutar på **-a**.
+
+*especial* → *especialmente*     
+*general* → *generalmente*     
+*serio* → *seriamente*      
+*rápido* → *rápidamente*
+
+:::tip TIPS
+
+Om flera adverb som är bildade på adjektiv läggs på varandra läggs **-mente** bara på det sista, medan de föregående adverben är i adjektivets feminina form.
+
+*lenta y suevamente*      
+*física y psíquicamente*
+
+:::
+
 ## <Highlight color="#ff4802">Bien & mal</Highlight>
 
 Adjektiven ***bueno*** (bra) och ***malo*** (dålig) blir ***bien*** och ***mal*** som adverb. 
