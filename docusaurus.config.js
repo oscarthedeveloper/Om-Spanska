@@ -109,31 +109,21 @@ const config = {
           srcDark: 'img/vitt.png', // Specify the logo for dark mode
         },
         items: [
-          /*
-          {
-            type: 'dropdown',
-            label: 'Språk',
-            position: 'right',
-            items: [
-              {
-                label: '🇬🇧 English',
-                href: 'https://example.com/1',
-              },
-              {
-                label: '🇫🇷 Français',
-                href: 'https://example.com/2',
-              },
-              {
-                label: '🇩🇪 Deutsch',
-                href: 'https://example.com/3',
-              },        
-            ],
-          },
-          */
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
           {to: '/docs/Introduktion/Börja här', label: 'Grammatik', position: 'left'},
           {to: '/blog', label: 'Smått & gott', position: 'left'},
+          {
+            type: 'dropdown',
+            label: 'Mer',
+            position: 'right',
+            items: [
+              {
+                label: '🇸🇪 Småfel',
+                href: 'https://66c1ebdb832d577573f48a2d--singular-jelly-3fe0a5.netlify.app/',
+              },      
+            ],
+          },
         ]
       },
       footer: {
