@@ -34,11 +34,11 @@ Grundregeln för vilket genus ett substantiv tillhör är:
       <td colspan="2">**Ändelse**</td>
     </tr>
     <tr>
-      <td>Femininum</td>
+      <td>**Femininum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -a </div></td>
     </tr>
     <tr>
-      <td>Maskulinum</td>
+      <td>**Maskulinum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -o </div></td>
       </tr>
   </tbody>
@@ -69,13 +69,13 @@ Använd dessa **tumregler**, men observera undantagen!
       <td>**Undantag ⚠️**</td>
     </tr>
     <tr>
-      <td>Maskulinum</td>
+      <td>**Maskulinum**</td>
       <th colspan="3"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}>konsonant</div></th>
       <td>*el hotel, el reloj, el calor, el mes*</td>
       <td>*la catedral, la imagen*</td>
     </tr>
     <tr>
-      <td>Femininum</td>
+      <td>**Femininum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -dad </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -ión </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -z </div></td>

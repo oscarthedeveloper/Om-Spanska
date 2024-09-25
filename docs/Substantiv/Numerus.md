@@ -34,16 +34,42 @@ För att bilda plural av ett substantiv är **genus** inte intressant. Det är g
 
 <Tabs>
   <TabItem value="vokal" label="Vokal" default>
-  |            | Singular | Plural     |
-  | ---------- | -------- | ---------- |
-  | Maskulinum | el perro | los perro**s** |
-  | Femininum  | la casa     | las casa**s**  |
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>**Singular**</td>
+      <td>**Plural**</td>
+    </tr>
+    <tr>
+      <td>**Maskulinum**</td>
+      <td> el perro</td>
+      <td> los perro**s**</td>
+    </tr>
+      <td>**Femininum**</td>
+      <td> la casa</td>
+      <td> las casa**s**</td>
+  </tbody>
+</table>
   </TabItem>
   <TabItem value="konsonant" label="Konsonant">
-  |            | Singular | Plural          |
-  | ---------- | -------- | --------------- |
-  | Maskulinum | el papel    | los papel**es**     |
-  | Femininum  | la catedral | las catedral**es**  |  
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>**Singular**</td>
+      <td>**Plural**</td>
+    </tr>
+    <tr>
+      <td>**Maskulinum**</td>
+      <td> el papel</td>
+      <td> los papel**es**</td>
+    </tr>
+      <td>**Femininum**</td>
+      <td> la catedral</td>
+      <td> las casadral**es**</td>
+  </tbody>
+</table>
   </TabItem>
 </Tabs>
 

@@ -119,17 +119,17 @@ Bestämd form används i 🇪🇸 **spanskan** när man pratar om:
 <table>
   <tbody>
     <tr>
-      <td rowspan="2">Genus</td>
-      <td>Artikel</td>
+      <td rowspan="2">**Genus**</td>
+      <td>**Artikel**</td>
     </tr>
     <tr>
-      <td>Singular</td>
+      <td>**Singular**</td>
     </tr>
     <tr>
-      <td>Maskulinum</td>
+      <td>**Maskulinum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> un </div></td>
     </tr>
-      <td>Femininum</td>
+      <td>**Femininum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> una </div></td>
   </tbody>
 </table>

@@ -16,12 +16,6 @@ function HomepageHeader() {
             <path d="M.5 8h14M9.234 2.725l5.978 5.979m-5.978 4.57 5.978-5.978" stroke="currentColor" strokeWidth="2" fill="none"></path>
           </svg>
         </Link>
-        <Link className={styles.button} to="/blog">
-          Smått & gott
-          <svg className={styles.buttonIcon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" fill="none" height="16" width="17">
-            <path d="M.5 8h14M9.234 2.725l5.978 5.979m-5.978 4.57 5.978-5.978" stroke="currentColor" strokeWidth="2" fill="none"></path>
-          </svg>
-        </Link>
       </div>
       <div className={styles.logoSection}>
         <img

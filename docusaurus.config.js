@@ -112,7 +112,8 @@ const config = {
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
           {to: '/docs/Introduktion/Börja här', label: 'Grammatik', position: 'left'},
-          {to: '/blog', label: 'Smått & gott', position: 'left'},
+          /* {to: '/blog', label: 'Smått & gott', position: 'left'}, */
+          /*
           {
             type: 'dropdown',
             label: 'Mer',
@@ -124,6 +125,7 @@ const config = {
               },      
             ],
           },
+          */
         ]
       },
       footer: {
