@@ -61,7 +61,7 @@ Jag har en tröja som är röd.
   </BrowserWindow>
 </div>
 
-Nu när du vet vad ett korrelat är kan vi kolla på hur **que** fungerar som det i spanska meningar.
+Nu när du vet vad ett relativpronomen är kan vi kolla på hur **que** fungerar som det i spanska meningar.
 
 <div className="custom-quote">  
 *<span style={{color: 'var(--highlight)'}}>Yo</span> <span style={{color: 'red'}}>tengo</span> <span style={{color: 'lightseagreen'}}>un hermano</span> <span style={{color: 'magenta'}}>que</span> <span style={{color: 'red'}}>tiene</span>  <span style={{color: 'lightseagreen'}}>cinco años</span>.*   

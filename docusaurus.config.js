@@ -130,7 +130,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()}`
+        copyright: `Copyright © Oscar Ö.P. ${new Date().getFullYear()}`
       },
       prism: {
         theme: prismThemes.github,
