@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Om Spanska',
   tagline: 'En omfattande grammatika för dig som studerar spanska',
-  favicon: 'img/logo.svg',
+  favicon: 'img/s.svg',
 
   // Set the production url of your site here
   url: 'https://omspanska.se',
@@ -101,17 +101,14 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus.png',
       navbar:  { 
-        title: 'Om Spanska',
         logo :
           {
           alt: 'My Site Logo',
-          src: 'img/docusaurus.png', 
-          srcDark: 'img/vitt.png', // Specify the logo for dark mode
+          src: 'img/s.svg', 
         },
         items: [
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},
           {to: '/kontakt', label: 'Kontakt', position: 'right'},
-          {to: '/docs/Introduktion/Börja här', label: 'Grammatik', position: 'left'},
           /* {to: '/blog', label: 'Smått & gott', position: 'left'}, */
           /*
           {

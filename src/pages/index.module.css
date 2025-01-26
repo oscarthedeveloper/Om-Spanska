@@ -68,7 +68,7 @@ background-color: #1b1b1d;
   font-size: 6rem; /* Increased font size */
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: Poppins;
+  font-family: Bristol;
   font-weight: 900;
   line-height: 1.0;
 }
@@ -78,16 +78,16 @@ background-color: #1b1b1d;
     font-size: 4rem; /* Increased font size */
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: Poppins;
+    font-family: Bristol;
     font-weight: 900;
   }
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 30px;
   margin-bottom: 10px;
-  font-family: Poppins;
+  font-family: Bristol;
   font-weight: 400;
 }
 
@@ -141,10 +141,10 @@ background-color: #1b1b1d;
 }
 
 .logo {
-  width: 75%; /* Set a specific width for the logo */
+  width: 80%; /* Set a specific width for the logo */
   height: auto; /* Maintain aspect ratio */
   opacity: 0;
-  animation: fadeInRight 2s ease-in-out forwards; /* Apply the fade-in animation */
+  animation: fadeInRight 4s ease-in-out forwards; /* Apply the fade-in animation */
 }
 
 @keyframes fadeInRight {
@@ -159,7 +159,8 @@ background-color: #1b1b1d;
 }
 
 [data-theme='dark'] .logo {
-  content: url('/img/spain-svgrepo-com.dark.svg'); /* Different logo for dark mode */
+  content: url('/img/minandramörkalogga.svg'); /* Different logo for dark mode */
+  width: 80%;
 }
 
 /* New Text Section Styles */
@@ -195,13 +196,13 @@ background-color: #1b1b1d;
   font-size: 2.5rem; /* Adjust font size */
   font-weight: bold;
   margin-bottom: 15px;
-  font-family: Poppins;
+  font-family: Bristol;
 }
 
 .subtitleSecond {
   font-size: 1.125rem; /* Adjust font size */
   margin-bottom: 30px;
-  font-family: Poppins;
+  font-family: Bristol;
 }
 
 .featureButtons {

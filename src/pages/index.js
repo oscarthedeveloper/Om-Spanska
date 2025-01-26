@@ -19,7 +19,7 @@ function HomepageHeader() {
       </div>
       <div className={styles.logoSection}>
         <img
-          src="/img/spain-svgrepo-com.svg"
+          src="/img/minandralogga.svg"
           alt="OmSpanska Logo"
           className={styles.logo}
         />
@@ -40,7 +40,7 @@ function HomepageTextSection() {
       </div>
       <div className={styles.textSectionSecond}>
         <h1 className={styles.titleSecond}>Allt om spansk grammatik</h1>
-        <p className={styles.subtitleSecond}>Denna grammatika är den mest omfattande du kan hitta online. Den är <strong>konsis</strong>, <strong>förståelig</strong> och <strong>pedagogisk</strong>. Den är dessutom en <strong>gratis resurs</strong> för dig som studerar spanska.</p>
+        <p className={styles.subtitleSecond}>Denna grammatika är den mest omfattande som du kan hitta online. Den är konsis, förståelig och ganska chill. Den är dessutom gratis!</p>
       </div>
     </div>
   );
