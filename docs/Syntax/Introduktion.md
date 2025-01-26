@@ -125,7 +125,7 @@ De är inte så noga med skillnaden i Spanien, utan de brukar faktiskt överanv�
 I spanskan placeras adjektivet **efter** substantivet, till skillnad från svenskan.
 
 <div class="custom-quote">  
-*<span style={{color: 'var(--highlight)'}}>El chico</span> <span style={{color: 'red'}}>gracioso</span>*   
+*<span style={{color: 'var(--highlight)'}}>El chico</span> <span style={{color: 'lightseagreen'}}>gracioso</span>*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den rolige pojken*</small>    
 *¿<span style={{color: 'magenta'}}>Dónde</span> <span style={{color: 'red'}}>está</span> <span style={{color: 'var(--highlight)'}}>el chico</span> <span style={{color: 'lightseagreen'}}>hermoso</span>?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var är den vackra pojken?*</small>       

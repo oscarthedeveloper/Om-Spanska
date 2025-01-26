@@ -67,7 +67,7 @@ Läs mer om **que** [här](/docs/Syntax/Que).
 När man **inte** använder **frågepronomina** och bara stället en fråga som '*vill du äta*', brukar man hålla sig till **SVO**.
 
 <div class="custom-quote">  
-*¿<span style={{color: 'var(--highlight)'}}>Tú</span> <span style={{color: 'red'}}>quieres</span> <span style={{color: 'lightseagreen'}}>comer</span>?*   
+*¿<span style={{color: 'var(--highlight)'}}>Tú</span> <span style={{color: 'red'}}>quieres</span> <span style={{color: 'red'}}>comer</span>?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vill du äta?*</small>    
 *¿<span style={{color: 'var(--highlight)'}}>Ustedes</span> <span style={{color: 'red'}}>han reservado</span> <span style={{color: 'lightseagreen'}}>una mesa</span>?*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har Ni bokat ett bord?*</small>      
