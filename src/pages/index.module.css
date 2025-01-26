@@ -70,6 +70,7 @@ background-color: #1b1b1d;
   margin-bottom: 10px;
   font-family: Poppins;
   font-weight: 900;
+  line-height: 1.0;
 }
 
 @media (max-width: 500px) {
@@ -84,8 +85,10 @@ background-color: #1b1b1d;
 
 .subtitle {
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-family: Poppins;
+  font-weight: 400;
 }
 
 .button {
@@ -141,7 +144,7 @@ background-color: #1b1b1d;
   width: 75%; /* Set a specific width for the logo */
   height: auto; /* Maintain aspect ratio */
   opacity: 0;
-  animation: fadeInRight 5s ease-in-out forwards; /* Apply the fade-in animation */
+  animation: fadeInRight 2s ease-in-out forwards; /* Apply the fade-in animation */
 }
 
 @keyframes fadeInRight {
@@ -188,15 +191,17 @@ background-color: #1b1b1d;
   }
 }
 
-.secondaryTitle {
+.titleSecond {
   font-size: 2.5rem; /* Adjust font size */
   font-weight: bold;
   margin-bottom: 15px;
+  font-family: Poppins;
 }
 
-.secondarySubtitle {
+.subtitleSecond {
   font-size: 1.125rem; /* Adjust font size */
   margin-bottom: 30px;
+  font-family: Poppins;
 }
 
 .featureButtons {

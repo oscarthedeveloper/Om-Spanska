@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-color: var(--highlight);
   border-radius: 4px;
   color: #fff;
-  content: "BETA";
+  content: false;
   margin: 0 .75em;
   padding: .2em .5em;
 }

@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => (
 
 # <Highlight color="var(--highlight)">Kontakt</Highlight>
 
-Denna hemsida är ett **pågående arbete** och **uppdateras ständigt** för bästa upplevelse. Om du har en **fråga**, **förfrågan** eller bara ett **meddelande** så kan du skriva det nedan. 
+Denna hemsida är ett pågående arbete och uppdateras ständigt för bästa upplevelse. Om du har en fråga, förfrågan eller bara ett meddelande så får du gärna skriva det nedan.
 
 <form name="kontact" method="POST" data-netlify="true" action="/tack">
   <input type="hidden" name="form-name" value="contact" />

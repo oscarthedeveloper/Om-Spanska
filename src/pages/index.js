@@ -40,7 +40,7 @@ function HomepageTextSection() {
       </div>
       <div className={styles.textSectionSecond}>
         <h1 className={styles.titleSecond}>Allt om spansk grammatik</h1>
-        <p className={styles.subtitleSecond}>Denna grammatika är den mest omfattande du kan hitta online. Den är <strong>konsis</strong>, <strong>förståelig</strong> och <strong>pedagogisk</strong>. Den är dessutom en <strong>gratis resurs</strong> för dig som studerar spanska, så om du tycker att den är hjälpsam får du gärna tipsa en kompis! 😁</p>
+        <p className={styles.subtitleSecond}>Denna grammatika är den mest omfattande du kan hitta online. Den är <strong>konsis</strong>, <strong>förståelig</strong> och <strong>pedagogisk</strong>. Den är dessutom en <strong>gratis resurs</strong> för dig som studerar spanska.</p>
       </div>
     </div>
   );
