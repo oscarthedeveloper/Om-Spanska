@@ -42,7 +42,7 @@ Entonces **empezó** a llover. Nos **sentimos** felices.*
 *La **conocí** en mi primera visita a Barcelona.*    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag lärde känna henne under mitt första besök i Barcelona.*</small>    
 *¿**Comisteis** las albondigas?*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De åt köttbullarna.*</small>
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Åt ni köttbullarna?*</small>
 </div>
 
 #### <Highlight color="#ff4802">Återge något som skedde under en bestämd tid</Highlight>
@@ -244,8 +244,8 @@ I preteritum förekommer fyra sorters klurigheter:
 <div class="custom-quote">  
 ***Me bañé** en el mar ayer.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet igår.*</small>    
-*¿**Te duchaste** en la mañana?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschade du på morgonen?*</small>    
+*¿**Te duchaste** hoy?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschade du idag?*</small>    
 *Creen que **os relajasteis** todo el tiempo.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
 </div>

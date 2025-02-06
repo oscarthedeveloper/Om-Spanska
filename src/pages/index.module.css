@@ -160,7 +160,6 @@ background-color: #1b1b1d;
 
 [data-theme='dark'] .logo {
   content: url('/img/minandramörkalogga.svg'); /* Different logo for dark mode */
-  width: 80%;
 }
 
 /* New Text Section Styles */
