@@ -104,7 +104,7 @@ const config = {
         logo :
           {
           alt: 'My Site Logo',
-          src: 'img/s.svg', 
+          src: 'img/docusaurus.png', 
         },
         items: [
           {to: '/markdown-page', label: 'Inför prov', position: 'right'},

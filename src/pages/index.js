@@ -2,56 +2,72 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import styles from './index.module.css';
-import TextMarquee from '@site/src/components/TextMarquee/TextMarquee'; // Ensure the path is correct
+import TextMarquee from '@site/src/components/TextMarquee/TextMarquee';
 
-function HomepageHeader() {
+function HeroSection() {
   return (
-    <div className={styles.headerContainer}>
-      <div className={styles.textSection}>
-        <h1 className={styles.title}>Om Spanska</h1>
-        <p className={styles.subtitle}>Den mest omfattande spanska grammatikan.</p>
-        <Link className={styles.button} to="/docs/Introduktion/Börja här">
-          Grammatik
-          <svg className={styles.buttonIcon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" fill="none" height="16" width="17">
+    <section className={styles.hero}>
+      <div className={styles.heroInner}>
+        <h1 className={styles.heroTitle}>Om Spanska</h1>
+        <p className={styles.heroSubtitle}>
+          En gratis grammatika för dig som studerar spanska
+        </p>
+        <Link className={styles.heroButton} to="/docs/Grunder & uttal/Alfabet">
+          Börja här 
+          <svg className={styles.heroButtonIcon} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 16" fill="none" height="16" width="17">
             <path d="M.5 8h14M9.234 2.725l5.978 5.979m-5.978 4.57 5.978-5.978" stroke="currentColor" strokeWidth="2" fill="none"></path>
           </svg>
         </Link>
       </div>
-      <div className={styles.logoSection}>
-        <img
-          src="/img/minandralogga.svg"
-          alt="OmSpanska Logo"
-          className={styles.logo}
-        />
-      </div>
-    </div>
+    </section>
   );
 }
 
-function HomepageTextSection() {
+function FeatureSection() {
+  const features = [
+    { title: 'Substantiv', link: '/docs/Substantiv/Artiklar' },
+    { title: 'Adjektiv', link: '/docs/Adjektiv/B%C3%B6jning' },
+    { title: 'Verb', link: '/docs/Verb/Introduktion' },
+    { title: 'Pronomina', link: '/docs/Pronomina/Personliga%20pronomina' },
+    { title: 'Adverb', link: '/docs/Adverb/Användning%20av%20adverb' },
+    { title: 'Prepositioner', link: '/docs/Prepositioner/Användning%20av%20prepositioner' },
+  ];
+
   return (
-    <div className={styles.headerContainerSecond}>
-      <div className={styles.logoSectionSecond}>
-        <img
-          src="/img/spanishflag-svgrepo-com.svg"
-          alt="OmSpanska Logo"
-          className={styles.logoSecond}
-        />
+    <section className={styles.features}>
+      <div className={styles.boxContainer}>
+        {features.map(f => (
+          <Link key={f.title} to={f.link} className={styles.box}>
+            {f.title}
+          </Link>
+        ))}
       </div>
-      <div className={styles.textSectionSecond}>
-        <h1 className={styles.titleSecond}>Allt om spansk grammatik</h1>
-        <p className={styles.subtitleSecond}>Denna grammatika är den mest omfattande som du kan hitta online. Den är konsis, förståelig och ganska chill. Den är dessutom gratis!</p>
+    </section>
+  );
+}
+
+function AboutSection() {
+  return (
+    <section className={styles.aboutSection}>
+      <div className={styles.aboutInner}>
+        <h2 className={styles.aboutTitle}>Om oss</h2>
+        <p className={styles.aboutText}>
+          Vi brinner för språkinlärning och har skapat denna plattform för att erbjuda en tydlig,
+          gratis och omfattande grammatikkälla för den som studerar spanska. Allt innehåll är
+          noggrant strukturerat och pedagogiskt utformat.
+        </p>
       </div>
-    </div>
+    </section>
   );
 }
 
 export default function Home() {
   return (
-    <Layout title="Om Spanska" description="Omfattande grammatika för spanska">
-      <HomepageHeader />
-      <HomepageTextSection />
-      <TextMarquee /> {/* Add your text marquee component here */}
+    <Layout title="Om Spanska" description="Den mest omfattande grammatiken för spanska online.">
+      <HeroSection />
+      <FeatureSection />
+      <AboutSection />
+      <TextMarquee />
     </Layout>
   );
 }

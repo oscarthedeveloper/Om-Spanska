@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+id: Böjning
 ---
 
 export const Highlight = ({children, color}) => (

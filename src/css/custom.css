@@ -546,19 +546,6 @@ ul.breadcrumbs {
   color: black;
 }
 
-.navbar__brand img {
-  height: 100px; /* Increase this value to make the logo taller */
-  width: auto; /* Maintain the aspect ratio */
-  display: block; /* Ensure proper rendering */
-  margin-top: -27.5px;
-}
-
-.navbar__brand {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .navbar {
   background-color: var(--ifm-navbar-background-color); /* Adjust background if necessary */
 }

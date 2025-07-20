@@ -26,6 +26,7 @@
     "@mdx-js/react": "^3.0.0",
     "@mui/material": "^5.15.20",
     "@mui/x-data-grid": "^7.7.0",
+    "caniuse-lite": "^1.0.30001727",
     "clsx": "^2.0.0",
     "datatables.net-dt": "^2.0.8",
     "docusaurus-plugin-dotenv": "^1.0.1",

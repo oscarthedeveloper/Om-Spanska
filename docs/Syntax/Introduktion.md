@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+id: Introduktion
 ---
 
 export const Highlight = ({children, color}) => (
