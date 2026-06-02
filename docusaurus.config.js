@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Om Spanska',
   tagline: 'En omfattande grammatika för dig som studerar spanska',
-  favicon: 'img/s.svg',
+  favicon: 'img/stiernaVIT.svg',
 
   // Set the production url of your site here
   url: 'https://omspanska.se',
@@ -99,35 +99,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({ 
       // Replace with your project's social card
-      image: 'img/docusaurus.png',
+      image: 'img/stierna.svg',
       navbar:  { 
-        logo :
-          {
-          alt: 'My Site Logo',
-          src: 'img/docusaurus.png', 
-        },
         items: [
-          {to: '/markdown-page', label: 'Inför prov', position: 'right'},
-          {to: '/kontakt', label: 'Kontakt', position: 'right'},
-          /* {to: '/blog', label: 'Smått & gott', position: 'left'}, */
-          /*
-          {
-            type: 'dropdown',
-            label: 'Mer',
-            position: 'right',
-            items: [
-              {
-                label: '🇸🇪 Småfel',
-                href: 'https://66c1ebdb832d577573f48a2d--singular-jelly-3fe0a5.netlify.app/',
-              },      
-            ],
-          },
-          */
-        ]
+          {to: '/', label: 'Hem', position: 'left'},
+          {to: '/docs/Substantiv/Genus', label: 'Grammatik', position: 'left'},
+          {to: '/verbdrillen', label: 'Verbdrillen', position: 'left'},
+          {to: '/glosdrillen', label: 'Glosdrillen', position: 'left'},
+        ],
       },
       footer: {
+  logo: {
+    alt: 'Om Spanska',
+    src: 'img/stierna.svg',
+    srcDark: 'img/stiernaVIT.svg',
+  },
         style: 'dark',
-        copyright: `Copyright © Oscar Ö.P. ${new Date().getFullYear()}`
+        copyright: `Hvitstierna ${new Date().getFullYear()}`
       },
       prism: {
         theme: prismThemes.github,

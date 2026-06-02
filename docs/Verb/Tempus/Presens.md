@@ -6,82 +6,81 @@ export const Highlight = ({children, color}) => (
   <span
     style={{
       backgroundColor: color,
-      borderRadius: '2px',
+      borderRadius: '3px',
       color: '#fff',
-      padding: '0.2rem',
+      padding: '0.15rem 0.4rem',
     }}>
     {children}
   </span>
 );
 
-# <Highlight color="var(--highlight)">Presens</Highlight>
+# Presens
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Presens** används i 🇪🇸 **spanskan** när man pratar om:
+Presens används i 🇪🇸 spanskan när man pratar om:
 
 - 👇 **något som sker nu**
 - 🔄 **något som sker regelbundet**
 - 👮‍♂️ **tillstånd**
 - 🔜 **något som sker i framtiden**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">Något som sker nu</Highlight>
- 
-<div class="custom-quote">  
-***Vivo** en Estocolmo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag bor i Stockholm.*</small>    
-*¿**Trabajáis** con los deberes?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jobbar ni med läxorna?*</small>    
-*Hoy **hace** viento.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Idag är det blåsigt.*</small> 
+### <Highlight color="#ff4802">Något som sker nu</Highlight>
+
+<div class="custom-quote">
+¿Qué **haces**?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 Vad gör du?</small>     
+No **entiendo** la pregunta del profe.    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag förstår inte lärarens fråga.*</small>     
+Hoy **hace** un frío horrible.      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Idag är det fruktansvärt kallt.*</small>
 </div>
 
-#### <Highlight color="#ff4802">Något som sker regelbundet</Highlight>
- 
-<div class="custom-quote">  
-***Juego** al fútbol.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag spelar fotboll.*</small>    
-***Entrenamos** cada martes.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi tränar varje tisdag.*</small>    
-*Siempre **hablan** de la escuela.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De pratar alltid om skolan.*</small>
+### <Highlight color="#ff4802">Något som sker regelbundet</Highlight>
+
+<div class="custom-quote">
+**Quedo** con mis amigos los viernes.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag träffar mina kompisar på fredagarna.*</small>      
+**Tenemos** clase de español los martes y jueves.      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi har spanska på tisdagar och torsdagar.*</small>     
+Mi hermano **escucha** música todo el día.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Min bror lyssnar på musik hela dagen.*</small>
 </div>
 
-#### <Highlight color="#ff4802">Tillstånd</Highlight>
- 
-<div class="custom-quote">  
-***Soy** médico.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är läkare.*</small>    
-***Estás** con tus amigos.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du är med dina kompisar.*</small>    
-***Estamos** nerviosos.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi är nervösa.*</small>     
-***Tengo** hambre.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är hungrig.*</small>
+### <Highlight color="#ff4802">Tillstånd</Highlight>
+
+<div class="custom-quote">
+**Soy** estudiante y **vivo** en Gotemburgo.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är elev och bor i Göteborg.*</small>.     
+**Tengo** dieciséis años y **me llamo** Erik.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är sexton år och heter Erik.*</small>     
+Mi mejor amiga **se llama** Julia y **es** muy divertida.      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Min bästa kompis heter Julia och hon är väldigt rolig.*</small>
 </div>
 
-#### <Highlight color="#ff4802">Något som sker i framtiden</Highlight>
- 
-<div class="custom-quote">  
-*Te **digo** mañana.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag berättar för dig imorgon.*</small>    
-***Bailamos** la próxima semana.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi dansar nästa vecka.*</small>    
-*Me **llamas** mañana.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du ringer mig imorgon.*</small>
+### <Highlight color="#ff4802">Något som sker i nära framtid</Highlight>
+
+<div class="custom-quote">
+¿**Vienes** a la fiesta este sábado?      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kommer du på festen i lördag?*</small>      
+Te **llamo** luego, ahora no **puedo** hablar.      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ringer dig senare, nu kan jag inte prata.*</small>     
+**Salimos** mañana a las ocho, ¿vale?      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi åker imorgon klockan åtta, okej?*</small>
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
-I presens byts verbets ändelse ut mot följande ändelser:
+Alla spanska verb har en **stam** (den del som förblir oförändrad) och en **ändelse** (som visar vem som gör något). I presens byts verbets ändelse ut mot följande:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="ar" label="-AR" default>
+
+Exempelverb: **hablar** (tala/prata) → stam: **habl-**
+
 <table>
 <tbody>
 <tr>
@@ -99,9 +98,7 @@ import TabItem from '@theme/TabItem';
   </tr>
 <tr>
 <td> <b>3:e</b></td>
-    <td> <i>él</i><br></br>
-    <i>ella</i><br></br>
-    <i>ello</i></td>
+    <td> <i>él / ella</i></td>
     <th width="100px"> -<b>a</b></th>
     <td> <i>habla</i> </td>
 </tr>
@@ -125,9 +122,13 @@ import TabItem from '@theme/TabItem';
     <td> <i>hablan</i> </td>
 </tr>
 </tbody>
-</table>  
-</TabItem>
-  <TabItem value="er" label="-ER" default>
+</table>
+
+  </TabItem>
+  <TabItem value="er" label="-ER">
+
+Exempelverb: **comer** (äta) → stam: **com-**
+
 <table>
 <tbody>
 <tr>
@@ -145,9 +146,7 @@ import TabItem from '@theme/TabItem';
   </tr>
 <tr>
 <td> <b>3:e</b></td>
-    <td> <i>él</i><br></br>
-    <i>ella</i><br></br>
-    <i>ello</i></td>
+    <td> <i>él / ella</i></td>
     <th width="100px"> -<b>e</b></th>
     <td> <i>come</i> </td>
 </tr>
@@ -171,9 +170,13 @@ import TabItem from '@theme/TabItem';
     <td> <i>comen</i> </td>
 </tr>
 </tbody>
-</table>  
-</TabItem>
-  <TabItem value="ir" label="-IR" default>
+</table>
+
+  </TabItem>
+  <TabItem value="ir" label="-IR">
+
+Exempelverb: **vivir** (leva/bo) → stam: **viv-**
+
 <table>
 <tbody>
 <tr>
@@ -191,9 +194,7 @@ import TabItem from '@theme/TabItem';
   </tr>
 <tr>
 <td> <b>3:e</b></td>
-    <td> <i>él</i><br></br>
-    <i>ella</i><br></br>
-    <i>ello</i></td>
+    <td> <i>él / ella</i></td>
     <th width="100px"> -<b>e</b></th>
     <td> <i>vive</i> </td>
 </tr>
@@ -217,9 +218,11 @@ import TabItem from '@theme/TabItem';
     <td> <i>viven</i> </td>
 </tr>
 </tbody>
-</table>  
-</TabItem>
-  <TabItem value="full" label="Alla ändelser" default>
+</table>
+
+  </TabItem>
+  <TabItem value="full" label="Alla ändelser">
+
 <table>
 <tbody>
 <tr>
@@ -232,354 +235,266 @@ import TabItem from '@theme/TabItem';
     <td rowspan="3"> <b>Singular</b></td>
     <td> <b>1:a</b></td>
     <td> <i>yo</i></td>
-    <th width="100px"> -<b>o</b> </th>
-    <th width="100px"> -<b>o</b> </th>
-    <th width="100px"> -<b>o</b> </th>
+    <th width="90px"> -<b>o</b> </th>
+    <th width="90px"> -<b>o</b> </th>
+    <th width="90px"> -<b>o</b> </th>
 </tr>
 <tr>
 <td> <b>2:a</b></td>
     <td> <i>tú</i></td>
-    <th width="100px"> -<b>as</b> </th>
-    <th width="100px"> -<b>es</b> </th>
-    <th width="100px"> -<b>es</b> </th>
+    <th width="90px"> -<b>as</b> </th>
+    <th width="90px"> -<b>es</b> </th>
+    <th width="90px"> -<b>es</b> </th>
   </tr>
 <tr>
 <td> <b>3:e</b></td>
-    <td> <i>él</i><br></br>
-    <i>ella</i><br></br>
-    <i>ello</i></td>
-    <th width="100px"> -<b>a</b> </th>
-    <th width="100px"> -<b>e</b> </th>
-    <th width="100px"> -<b>e</b> </th>
+    <td> <i>él / ella</i></td>
+    <th width="90px"> -<b>a</b> </th>
+    <th width="90px"> -<b>e</b> </th>
+    <th width="90px"> -<b>e</b> </th>
 </tr>
 <tr>
     <td rowspan="3"> <b>Plural</b></td>
     <td> <b>1:a</b> </td>
     <td> <i>nosotros</i></td>
-    <th width="100px"> -<b>amos</b> </th>
-    <th width="100px"> -<b>emos</b> </th>
-    <th width="100px"> -<b>imos</b> </th>
+    <th width="90px"> -<b>amos</b> </th>
+    <th width="90px"> -<b>emos</b> </th>
+    <th width="90px"> -<b>imos</b> </th>
 </tr>
 <tr>
 <td> <b>2:a</b> </td>
     <td> <i>vosotros</i></td>
-    <th width="100px"> -<b>áis</b> </th>
-    <th width="100px"> -<b>éis</b> </th>
-    <th width="100px"> -<b>ís</b> </th>
+    <th width="90px"> -<b>áis</b> </th>
+    <th width="90px"> -<b>éis</b> </th>
+    <th width="90px"> -<b>ís</b> </th>
   </tr>
 <tr>
 <td> <b>3:e</b> </td>
     <td> <i>ellos</i></td>
-    <th width="100px"> -<b>an</b> </th>
-    <th width="100px"> -<b>en</b> </th>
-    <th width="100px"> -<b>en</b> </th>
+    <th width="90px"> -<b>an</b> </th>
+    <th width="90px"> -<b>en</b> </th>
+    <th width="90px"> -<b>en</b> </th>
 </tr>
 </tbody>
-</table>  
-</TabItem>
+</table>
+
+  </TabItem>
 </Tabs>
+
+:::tip Minnestips — ändelserna
+
+**-ER och -IR** är nästan identiska — skillnaden är bara i **nosotros**: *-emos* vs *-imos*, och i **vosotros**: *-éis* vs *-ís*. Kan du -ER kan du nästan -IR automatiskt.
+
+**Yo** slutar alltid på **-o** oavsett verbtyp. Det är den enda ändelsen som är samma för alla tre grupper.
+
+:::
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
+## Klurigheter
 
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
+Tyvärr är det inte alltid så enkelt. I presens förekommer fyra sorters klurigheter som du stöter på hela tiden:
 
-I presens förekommer fem sorters klurigheter:
+- 🦺 **Reflexiva verb** — tar ett pronomen (me, te, se...)
+- 🔃 **Diftongerande verb** — vokalen i stammen förändras
+- 🦄 **Vokalskiftande verb** — e i stammen blir i
+- 🖕 **Oregelbundna verb** — får läras utantill
 
-- 🦺 **Reflexiva verb**
-- 🔃 **Diftongerande verb**
-- 🦄 **Vokalskiftande verb**
-- 💩 **Verb utan dativ**
-- 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
- 
-<div class="custom-quote">  
-***Me baño** en el mar cada domingo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badar i havet varje söndag.*</small>    
-*¿**Te duchas** en la mañana?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschar du på morgonen?*</small>    
-*Creen que **os relajáis** todo el tiempo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillar hela tiden.*</small> 
-</div>
+Reflexiva verb är verb där handlingen "studsar tillbaka" på den som utför den — man gör något med/åt sig själv. De identifieras av ändelsen **-se** i infinitiv, t.ex. *levantarse*, *ducharse*, *llamarse*.
 
-#### <Highlight color="#ff4802">Diftongerande verb</Highlight>
- 
-<div class="custom-quote">  
-*J**ue**go al fútbol.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag spelar fotboll.*</small>    
-*¿P**ie**nsas en tus amigos?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänker du på dina kompisar?*</small>    
-*Creen que p**ue**den conquistar el mundo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att de kan erövra världen.*</small>    
-</div>
-
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
- 
-<div class="custom-quote">  
-*¿Qué p**i**des?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställer du?*</small>    
-*Ahora rep**i**tes todo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nu upprepar du allt.*</small>     
-*D**i**cen que debo escuchar.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De säger att jag bör lyssna.*</small>
-</div>
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
- 
-<div class="custom-quote">  
-*¿**Te gusta** el calor?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillar du värmen?*</small>    
-***Me gusta** comer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar att äta.*</small>      
-***Os gustan** los gatos negros.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni gillar svarta katter.*</small>    
-</div>
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
- 
-<div class="custom-quote">  
-*¡**Soy** tu amigo!*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är din vän!*</small>    
-*Siempre **hago** mis deberes.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gör alltid mina läxor*</small>    
-*Te **doy** el dinero.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ger dig pengarna.*</small>    
-</div>
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
-
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
+I presens sätts det reflexiva pronomet (t.ex. me, te, se etc.) alltid före verbet, t.ex. *te bañas*.
 
 <table>
   <tbody>
   <tr>
-      <td rowspan="3"> **singular**</td>
+      <td rowspan="3"> **Singular**</td>
       <td> **1:a**</td>
       <td> *yo*</td>
-      <td> **me**</td>
-      <td> *baño*</td>
-      <td rowspan="3"> **plural**</td>
+      <td> **me** bañ**o**</td>
+      <td rowspan="3"> **Plural**</td>
       <td> **1:a**</td>
       <td> *nosotros*</td>
-      <td> **nos**</td>
-      <td> *bañamos*</td>
-      </tr>
-    <tr>
-      <td> **2:a**</td>
-      <td> *tú*</td>
-      <td> **te**</td>
-      <td> *bañas*</td>
-      <td> **2:a**</td>
-      <td> *vosotros*</td>
-      <td> **os**</td>
-      <td> *bañáis*</td>
-    </tr>
-    <tr>
-      <td> **3:e**</td>
-      <td> *él    
-      ella       
-      ello*</td>
-      <td> **se**</td>
-      <td> *baña*</td>
-      <td> **3:e**</td>
-      <td> *ellos*</td>
-      <td> **se**</td>
-      <td> *bañan*</td>
-    </tr>
-  </tbody>
-</table> 
-
-Till skillnad från svenskan sätts det reflexiva pronomet **före** verbet. 
-
-#### <Highlight color="#ff4802">Diftongerande verb</Highlight>
-
-🔃 **Diftongerande verb** är verb vars stam förändras i ett särskilt mönster. Vissa verb som har vokalen **e** eller **o** i stammen genomgår en förändring där vokalen byts ut mot en diftong. 
-
-- **e** ➡️ **ie**
-- **o** ➡️ **ue**
-
-Man får lära sig vilka som är diftongerande utantill 🥲
-
-:::tip TIPS
-
-Om du ska öva glosor och någon av dem är ett diftongerande verb, som ***Pensar*** - skriv diftongen i parantes därefter! Såhär: ***Pensar (ie)***, så att man lägger det på minnet.
-
-:::
-
-Se nedan hur *pensar* (ie) och *poder* (ue) böjs.
-
-<table>
-  <tbody>
+      <td> **nos** bañ**amos**</td>
+  </tr>
   <tr>
-      <td rowspan="3"> **singular**</td>
-      <td> **1:a**</td>
-      <td> *yo*</td>
-      <td> *p**ie**nso*      
-      *p**ue**do*</td>
-      <td rowspan="3"> **plural**</td>
-      <td> **1:a**</td>
-      <td> *nosotros*</td>
-      <td> *pensamos*      
-      *podemos*</td>
-      </tr>
-    <tr>
       <td> **2:a**</td>
       <td> *tú*</td>
-      <td> *p**ie**nsas*      
-      *p**ue**des*</td>
+      <td> **te** bañ**as**</td>
       <td> **2:a**</td>
       <td> *vosotros*</td>
-      <td> *pensáis*      
-      *podéis*</td>
-    </tr>
-    <tr>
+      <td> **os** bañ**áis**</td>
+  </tr>
+  <tr>
       <td> **3:e**</td>
-      <td> *él    
-      ella       
-      ello*</td>
-      <td> *p**ie**nsa*       
-      *p**ue**de*</td>
+      <td> *él / ella*</td>
+      <td> **se** bañ**a**</td>
       <td> **3:e**</td>
       <td> *ellos*</td>
-      <td> *p**ie**nsan*       
-      *p**ue**den*</td>
-    </tr>
+      <td> **se** bañ**an**</td>
+  </tr>
   </tbody>
 </table>
 
-:::caution OBS
+#### Exempel
 
-Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**.
+<div class="custom-quote">
+**Me levanto** a las siete menos cuarto.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag vaknar kvart i sju.*</small>      
+¿A qué hora **te acuestas** normalmente?      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hur dags lägger du dig normalt?*</small>     
+Mi hermano **se enfada** cuando pierde en el FIFA.       
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Min bror blir arg när han förlorar i FIFA.*</small>
+</div>
 
-:::
+### <Highlight color="#ff4802">Diftongerande verb</Highlight>
 
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
+Diftongerande verb är verb vars stamvokal förändras när den är **betonad** — alltså i alla former utom nosotros och vosotros. Det finns två mönster:
 
-🦄 **Vokalskiftande verb** har alltid ett **e** i stammen och **-ir** som ändelse, och genomgår en förändring där detta **e** i stammen omvandlas till ett **i**.
-
-- **e** ➡️ **i**
-
-Man lära sig vilka som är vokalskiftande utantill 🥲
+- **e** ➡️ **ie** &nbsp; (t.ex. *pensar → pienso*)
+- **o** ➡️ **ue** &nbsp; (t.ex. *poder → puedo*)
 
 <table>
   <tbody>
   <tr>
-      <td rowspan="3"> **singular**</td>
+      <td rowspan="3"> **Singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> *p**ie**nso / p**ue**do*</td>
+      <td rowspan="3"> **Plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> *pensamos / podemos*</td>
+  </tr>
+  <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> *p**ie**nsas / p**ue**des*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> *pensáis / podéis*</td>
+  </tr>
+  <tr>
+      <td> **3:e**</td>
+      <td> *él / ella*</td>
+      <td> *p**ie**nsa / p**ue**de*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> *p**ie**nsan / p**ue**den*</td>
+  </tr>
+  </tbody>
+</table>
+
+:::caution OBS — nosotros och vosotros
+
+Vokalen förändras **inte** i nosotros och vosotros, eftersom betoningen inte faller på stammen i de formerna. Kom ihåg det — det är en vanlig fälla!
+
+:::
+
+:::tip Tips för glosplugget
+
+Skriv alltid diftongen i parentes när du pluggar glosor: ***Pensar (ie)***, ***Poder (ue)***. Då sitter det på minnet automatiskt.
+
+:::
+
+#### Exempel
+
+<div class="custom-quote">
+¿**Puedes** venir a mi cumpleaños el sábado?      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kan du komma på min födelsedag på lördag?*</small>      
+¿Qué **quieres** hacer este fin de semana?       
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad vill du göra i helgen?*</small>      
+El partido **empieza** a las nueve.       
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Matchen börjar klockan nio.*</small>
+</div>
+
+### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
+
+Vokalskiftande verb har alltid **e** i stammen och **-ir** som ändelse. I alla betonade former omvandlas detta **e** till **i**:
+
+- **e** ➡️ **i** &nbsp; (t.ex. *pedir → pido*)
+
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **Singular**</td>
       <td> **1:a**</td>
       <td> *yo*</td>
       <td> *p**i**do*</td>
-      <td rowspan="3"> **plural**</td>
+      <td rowspan="3"> **Plural**</td>
       <td> **1:a**</td>
       <td> *nosotros*</td>
       <td> *pedimos*</td>
-      </tr>
-    <tr>
+  </tr>
+  <tr>
       <td> **2:a**</td>
       <td> *tú*</td>
       <td> *p**i**des*</td>
       <td> **2:a**</td>
       <td> *vosotros*</td>
       <td> *pedís*</td>
-    </tr>
-    <tr>
+  </tr>
+  <tr>
       <td> **3:e**</td>
-      <td> *él    
-      ella       
-      ello*</td>
+      <td> *él / ella*</td>
       <td> *p**i**de*</td>
       <td> **3:e**</td>
       <td> *ellos*</td>
       <td> *p**i**den*</td>
-    </tr>
+  </tr>
   </tbody>
 </table>
 
-:::caution OBS
+:::caution OBS — nosotros och vosotros
 
-Observera att vokalen inte genomgår en förändring för **nosotros** och **vosotros**. 
-
-:::
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
-
-💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
-
-<table>
-  <tbody>
-    <tr>
-      <td> **Person**</td>
-      <td> **En sak**</td>
-      <td> **Flera saker**</td>
-    </tr>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">gusta</td>
-      <td rowspan="6">gustan</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
-
-:::info Regler
-
-*Jag älskar fotboll.* = *Me encanta **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
+Precis som hos diftongerande verb förändras vokalen **inte** i nosotros och vosotros.
 
 :::
 
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
+#### Exempel
 
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
+<div class="custom-quote">
+**Pido** siempre la misma pizza cuando salimos.     
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag beställer alltid samma pizza när vi går ut.*</small>     
+¿Qué **dice** el profe?      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad säger läraren?*</small>      
+Él **sigue** su cuenta en Instagram.      
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Han följer hennes konto på Instagram.*</small>
+</div>
 
-För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. Många verb är nämligen bara oregelbundna i första person, ***Yo***. Skrolla till höger!
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
+
+Oregelbundna verb följer inte det vanliga mönstret och måste läras utantill. Men det finns ett mönster värt att känna till: **väldigt många** av dem är **bara oregelbundna i yo-formen** och följer annars normala ändelser.
+
+:::tip Yo-go verben
+
+Många supervanliga verb slutar på **-go** i yo-formen: **digo, hago, pongo, tengo, salgo, traigo, vengo, oigo**. Känner du igen mönstret sitter hela gruppen snabbare.
+
+:::
 
 <table>
   <thead>
     <tr>
-      <th> Person</th>
-      <th> Decir</th>
-      <th> Hacer</th>
-      <th> Ser</th>
-      <th> Estar</th>
-      <th> Poner</th>
-      <th> Tener</th>
-      <th> Ir</th>
-      <th> Ver</th>
-      <th> Dar</th>
-      <th> Conocer</th>
-      <th> Seguir</th>
-      <th> Venir</th>
-      <th> Saber</th>
-      <th> Haber</th>
-      <th> Salir</th>
-      <th> Oír</th>
-      <th> Coger</th>
-      <th> Conducir</th>
-      <th> Traer</th>
-      <th> Caber</th>
-      <th> Caer</th>
+      <th>Person</th>
+      <th>Decir</th>
+      <th>Hacer</th>
+      <th>Ser</th>
+      <th>Estar</th>
+      <th>Tener</th>
+      <th>Ir</th>
+      <th>Poner</th>
+      <th>Salir</th>
+      <th>Venir</th>
+      <th>Saber</th>
+      <th>Ver</th>
+      <th>Dar</th>
+      <th>Conocer</th>
+      <th>Seguir</th>
+      <th>Haber</th>
+      <th>Oír</th>
+      <th>Traer</th>
     </tr>
   </thead>
   <tbody>
@@ -589,157 +504,125 @@ För tydlighetens skull är de oregelbundna markerade med <span style={{color: '
       <td><span style={{color: 'red'}}>hago</span></td>
       <td><span style={{color: 'red'}}>soy</span></td>
       <td><span style={{color: 'red'}}>estoy</span></td>
-      <td><span style={{color: 'red'}}>pongo</span></td>
       <td><span style={{color: 'red'}}>tengo</span></td>
       <td><span style={{color: 'red'}}>voy</span></td>
+      <td><span style={{color: 'red'}}>pongo</span></td>
+      <td><span style={{color: 'red'}}>salgo</span></td>
+      <td><span style={{color: 'red'}}>vengo</span></td>
+      <td><span style={{color: 'red'}}>sé</span></td>
       <td><span style={{color: 'red'}}>veo</span></td>
       <td><span style={{color: 'red'}}>doy</span></td>
       <td><span style={{color: 'red'}}>conozco</span></td>
       <td><span style={{color: 'red'}}>sigo</span></td>
-      <td><span style={{color: 'red'}}>vengo</span></td>
-      <td><span style={{color: 'red'}}>sé</span></td>
       <td><span style={{color: 'red'}}>he</span></td>
-      <td><span style={{color: 'red'}}>salgo</span></td>
       <td><span style={{color: 'red'}}>oigo</span></td>
-      <td><span style={{color: 'red'}}>cojo</span></td>
-      <td><span style={{color: 'red'}}>conduzco</span></td>
       <td><span style={{color: 'red'}}>traigo</span></td>
-      <td><span style={{color: 'red'}}>quepo</span></td>
-      <td><span style={{color: 'red'}}>caigo</span></td>
     </tr>
     <tr>
       <td>**Tú**</td>
-      <td> dices</td>
-      <td> haces</td>
+      <td>dices</td>
+      <td>haces</td>
       <td><span style={{color: 'red'}}>eres</span></td>
       <td><span style={{color: 'red'}}>estás</span></td>
-      <td> pones</td>
-      <td> tienes</td>
+      <td>tienes</td>
       <td><span style={{color: 'red'}}>vas</span></td>
-      <td> ves</td>
-      <td> das</td>
-      <td> conoces</td>
-      <td> sigues</td>
-      <td> vienes</td>
-      <td> sabes</td>
+      <td>pones</td>
+      <td>sales</td>
+      <td>vienes</td>
+      <td>sabes</td>
+      <td>ves</td>
+      <td>das</td>
+      <td>conoces</td>
+      <td>sigues</td>
       <td><span style={{color: 'red'}}>has</span></td>
-      <td> sales</td>
       <td><span style={{color: 'red'}}>oyes</span></td>
-      <td> coges</td>
-      <td> conduces</td>
-      <td> traes</td>
-      <td> cabes</td>
-      <td> caes</td>
+      <td>traes</td>
     </tr>
     <tr>
       <td>**Él, ella**</td>
-      <td> dice</td>
-      <td> hace</td>
+      <td>dice</td>
+      <td>hace</td>
       <td><span style={{color: 'red'}}>es</span></td>
       <td><span style={{color: 'red'}}>está</span></td>
-      <td> pone</td>
-      <td> tiene</td>
+      <td>tiene</td>
       <td><span style={{color: 'red'}}>va</span></td>
-      <td> ve</td>
-      <td> da</td>
-      <td> conoce</td>
-      <td> sigue</td>
-      <td> viene</td>
-      <td> sabe</td>
+      <td>pone</td>
+      <td>sale</td>
+      <td>viene</td>
+      <td>sabe</td>
+      <td>ve</td>
+      <td>da</td>
+      <td>conoce</td>
+      <td>sigue</td>
       <td><span style={{color: 'red'}}>ha</span></td>
-      <td> sale</td>
       <td><span style={{color: 'red'}}>oye</span></td>
-      <td> coge</td>
-      <td> conduce</td>
-      <td> trae</td>
-      <td> cabe</td>
-      <td> cae</td>
+      <td>trae</td>
     </tr>
     <tr>
       <td>**Nosotros**</td>
-      <td> decimos</td>
-      <td> hacemos</td>
+      <td>decimos</td>
+      <td>hacemos</td>
       <td><span style={{color: 'red'}}>somos</span></td>
-      <td> estamos</td>
-      <td> ponemos</td>
-      <td> tenemos</td>
+      <td>estamos</td>
+      <td>tenemos</td>
       <td><span style={{color: 'red'}}>vamos</span></td>
-      <td> vemos</td>
-      <td> damos</td>
-      <td> conocemos</td>
-      <td> seguimos</td>
-      <td> venimos</td>
-      <td> sabemos</td>
+      <td>ponemos</td>
+      <td>salimos</td>
+      <td>venimos</td>
+      <td>sabemos</td>
+      <td>vemos</td>
+      <td>damos</td>
+      <td>conocemos</td>
+      <td>seguimos</td>
       <td><span style={{color: 'red'}}>hemos</span></td>
-      <td> salemos</td>
       <td><span style={{color: 'red'}}>oímos</span></td>
-      <td> cogemos</td>
-      <td> conducimos</td>
-      <td> traemos</td>
-      <td> cabemos</td>
-      <td> caemos</td>
+      <td>traemos</td>
     </tr>
     <tr>
       <td>**Vosotros**</td>
-      <td> decís</td>
-      <td> hacéis</td>
+      <td>decís</td>
+      <td>hacéis</td>
       <td><span style={{color: 'red'}}>sois</span></td>
-      <td> estáis</td>
-      <td> ponéis</td>
-      <td> tenéis</td>
+      <td>estáis</td>
+      <td>tenéis</td>
       <td><span style={{color: 'red'}}>vais</span></td>
+      <td>ponéis</td>
+      <td>salís</td>
+      <td>venís</td>
+      <td>sabéis</td>
       <td><span style={{color: 'red'}}>veis</span></td>
       <td><span style={{color: 'red'}}>dais</span></td>
-      <td> conocéis</td>
-      <td> seguís</td>
-      <td> venís</td>
-      <td> sabéis</td>
-      <td> habéis</td>
-      <td> salís</td>
-      <td> oís</td>
-      <td> cogéis</td>
-      <td> conducís</td>
-      <td> traéis</td>
-      <td> cabéis</td>
-      <td> caéis</td>
+      <td>conocéis</td>
+      <td>seguís</td>
+      <td>habéis</td>
+      <td>oís</td>
+      <td>traéis</td>
     </tr>
     <tr>
       <td>**Ellos**</td>
-      <td> dicen</td>
-      <td> hacen</td>
+      <td>dicen</td>
+      <td>hacen</td>
       <td><span style={{color: 'red'}}>son</span></td>
       <td><span style={{color: 'red'}}>están</span></td>
-      <td> ponen</td>
-      <td> tienen</td>
+      <td>tienen</td>
       <td><span style={{color: 'red'}}>van</span></td>
-      <td> ven</td>
-      <td> dan</td>
-      <td> conocen</td>
-      <td> siguen</td>
-      <td> vienen</td>
-      <td> saben</td>
+      <td>ponen</td>
+      <td>salen</td>
+      <td>vienen</td>
+      <td>saben</td>
+      <td>ven</td>
+      <td>dan</td>
+      <td>conocen</td>
+      <td>siguen</td>
       <td><span style={{color: 'red'}}>han</span></td>
-      <td> salen</td>
       <td><span style={{color: 'red'}}>oyen</span></td>
-      <td> cogen</td>
-      <td> conducen</td>
-      <td> traen</td>
-      <td> caben</td>
-      <td> caen</td>
+      <td>traen</td>
     </tr>
   </tbody>
 </table>
 
-:::caution OBS
+:::info Verb med oregelbundna verb inbyggda
 
-Observera att vissa verb även är vokalskiftande, t.ex. ***seguir***, eller diftongerande, t.ex. ***venir***.
-
-:::
-
-:::info OBS
-
-Vissa verb har ett oregelbundet verb "inbyggt" i sig, t.ex. con**tener**, su**poner** och con**venir**.
-
-Dessa blir ***contengo***, ***supongo***, ***convengo*** etc.
+Verb som *con**tener**, su**poner**, con**venir*** följer sina grundverbs oregelbundenhet: *contengo, supongo, convengo* osv.
 
 :::

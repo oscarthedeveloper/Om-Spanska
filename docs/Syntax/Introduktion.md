@@ -15,7 +15,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Introduktion</Highlight>
+# Introduction
 
 **Syntax** är ett finare ord för **ordföljd** och handlar om **hur** meningarna byggs upp av olika typer av ord. 
 

@@ -14,229 +14,115 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Futurum II</Highlight>
+# Futurum II
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Futurum II** används i 🇪🇸 **spanskan** när man pratar om:
+Futurum II används i 🇪🇸 spanskan när man pratar om:
 
 - ☝️ **en avsikt angående framtiden**
 - 🔮 **förespåenden angående framtiden**
 - 🧐 **antaganden angående nutiden**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">En avsikt angående framtiden</Highlight>
+### <Highlight color="#ff4802">En avsikt angående framtiden</Highlight>
  
 <div class="custom-quote">  
-*Mañana **ordenaré** los documentos.*   
+Mañana **ordenaré** los documentos.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Imorgon ska jag beställa dokumenten.*</small>    
-***Estaremos** en casa antes de las ocho.*   
+**Estaremos** en casa antes de las ocho.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi kommer att vara hemma före klockan åtta.*</small>    
 </div>
 
-#### <Highlight color="#ff4802">Förespåenden angående framtiden</Highlight>
+### <Highlight color="#ff4802">Förespåenden angående framtiden</Highlight>
  
 <div class="custom-quote">  
-*No lo **acabarás** en un día.*   
+No lo **acabarás** en un día.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att bli klar med det på en dag.*</small>    
-***Será** muy exitosa en el futuro.*    
+**Será** muy exitosa en el futuro.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Han kommer att bli mycket framgångsrik i framtiden.*</small>    
-*Creo que **ganarán** el concurso.*    
+Creo que **ganarán** el concurso.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag tror att de kommer att vinna tävlingen.*</small>
 </div>
 
-#### <Highlight color="#ff4802">Antaganden angående nutiden</Highlight>
+### <Highlight color="#ff4802">Antaganden angående nutiden</Highlight>
  
 <div class="custom-quote">  
-*¿**Estará** enamorado?*   
+¿**Estará** enamorado?   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Kan han vara förälskad?*</small>    
-*Me imagino que tu oficina **estará** desordenada.*    
+Me imagino que tu oficina **estará** desordenada.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag föreställer mig att ditt kontor är stökigt.*</small>        
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
-I futurum II **läggs** följande ändelser **på** verbets grundform:
+I futurum II **läggs** följande ändelser **på** verbets grundform: ***é***, ***ás***, ***á***, ***emos***, ***éis***, ***án***.
 
-|       | -ar, -er & -ir   | 
-| ----- | ----- | 
-| **Yo**    | é     |   
-| **Tú**    | ás    | 
-| **Él, ella**    | á     | 
-| **Nosotros**    | emos     | 
-| **Vosotros**    | éis     |
-| **Ellos**    | án     | 
-
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | bailar**é**     | comer**é**     | vivir**é**     |
-| **Tú**    | bailar**ás**    | comer**ás**    | vivir**ás**    |
-| **Él, ella**    | bailar**á**     | comer**á**     | vivir**á**     |
-| **Nosotros**    | bailar**emos**     | comer**emos**     | vivir**emos**     |
-| **Vosotros**    | bailar**éis**     | comer**éis**     | vivir**éis**     |
-| **Ellos**    | bailar**án**     | comer**án**     | vivir**án**     |
+Till exempel: *hablaré*, *comerás*, *vivirá* etc.
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
+## Klurigheter
 
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
-
-I futurum II förekommer tre sorters klurigheter:
+I futurum II förekommer två sorters klurigheter:
 
 - 🦺 **Reflexiva verb**
-- 💩 **Verb utan dativ**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+<table>
+  <tbody>
+  <tr>
+      <td rowspan="3"> **singular**</td>
+      <td> **1:a**</td>
+      <td> *yo*</td>
+      <td> **me**</td>
+      <td> *bañaré*</td>
+      <td rowspan="3"> **plural**</td>
+      <td> **1:a**</td>
+      <td> *nosotros*</td>
+      <td> **nos**</td>
+      <td> *bañaremos*</td>
+      </tr>
+    <tr>
+      <td> **2:a**</td>
+      <td> *tú*</td>
+      <td> **te**</td>
+      <td> *bañarás*</td>
+      <td> **2:a**</td>
+      <td> *vosotros*</td>
+      <td> **os**</td>
+      <td> *bañaréis*</td>
+    </tr>
+    <tr>
+      <td> **3:e**</td>
+      <td> *él    
+      ella       
+      ello*</td>
+      <td> **se**</td>
+      <td> *bañará*</td>
+      <td> **3:e**</td>
+      <td> *ellos*</td>
+      <td> **se**</td>
+      <td> *bañarán*</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Exempel
  
 <div class="custom-quote">  
-***Me bañaré** en el mar mañana.*   
+**Me bañaré** en el mar mañana.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska bada i havet imorgon.*</small>    
-*No **te ducharás** en la mañana.*   
+No **te ducharás** en la mañana.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att duscha på morgonen.*</small>    
-*Creen que **os relajaréis** todo el tiempo.*   
+Creen que **os relajaréis** todo el tiempo.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni kommer att chilla hela tiden.*</small> 
 </div>
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
- 
-<div class="custom-quote">  
-***Te gustará** el calor.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer att gilla värmen.*</small>    
-*No, **me encantará** el calor.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag kommer att älska värmen.*</small>   
-***Os gustará** comer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni kommer att gilla att äta.*</small>      
-</div>
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
- 
-<div class="custom-quote">  
-*¡**Habrá** tanta gente en el supermercado!*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det kommer att vara så mycket folk i mataffären!*</small>    
-*No **harás** tus deberes.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer inte att göra dina läxor*</small>    
-***Pondrás** la mesa.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du kommer att duka bordet.*</small>    
-*En el futuro **querrá** viajar.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *I framtiden kommer hon att vilja resa.*</small>  
-</div>
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
-
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
-
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> Reflexiva pronomen</th>
-      <th> </th>
-      <th> -ar, -er & -ir</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th> Yo</th>
-      <td> me</td>
-      <td rowspan="6">grundform +</td>
-      <td> é</td>
-    </tr>
-    <tr>
-      <th> Tú</th>
-      <td> te</td>
-      <td> ás</td>
-    </tr>
-    <tr>
-      <th> Él, ella</th>
-      <td> se</td>
-      <td> á</td>
-    </tr>
-    <tr>
-      <th> Nosotros</th>
-      <td> nos</td>
-      <td> emos</td>
-    </tr>
-    <tr>
-      <th> Vosotros</th>
-      <td> os</td>
-      <td> éis</td>
-    </tr>
-    <tr>
-      <th> Ellos</th>
-      <td> se</td>
-      <td> án</td>
-    </tr>
-  </tbody>
-</table>
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-|                  | Bañar**se**      | 
-| ---------------- | ---------------- |
-| **Yo**           | **me** bañaré      | 
-| **Tú**           | **te** bañarás   |
-| **Él, ella**     | **se** bañará      |
-| **Nosotros**     | **nos** bañaremos  |   
-| **Vosotros**     | **os** bañaréis |
-| **Ellos**        | **se** bañarán  | 
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
-
-💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
-
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">gustará</td>
-      <td rowspan="6">gustarán</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
-
-:::info Regler
-
-*Du kommer att älska fotboll.* = *Te encantará **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
-
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
+En del verb får en förändrad stam i futurum II. Observera att denna stam är densamma i konditionalis som i futurum II, t.ex. *haré* och *haría*.
 
 <table>
   <thead>
@@ -365,9 +251,5 @@ Dessa blir ***contendré***, ***supondré***, ***convendré*** etc.
 
 :::
 
-:::caution OBS
 
-Observera att de oregelbundna verben fortfarande har de vanliga **ändelserna**, men deras **stam** har ändrats.
-
-:::
 

@@ -14,13 +14,13 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Komparation</Highlight>
+# Komparation 
 
-👨‍⚖️ **Komparation** används när man gör jämförelser. I svenskan använder vi:
+👨‍⚖️ Komparation används när man gör jämförelser. Det finns tre former:
 
-- 🙂 **Positiv** - glad
-- 😀 **Komparativ** - gladare
-- 😁 **Superlativ** - gladast
+- 🙂 **Positiv** - t.ex. glad
+- 😀 **Komparativ** - t.ex. gladare
+- 😁 **Superlativ** - t.ex. gladast
 
 I 🇪🇸 **spanskan** använder de också dessa, men de bildar dem på ett annorlunda sätt. I svenskan sätter vi oftast på ändelserna **-are** eller **-ast**, men i spanskan sätter man **inte** på ändelser.
 
@@ -29,18 +29,18 @@ I 🇪🇸 **spanskan** använder de också dessa, men de bildar dem på ett ann
 | 🇸🇪 **Svenska**   | glad    | glad**are**      | glad**ast**   |
 | 🇪🇸 **Spanska**   | feliz   | **más** feliz    | **el/la más** feliz |
 
-## <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
 <div class="custom-quote">  
-*Juan es **más alto** que Miguel.*   
+Juan es **más alto** que Miguel.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Juan är längre än Miguel.*</small>    
-*Verónica es **la más feliz**.*   
+Verónica es **la más feliz**.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Veronika är gladast.*</small>      
-*No, Miguel es **más feliz**.*    
+No, Miguel es **más feliz**.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, Miguel är gladare.*</small>   
-*¿No hay coches **más barratos**?*    
+¿No hay coches **más barratos**?    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Finns det inga billigare bilar?*</small>    
-***Lo más importante** es vivir.*    
+**Lo más importante** es vivir.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det viktigaste är att leva.*</small> 
 </div>
 
@@ -62,7 +62,7 @@ När använder man ***lo*** iställer för ***el/la***? Jämför med 🇸🇪 **
 
 :::
 
-## <Highlight color="#ff4802">Speciella adjektiv</Highlight>
+## Speciella adjektiv
 
 Vissa adjektiv har både regelbunden och oregelbunden komparation.
 
@@ -155,14 +155,14 @@ Den regelbundna formen har ofta mer **konkret** betydelse och den oregelbundna f
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">För övrigt</Highlight>
+## Menos
 
 Ett adjektiv kan dessutom kompareras med ***menos*** (mindre).
-
-### <Highlight color="#ff4802">Exempel</Highlight>
 
 <div class="custom-quote">  
 *Este coche es **menos** complicado.*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här bilen är mindre komplicerad.*</small>    
+*Este coche es **el menos** complicado.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här bilen är den minst komplicerade.*</small>  
 </div>
 

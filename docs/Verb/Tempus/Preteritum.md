@@ -14,58 +14,56 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Preteritum</Highlight>
+# Preteritum
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Preteritum** används i 🇪🇸 **spanskan** när man ska:
+Preteritum används i 🇪🇸 spanskan när man ska:
 
 - ⏮️ **återge ett händelseförlopp**
 - ✅ **återge en fullbordad händelse**
 - 📅 **återge något som skedde under en bestämd tid**
 - 👨‍⚖️ **ge ett omdöme om något i det förflutna**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">Återge ett händelseförlopp</Highlight>
+### <Highlight color="#ff4802">Återge ett händelseförlopp</Highlight>
  
 <div class="custom-quote">  
-***Oímos** un tren. **Empezamos** a correr y **llegamos** a una casa grande.
-Entonces **empezó** a llover. Nos **sentimos** felices.*    
+**Oímos** un tren. **Empezamos** a correr y **llegamos** a una casa grande.
+Entonces **empezó** a llover. Nos **sentimos** felices.     
 </div>
 
-#### <Highlight color="#ff4802">Återge en fullbordad händelse</Highlight>
+### <Highlight color="#ff4802">Återge en fullbordad händelse</Highlight>
  
 <div class="custom-quote">  
-*Los españoles **perdieron** el primer set.*   
+Los españoles **perdieron** el primer set.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Spanjorerna förlorade det första settet.*</small>    
-*La **conocí** en mi primera visita a Barcelona.*    
+La **conocí** en mi primera visita a Barcelona.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag lärde känna henne under mitt första besök i Barcelona.*</small>    
-*¿**Comisteis** las albondigas?*    
+¿**Comisteis** las albondigas?    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Åt ni köttbullarna?*</small>
 </div>
 
-#### <Highlight color="#ff4802">Återge något som skedde under en bestämd tid</Highlight>
+### <Highlight color="#ff4802">Återge något som skedde under en bestämd tid</Highlight>
  
 <div class="custom-quote">  
-*Luis **jugó** al fútbol durante cinco años.*   
+Luis **jugó** al fútbol durante cinco años.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Luis spelade fotboll i fem år.*</small>    
-*La Guerra Civil **duró** de 1936 a 1939.*    
+La Guerra Civil **duró** de 1936 a 1939.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Inbördeskriget varade från 1936 till 1939.*</small>    
-***Vivimos** en España durante veinte años.*    
+**Vivimos** en España durante veinte años.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi bodde i Spanien under 20 år.*</small>     
 </div>
 
-#### <Highlight color="#ff4802">Ge ett omdöme om något i det förflutna</Highlight>
+### <Highlight color="#ff4802">Ge ett omdöme om något i det förflutna</Highlight>
  
 <div class="custom-quote">  
-*La película **fue** muy divertida.*   
+La película **fue** muy divertida.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Filmen var mycket rolig.*</small>    
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
-I preteritum byts verbets ändelse ut mot följande ändelser:
+Alla spanska verb har en **stam** (den del som förblir oförändrad) och en **ändelse** (som visar vem som gör något). I preteritum byts verbets ändelse ut mot följande:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -225,71 +223,16 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
-
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
+## Klurigheter
 
 I preteritum förekommer fyra sorters klurigheter:
 
 - 🦺 **Reflexiva verb**
 - 🦄 **Vokalskiftande verb**
-- 💩 **Verb utan dativ**
 - 🔄 **Verb som slutar på -zar, -gar och -car**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
- 
-<div class="custom-quote">  
-***Me bañé** en el mar ayer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet igår.*</small>    
-*¿**Te duchaste** hoy?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschade du idag?*</small>    
-*Creen que **os relajasteis** todo el tiempo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
-</div>
-
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
- 
-<div class="custom-quote">  
-*¿Qué p**i**dió?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställde han?*</small>    
-*Ayer rep**i**tieron todo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Igår upprepade de allt.*</small>     
-*Me s**i**rvieron comida rica.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De serverade mig god mat.*</small>
-</div>
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
- 
-<div class="custom-quote">  
-*¿**Te gustó** el calor?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillade du värmen?*</small>    
-***Me encantaron** las casas.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskade husen.*</small>   
-***Me gustó** comer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillade att äta.*</small>      
-</div>
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
- 
-<div class="custom-quote">  
-***Fuimos** al supermercado.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi gick till mataffären.*</small>    
-***Hice** mis deberes.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gjorde mina läxor*</small>    
-*Te **di** el dinero.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gav dig pengarna.*</small>    
-***Vi** toda la ciudad aquí.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag såg hela staden här.*</small>  
-</div>
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
-
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
 <table>
   <tbody>
@@ -330,9 +273,20 @@ I preteritum förekommer fyra sorters klurigheter:
   </tbody>
 </table> 
 
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
+#### Exempel
+ 
+<div class="custom-quote">  
+**Me bañé** en el mar ayer.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet igår.*</small>    
+¿**Te duchaste** hoy?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschade du idag?*</small>    
+Creen que **os relajasteis** todo el tiempo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
+</div>
 
-🦄 **Vokalskiftande verb** har alltid ett **e** i stammen och **-ir** som ändelse, och genomgår en förändring där detta **e** i stammen omvandlas till ett **i**. I **preteritum** sker detta endast för 3:e person singular och 3:e person plural.
+### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
+
+I preteritum erfar vokalskiftande verb en vokalförändring för alla personer utom **nosotros** och **vosotros**.
 
 - **e** ➡️ **i**
 
@@ -369,50 +323,18 @@ I preteritum förekommer fyra sorters klurigheter:
   </tbody>
 </table>
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
+#### Exempel
+ 
+<div class="custom-quote">  
+¿Qué p**i**dió?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställde han?*</small>    
+Ayer rep**i**tieron todo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Igår upprepade de allt.*</small>     
+Me s**i**rvieron comida rica.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De serverade mig god mat.*</small>
+</div>
 
-💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
-
-<table>
-  <tbody>
-    <tr>
-      <td> **Person**</td>
-      <td> **En sak**</td>
-      <td> **Flera saker**</td>
-    </tr>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">gustó</td>
-      <td rowspan="6">gustaron</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
-
-:::info Regler
-
-*Jag älskade fotboll.* = *Me encantó **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-#### <Highlight color="#ff4802">Verb som slutar på -zar, -gar och -car</Highlight>
+### <Highlight color="#ff4802">Verb som slutar på -zar, -gar och -car</Highlight>
 
 🦄 **Verb som slutar på -zar, -gar och -car** genom går en stavningsförändring i preteritum när de böjs i **första person**.
 
@@ -420,22 +342,24 @@ Detta gäller däremot **inte** namn, länder och verb.
 - **-gar** ➡️ **-gué**
 - **-car** ➡️ **-qué**
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+<table>
+  <tbody>
+  <tr>
+      <td></td>
+      <td> **Empezar**</td>
+      <td> **Llegar**</td>
+      <td> **Dedicar**</td>
+  </tr>
+  <tr>
+      <td> **Yo**</td>
+      <td><span style={{color: 'green'}}>*empecé*</span></td>
+      <td> <span style={{color: 'green'}}>*llegué*</span></td>
+      <td><span style={{color: 'green'}}>*dediqué*</span></td>
+  </tr>
+  </tbody>
+</table>
 
-|                  | Empezar       | Llegar         | Dedicar     |
-| ---------------- | ------------- | -------------- | ----------- |
-| **Yo**           | <span style={{color: 'green'}}>empecé</span>        | <span style={{color: 'green'}}>llegué</span>         | <span style={{color: 'green'}}>dediqué</span>     |
-| **Tú**           | empezaste     | llegaste       | dedicaste   |
-| **Él, ella**     | empezó        | llegó          | dedicó      |
-| **Nosotros**     | empezamos     | llegamos       | dedicamos   |
-| **Vosotros**     | empezasteis   | llegasteis     | dedicasteis |
-| **Ellos**        | empezaron     | llegaron       | dedicaron   |
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
-
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
-
-För tydlighetens skull är de oregelbundna markerade med <span style={{color: 'red'}}>röd färg</span>. 
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
 <table>
   <thead>

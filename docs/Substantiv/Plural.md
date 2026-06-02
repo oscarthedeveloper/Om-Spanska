@@ -17,20 +17,13 @@ export const Highlight = ({children, color}) => (
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# <Highlight color="var(--highlight)">Numerus</Highlight>
+# Plural
 
-Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
+Ett substantiv kan vara i antingen **singular** (t.ex. casa) eller **plural** (t.ex. casas)
 
-I spanskan finns **två** numerus:
+Precis som i 🇸🇪 **svenskan** används **singular** för att beteckna **en sak**, och **plural** för att beteckna **flera saker**.
 
-- 1️⃣ **Singular**
-- 2️⃣ **Plural**
-
-Precis som i 🇸🇪 **svenskan** används **singular** för att beteckna **en sak** och **plural** för att beteckna **flera saker**.
-
-## <Highlight color="#ff4802">Bildning av plural</Highlight>
-
-För att bilda plural av ett substantiv är **genus** inte intressant. Det är ganska simpelt: man lägger på ett **-s**, och slutar det på en konsonant lägger man på ett **-es**.
+Att **bilda plural** är ganska simpelt: man lägger på ett **-s**, och slutar det på en konsonant lägger man på ett **-es**.
 
 <Tabs>
   <TabItem value="vokal" label="Vokal" default>
@@ -73,7 +66,8 @@ För att bilda plural av ett substantiv är **genus** inte intressant. Det är g
   </TabItem>
 </Tabs>
 
-### <Highlight color="#ff4802">Substantiv som slutar på -z</Highlight>
+
+:::tip Substantiv som slutar på -z
 
 Substantiv som slutar på **-z** genomgår en stavningsförändring där **-z** omvandlas till **-ces** i **plural**.
 
@@ -81,3 +75,5 @@ Substantiv som slutar på **-z** genomgår en stavningsförändring där **-z** 
 | -------- | --------------- |
 | la vez    | las ve**ces**     |
 | la voz    | las vo**ces**  |  
+
+:::

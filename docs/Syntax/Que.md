@@ -16,9 +16,9 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Que</Highlight>
+# Que
 
-**Que** är ett underbart ord. Det kan vara både **frågeord** och **relativpronomen**.
+**Que** kan vara både **frågeord** och **relativpronomen**!
 
 ## Frågeord
 

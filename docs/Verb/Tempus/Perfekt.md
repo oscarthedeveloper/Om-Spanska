@@ -14,28 +14,42 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Perfekt</Highlight>
+# Perfekt
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Perfekt** används i 🇪🇸 **spanskan** när man pratar om:
+Perfekt används i 🇪🇸 spanskan när man pratar om:
 
 - ✅ **något som har skett**
+- 🕝 **något som skedde idag**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">Något som har skett</Highlight>
+### <Highlight color="#ff4802">Något som har skett</Highlight>
  
 <div class="custom-quote">  
-***He vivido** en Estocolmo por cinco días.*   
+**He vivido** en Estocolmo por cinco días.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har bott i Stockholm i fem dagar.*</small>    
-*¿**Has trabajado** con los deberes?*   
+¿**Has trabajado** con los deberes?   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har ni jobbat med läxorna?*</small>    
-*Me **han dado** tres regalos.*    
+Me **han dado** tres regalos.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De har gett mig tre presenter.*</small> 
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+### <Highlight color="#ff4802">Något som skedde idag</Highlight>
+ 
+<div class="custom-quote">  
+**He dejado** las llaves en casa.           
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag lämnade nycklarna hemma.*</small>    
+**Hemos comido** en casa.           
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi åt hemma.*</small>    
+</div>
+
+:::tip 
+
+I spanskan skiljer man på när man **har gjort** något och när man **gjorde** något, liksom i svenskan. Däremot brukar man använda perfekt om det handla om **något man gjorde idag**, vilket vi inte lika ofta gör i svenskan.
+
+:::
+
+## Bildning
 
 Perfekt bildas med hjälp av verbet ***Haber*** i presens, som är oregelbundet, och perfekt particip. Haber motsvarar alltså *att ha*, men används **endast** som *att ha* i detta sammanhang. Perfekt particip är t.ex. *ätit* eller *varit*. 
 
@@ -72,78 +86,46 @@ Perfekt bildas med hjälp av verbet ***Haber*** i presens, som är oregelbundet,
   </tbody>
 </table>
 
-Verben bildar **perfekt particip** genom att byta ut följande ändelser:
-
-| -ar     | -er & -ir   | 
-| ------- | ----------- | 
-| ado     | ido         |
-
-
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | **he** bail**ado**     | **he** com**ido**     | **he** viv**ido**     |
-| **Tú**    | **has** bail**ado**    | **has** com**ido**    | **has** viv**ido**    |
-| **Él, ella**    | **ha** bail**ado**     | **ha** com**ido**     | **ha** viv**ido**     |
-| **Nosotros**    | **hemos** bail**ado**     | **hemos** com**ido**     | **hemos** viv**ido**     |
-| **Vosotros**    | **habéis** bail**ado**     | **habéis** com**ido**     | **habéis** viv**ido**     |
-| **Ellos**    | **han** bail**ado**     | **han** com**ido**     | **han** viv**ido**     |
+Verben bildar **perfekt particip** genom att byta ut **-ar** till **-ado**, och **-er**/**-ir** till **-ido**.
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
+## Klurigheter
 
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
-
-I perfekt förekommer tre sorters klurigheter:
+Tyvärr är det inte alltid så enkelt. I perfekt förekommer två sorters klurigheter som du stöter på hela tiden:
 
 - 🦺 **Reflexiva verb**
-- 💩 **Verb utan dativ**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
  
 <div class="custom-quote">  
-***Me he bañado** en el mar cada domingo.*   
+**Me he bañado** en el mar cada domingo.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har badat i havet varje söndag.*</small>    
-*¿**Te has duchado** en la mañana?*   
+¿**Te has duchado** en la mañana?   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du duschat du på morgonen?*</small>    
-*Creen que **os habéis relajado** todo el tiempo.*   
+Creen que **os habéis relajado** todo el tiempo.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni har chillat hela tiden.*</small> 
 </div>
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
  
 <div class="custom-quote">  
-*¿**Te ha gustado** el calor?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Har du gillat värmen?*</small>    
-*Siempre **me ha gustado** comer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gillat att äta.*</small>      
-***Os han gustado** los gatos negros.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ni har gillat svarta katter.*</small>    
-</div>
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
- 
-<div class="custom-quote">  
-*¡Le he **dicho** todo!*   
+¡Le he **dicho** todo!   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har berättat allt för honom!*</small>    
-*Siempre he **hecho** mis deberes.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har alltid gjort mina läxor*</small>    
-*Hemos **puesto** la mesa.*   
+Siempre ha **hecho** sus deberes.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon har alltid gjort sina läxor.*</small>    
+Hemos **puesto** la mesa.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har dukat bordet.*</small>    
 </div>
 
-### <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**. I perfekt sätter man alltid det reflexiva pronomet **före** *haber* + perfekt particip.
+Reflexiva verb är verb där handlingen "studsar tillbaka" på den som utför den — man gör något med/åt sig själv. De identifieras av ändelsen **-se** i infinitiv, t.ex. *levantarse*, *ducharse*, *llamarse*.
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+I perfekt sätts det reflexiva pronomet (t.ex. me, te, se etc.) alltid före verbet, t.ex. *te has bañado*.
 
 <table>
   <tbody>
@@ -184,54 +166,11 @@ I perfekt förekommer tre sorters klurigheter:
   </tbody>
 </table>
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
-💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
+I perfekt behöver du lära dig böjningsschemat för **haber** (*he*, *has*, *ha* etc.), som är ett oregelbundet verb.
 
-<table>
-  <tbody>
-    <tr>
-      <td> **Person**</td>
-      <td> **En sak**</td>
-      <td> **Flera saker**</td>
-    </tr>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">ha gustado</td>
-      <td rowspan="6">han gustado</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
-
-:::info Regler
-
-*Jag har älskat fotboll.* = *Me ha encantado **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
-
-🖕 **Oregelbundna verb** är verb som inte följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
-
-Det förekommer verb som har **oregelbunden perfekt particip**. 
+Därutöver förekommer det ett gäng verb som har en oregelbunden perfekt particip, alltså som *ej* får **-ado** eller **-ido** som de andra verben.
 
 <table>
   <thead>

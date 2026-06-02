@@ -14,59 +14,57 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Imperfekt</Highlight>
+# Imperfekt
 
-## <Highlight color="#ff4802">Användning</Highlight>
+Imperfekt används i 🇪🇸 spanskan när man pratar om:
 
-**Imperfekt** används i 🇪🇸 **spanskan**:
+- 🌃 **beskrivningar i dåtid**
+- 🏌️‍♂️ **vanor i dåtid**
+- ⬅️ **något som pågick**
+- 🙏🏼 **en artig förfrågan**
 
-- 🌃 **vid beskrivningar i dåtid**
-- 🏌️‍♂️ **för att återge vanor i dåtid**
-- ⬅️ **om något som pågick**
-- 🙏🏼 **för att uttrycka en artig förfrågan**
+## Exempel
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Vid beskrivningar i dåtid</Highlight>
+### <Highlight color="#ff4802">Vid beskrivningar i dåtid</Highlight>
  
 <div class="custom-quote">  
-*El sol **brillaba**. No **había** nadie en la playa. Solo **tomábamos** el sol y **leíamos**.*   
+El sol **brillaba**. No **había** nadie en la playa. Solo **tomábamos** el sol y **leíamos**.   
 </div>
 
-#### <Highlight color="#ff4802">För att återge vanor i dåtid</Highlight>
+### <Highlight color="#ff4802">För att återge vanor i dåtid</Highlight>
  
 <div class="custom-quote">  
-*Cuando **hacía** sol, **cenábamos** en la terraza.*   
+Cuando **hacía** sol, **cenábamos** en la terraza.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *När det var soligt åt vi på terrassen.*</small>    
-*Yo siempre **comía** en este café.    
+Yo siempre **comía** en este café.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag åt alltid på detta café.*</small>    
-***¿Solías** jugar al fútbol?*    
+**¿Solías** jugar al fútbol?    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Brukade du spela fotboll?*</small>
 </div>
 
-#### <Highlight color="#ff4802">Om något som pågick</Highlight>
+### <Highlight color="#ff4802">Om något som pågick</Highlight>
  
 <div class="custom-quote">  
-***Hacía** frío cuando llegaron.*   
+**Hacía** frío cuando llegaron.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det var kallt när de kom fram.*</small>    
-*En 1983 **vivían** en Estocolmo.*    
+En 1983 **vivían** en Estocolmo.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *1983 bodde de i Stockholm.*</small>    
-*Te pregunté de dónde **venías**.*    
+Te pregunté de dónde **venías**.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag frågade dig var du kom ifrån.*</small>     
 </div>
 
-#### <Highlight color="#ff4802">För att uttrycka en artig förfrågan</Highlight>
+### <Highlight color="#ff4802">För att uttrycka en artig förfrågan</Highlight>
  
 <div class="custom-quote">  
-***Quería** preguntarle algo.*   
+**Quería** preguntarle algo.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ville fråga dig något.*</small>    
-*Me **preguntaba** si usted aún lo **tenía**.*    
+Me **preguntaba** si usted aún lo **tenía**.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag undrade om du fortfarande har den.*</small>    
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
-I imperfekt byts verbets ändelse ut mot följande ändelser:
+Alla spanska verb har en **stam** (den del som förblir oförändrad) och en **ändelse** (som visar vem som gör något). I imperfekt byts verbets ändelse ut mot följande:
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -226,56 +224,14 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
+## Klurigheter
 
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
-
-I imperfekt förekommer tre sorters klurigheter:
+I imperfekt förekommer två sorters klurigheter:
 
 - 🦺 **Reflexiva verb**
-- 💩 **Verb utan dativ**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
- 
-<div class="custom-quote">  
-***Me bañaba** en el mar cada domingo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet varje söndag.*</small>    
-*¿**Te duchabas** por las mañanas?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duchade du på morgnarna?*</small>    
-*Creen que **os relajabais** todo el tiempo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
-</div>
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
- 
-<div class="custom-quote">  
-*¿**Te gustaba** el calor?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillade du värmen?*</small>    
-*No, **me encantaba** el calor.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskade värmen.*</small>   
-***Le interesaban** las ciencias naturales.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon gillade att äta.*</small>      
-</div>
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
- 
-<div class="custom-quote">  
-*¡Yo **era** tu amigo!*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var din vän!*</small>    
-*Siempre **ibas** al supermercado.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du gick alltid till mataffären.*</small>    
-***Veíamos** toda la ciudad aquí durante las madrugadas.*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi såg hela staden här under solnedgångarna.*</small>  
-</div>
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
-
-🦺 **Reflexiva verb** är verb som syftar tillbaka på subjektet. Ett exempel i svenskan är **han** tvättar **sig**, **jag** kammar **mig** och **du** klämde **dig**. 
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
 <table>
   <tbody>
@@ -315,53 +271,19 @@ I imperfekt förekommer tre sorters klurigheter:
     </tr>
   </tbody>
 </table> 
+ 
+#### Exempel
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
+<div class="custom-quote">  
+**Me bañaba** en el mar cada domingo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badade i havet varje söndag.*</small>    
+¿**Te duchabas** por las mañanas?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duchade du på morgnarna?*</small>    
+Creen que **os relajabais** todo el tiempo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillade hela tiden.*</small> 
+</div>
 
-💩 **Verb utan dativ** böjs väldigt annorlunda i jämförelse med de andra verben. ***Gustar*** (Att gilla) är det vanligaste verbet av denna sort. Därför används den som mall!
-
-<table>
-  <tbody>
-    <tr>
-      <td> **Person**</td>
-      <td> **En sak**</td>
-      <td> **Flera saker**</td>
-    </tr>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">gustaba</td>
-      <td rowspan="6">gustaban</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
-
-:::info Regler
-
-*Jag älskade fotboll.* = *Me encantaba **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
-
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
 I imperfekt finns det endast **tre** oregelbundna verb! 😄
 
@@ -413,4 +335,16 @@ I imperfekt finns det endast **tre** oregelbundna verb! 😄
     </tr>
   </tbody>
 </table>
+
+#### Exempel
+ 
+<div class="custom-quote">  
+¡Yo **era** tu amigo!   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var din vän!*</small>    
+Siempre **ibas** al supermercado.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du gick alltid till mataffären.*</small>    
+**Veíamos** toda la ciudad aquí durante las madrugadas.    
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi såg hela staden här under solnedgångarna.*</small>  
+</div>
+
 

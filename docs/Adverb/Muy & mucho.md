@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 export const Highlight = ({children, color}) => (
@@ -14,42 +14,47 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Muy & mucho</Highlight>
-
 När använder man ***muy*** och när använder man ***mucho***? 
 
-***Muy*** används vid **grundformen av adjektiv** och **adverb**, medan ***mucho*** används vid **substantiv** och **verb**.
+**Muy** används med **adjektiv** och **adverb**, medan **mucho** används med **substantiv** och **verb**.
 
-## <Highlight color="#ff4802">Muy</Highlight>
+## Muy
 
 <div class="custom-quote">  
-*El mar está **muy** caliente.*   
+El mar está **muy** caliente.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Havet är mycket varmt.*</small>    
-*Estoy **muy** bien.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag mår mycket bra.*</small>    
+Corro **muy** rápidamente.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag springer väldigt snabbt.*</small>   
+Hay **muchos** coches aquí.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det finns många bilar här.*</small>    
 </div>
 
-Däremot används ***mucho*** fristående, som i det nedanstående exemplet.
+
+:::tip Mucho används fristående
+
+Däremot används **mucho** fristående, inte **muy**, som i det nedanstående exemplet.
 
 <div class="custom-quote">  
-*¿Estás **muy** nervioso? Sí, **mucho**.*   
+¿Estás **muy** nervioso? Sí, **mucho**.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Är du väldigt nervös? Ja, väldigt.*</small>    
 </div>
 
-## <Highlight color="#ff4802">Mucho</Highlight>
+:::
+
+## Mucho
 
 <div class="custom-quote">  
-*Hay **muchos** coches en la calle.*   
+Hay **muchos** coches en la calle.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är många bilar på gatan.*</small>    
-*Tengo **mucho** calor.*   
+Tengo **mucho** calor.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är mycket varm (Jag har mycket värme).*</small>    
-*Hay **mucha** gente en la playa.*   
+Hay **mucha** gente en la playa.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är mycket folk på stranden.*</small>  
-*Me gusta **mucho** jugar al tenis.*   
+Me gusta **mucho** jugar al tenis.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar mycket att spela tennis.*</small>  
 </div>
 
-***Mucho*** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+**Mucho** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
 <table>
   <tbody>

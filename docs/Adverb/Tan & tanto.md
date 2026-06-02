@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 export const Highlight = ({children, color}) => (
@@ -14,37 +14,37 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Tan & tanto</Highlight>
+# Tan & tanto
 
-***Tan*** motsvarar svenskans **så** eller **så mycket**, i t.ex. '*Det är **så** gott*' eller '*Det är **så** många bilar på gatan*'.
+**Tan** motsvarar svenskans **så** eller **så mycket**, i t.ex. *Det är **så** gott* eller *Det är **så** många bilar på gatan*.
 
-***Tan*** används vid **grundformen av adjektiv** och **adverb**, medan ***tanto*** används vid **substantiv** och **verb**.
+**Tan** används med **adjektiv** och **adverb**, medan **tanto** används med **substantiv** och **verb**.
 
-***Tan*** kan alltså bytas ut mot ***muy*** och ***tanto*** kan bytas ut mot ***mucho***.
+Det är alltså **samma skillnad** på **tan** och **tanto** som på **muy** och **mucho**
 
-## <Highlight color="#ff4802">Tan</Highlight>
+## Tan
 
 <div class="custom-quote">  
-*El mar está **tan** caliente.*   
+El mar está **tan** caliente.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Havet är så varmt.*</small>    
-*Estoy **tan** bien.*   
+Estoy **tan** bien.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag mår så bra.*</small>    
 </div>
 
-## <Highlight color="#ff4802">Tanto</Highlight>
+## Tanto
 
 <div class="custom-quote">  
-*Hay **tantos** coches en la calle.*   
+Hay **tantos** coches en la calle.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är så många bilar på gatan.*</small>    
-*Tengo **tanto** calor.*   
+Tengo **tanto** calor.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är så varm (Jag har så mycket värme).*</small>    
-*Hay **tanta** gente en la playa.*   
+Hay **tanta** gente en la playa.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är så mycket folk på stranden.*</small>  
-*Me gusta **tanto** jugar al tenis.*   
+Me gusta **tanto** jugar al tenis.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar så mycket att spela tennis.*</small>  
 </div>
 
-***Tanto*** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+**Tanto** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
 <table>
   <tbody>

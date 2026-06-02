@@ -14,9 +14,9 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Uttal</Highlight>
+# Uttal
 
-Uttalet i spanska är inte precis som i svenskan, men beroende på dialekt kan det vara olika svårt. Det är nog lättare för en göteborgare än vad det är för en skåning. 
+Glöm inte att **rulla r:et** ordentligt!
 
 ## <Highlight color="#ff4802">Uttal av alfabetet</Highlight>
 

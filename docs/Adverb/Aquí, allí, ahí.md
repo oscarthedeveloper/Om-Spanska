@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 export const Highlight = ({children, color}) => (
@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Aquí, allí, ahí</Highlight>
+# Aquí, allí, ahí
 
 **Aquí**, **allí** och **ahí** är vanliga **rumsadverb** fast med olika betydelse.
 

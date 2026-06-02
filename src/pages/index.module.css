@@ -1,292 +1,440 @@
-:root {
-  --ifm-color-primary: #ff4802;
-  --ifm-color-primary-dark: #e74000;
-  --ifm-color-primary-darker: #da3c00;
-  --ifm-color-primary-darkest: #b43200;
-  --ifm-color-primary-light: #ff5b1c;
-  --ifm-color-primary-lighter: #ff6429;
-  --ifm-color-primary-lightest: #ff804f;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --highlight: #0b00cb;
-  --border-color: #f2f0ec;
-background-color: #f2f0ec;
+/* ═══════════════════════════════════════════════════
+   index.module.css  —  Om Spanska  —  Editorial Redesign
+   ═══════════════════════════════════════════════════ */
+
+/* ─── SHARED ─── */
+.rule {
+  border: none;
+  border-top: 1px solid var(--svart);
+  opacity: 0.1;
+  margin: 0;
+  width: 100%;
 }
 
-.footer {
-  background-color: #ffffff95;
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #ff4802;
-  --ifm-color-primary-dark: #e74000;
-  --ifm-color-primary-darker: #da3c00;
-  --ifm-color-primary-darkest: #b43200;
-  --ifm-color-primary-light: #ff5b1c;
-  --ifm-color-primary-lighter: #ff6429;
-  --ifm-color-primary-lightest: #ff804f;
-  --highlight: #908aff;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --background-color: #1b1b1d;
-background-color: #1b1b1d;
-}
-
-/* Button - used globally */
-.button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: var(--background-color);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: var(--ifm-color-primary-dark);
-}
-
-.buttonIcon {
-  stroke: white;
-}
-
-[data-theme='dark'] .button {
-  background-color: #242526;
-}
-
-/* Hero Section */
+/* ═══════════════════════════════════════════════════
+   HERO
+   ═══════════════════════════════════════════════════ */
 .hero {
-  padding-top: 4.5rem;
   background-color: var(--background-color);
-  text-align: center;
+  padding: 2.5rem 3.5rem;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+  box-sizing: border-box;
+  position: relative;
 }
 
-.heroInner {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.heroTitle {
-  font-size: 5rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  color: var(--ifm-heading-color);
-  font-family: Bristol;
-}
-
-.heroSubtitle {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
-  color: var(--ifm-color-base);
-  font-family: Bristol;
-}
-
-/* Knappstilen precis som på omspanska.se */
-.heroButton {
-  display: inline-flex;
+/* Meta row */
+.heroMeta {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: var(--highlight);
-  border-radius: 25px;
-  text-decoration: none;
+  padding-bottom: 1.25rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--svart);
+  opacity: 0.38;
+}
+
+/* Body: stripe + heading + right */
+.heroBody {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+/* ── Stripe ornament (vertical barcode inspired by Image 4) ── */
+.stripes {
+  width: 50px;
+  flex-shrink: 0;
+  align-self: stretch;
+  min-height: 140px;
+  background: repeating-linear-gradient(
+    180deg,
+    var(--svart)           0px,
+    var(--svant)           14px,
+    var(--background-color) 14px,
+    var(--background-color) 28px
+  );
+  opacity: 0.1;
+}
+
+/* ── Giant heading ── */
+/* Override global `h1` which has orange bg, white text, padding */
+.heroHeading {
+  background: transparent !important;
+  color: var(--svart) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-right: 0 !important;
+  display: block !important;
+  width: auto !important;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 800;
+  font-size: clamp(5rem, 14vw, 14rem);
+  line-height: 0.87;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+.heroHeadingAccent {
+  display: block;
+  color: var(--blå);
+}
+
+/* ── Right column ── */
+.heroRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 210px;
+  flex-shrink: 0;
+  padding-bottom: 0.75rem;
+}
+
+.heroDesc {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--svart);
+  opacity: 0.5;
+  margin: 0;         /* override global p margin */
+  margin-left: 0;
+}
+
+.heroCta {
+  display: inline-block;
+  background: var(--svart);
+  color: var(--background-color) !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.65rem 1.4rem;
+  text-decoration: none !important;
+  transition: background 0.22s ease, color 0.22s ease;
+}
+
+.heroCta:hover {
+  background: var(--orange);
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* Footer row */
+.heroFooter {
+  padding-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--svart);
+  opacity: 0.32;
+}
+
+.heroFooterRight {
+  text-align: right;
+}
+
+
+/* ═══════════════════════════════════════════════════
+   GRAMMAR INDEX  (dark section)
+   ═══════════════════════════════════════════════════ */
+.index {
+  background: #0f0e0c;
+  padding: 0 3.5rem;
+}
+
+:global([data-theme='dark']) .index {
+  background: #090908;
+}
+
+/* Header row */
+.indexHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.indexMeta {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.22);
+}
+
+/* Each row */
+.indexRow {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr auto 2.2rem;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-decoration: none !important;
+  transition:
+    padding-left 0.22s ease,
+    border-bottom-color 0.22s ease;
   position: relative;
   overflow: hidden;
-  margin: 5px;
 }
 
-.heroButton:hover,
-.heroButton:focus {
-  color: #ffffff; /* Keep text color white on hover */
-}
-
-.heroButtonIcon {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.heroButton:hover .heroButtonIcon,
-.heroButton:focus .heroButtonIcon {
-  transform: translateX(5px); /* Move the icon slightly to the right */
-  opacity: 1; /* Ensure the icon remains fully opaque */
-}
-
-/* Features Section */
-.features {
-  padding: 4rem 1rem;
-}
-
-.boxContainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  unicode-bidi: isolate;
-}
-
-.box {
-  color: var(--highlight, #da3c00);
-  background: #ffffffa7;
-  margin: 5px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex: 0 1 calc(25% - 1em);
-  font-size: 125%;
-  font-weight: 700;
-  height: 5em;
-  padding: 0.75em;
-  min-width: fit-content;
-  position: relative;
-  text-decoration: none;
-  transition: background-color 0.25s, color 0.25s;
-}
-
-[data-theme='dark'] .box {
-  background-color: #242526;
-}
-
-[data-theme='dark'] .box:hover {
-  background-color: #242526;
-}
-
-.box::after {
-  content: "»";
-  color: #da3c00;
-  font-size: 125%;
+/* Orange sweep on hover */
+.indexRow::before {
+  content: '';
   position: absolute;
-  bottom: 0.2em;
-  right: 1em;
-  transition: right 0.5s;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--orange);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.22s ease;
 }
 
-.box:hover {
-  background-color: #9c9cd782;
-  text-decoration: none;
-  color: var(--highlight, #da3c00);
+.indexRow:hover {
+  padding-left: 1rem;
+  border-bottom-color: rgba(255, 72, 2, 0.35);
+  text-decoration: none !important;
 }
 
-.box:hover::after {
-  right: 0.8em;
+.indexRow:hover::before {
+  transform: scaleY(1);
 }
 
-@media (max-width: 768px) {
-  .boxContainer {
-    display: block;
-  }
-
-  .box {
-    width: 100%;
-    padding: 1.25em 1em;
-    text-align: left;
-    font-size: 1.1rem;
-    min-width: 0;
-    height: auto;
-  }
+.indexNum {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.18);
+  transition: color 0.2s;
 }
 
-/* Call To Action Section */
-.ctaSection {
-  padding: 6rem 1rem;
-  background-color: var(--background-color);
-  text-align: center;
+.indexRow:hover .indexNum {
+  color: var(--orange);
 }
 
-.ctaInner {
-  max-width: 600px;
+.indexName {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 3.5vw, 3.2rem);
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  color: #f0ede7;
+  transition: color 0.22s;
+}
+
+.indexRow:hover .indexName {
+  color: var(--orange);
+}
+
+.indexTag {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: rgba(255, 255, 255, 0.22);
+  text-align: right;
+  transition: color 0.2s;
+}
+
+.indexRow:hover .indexTag {
+  color: rgba(255, 72, 2, 0.65);
+}
+
+.indexArrow {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.18);
+  text-align: right;
+  transition: transform 0.22s ease, color 0.22s;
+}
+
+.indexRow:hover .indexArrow {
+  transform: translateX(5px);
+  color: var(--orange);
+}
+
+
+/* ═══════════════════════════════════════════════════
+   ABOUT
+   ═══════════════════════════════════════════════════ */
+.about {
+  background: var(--background-color);
+  padding: 7rem 3.5rem;
+  border-top: 1px solid var(--svart);
+  border-top: opacity(0.08);
+}
+
+.aboutGrid {
+  max-width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: start;
 }
 
-.ctaInner h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+.aboutLabel {
+  display: block;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--svart);
+  opacity: 0.32;
+  margin-bottom: 2.5rem;
 }
 
-.ctaButton {
-  background-color: var(--highlight);
-  color: #fff;
-  padding: 0.85rem 2rem;
-  font-weight: 600;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  transition: background-color 0.3s;
+/* Override any global h2 styles */
+.aboutHeadline {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5.5vw, 5.5rem);
+  line-height: 1.0;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--svart);
+  margin: 0;
+  background: transparent !important;
+  padding: 0 !important;
+  display: block !important;
 }
 
-.ctaButton:hover,
-.ctaButton:focus {
-  color: #ffffff; /* Keep text color white on hover */
+.aboutBody {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.82;
+  color: var(--svart);
+  opacity: 0.58;
+  margin-bottom: 1.2rem;
+  margin-left: 0 !important; /* override global p */
 }
 
-.ctaButtonIcon {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.ctaButton:hover .ctaButtonIcon,
-.ctaButton:focus .ctaButtonIcon {
-  transform: translateX(5px); /* Move the icon slightly to the right */
-  opacity: 1; /* Ensure the icon remains fully opaque */
-}
-
-@media (max-width: 768px) {
-  .heroTitle {
-    font-size: 2rem;
-  }
-
-  .heroSubtitle {
-    font-size: 1rem;
-    padding: 0 1rem;
-  }
-
-  .hero {
-    padding: 4rem 1rem;
-  }
-
-  .ctaInner h2 {
-    font-size: 1.5rem;
-  }
-}
-
-/* About Section */
-.aboutSection {
-  padding: 6rem 1rem;
-  background-color: var(--background-color);
-  text-align: center;
-}
-
-.aboutInner {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.aboutTitle {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: white;
-  background-color: var(--highlight);
+.aboutLink {
   display: inline-block;
-  padding: 0.25em 0.75em;
-  border-radius: 0.5rem;
+  margin-top: 1.75rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--blå) !important;
+  text-decoration: none !important;
+  border-bottom: 2px solid var(--blå);
+  padding-bottom: 0.2rem;
+  transition: color 0.2s, border-color 0.2s;
 }
 
-.aboutText {
-  font-size: 1.125rem;
-  color: var(--ifm-color-base);
-  line-height: 1.8;
-  padding: 0 1rem;
+.aboutLink:hover {
+  color: var(--orange) !important;
+  border-bottom-color: var(--orange);
+  text-decoration: none !important;
 }
 
-/* [data-theme='dark'] .aboutText {
-  color: #cccccc;
+
+/* ═══════════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════════ */
+
+@media (max-width: 900px) {
+  /* Hero */
+  .hero {
+    padding: 2rem 1.75rem;
+    min-height: auto;
+  }
+
+  .heroBody {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  /* Horizontal stripes on mobile */
+  .stripes {
+    width: 100%;
+    height: 8px;
+    min-height: unset;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--svart)            0px,
+      var(--svart)            14px,
+      var(--background-color) 14px,
+      var(--background-color) 28px
+    );
+  }
+
+  .heroRight {
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* Index */
+  .index {
+    padding: 0 1.75rem;
+  }
+
+  .indexRow {
+    grid-template-columns: 2.5rem 1fr 1.5rem;
+    gap: 1rem;
+  }
+
+  .indexTag {
+    display: none;
+  }
+
+  /* About */
+  .about {
+    padding: 4.5rem 1.75rem;
+  }
+
+  .aboutGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
-[data-theme='dark'] .aboutTitle {
-  color: #ffffff;
-} */
+@media (max-width: 520px) {
+  .hero {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .index {
+    padding: 0 1.25rem;
+  }
+
+  .about {
+    padding: 3.5rem 1.25rem;
+  }
+
+  .heroFooterRight {
+    display: none;
+  }
+
+  .heroMeta span:last-child {
+    display: none;
+  }
+}

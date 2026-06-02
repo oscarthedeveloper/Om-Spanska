@@ -14,30 +14,28 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Imperativ</Highlight>
+# Imperativ
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Imperativ** används i 🇪🇸 **spanskan** när man vill uttrycka:
+Imperativ används i 🇪🇸 spanskan när man vill uttrycka:
 
 - 🫡 **uppmaning**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">Uppmaning</Highlight>
+### <Highlight color="#ff4802">Uppmaning</Highlight>
 
 <div class="custom-quote">  
-*¡**Piensa** en mí!*   
+¡**Piensa** en mí!    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänk på mig!*</small>    
-*¡**Estudiad**!*   
+¡**Estudiad**!   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Studera!*</small>    
-*¡**Déjame** en paz!*    
+¡**Déjame** en paz!    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Lämna mig i fred!*</small>     
-*¡**Sígueme** en Instagram!*    
+¡**Sígueme** en Instagram!    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Följ mig på Instagram!*</small> 
 </div>
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+## Bildning
 
 | Person       | -ar     | -er      | -ir     |
 | ------------ | ------- | -------- | ------- |
@@ -52,7 +50,6 @@ Imperativ mot ***tú*** är detsamma som vanlig presens i tredje person! Tänk p
 
 ## <Highlight color="#ff4802">Klurigheter</Highlight>
 
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
 
 I imperativ förekommer tre sorters klurigheter:
 
@@ -61,7 +58,7 @@ I imperativ förekommer tre sorters klurigheter:
 - 🦺 **Reflexiva verb**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+### Exempel
 
 #### <Highlight color="#ff4802">Accenter</Highlight>
  
@@ -121,27 +118,30 @@ I imperativ förekommer tre sorters klurigheter:
 
 #### <Highlight color="#ff4802">Accenter</Highlight>
 
-Som du har sett ovan sätts pronomina **på** verbet i imperativ, till exempel säger man *¡sígue**la**!*. 
-
 När ett pronomen sätts på ett verb får en vokal **oftast** en accent.
 
-Det är lite knepigt var accenten sätts, men här kommer en härlig minnesregel: 
+Följande minnesregel är inte perfekt, men man kommer långt på den! 
 
-Om verbet är **kort**, sätt accenten på **första** vokalen. Om verbet är **långt**, sätt accenten på **andra** vokalen. 
+- Om verbet består av **färre än sex bokstäver**, sätt accenten på **första vokalen**.
 
-:::caution OBS
+- Om verbet består av **sex eller fler bokstäver**, sätt accenten på **andra vokalen**.
 
-**Det finns undantag**, men man kommer långt med denna minnesregel!
-
-:::
-
-#### <Highlight color="#ff4802">Exempel</Highlight>
-
-| Korta ord    | Långa ord    |
-| ------------ | ------------ |
-| ¡Dámelo!     | ¡Contéstame! |
-| ¡Dígame!     | ¡Cuéntamelo! |
-| ¡Cálmate!    | ¡Recházame!  |
+<table>
+  <tbody>
+  <tr>
+      <td>Färre än 6</td>
+      <td> **dámelo**</td>
+      <td> **dígame**</td>
+      <td> **cálmate**</td>
+  </tr>
+  <tr>
+      <td>6 eller fler</td>
+      <td> **contéstame**</td>
+      <td> **cuéntame**</td>
+      <td> **recházame**</td>
+  </tr>
+  </tbody>
+</table>
 
 #### <Highlight color="#ff4802">Artighet</Highlight>
 
@@ -149,31 +149,39 @@ För att bilda artig imperativ använder man **konjunktiv**. För att vara artig
 
 Reflexiva verb använder i artig form pronomet ***se*** på verbet, exempelvis:
 
-| Person      | Sentarse    |
-| ----------- | ----------- |
-| Usted       | Siéntese    |
-| Ustedes     | Siéntense   |
+<table>
+  <tbody>
+  <tr>
+      <td>Usted</td>
+      <td> *siéntese*</td>
+  </tr>
+  <tr>
+      <td>Ustedes</td>
+      <td> *siéntense*</td>
+  </tr>
+  </tbody>
+</table>
 
 **Accenter** förekommer även här, och den ovanstående minnesregeln kan användas här också.
 
 #### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
-Imperativ med reflexiva verb bildas genom att böja verbet som vanligt, och sedan lägga på det reflexiva pronomet. Såklart sätts oftast en accent ut också, men **inte** för *vosotros*.
+Imperativ med reflexiva verb bildas genom att böja verbet som vanligt, och sedan lägga på det reflexiva pronomet. Såklart sätts oftast en accent ut också!
 
 <div class="custom-quote">  
 ***Levántate**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stig upp!*</small>    
 ***Maquíllate**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Sminka dig!*</small>    
-***Levantaos**!*   
+***Levántaos**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Stig upp!*</small>    
-***Maquillaos**!*   
+***Maquíllaos**!*   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Sminka er!*</small>    
 </div>
 
 :::caution -d försvinner
 
-*Levánta**d**os!* blir *levántaos!* och *maquílla**d**os!* blir *maquíllaos!*. 
+*Levánta**d**os* blir *levántaos* och *maquílla**d**os* blir *maquíllaos*. 
 
 **-ad**, **-ed** och **-id** blir av med sitt **d** vid reflexiva verb.
 
@@ -220,50 +228,25 @@ De inbyggda oregelbundna verben får alltså en accent!
 
 :::
 
-
 ---
 
-Det finns **två** typer av imperativ:
+## Nekande imperativ
 
-- ✅ **Jakande** - uttrycker att man **ska** göra något, t.ex. *ät!*
-- ❌ **Nekande** - uttrycker att man **inte ska** göra något, t.ex. *ät inte!* 
+Ovan har endast **jakande** imperativ tagits upp, alltså en uppmaning till att göra något.
 
-Ovan har endast **jakande** imperativ tagits upp. Nu ska du få lära dig om **nekande** imperativ!
+Nekande imperativ är en uppmaning till att **inte göra något**.
 
-## <Highlight color="#ff4802">Användning</Highlight>
+#### Bildning
 
-**Nekande** imperativ används på samma sätt som **jakande** imperativ, förutom att uppmaningen nu är nekande. 
-
-### <Highlight color="#ff4802">Exempel</Highlight>
+Nekande är i princip [konjunktiv](/docs/Verb/Konjunktiv/Presens.md) fast med *no* framför.
 
 <div class="custom-quote">  
-*¡No **pienses** en mí!*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Tänk inte på mig!*</small>    
-*¡No **estudiéis**!*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Studera inte!*</small>    
-*No me **dejes** en paz!*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Lämna mig inte i fred!*</small>     
-*No me **sigas** en Instagram!*    
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Följ mig inte på Instagram!*</small> 
+***No mientas**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ljug inte!*</small>    
+***No comas**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ät inte!*</small>    
+***No bailéis**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Dansa inte!*</small>    
+***No corráis**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Spring inte!*</small>    
 </div>
-
-## <Highlight color="#ff4802">Bildning</Highlight>
-
-| Person       | -ar     | -er & -ir | 
-| ------------ | ------- | --------- | 
-| **Tú**       | es      | as        | 
-| **Usted**    | e       | a         | 
-| **Vosotros** | éis     | áis       | 
-| **Ustedes**  | en      | an        | 
-
-:::caution OBS
-
-Nekande imperativ böjs som konjunktiv presens. Oregelbundna verb i konjunktiv förekommer alltså här också, t.ex. *¡No me **sigas** en Instagram!*
-
-:::
-
-:::tip Goda nyheter
-
-Pronomet sätts inte **på** verbet i nekande imperativ. Därför sätts inte accenter ut, så den klurigheten slipper man här!
-
-:::

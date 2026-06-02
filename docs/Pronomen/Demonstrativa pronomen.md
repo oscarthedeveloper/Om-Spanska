@@ -14,24 +14,11 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Demonstrativa pronomina</Highlight>
+# Demonstrativa pron.
 
-## <Highlight color="#ff4802">Användning</Highlight>
+Demonstrativa pronomen används för att **peka ut** någon eller någonting.
 
-**Demonstrativa pronomina** används för att **peka ut** någon eller någonting.
-
-<div class="custom-quote">  
-*Me encanta **este** móvil.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar den här mobilen.*</small>    
-***Esta** comida sabía riquísimo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här maten smakade supergott.*</small>    
-*¿Dónde encontraste **ese** hombre?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var hittade du den (där) mannen?*</small>   
-*No me gusta **eso**.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar inte det (där).*</small> 
-</div>
-
-Dessa pronomina används alltså för att peka ut något, som antingen är **nära** eller **längre bort**. För att peka ut något som ligger **nära** används nedanstående pronomina som böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+Dessa pronomen används alltså för att peka ut något, som antingen är **nära** eller **längre bort**. För att peka ut något som ligger **nära** används nedanstående pronomina som böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
 
 <div class="tablepronomina">  
 <table>
@@ -77,6 +64,19 @@ För att peka ut något som ligger **längre bort** används nedanstående prono
     </tr>
   </tbody>
 </table>
+</div>
+
+## Exempel
+
+<div class="custom-quote">  
+Me encanta **este** móvil.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar den här mobilen.*</small>    
+**Esta** comida sabía riquísimo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här maten smakade supergott.*</small>    
+¿Dónde encontraste **ese** hombre?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Var hittade du den (där) mannen?*</small>   
+No me gusta **eso**.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar inte det (där).*</small> 
 </div>
 
 :::info neutral?

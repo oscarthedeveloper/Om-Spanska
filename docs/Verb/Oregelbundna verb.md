@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 export const Highlight = ({children, color}) => (
@@ -14,64 +14,11 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Oregelbundna verb</Highlight>
+# Oregelbundna verb
 
 I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det några som **nästan alltid** är oregelbundna. 
 
-<table>
-  <tbody>
-    <tr>
-      <td> **Infinitiv**</td>
-      <td> **Pres. 3e pers.**</td>
-      <td> **Pret. 3e pers.**</td>
-      <td> **Fut.II 3e pers.**</td>
-    </tr>
-    <tr>
-      <td> *ser*</td>
-      <td> *es*</td>
-      <td> *fue*</td>
-      <td> *será*</td>
-    </tr>
-    <tr>
-      <td> *estar*</td>
-      <td> *está*</td>
-      <td> *estuvo*</td>
-      <td> *estará*</td>
-    </tr>
-    <tr>
-      <td> *decir*</td>
-      <td> *dice*</td>
-      <td> *dijo*</td>
-      <td> *dirá*</td>
-    </tr>
-    <tr>
-      <td> *ir*</td>
-      <td> *va*</td>
-      <td> *fue*</td>
-      <td> *irá*</td>
-    </tr>
-    <tr>
-      <td> *hacer*</td>
-      <td> *hace*</td>
-      <td> *hizo*</td>
-      <td> *hará*</td>
-    </tr>
-    <tr>
-      <td> *venir*</td>
-      <td> *viene*</td>
-      <td> *vino*</td>
-      <td> *vendrá*</td>
-    </tr>
-    <tr>
-      <td> *haber*</td>
-      <td> *ha*</td>
-      <td> *hubo*</td>
-      <td> *habrá*</td>
-    </tr>
-  </tbody>
-</table>
-
-## <Highlight color="#ff4802">Ser</Highlight>
+## Ser
 
 **Ser** är oregelbundet i:
 
@@ -81,7 +28,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
 - [Konjunktiv presens](#konjunktiv-presens)
 - [Konjunktiv imperfekt](#konjunktiv-imperfekt)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -116,7 +63,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -151,7 +98,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Imperfekt</Highlight>
+#### <Highlight color="#ff4802">Imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -186,7 +133,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -221,7 +168,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -256,7 +203,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Estar</Highlight>
+## Estar
 
 **Estar** är oregelbundet i:
 
@@ -265,7 +212,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
 - [Konjunktiv presens](#konjunktiv-presens-1)
 - [Konjunktiv imperfekt](#konjunktiv-imperfekt-1)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -300,7 +247,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -335,7 +282,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -370,7 +317,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -405,7 +352,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Decir</Highlight>
+## Decir
 
 **Decir** är oregelbundet i:
 
@@ -417,7 +364,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
 - [Konditionalis](#konditionalis)
 - [Perfekt particip](#perfekt-particip)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -452,7 +399,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -487,7 +434,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -522,7 +469,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -557,7 +504,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Futurum II</Highlight>
+#### <Highlight color="#ff4802">Futurum II</Highlight>
 
 <table>
   <tbody>
@@ -592,7 +539,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konditionalis</Highlight>
+#### <Highlight color="#ff4802">Konditionalis</Highlight>
 
 <table>
   <tbody>
@@ -627,7 +574,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Perfekt particip</Highlight>
+#### <Highlight color="#ff4802">Perfekt particip</Highlight>
 
 <table>
   <tbody>
@@ -637,7 +584,7 @@ I spanskan finns det 😅 **många** oregelbundna verb. Hursomhelst är det någ
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Ir</Highlight>
+## Ir
 
 **Ir** är oregelbundet i:
 
@@ -653,7 +600,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
 
 :::
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -688,7 +635,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -723,7 +670,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Imperfekt</Highlight>
+#### <Highlight color="#ff4802">Imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -758,7 +705,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -793,7 +740,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -828,7 +775,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Hacer</Highlight>
+## Hacer
 
 **Hacer** är oregelbundet i:
 
@@ -840,7 +787,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
 - [Konditionalis](#konditionalis-1)
 - [Perfekt particip](#perfekt-particip-1)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -875,7 +822,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -910,7 +857,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -945,7 +892,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -980,7 +927,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Futurum II</Highlight>
+#### <Highlight color="#ff4802">Futurum II</Highlight>
 
 <table>
   <tbody>
@@ -1015,7 +962,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konditionalis</Highlight>
+#### <Highlight color="#ff4802">Konditionalis</Highlight>
 
 <table>
   <tbody>
@@ -1050,7 +997,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Perfekt particip</Highlight>
+#### <Highlight color="#ff4802">Perfekt particip</Highlight>
 
 <table>
   <tbody>
@@ -1060,7 +1007,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Venir</Highlight>
+## Venir
 
 **Venir** är oregelbundet i:
 
@@ -1071,7 +1018,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
 - [Futurum II](#futurum-ii-2)
 - [Konditionalis](#konditionalis-2)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -1106,7 +1053,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -1141,7 +1088,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -1176,7 +1123,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -1211,7 +1158,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Futurum II</Highlight>
+#### <Highlight color="#ff4802">Futurum II</Highlight>
 
 <table>
   <tbody>
@@ -1246,7 +1193,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konditionalis</Highlight>
+#### <Highlight color="#ff4802">Konditionalis</Highlight>
 
 <table>
   <tbody>
@@ -1281,7 +1228,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-## <Highlight color="#ff4802">Haber</Highlight>
+## Haber
 
 **Haber** är oregelbundet i:
 
@@ -1292,7 +1239,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
 - [Futurum II](#futurum-ii-3)
 - [Konditionalis](#konditionalis-3)
 
-### <Highlight color="#ff4802">Presens</Highlight>
+#### <Highlight color="#ff4802">Presens</Highlight>
 
 <table>
   <tbody>
@@ -1327,7 +1274,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Preteritum</Highlight>
+#### <Highlight color="#ff4802">Preteritum</Highlight>
 
 <table>
   <tbody>
@@ -1362,7 +1309,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv presens</Highlight>
 
 <table>
   <tbody>
@@ -1397,7 +1344,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
+#### <Highlight color="#ff4802">Konjunktiv imperfekt</Highlight>
 
 <table>
   <tbody>
@@ -1432,7 +1379,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Futurum II</Highlight>
+#### <Highlight color="#ff4802">Futurum II</Highlight>
 
 <table>
   <tbody>
@@ -1467,7 +1414,7 @@ Observera att **ir** och **ser** är desamma i **preteritum** och **konjunktiv i
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Konditionalis</Highlight>
+#### <Highlight color="#ff4802">Konditionalis</Highlight>
 
 <table>
   <tbody>

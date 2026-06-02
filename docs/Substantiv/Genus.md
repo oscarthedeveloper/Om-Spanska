@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 export const Highlight = ({children, color}) => (
@@ -14,79 +14,50 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Genus</Highlight>
+# Genus
 
-Substantiv böjs efter 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus). Ett substantiv kan vara **maskulint** eller **feminint**, och i **singular** eller i **plural**.
+I spanskan kan ett substantiv vara antingen **maskulint** eller **feminint**. 
 
-I spanskan finns **två** genus:
+Substantivets genus påverkar orden runtom det, t.ex. **artiklar** och **adjektiv**. Jämför *el chico es hermoso* och *la chica es hermosa*.
 
-- 👨 **Maskulinum**
-- 👩 **Femininum**
+## Hur vet jag genuset?
 
-## <Highlight color="#ff4802">Vilket genus?</Highlight>
+Grundregeln för vilket genus ett substantiv tillhör är att maskulina substantiv slutar på **-o** och feminina substantiv slutar på **-a**. Exempelvis är **libro** maskulint medan **casa** är feminint.
 
-Grundregeln för vilket genus ett substantiv tillhör är:    
+Grundregeln fungerar i de flesta fall, men hur gör man när ett substantiv inte slutar på varken **-o** eller **-a**?
 
-<table>
-  <tbody>
-    <tr>
-      <td>**Genus**</td>
-      <td colspan="2">**Ändelse**</td>
-    </tr>
-    <tr>
-      <td>**Femininum**</td>
-      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -a </div></td>
-    </tr>
-    <tr>
-      <td>**Maskulinum**</td>
-      <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -o </div></td>
-      </tr>
-  </tbody>
-</table>
-
-:::tip Undantag
-
-Det finns några substantiv som avviker från denna grundregel, bland annat:
-
-***el día, el mapa, el problema, el planeta, el tranvía, el aroma, el clima, el idioma, el programa, el sistema, el tema***
-
-Många substantiv, men inte alla, som slutar på **-ma** motsäger grundregeln och är maskulina. Dessa är grekiska lånord 🇬🇷
-
-:::
-
-### <Highlight color="#ff4802">Tumregler</Highlight>
-
-Grundregeln fungerar i de flesta fall, utöver **undantagen** ⚠️, men hur gör man när ett substantiv inte slutar på varken **-o** eller **-a**?
-
-Använd dessa **tumregler**, men observera undantagen!
+Använd dessa **tumregler**, som oftast stämmer.
 
 <table>
   <tbody>
     <tr>
+      <td colspan="3">**Ändelse**</td>
       <td>**Genus**</td>
-      <td colspan="3">**Ändelser**</td>
       <td>**Exempel**</td>
-      <td>**Undantag ⚠️**</td>
     </tr>
     <tr>
-      <td>**Maskulinum**</td>
       <th colspan="3"><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}>konsonant</div></th>
+      <td>**Maskulinum**</td>
       <td>*el hotel, el reloj, el calor, el mes*</td>
-      <td>*la catedral, la imagen*</td>
     </tr>
     <tr>
-      <td>**Femininum**</td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -dad </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -ión </div></td>
       <td><div style={{ border: '4px solid var(--highlight)', padding: '10px', fontSize: '20px', fontWeight: 'bold', borderRadius: '5px', color: 'var(--highlight)', textAlign: 'center' }}> -z </div></td>
+      <td>**Femininum**</td>
       <td>*la verdad, la canción, la vez*</td>
-      <td>*el avión, el camión*</td>
     </tr>
   </tbody>
 </table>
 
-:::caution OBS
+:::danger Undantag
 
-Det finns fler undantag men de ovanstående är de vanligast förekommande!
+Det finns såklart några substantiv som motstrider tumreglerna!
+
+***El día, el mapa, el problema, el planeta, el tranvía, el aroma, el clima, el idioma, el programa, el sistema, el tema, el avión, el camión***.
+
+***La catedral, la imagen***.
+
+Många substantiv, men inte alla, som slutar på **-ma** motsäger grundregeln och är maskulina. Dessa är grekiska lånord!
 
 :::

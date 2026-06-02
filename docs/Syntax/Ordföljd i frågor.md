@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Ordföljd i frågor</Highlight>
+# Ordföljd i frågor
 
 Som du läste i [introduktionen till syntax](/docs/Syntax/Introduktion) är ordföljden ofta **subjekt-verb-objekt** (**SVO**), men i **frågor** kan ordföljden bli annorlunda.
 

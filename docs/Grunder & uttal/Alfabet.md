@@ -14,13 +14,13 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Alfabet</Highlight>
+# Alfabet
 
 Det 🔡 **spanska alfabetet** består av 27 bokstäver. 
 
 **Ll** (*elle*) och **ch** (*che*) var fram till 2010 också egna bokstäver i det spanska alfabetet.
 
-## <Highlight color="#ff4802">Karta över spanska alfabetet</Highlight>
+### Karta över spanska alfabetet
 
 <div className="bokstavsbox-container">
       <div className="bokstavsbox">A a</div>

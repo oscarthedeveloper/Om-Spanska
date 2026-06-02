@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Ordförändringar</Highlight>
+# Ordförändringar
 
 Det finns **två** fall då det **alltid** sker en ordförändring. 
 

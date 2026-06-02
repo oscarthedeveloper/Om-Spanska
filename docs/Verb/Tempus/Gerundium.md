@@ -14,34 +14,36 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Gerundium</Highlight>
+# Gerundium
 
-## <Highlight color="#ff4802">Användning</Highlight>
-
-**Gerundium** används i 🇪🇸 **spanskan** när man pratar om:
+Gerundium används i 🇪🇸 spanskan när man pratar om:
 
 - ⬇️ **något som sker precis just nu**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
+## Exempel
 
-#### <Highlight color="#ff4802">Något som sker precis just nu</Highlight>
+### <Highlight color="#ff4802">Något som sker precis just nu</Highlight>
  
 <div class="custom-quote">  
-***Estoy comiendo** una manzana.*   
+**Estoy comiendo** una manzana.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag håller på att äta ett äpple.*</small>    
-*Ahora mismo **están limpiando**.*   
+Ahora mismo **están limpiando**.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Just nu städar de.*</small>    
-***Estamos jugando** al padel.*    
+**Estamos jugando** al padel.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi håller på att spela padel.*</small>   
-*¿**Estás dando** una fiesta?.*    
+¿**Estás dando** una fiesta?.    
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Håller du en fest?*</small> 
 </div>
 
-🚫 Det finns inte riktigt en motsvarighet i svenskan, utan vi använder bara presens. Däremot finns gerundium i engelskan, t.ex. *I am eat**ing*** och *you are sing**ing***.
+:::tip Jämför med engelskan
 
-## <Highlight color="#ff4802">Bildning</Highlight>
+Det finns ingen direkt motsvarighet i svenskan, men jämför med engelskans **-ing**! *Estoy comiendo una manzana* betyder *I am eating an apple*, medan *como una manzana* betyder *I eat an apple*.
 
-Futurum bildas med hjälp av verbet ***Estar*** i presens, som är ganska oregelbundet, och och verbet i **gerundium**. 
+:::
+
+## Bildning
+
+Futurum bildas med hjälp av verbet ***Estar*** i presens, som är oregelbundet, och verbet i gerundium. 
 
 <table>
   <tbody>
@@ -76,28 +78,11 @@ Futurum bildas med hjälp av verbet ***Estar*** i presens, som är ganska oregel
   </tbody>
 </table>
 
-Verben bildar **gerundium** genom att byta ut följande ändelser:
-
-| -ar      | -er & -ir   | 
-| -------- | ----------- | 
-| ando     | iendo         |
-
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-|       | Bailar   | Comer   | Vivir   |
-| ----- | ----- | ----- | ----- |
-| **Yo**    | **estoy** bail**ando**     | **estoy** com**iendo**     | **estoy** viv**iendo**     |
-| **Tú**    | **estás** bail**ando**   | **estás** com**iendo**    | **estás** viv**iendo**    |
-| **Él, ella**    | **está** bail**ando**     | **está** com**iendo**     | **está** viv**iendo**     |
-| **Nosotros**    | **estamos** bail**ando**     | **estamos** com**iendo**     | **estamos** viv**iendo**     |
-| **Vosotros**    | **estáis** bail**ando**     | **estáis** com**iendo**    | **estáis** viv**iendo**    |
-| **Ellos**    | **están** bail**ando**    | **están** com**iendo**     | **están** viv**iendo**     |
+Verben bildar **gerundium** genom att byta ut **-ar** till **-ando**, och **-er**/**-ir** till **-iendo**.
 
 ---
 
-## <Highlight color="#ff4802">Klurigheter</Highlight>
-
-**Klurigheter** är ingen riktig term i spanskan, men på denna hemsida kallar vi koncept som kan vara lite kluriga för klurigheter 🥸
+## Klurigheter
 
 I gerundium förekommer fyra sorters klurigheter:
 
@@ -106,197 +91,52 @@ I gerundium förekommer fyra sorters klurigheter:
 - 💩 **Verb utan dativ**
 - 🖕 **Oregelbundna verb**
 
-### <Highlight color="#ff4802">Exempel</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
- 
-<div class="custom-quote">  
-***Me estoy bañando** en el mar.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badar i havet.*</small>    
-*¿**Estás duchándote** ahora mismo*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschar du just nu?*</small>    
-*Creen que **os están relajando**.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillar.*</small> 
-</div>
-
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
- 
-<div class="custom-quote">  
-*¿Qué está p**i**diendo?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställer han?*</small>    
-*Están rep**i**tiendo todo.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De håller på att upprepa allt.*</small>     
-*Me están s**i**rviendo comida rica.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De serverar mig god mat.*</small>    
-</div>
-
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
- 
-<div class="custom-quote">  
-*¿**Te está gustando** el calor?*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Gillar du värmen (precis just nu)?*</small>    
-*No, **me está encantando** el calor.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Nej, jag älskar värmen (precis just nu).*</small>   
-***Está gustándonos** comer.*   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi gillar att äta (precis just nu).*</small>      
-</div>
-
-:::info Gustar-verb i gerundium
-
-Gustar-verb används nästan alltid i presens, men det skadar inte att veta hur de böjs!
-
-:::
-
-### <Highlight color="#ff4802">Bildning</Highlight>
-
-#### <Highlight color="#ff4802">Reflexiva verb</Highlight>
+### <Highlight color="#ff4802">Reflexiva verb</Highlight>
 
 För reflexiva verb finns det två sätt att bilda gerundium.
 
-**Alternativ 1**:
+**Alternativ 1**: Reflexivt pronomen **före** *estar + gerundium*: t.ex. ***me estoy bañando***.
 
-<table>
-  <tbody>
-  <tr>
-      <td rowspan="3"> **singular**</td>
-      <td> **1:a**</td>
-      <td> *yo*</td>
-      <td> **me**</td>
-      <td> *estoy bañando*</td>
-      <td rowspan="3"> **plural**</td>
-      <td> **1:a**</td>
-      <td> *nosotros*</td>
-      <td> **nos**</td>
-      <td> *estamos bañando*</td>
-      </tr>
-    <tr>
-      <td> **2:a**</td>
-      <td> *tú*</td>
-      <td> **te**</td>
-      <td> *estás bañando*</td>
-      <td> **2:a**</td>
-      <td> *vosotros*</td>
-      <td> **os**</td>
-      <td> *estáis bañando*</td>
-    </tr>
-    <tr>
-      <td> **3:e**</td>
-      <td> *él    
-      ella       
-      ello*</td>
-      <td> **se**</td>
-      <td> *está bañando*</td>
-      <td> **3:e**</td>
-      <td> *ellos*</td>
-      <td> **se**</td>
-      <td> *están bañando*</td>
-    </tr>
-  </tbody>
-</table>
+**Alternativ 2**: Reflexivt pronomen **efter** *estar + gerundium*: t.ex. ***estoy bañándome***.
 
-**Alternativ 2**:
+Observera att en **accent** sätts ut vid alternativ 2, t.ex. *bañ**á**ndome* och *visti**é**ndome*.
 
-<table>
-  <tbody>
-  <tr>
-      <td rowspan="3"> **singular**</td>
-      <td> **1:a**</td>
-      <td> *yo*</td>
-      <td> *estoy bañándo**me***</td>
-      <td rowspan="3"> **plural**</td>
-      <td> **1:a**</td>
-      <td> *nosotros*</td>
-      <td> *estamos bañándo**nos***</td>
-      </tr>
-    <tr>
-      <td> **2:a**</td>
-      <td> *tú*</td>
-      <td> *estás bañándo**te***</td>
-      <td> **2:a**</td>
-      <td> *vosotros*</td>
-      <td> *estáis bañándo**os***</td>
-    </tr>
-    <tr>
-      <td> **3:e**</td>
-      <td> *él    
-      ella       
-      ello*</td>
-      <td> *está bañándo**se***</td>
-      <td> **3:e**</td>
-      <td> *ellos*</td>
-      <td> *están bañándo**se***</td>
-    </tr>
-  </tbody>
-</table>
+#### Exempel
+ 
+<div class="custom-quote">  
+**Me estoy bañando** en el mar.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag badar i havet.*</small>    
+¿**Estás duchándote** ahora mismo?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Duschar du just nu?*</small>    
+Creen que **os estáis relajando**.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni chillar.*</small> 
+</div>
 
-#### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
+### <Highlight color="#ff4802">Vokalskiftande verb</Highlight>
 
-🦄 **Vokalskiftande verb** har alltid ett **e** i stammen och **-ir** som ändelse, och genomgår en förändring där detta **e** i stammen omvandlas till ett **i**.
+**Liksom i presens** och vissa andra tempus finns det vokalskiftande verb i gerundium.
 
 - **e** ➡️ **i**
 
-Man lära sig vilka som är vokalskiftande utantill 🥲
+Dessa gäller alltid samma verb, t.ex. *pedir*, *decir*, *vestir*, *servir* m.fl.
 
-#### <Highlight color="#ff4802">Exempel</Highlight>
+#### Exempel
+ 
+<div class="custom-quote">  
+¿Qué está p**i**diendo?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad beställer han?*</small>    
+Están rep**i**tiendo todo.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De håller på att upprepa allt.*</small>     
+Me están s**i**rviendo comida rica.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De serverar mig god mat.*</small>    
+</div>
 
-| Decir          | Pedir         | Vestir         | Seguir    |
-| -------------- | ------------- | -------------- | --------- |
-| d**i**ciendo   | p**i**diendo  | v**i**stiendo  | s**i**guiendo |
 
-#### <Highlight color="#ff4802">Verb utan dativ</Highlight>
+### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
 
-<table>
-  <thead>
-    <tr>
-      <th> Person</th>
-      <th> En sak</th>
-      <th> Flera saker</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>**Me**</td>
-      <td rowspan="6">está gustando</td>
-      <td rowspan="6">están gustando</td>
-    </tr>
-    <tr>
-      <td>**Te**</td>
-    </tr>
-    <tr>
-      <td>**Le**</td>
-    </tr>
-    <tr>
-      <td>**Nos**</td>
-    </tr>
-    <tr>
-      <td>**Os**</td>
-    </tr>
-    <tr>
-      <td>**Les**</td>
-    </tr>
-  </tbody>
-</table>
+I gerundium behöver du lära dig böjningsschemat för **estar** (*estoy*, *estás*, *está* etc.), som är ett oregelbundet verb.
 
-:::info Regler
-
-*Jag älskar fotboll (precis just nu).* = *Me está encantando **el** fútbol.*
-
-Om ett substantiv kommer efter ett verb utan dativ, skall det stå i bestämd form.     
-Detta gäller däremot **inte** namn, länder och verb.
-
-:::
-
-:::tip tips
-
-Det är ovanligt att använda ***gustar*** i gerundium. Använd den i presens! Men det finns andra verb utan dativ som kan användas i gerundium, så ovanstående är mer som en mall för att böja dem.
-
-:::
-
-#### <Highlight color="#ff4802">Oregelbundna verb</Highlight>
-
-🖕 **Oregelbundna verb** är verb som inte riktigt följer det vanliga mönstret, utöver de andra klurigheterna. Dessa får man lära sig **utantill**! 
-
-Det förekommer verb som har **oregelbunden gerundium**. 
+Därutöver förekommer det ett gäng verb som har en oregelbunden gerundiumform som avviker från den vanliga böjningen.
 
 <table>
   <thead>

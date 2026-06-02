@@ -15,7 +15,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Introduktion</Highlight>
+# Introduktion
 
 **Verb** utgör kärnan i spanska meningar. De är däremot lite annorlunda jämfört med 🇸🇪 **svenska** verb.
 
@@ -25,18 +25,18 @@ export const Highlight = ({children, color}) => (
 *¿**Hace** sol?*   
 </div>
 
-## <Highlight color="#ff4802">Böjning</Highlight>
+## Böjning
 
 Spanska verb böjs efter:
 
 - [Person](#person)
-- [Ändelse i infinitiv](#ändelse-i-infinitiv)
-- [Tempus](#tempus)
+- [Infinitivändelser](#infinitivändelser)
+- [Tidsformer](#tidsformer)
 - [Modus](#modus)
 
 Exempel på de olika formerna är **bailar**, **comer** och **vivir**.
 
-### <Highlight color="#ff4802">Person</Highlight>
+### Person
 
 Till skillnad från svenskan böjs spanska verb efter **person**. Ett verb får alltså en annorlunda ändelse beroende av **vem** som utför verbet. Jämför dessa meningar!
 
@@ -79,7 +79,7 @@ Verbet får alltså en annorlunda **ändelse** beroende av vilken **person** som
   </tbody>
 </table>
 
-Läs mer om de **personliga pronomina** [här](/docs/Pronomina/Personliga%20pronomina).
+Läs mer om [pronomen](/docs/Pronomen/Personliga%20pronomen.md).
 
 :::info usted/ustedes
 
@@ -118,7 +118,7 @@ Vad menas med **1:a**, **2:a**, **3:e** osv? Om du jämför med svenskans motsva
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Ändelse i infinitiv</Highlight>
+### Infinitivändelser
 
 Det finns **tre** olika typer av verb. I **infinitiv** (grundform) har ett verb antingen ändelsen **-ar**, **-er** eller **-ir**. 
 
@@ -167,7 +167,7 @@ Se i nedanstående tabell hur ändelserna skiljer sig mellan de tre typerna då 
   </tbody>
 </table>
 
-### <Highlight color="#ff4802">Tempus</Highlight>
+### Tidsformer
 
 I spanskan finns **många** tempus **inbyggt** i verbet, till skillnad från svenskan som använder många hjälpverb för att bilda tempus. Exempelvis behöver man använda *ska* för att markera framtid, medan spanskan kan markera framtid med endast huvudverbet.
 
@@ -230,7 +230,7 @@ Dessutom finns följande **sammanslagna tempus** (bildas med hjälpverb):
 - <a href="/docs/Verb/Tempus/Gerundium" class="my-special-links">Gerundium</a> (något som håller på att ske)
 - <a href="/docs/Verb/Tempus/Futurum" class="my-special-links">Futurum</a> (ir + a + infinitiv) (något som kommer att ske) 
 
-### <Highlight color="#ff4802">Modus</Highlight>
+### Modus
 
 I spanskan finns **två** modus:
 
