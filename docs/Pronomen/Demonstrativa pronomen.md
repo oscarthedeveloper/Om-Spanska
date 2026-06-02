@@ -18,7 +18,7 @@ export const Highlight = ({children, color}) => (
 
 Demonstrativa pronomen används för att **peka ut** någon eller någonting.
 
-Dessa pronomen används alltså för att peka ut något, som antingen är **nära** eller **längre bort**. För att peka ut något som ligger **nära** används nedanstående pronomina som böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+Dessa pronomen används alltså för att peka ut något, som antingen är **nära** eller **längre bort**. För att peka ut något som ligger **nära** används nedanstående pronomina som böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Plural).
 
 <div class="tablepronomina">  
 <table>
@@ -42,7 +42,7 @@ Dessa pronomen används alltså för att peka ut något, som antingen är **när
 </table>
 </div>
 
-För att peka ut något som ligger **längre bort** används nedanstående pronomina som också böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+För att peka ut något som ligger **längre bort** används nedanstående pronomina som också böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Plural).
 
 <div class="tablepronomina">  
 <table>

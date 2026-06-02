@@ -54,7 +54,7 @@ Me gusta **mucho** jugar al tenis.
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar mycket att spela tennis.*</small>  
 </div>
 
-**Mucho** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+**Mucho** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Plural).
 
 <table>
   <tbody>

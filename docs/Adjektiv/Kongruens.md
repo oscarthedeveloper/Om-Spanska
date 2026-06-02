@@ -17,7 +17,7 @@ export const Highlight = ({children, color}) => (
 
 # Kongruens
 
-Kongruens betyder överenskommelse, vilket präglar spanska adjektiv då de skall stämma överens med substantivets 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Numerus).
+Kongruens betyder överenskommelse, vilket präglar spanska adjektiv då de skall stämma överens med substantivets 👱‍♀️ [genus](/docs/Substantiv/Genus) och 🔢 [numerus](/docs/Substantiv/Plural).
 
 Alla spanska adjektiv har en **stam** (den del som förblir oförändrad) och en **ändelse** (som böjs efter substantivet). Se nedan hur ändelsen böjs efter genus och numerus.
 

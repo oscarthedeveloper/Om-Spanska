@@ -26,14 +26,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
   presets: [
     [
       'classic',
@@ -62,15 +54,6 @@ const config = {
       ({
         hashed: true,
       }),
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs2', // Unique ID for the new docs section
-        path: 'docs2', // Path to the new docs directory
-        routeBasePath: 'docs2', // URL base path for the new docs section
-        sidebarPath: require.resolve('./sidebars2.js'), // Path to the new sidebar configuration
-      },
     ],
   ],
 
@@ -106,6 +89,7 @@ const config = {
           {to: '/docs/Substantiv/Genus', label: 'Grammatik', position: 'left'},
           {to: '/verbdrillen', label: 'Verbdrillen', position: 'left'},
           {to: '/glosdrillen', label: 'Glosdrillen', position: 'left'},
+          {to: '/kontakt', label: 'Kontakt', position: 'right'},
         ],
       },
       footer: {

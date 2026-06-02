@@ -15,7 +15,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# <Highlight color="var(--highlight)">Kontakt</Highlight>
+# Kontakt
 
 Denna hemsida är ett pågående arbete och uppdateras ständigt för bästa upplevelse. Om du har en fråga, förfrågan eller bara ett meddelande så får du gärna skriva det nedan.
 

@@ -44,7 +44,7 @@ Me gusta **tanto** jugar al tenis.
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag gillar så mycket att spela tennis.*</small>  
 </div>
 
-**Tanto** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Numerus).
+**Tanto** böjs efter [genus](/docs/Substantiv/Genus) och [numerus](/docs/Substantiv/Plural).
 
 <table>
   <tbody>

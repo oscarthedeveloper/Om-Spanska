@@ -238,7 +238,7 @@ Nekande imperativ är en uppmaning till att **inte göra något**.
 
 #### Bildning
 
-Nekande är i princip [konjunktiv](/docs/Verb/Konjunktiv/Presens.md) fast med *no* framför.
+Nekande är i princip [konjunktiv](/docs/Verb/Konjunktiv) fast med *no* framför.
 
 <div class="custom-quote">  
 ***No mientas**!*   
