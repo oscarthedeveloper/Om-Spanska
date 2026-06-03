@@ -1054,12 +1054,12 @@ export default function Glosdrilla() {
   const pct = total > 0 ? Math.round((score.right / total) * 100) : 0;
 
   return (
-    <Layout title="Glosdrilla — Om Spanska" description="Öva spanska glosor">
+    <Layout title="Glosdrillen — Om Spanska" description="Öva spanska glosor">
       <div className={styles.page}>
 
         <header className={styles.header}>
-          <span className={styles.eyebrow}>Övning</span>
-          <h1 className={styles.title}>Glosdrilla</h1>
+          <span className={styles.eyebrow}>Övningar</span>
+          <h1 className={styles.title}>Glosdrillen</h1>
           <p className={styles.desc}>
             Välj en kortlek och öva glosor — skriv svaret eller välj bland fyra alternativ.
           </p>
