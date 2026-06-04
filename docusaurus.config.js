@@ -102,12 +102,12 @@ const config = {
       },
       footer: {
   logo: {
-    alt: 'Om Spanska',
+    alt: 'Hvitstierna',
     src: 'img/stierna.svg',
     srcDark: 'img/stiernaVIT.svg',
+    href: 'https://hvitstierna.netlify.app',
   },
         style: 'dark',
-        copyright: `Hvitstierna ${new Date().getFullYear()}`
       },
       prism: {
         theme: prismThemes.github,

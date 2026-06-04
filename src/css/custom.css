@@ -658,7 +658,7 @@ table th {
   border-top: 1px solid rgba(30, 29, 26, 0.1);
   color: var(--svart);
   font-family: 'IBM Plex Sans', sans-serif;
-  padding: 3rem 3.5rem;
+  padding: 1rem 1.5rem;
 }
 
 [data-theme='dark'] .footer {
