@@ -52,3 +52,33 @@ Det 🔡 **spanska alfabetet** består av 27 bokstäver.
       <div className="bokstavsbox">Z z</div>
 </div>
 
+## Skillnader mot svenska alfabetet
+
+Jämfört med svenskan är det tre saker att hålla koll på:
+
+- **Ñ** är spanskans egen bokstav — den uttalas ungefär *nj* som i *señor* (herre) och *España* (Spanien). Vågtecknet ovanpå kallas *tilde*.
+- **Å, ä och ö finns inte** — spanskan klarar sig med sina fem vokaler a, e, i, o, u.
+- **K och w** finns i alfabetet men används nästan bara i lånord: *el kilo*, *el kiwi*, *el wifi*, *el windsurf*.
+
+## Vad hände 2010?
+
+Fram till 2010 hade spanskan **29** bokstäver: **ch** (*che*) och **ll** (*elle*) räknades som egna bokstäver och hade egna avsnitt i ordböcker! Ett ord som *chico* stod alltså **efter** alla c-ord. Spanska språkakademin (RAE) bestämde 2010 att de skulle räknas som bokstavskombinationer istället — men uttalen är förstås kvar precis som förr.
+
+## Att bokstavera på spanska
+
+När man bokstaverar sitt namn används bokstävernas namn. Så här frågar och svarar man:
+
+<div class="custom-quote">  
+*¿**Cómo se escribe** tu nombre?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hur stavas ditt namn?*</small>    
+*Se escribe **o-ese-ce-a-erre**.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det stavas O-S-C-A-R.*</small>    
+</div>
+
+Några bokstavsnamn som är bra att kunna: **a** (a), **be** (b), **ce** (c), **de** (d), **e** (e), **efe** (f), **ge** (g), **hache** (h), **i** (i), **jota** (j), **ka** (k), **ele** (l), **eme** (m), **ene** (n), **eñe** (ñ), **o** (o), **pe** (p), **cu** (q), **erre** (r), **ese** (s), **te** (t), **u** (u), **uve** (v), **uve doble** (w), **equis** (x), **ye** (y), **zeta** (z).
+
+:::tip B de Barcelona
+
+Eftersom **b** och **v** uttalas likadant på spanska (!) förtydligar spansktalande ofta med städer: *¿Con **be de Barcelona** o **uve de Valencia**?* — Med b som i Barcelona eller v som i Valencia?
+
+:::

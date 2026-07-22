@@ -87,3 +87,84 @@ Vad innebär **neutral** 😶? Jämför med svenskans **den** och **det**, där 
 '*No me gusta **esta***' = *Jag gilla inte **denna**.*
 
 :::
+
+## Den tredje nivån: aquel
+
+Svenskan har två avstånd (*den här* / *den där*), men spanskan har **tre**! Den tredje nivån, **aquel**, pekar ut något som är långt borta från **både** talaren och lyssnaren.
+
+<div class="tablepronomina">  
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> **fem.**</td>
+      <td> **mask.**</td>
+      <td> 😶 **neutral**</td>
+    </tr>
+      <td> **singular**</td>
+      <td> *aquella*</td>
+      <td> *aquel*</td>
+      <td> *aquello*</td>
+    <tr>
+      <td> **plural**</td>
+      <td> *aquellas*</td>
+      <td colspan="2"> *aquellos*</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="custom-quote">  
+¿Ves **aquella** montaña?   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Ser du berget där borta?*</small>    
+**Aquellos** días eran felices.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *De där dagarna (för länge sedan) var lyckliga.*</small>    
+</div>
+
+**Aquel** används också om **tid** som ligger långt bort — *aquel verano* (den där sommaren, för länge sedan) känns mer avlägset än *ese verano*.
+
+## Tre zoner — samma som aquí/ahí/allí
+
+Avståndssystemet hänger ihop med [rumsadverben](/docs/Adverb/Aquí,%20allí,%20ahí):
+
+<table>
+  <tbody>
+    <tr>
+      <th> Avstånd</th>
+      <th> Pronomen</th>
+      <th> Adverb</th>
+    </tr>
+    <tr>
+      <td> nära mig</td>
+      <td> *este*</td>
+      <td> *aquí*</td>
+    </tr>
+    <tr>
+      <td> nära dig</td>
+      <td> *ese*</td>
+      <td> *ahí*</td>
+    </tr>
+    <tr>
+      <td> långt från oss båda</td>
+      <td> *aquel*</td>
+      <td> *allí*</td>
+    </tr>
+  </tbody>
+</table>
+
+## Fristående eller framför substantiv
+
+Demonstrativa pronomen kan både stå **framför ett substantiv** (som bestämning) och **ensamma** (som ersättning):
+
+<div class="custom-quote">  
+**Este** coche es rápido.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här bilen är snabb. (framför substantiv)*</small>    
+**Este** es rápido.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Den här är snabb. (ensamt — substantivet underförstått)*</small>    
+</div>
+
+:::tip Ese kan låta nedlåtande
+
+Var lite försiktig med **ese/esa** om personer: *ese hombre* kan låta avmätt eller till och med föraktfullt, ungefär som svenskans "*den där* mannen". Säg hellre personens namn eller *este señor*!
+
+:::

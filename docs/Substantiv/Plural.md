@@ -77,3 +77,52 @@ Substantiv som slutar på **-z** genomgår en stavningsförändring där **-z** 
 | la voz    | las vo**ces**  |  
 
 :::
+
+## Ord som inte förändras
+
+Substantiv som slutar på **-s** i en **obetonad** stavelse ser likadana ut i plural — bara artikeln avslöjar antalet:
+
+<div class="custom-quote">  
+*el lunes → los lunes*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *måndagen → måndagarna*</small>    
+*el paraguas → los paraguas*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *paraplyet → paraplyerna*</small>    
+*la crisis → las crisis*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *krisen → kriserna*</small>    
+</div>
+
+Alla veckodagar som slutar på -s följer det här mönstret: *el martes/los martes*, *el miércoles/los miércoles* och så vidare. Men betonade slut på -s pluralböjs som vanligt: *el autobús → los autobuses*.
+
+## Accenter som kommer och går
+
+När plural-ändelsen lägger till en stavelse kan ordet behöva **tappa** eller **få** en accent för att betoningen ska ligga kvar på samma ställe (se [accentregler](/docs/Grunder%20&%20uttal/Accentregler)):
+
+<div class="custom-quote">  
+*el avión → los aviones*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *flygplanet → flygplanen (accenten försvinner)*</small>    
+*el joven → los jóvenes*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *ungdomen → ungdomarna (accenten dyker upp!)*</small>    
+</div>
+
+Betoningen ligger kvar på exakt samma ljud — det är bara skriften som anpassar sig.
+
+## Blandade grupper blir maskulina
+
+När en grupp innehåller **både** maskulina och feminina medlemmar används **maskulin plural**:
+
+<div class="custom-quote">  
+*los padres*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *föräldrarna (pappa + mamma)*</small>    
+*los hermanos*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *syskonen (bröder + systrar)*</small>    
+*los reyes*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *kungaparet (kungen + drottningen)*</small>    
+</div>
+
+Så *¿Tienes hermanos?* frågar efter syskon av **alla** sorter — inte bara bröder!
+
+:::tip Byxor är singular!
+
+Vissa ord som är plural på svenska är singular på spanska och tvärtom: *el pantalón* (byxorna), *la gente* (folket — alltid singular!): *La gente **es** amable.* (Folk är vänliga.)
+
+:::

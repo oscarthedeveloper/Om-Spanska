@@ -63,3 +63,53 @@ Me gusta **tanto** jugar al tenis.
     </tr>
   </tbody>
 </table>
+
+## Tan... como — "lika... som"
+
+**Tan** + adjektiv/adverb + **como** används för att jämföra saker som är **lika**:
+
+<div class="custom-quote">  
+*Ella es **tan** alta **como** su hermano.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon är lika lång som sin bror.*</small>    
+*Hablo español **tan** bien **como** tú.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag talar spanska lika bra som du.*</small>    
+</div>
+
+Med substantiv används istället **tanto... como** (och tanto böjs!):
+
+<div class="custom-quote">  
+*Tengo **tantos** libros **como** tú.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har lika många böcker som du.*</small>    
+*Hay **tanta** nieve **como** en Suecia.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är lika mycket snö som i Sverige.*</small>    
+</div>
+
+Läs mer om jämförelser på sidan om [komparation](/docs/Adjektiv/Komparation).
+
+## Tanto som fristående ord
+
+Precis som *mucho* kan **tanto** stå ensamt — då är det oböjt:
+
+<div class="custom-quote">  
+*¡No trabajes **tanto**!*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jobba inte så mycket!*</small>    
+*Te quiero **tanto**.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar dig så mycket.*</small>    
+</div>
+
+## Tan que & tanto que — "så... att"
+
+Både **tan** och **tanto** kan kombineras med **que** för att uttrycka en följd:
+
+<div class="custom-quote">  
+*Estaba **tan** cansado **que** me dormí en el sofá.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag var så trött att jag somnade i soffan.*</small>    
+*Comí **tanto** **que** no puedo moverme.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag åt så mycket att jag inte kan röra mig.*</small>    
+</div>
+
+:::tip Por lo tanto
+
+**Tanto** dyker även upp i det formella uttrycket *por lo tanto* — "därför/följaktligen": *Pienso, por lo tanto existo.* (Jag tänker, alltså finns jag.)
+
+:::

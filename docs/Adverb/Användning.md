@@ -66,3 +66,103 @@ Su capacided de correr es muy **malo**.
 '*Estar bueno/a*' = '*Att vara snygg/sexig*'      
 
 :::
+
+## Korta adverb utan -mente
+
+Alla adverb slutar inte på -mente! Några av spanskans allra vanligaste adverb är korta egna ord:
+
+<table>
+  <tbody>
+    <tr>
+      <th> Spanska</th>
+      <th> Svenska</th>
+      <th> Exempel</th>
+    </tr>
+    <tr>
+      <td> **siempre**</td>
+      <td> alltid</td>
+      <td> *Siempre llego tarde.*</td>
+    </tr>
+    <tr>
+      <td> **nunca**</td>
+      <td> aldrig</td>
+      <td> *Nunca como carne.*</td>
+    </tr>
+    <tr>
+      <td> **ya**</td>
+      <td> redan, nu</td>
+      <td> *Ya lo sé.*</td>
+    </tr>
+    <tr>
+      <td> **todavía**</td>
+      <td> fortfarande, än</td>
+      <td> *Todavía no.*</td>
+    </tr>
+    <tr>
+      <td> **pronto**</td>
+      <td> snart</td>
+      <td> *Hasta pronto.*</td>
+    </tr>
+    <tr>
+      <td> **tarde**</td>
+      <td> sent</td>
+      <td> *Llegué tarde.*</td>
+    </tr>
+    <tr>
+      <td> **temprano**</td>
+      <td> tidigt</td>
+      <td> *Me levanto temprano.*</td>
+    </tr>
+    <tr>
+      <td> **despacio**</td>
+      <td> långsamt</td>
+      <td> *Habla despacio, por favor.*</td>
+    </tr>
+    <tr>
+      <td> **casi**</td>
+      <td> nästan</td>
+      <td> *Casi termino.*</td>
+    </tr>
+    <tr>
+      <td> **bastante**</td>
+      <td> ganska, tillräckligt</td>
+      <td> *Es bastante fácil.*</td>
+    </tr>
+  </tbody>
+</table>
+
+## Ya vs todavía — "redan" och "fortfarande"
+
+Detta lilla par är värt extra uppmärksamhet, för de speglar varandra i negation:
+
+<div class="custom-quote">  
+***Ya** he comido.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har redan ätit.*</small>    
+***Todavía** no he comido.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag har inte ätit än.*</small>    
+***Todavía** estoy comiendo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag håller fortfarande på att äta.*</small>    
+***Ya no** como carne.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag äter inte kött längre.*</small>    
+</div>
+
+Notera särskilt **ya no** = *inte längre* och **todavía no** = *inte än* — de är lätta att blanda ihop men betyder helt olika saker!
+
+## Var hamnar adverbet?
+
+Spanska adverb är rätt flexibla, men den vanligaste platsen är **efter verbet**:
+
+<div class="custom-quote">  
+*Habla **bien** español.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon talar spanska bra.*</small>    
+*Canta **maravillosamente**.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Hon sjunger underbart.*</small>    
+</div>
+
+Tids- och frekvensadverb kan dock gärna inleda meningen för att sätta scenen: ***Siempre** desayuno a las siete.* (Jag äter alltid frukost klockan sju.)
+
+:::tip -mente = "med ... sinne"
+
+Ändelsen **-mente** kommer från latinets *mens* (sinne). *Rápidamente* betydde ursprungligen ungefär "med snabbt sinne". Det är också därför adjektivet står i femininum — *mente* är ett feminint substantiv!
+
+:::

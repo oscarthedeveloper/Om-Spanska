@@ -81,3 +81,35 @@ När man **inte** använder **frågepronomina** och bara stället en fråga som 
   <span class="aqua-dot"></span>
   <span class="subject-text">Objekt</span>
 </div>
+
+## Subjektet syns ofta inte alls
+
+I praktiken hoppar spansktalande ofta över subjektspronomenet helt — verbändelsen avslöjar ju redan vem det handlar om! Då blir frågan och påståendet **identiska i skrift**, och bara frågetecknen (och tonläget i tal) skiljer dem åt:
+
+<div class="custom-quote">  
+*¿Quieres comer?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vill du äta?*</small>    
+*Quieres comer.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du vill äta.*</small>    
+</div>
+
+I tal höjer man tonen i slutet av frågan — precis som på svenska. Det är därför det inledande **¿** är så praktiskt i skrift: det varnar läsaren om att en fråga är på väg!
+
+## Bekräftelsefrågor med ¿verdad? och ¿no?
+
+Ett superenkelt sätt att ställa frågor är att lägga en liten svans på ett vanligt påstående:
+
+<div class="custom-quote">  
+*Hablas español, **¿verdad?***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Du talar spanska, eller hur?*</small>    
+*Hace calor hoy, **¿no?***   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är varmt idag, eller hur?*</small>    
+</div>
+
+Svansen motsvarar svenskans *eller hur?* / *va?* och är extremt vanlig i vardagligt tal.
+
+:::tip Frågor är enklare än de ser ut
+
+Sammanfattningsvis finns tre sätt att fråga på spanska: (1) frågeord + VSO (*¿Dónde vives?*), (2) bara frågetecken + tonhöjning (*¿Quieres café?*) och (3) påstående + svans (*Quieres café, ¿no?*). Det svåraste är faktiskt att komma ihåg det upp-och-nervända frågetecknet!
+
+:::

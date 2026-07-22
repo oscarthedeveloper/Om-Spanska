@@ -14,7 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-# Futurrum
+# Futurum (ir + a)
 
 Futurum används i 🇪🇸 spanskan när man pratar om:
 
@@ -98,5 +98,71 @@ För reflexiva verb finns det två sätt att bilda futurum.
 Creen que **os vais a relajar** todo el tiempo.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *De tror att ni ska chilla hela tiden.*</small> 
 </div>
+
+## Vanliga tidsmarkörer
+
+Ir + a-futurum trivs ihop med ord som pekar mot den nära framtiden:
+
+<table>
+  <tbody>
+    <tr>
+      <th> Spanska</th>
+      <th> Svenska</th>
+    </tr>
+    <tr>
+      <td> *esta noche*</td>
+      <td> ikväll</td>
+    </tr>
+    <tr>
+      <td> *mañana*</td>
+      <td> imorgon</td>
+    </tr>
+    <tr>
+      <td> *este fin de semana*</td>
+      <td> i helgen</td>
+    </tr>
+    <tr>
+      <td> *la semana que viene*</td>
+      <td> nästa vecka</td>
+    </tr>
+    <tr>
+      <td> *el año que viene*</td>
+      <td> nästa år</td>
+    </tr>
+    <tr>
+      <td> *dentro de poco*</td>
+      <td> snart, inom kort</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="custom-quote">  
+***Mañana** voy a estudiar todo el día.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Imorgon ska jag plugga hela dagen.*</small>    
+*¿Qué **vas a hacer** este fin de semana?*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vad ska du göra i helgen?*</small>    
+</div>
+
+## Ir + a eller "riktiga" futurum?
+
+Spanskan har två sätt att prata om framtiden — den här sidans **ir + a** och [futurum II](/docs/Verb/Tempus/Futurum%20II) med egna ändelser (*hablaré*, *comerás*...). Vad är skillnaden?
+
+- **Ir + a** — planer och nära framtid. Dominerar helt i **talspråket**!
+- **Futurum II** — förutsägelser, löften och spekulationer. Vanligare i skrift.
+
+<div class="custom-quote">  
+***Voy a viajar** a España este verano.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag ska resa till Spanien i sommar. (plan → ir + a)*</small>    
+*Algún día **viajaré** por todo el mundo.*   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *En dag kommer jag att resa jorden runt. (dröm/förutsägelse → futurum II)*</small>    
+</div>
+
+Jämför med svenskans *ska* och *kommer att* — det är inte exakt samma uppdelning, men känslan är liknande: *ska* låter mer planerat, *kommer att* mer förutsägande.
+
+:::tip Vamos a = "nu kör vi!"
+
+**Vamos a** + infinitiv betyder inte bara "vi ska" utan används också som uppmaning: *¡**Vamos a** comer!* — Nu äter vi! Och helt ensamt är *¡Vamos!* spanskans "kom igen!"
+
+:::
 
 

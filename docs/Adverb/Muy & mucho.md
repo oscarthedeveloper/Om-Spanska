@@ -25,8 +25,8 @@ El mar está **muy** caliente.
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Havet är mycket varmt.*</small>    
 Corro **muy** rápidamente.   
 &nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag springer väldigt snabbt.*</small>   
-Hay **muchos** coches aquí.   
-&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det finns många bilar här.*</small>    
+Estoy **muy** cansado hoy.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är väldigt trött idag.*</small>    
 </div>
 
 
@@ -73,3 +73,37 @@ Me gusta **mucho** jugar al tenis.
     </tr>
   </tbody>
 </table>
+
+## Tengo mucha hambre — inte muy!
+
+Här gömmer sig en klassisk fälla för svenskar. Vi säger *jag är hungrig* (adjektiv), men spanskan säger *jag **har** hunger* (substantiv). Eftersom *hambre*, *sed*, *calor* och liknande är **substantiv** ska de förstärkas med **mucho/mucha** — aldrig muy:
+
+<div class="custom-quote">  
+Tengo **mucha** hambre.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är jättehungrig. (ordagrant: jag har mycket hunger)*</small>    
+Tengo **mucha** sed.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är jättetörstig.*</small>    
+Tenemos **mucho** frío.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Vi fryser mycket.*</small>    
+Tengo **mucho** sueño.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag är jättesömnig.*</small>    
+</div>
+
+## Muchísimo — när mucho inte räcker
+
+Vill man ta i ännu mer används superlativändelsen [-ísimo](/docs/Adjektiv/Ísimo):
+
+<div class="custom-quote">  
+Te quiero **muchísimo**.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Jag älskar dig jättejättemycket.*</small>    
+Hay **muchísima** gente.   
+&nbsp;&nbsp;&nbsp;<small>🇸🇪 *Det är otroligt mycket folk.*</small>    
+</div>
+
+Observera att **muy** aldrig kan förstärkas — det finns inget ~~muyísimo~~! Och man säger inte heller ~~muy mucho~~. Vill man förstärka är det **muchísimo** som gäller.
+
+:::tip Muy = kortform av mucho
+
+Historiskt är **muy** faktiskt en avklippt form av **mucho** (från latinets *multum*). Det är därför de delar jobb: muy tar de korta uppdragen (framför adjektiv), mucho tar de tunga (substantiv, verb och fristående)!
+
+:::
