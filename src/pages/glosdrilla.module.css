@@ -1,0 +1,478 @@
+/* ═══ Glosdrillen ═════════════════════════════════════════════════ */
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--s-lg) var(--s-section);
+}
+
+/* ─── Rubrik ─── */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-md);
+  padding: clamp(2.5rem, 6vw, 4.5rem) 0 var(--s-xl);
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: var(--s-xxl);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  font-weight: 340;
+  line-height: 1;
+  letter-spacing: -0.022em;
+  margin: 0;
+}
+
+.desc {
+  font-size: 1.125rem;
+  font-weight: 330;
+  line-height: 1.4;
+  letter-spacing: -0.011em;
+  max-width: 46ch;
+  margin: 0;
+}
+
+/* ─── Kortlekar ─── */
+
+.deckGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: var(--s-md);
+}
+
+.deckCard {
+  border-radius: var(--r-lg);
+  padding: var(--s-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xs);
+  color: var(--ink);
+  min-height: 15rem;
+}
+
+.blockLime  { background: var(--block-lime); }
+.blockMint  { background: var(--block-mint); }
+.blockCream { background: var(--block-cream); }
+.blockCoral { background: var(--block-coral); }
+.blockPink  { background: var(--block-pink); }
+.blockLilac { background: var(--block-lilac); }
+
+.deckTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--s-sm);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.deckNum {
+  font-variant-numeric: tabular-nums;
+}
+
+.deckLevel {
+  color: rgba(0, 0, 0, 0.62);
+}
+
+.deckTheme {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.014em;
+  margin: var(--s-xs) 0 0;
+}
+
+.deckCompo {
+  font-size: 0.875rem;
+  font-weight: 330;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.68);
+  margin: 0;
+}
+
+.deckBest {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.72);
+  margin: var(--s-xxs) 0 0;
+}
+
+.deckActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-xs);
+  margin-top: auto;
+  padding-top: var(--s-md);
+}
+
+.textBtn {
+  background: none;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: var(--r-full);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 480;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.textBtn:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* ─── Övningsvy ─── */
+
+.drillPhase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-lg);
+  max-width: 44rem;
+}
+
+.drillHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-md);
+  flex-wrap: wrap;
+}
+
+.modeToggle {
+  display: inline-flex;
+  gap: var(--s-xxs);
+  background: var(--surface-soft);
+  border-radius: var(--r-pill);
+  padding: 4px;
+}
+
+.modeBtn {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 480;
+  letter-spacing: -0.01em;
+  border-radius: var(--r-pill);
+  padding: 7px 18px;
+  min-height: 36px;
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+}
+
+.modeBtnActive {
+  background: var(--ink);
+  color: var(--inverse-ink);
+}
+
+.progressLabel {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: #666;
+}
+
+.progressBarOuter {
+  height: 4px;
+  background: var(--hairline);
+  border-radius: var(--r-full);
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: var(--ink);
+  border-radius: var(--r-full);
+  transition: width 0.25s ease;
+}
+
+/* Ordkort */
+
+.wordCard {
+  background: var(--block-lilac);
+  border-radius: var(--r-lg);
+  padding: var(--s-xxl) var(--s-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-sm);
+  align-items: center;
+  text-align: center;
+}
+
+.wordSv {
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-weight: 340;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.wordMeta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-xs);
+}
+
+.wordType,
+.wordNote {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: var(--r-pill);
+  padding: 5px 12px;
+}
+
+/* Svarsyta */
+
+.answerArea {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-md);
+}
+
+.writeInput {
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  background: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  padding: 14px 16px;
+  min-height: 56px;
+  width: 100%;
+}
+
+.writeInput::placeholder { color: #b0b0b0; }
+
+.writeInput:focus {
+  outline: 2px solid var(--ink);
+  outline-offset: 0;
+  border-color: var(--ink);
+}
+
+.writeInput:disabled {
+  background: var(--surface-soft);
+  color: var(--ink);
+}
+
+.writeInputOk  { box-shadow: inset 0 0 0 2px var(--success); }
+.writeInputErr { box-shadow: inset 0 0 0 2px var(--accent-magenta); }
+
+.accentRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--s-xs);
+}
+
+.accentLabel {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #666;
+  margin-right: var(--s-xs);
+}
+
+.accentBtn {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--r-full);
+  background: var(--surface-soft);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+
+.accentBtn:hover { transform: scale(0.92); }
+
+.feedbackOk,
+.feedbackErr {
+  font-size: 1.0625rem;
+  font-weight: 330;
+  letter-spacing: -0.011em;
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: var(--r-md);
+}
+
+.feedbackOk {
+  background: #f0faf3;
+  box-shadow: inset 0 0 0 1px rgba(30, 166, 74, 0.35);
+}
+
+.feedbackErr {
+  background: #fff4f8;
+  box-shadow: inset 0 0 0 1px rgba(255, 61, 139, 0.35);
+}
+
+.feedbackOk strong,
+.feedbackErr strong { font-weight: 600; }
+
+/* Flerval */
+
+.choiceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: var(--s-sm);
+}
+
+.choiceBtn {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  color: var(--ink);
+  background: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  padding: 16px 18px;
+  min-height: 56px;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.12s ease, transform 0.12s ease;
+}
+
+.choiceBtn:hover:not(:disabled) {
+  background: var(--surface-soft);
+  transform: scale(0.99);
+}
+
+.choiceBtnCorrect {
+  background: #f0faf3;
+  border-color: var(--success);
+  font-weight: 600;
+}
+
+.choiceBtnWrong {
+  background: #fff4f8;
+  border-color: var(--accent-magenta);
+}
+
+.choiceBtnDim { opacity: 0.4; }
+
+.actions {
+  display: flex;
+  gap: var(--s-sm);
+  flex-wrap: wrap;
+}
+
+/* ─── Resultat ─── */
+
+.resultsCard {
+  background: var(--block-lime);
+  border-radius: var(--r-lg);
+  padding: var(--s-xxl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-sm);
+  align-items: flex-start;
+  max-width: 44rem;
+}
+
+.resultsScore {
+  font-size: clamp(3.5rem, 12vw, 6rem);
+  font-weight: 340;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
+  margin: var(--s-xs) 0 0;
+}
+
+.resultsSlash {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.resultsPct {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.resultsFeedback {
+  font-size: 1.25rem;
+  font-weight: 340;
+  line-height: 1.35;
+  letter-spacing: -0.014em;
+  max-width: 34ch;
+  margin: var(--s-xs) 0 0;
+}
+
+.resultsBtns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-sm);
+  margin-top: var(--s-md);
+}
+
+/* Endast för skärmläsare */
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ─── Responsivt ─── */
+
+@media (max-width: 768px) {
+  .deckCard,
+  .wordCard,
+  .resultsCard {
+    padding: var(--s-lg);
+  }
+  .resultsCard {
+    border-radius: 0;
+    margin-left: calc(-1 * var(--s-lg));
+    margin-right: calc(-1 * var(--s-lg));
+  }
+  .drillHeader {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .actions :global(.pillButton),
+  .resultsBtns :global(.pillButton) {
+    flex: 1 1 100%;
+  }
+}

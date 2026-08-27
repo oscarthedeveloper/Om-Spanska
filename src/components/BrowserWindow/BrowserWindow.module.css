@@ -1,0 +1,55 @@
+/* ═══ Webbläsarram ════════════════════════════════════════════════ */
+
+.browserWindow {
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  margin: var(--s-lg) 0;
+  background: var(--canvas);
+}
+
+.browserHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--s-sm);
+  background: var(--surface-soft);
+  border-bottom: 1px solid var(--hairline);
+  padding: 10px 14px;
+}
+
+.browserControls {
+  display: flex;
+  gap: 6px;
+}
+
+.control {
+  width: 9px;
+  height: 9px;
+  border-radius: var(--r-full);
+  background: #d2d2ce;
+}
+
+.red,
+.yellow,
+.green {
+  background: #d2d2ce;
+}
+
+.browserTitle {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  color: #666;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.browserContent {
+  padding: var(--s-lg);
+  background: var(--canvas);
+  font-size: 0.9375rem;
+  color: var(--ink);
+}
