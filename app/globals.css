@@ -420,6 +420,14 @@ h4 .mdxHighlight { padding: 0.06em 0.3em; }
   text-align: center;
 }
 
+/* I en tabellcell ska rutan inte skjuta isär raderna */
+td .regelruta,
+th .regelruta {
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 1rem;
+}
+
 /* Bokstavsrutor i alfabetet */
 
 .bokstavsbox-container {
