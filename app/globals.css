@@ -1,0 +1,622 @@
+/* ═══════════════════════════════════════════════════════════════════
+   Om Spanska — designsystem
+   Monokrom ram, pastellfärgade blockssektioner. Endast ljust läge.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── 1. TOKENS ─────────────────────────────────────────────────── */
+
+:root {
+  --ink:            #000000;
+  --canvas:         #ffffff;
+  --inverse-canvas: #000000;
+  --inverse-ink:    #ffffff;
+  --hairline:       #e6e6e6;
+  --hairline-soft:  #f1f1f1;
+  --surface-soft:   #f7f7f5;
+  --muted:          #666666;
+
+  --block-lime:     #dceeb1;
+  --block-lilac:    #c5b0f4;
+  --block-cream:    #f4ecd6;
+  --block-pink:     #efd4d4;
+  --block-mint:     #c8e6cd;
+  --block-coral:    #f3c9b6;
+  --block-navy:     #1f1d3d;
+
+  --accent-magenta: #ff3d8b;
+  --success:        #1ea64a;
+
+  /* Pedagogiska markörer — mörka varianter av blockfärgerna, valda för
+     att klara kontrastkravet mot vitt. Bär grammatisk betydelse och är
+     medvetet skilda från gränssnittets palett. */
+  --g-subjekt:    #3a2fb5;
+  --g-verb:       #b3005e;
+  --g-objekt:     #0f6b66;
+  --g-bindeord:   #7a3ba8;
+  --g-konjunktiv: #1c6b39;
+
+  /* Typsnitten laddas självhostade via next/font i app/layout.tsx. */
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --r-xs: 2px;
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --r-pill: 50px;
+  --r-full: 9999px;
+
+  --s-xxs: 4px;
+  --s-xs: 8px;
+  --s-sm: 12px;
+  --s-md: 16px;
+  --s-lg: 24px;
+  --s-xl: 32px;
+  --s-xxl: 48px;
+  --s-section: 96px;
+
+  --navbar-height: 64px;
+  --content-width: 1280px;
+}
+
+/* ─── 2. BAS ────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--navbar-height) + var(--s-lg));
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 320;
+  line-height: 1.45;
+  letter-spacing: -0.011em;
+  font-feature-settings: 'kern' 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--block-lime);
+  color: var(--ink);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink);
+  text-wrap: balance;
+  margin: 0 0 var(--s-md);
+}
+
+h1 {
+  font-size: clamp(2.25rem, 5.2vw, 3.4rem);
+  font-weight: 340;
+  line-height: 1.04;
+  letter-spacing: -0.022em;
+}
+
+h2 {
+  font-size: clamp(1.65rem, 3vw, 2.1rem);
+  font-weight: 540;
+  line-height: 1.15;
+  letter-spacing: -0.018em;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.012em;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.008em;
+}
+
+p { margin: 0 0 1.15rem; }
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: var(--r-xs);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  margin: var(--s-xxl) 0;
+}
+
+img, svg, video, audio { max-width: 100%; }
+
+strong { font-weight: 600; }
+
+ul, ol { padding-left: 1.35rem; margin: 0 0 1.15rem; }
+li { margin-bottom: 0.35rem; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+  background: var(--surface-soft);
+  border-radius: var(--r-xs);
+  padding: 0.1em 0.35em;
+}
+
+pre {
+  font-family: var(--font-mono);
+  background: var(--surface-soft);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  padding: var(--s-md);
+  overflow-x: auto;
+}
+
+pre code { background: none; padding: 0; }
+
+blockquote {
+  border-left: 3px solid var(--ink);
+  padding-left: var(--s-lg);
+  margin: var(--s-lg) 0;
+  font-size: 1.0625rem;
+}
+
+audio {
+  height: 34px;
+  vertical-align: middle;
+}
+
+figure { margin: 0; }
+
+/* ─── 3. GEMENSAMMA KOMPONENTER ─────────────────────────────────── */
+
+.pillButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-xs);
+  border: 0;
+  border-radius: var(--r-pill);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 1.4;
+  min-height: 44px;
+  padding: 10px 22px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.12s ease, background-color 0.12s ease;
+}
+
+.pillButton:hover { text-decoration: none; transform: scale(0.975); }
+
+.pillButton--primary { background: var(--ink); color: var(--inverse-ink); }
+.pillButton--primary:hover { color: var(--inverse-ink); }
+
+.pillButton--secondary {
+  background: var(--canvas);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--hairline);
+}
+.pillButton--secondary:hover { background: var(--surface-soft); color: var(--ink); }
+
+.pillButton--onColor { background: var(--canvas); color: var(--ink); }
+.pillButton--onColor:hover { color: var(--ink); }
+
+.pillButton--magenta { background: var(--accent-magenta); color: var(--inverse-ink); }
+.pillButton--magenta:hover { color: var(--inverse-ink); }
+
+.pillButton:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skipLink {
+  position: absolute;
+  left: -9999px;
+  top: var(--s-xs);
+  z-index: 100;
+  background: var(--ink);
+  color: var(--inverse-ink);
+  border-radius: var(--r-pill);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.skipLink:focus {
+  left: var(--s-lg);
+}
+
+/* ─── 4. INNEHÅLLET (MDX) ───────────────────────────────────────── */
+
+.tableScroll {
+  overflow-x: auto;
+  margin: var(--s-lg) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+}
+
+.tableScroll table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.tableScroll th,
+.tableScroll td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px 14px;
+  border: 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.tableScroll thead th,
+.tableScroll tr:first-child th {
+  background: var(--surface-soft);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.tableScroll tbody tr:last-child td,
+.tableScroll tbody tr:last-child th { border-bottom: 0; }
+
+.tableScroll tbody tr:hover { background: var(--surface-soft); }
+
+/* Rubrik med ankarlänk */
+
+.anchorHeading {
+  scroll-margin-top: calc(var(--navbar-height) + var(--s-lg));
+  position: relative;
+}
+
+.anchorLink {
+  font-family: var(--font-mono);
+  font-size: 0.7em;
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 0.5em;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.anchorHeading:hover .anchorLink,
+.anchorLink:focus { opacity: 1; }
+
+/* Pastellmarkering */
+
+.mdxHighlight {
+  background: var(--block-lime);
+  color: var(--ink);
+  border-radius: var(--r-sm);
+  padding: 0.1em 0.35em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+h2 .mdxHighlight,
+h3 .mdxHighlight,
+h4 .mdxHighlight { padding: 0.06em 0.3em; }
+
+/* ─── 5. PEDAGOGISKA MARKÖRER ───────────────────────────────────── */
+
+.g-subjekt    { color: var(--g-subjekt);    font-weight: 500; }
+.g-verb       { color: var(--g-verb);       font-weight: 500; }
+.g-objekt     { color: var(--g-objekt);     font-weight: 500; }
+.g-bindeord   { color: var(--g-bindeord);   font-weight: 500; }
+.g-konjunktiv { color: var(--g-konjunktiv); font-weight: 500; }
+
+/* Färgförklaringen: subjekt · verb · objekt */
+
+.subject-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-xs) var(--s-md);
+  background: var(--surface-soft);
+  border-radius: var(--r-pill);
+  padding: 10px 20px;
+  margin: var(--s-md) 0 var(--s-lg);
+  width: fit-content;
+}
+
+.subject-text {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: var(--s-xs);
+}
+
+.blue-dot,
+.red-dot,
+.aqua-dot,
+.magenta-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: var(--r-full);
+  flex: none;
+}
+
+.blue-dot    { background: var(--g-subjekt); }
+.red-dot     { background: var(--g-verb); }
+.aqua-dot    { background: var(--g-objekt); }
+.magenta-dot { background: var(--g-bindeord); }
+
+/* Exempelmening med svensk översättning */
+
+.custom-quote {
+  background: var(--block-cream);
+  border-radius: var(--r-md);
+  padding: var(--s-md) var(--s-lg);
+  margin: var(--s-lg) 0;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.custom-quote small {
+  font-size: 0.875rem;
+  color: #4a4a45;
+}
+
+.custom-quote p:last-child { margin-bottom: 0; }
+
+/* Inramad regel */
+
+.regelruta {
+  display: block;
+  border: 2px solid var(--ink);
+  border-radius: var(--r-md);
+  padding: var(--s-md) var(--s-lg);
+  margin: var(--s-lg) 0;
+  font-size: 1.25rem;
+  font-weight: 540;
+  letter-spacing: -0.014em;
+  text-align: center;
+}
+
+/* Bokstavsrutor i alfabetet */
+
+.bokstavsbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bokstavsbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem;
+  padding: 8px 12px;
+  background: var(--block-lilac);
+  border-radius: var(--r-sm);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.IPA {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem;
+  padding: 8px 12px;
+  background: var(--surface-soft);
+  border-radius: var(--r-sm);
+  font-family: var(--font-mono);
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+
+/* Länklistor i grammatiken */
+
+.my-special-links {
+  font-weight: 500;
+  text-decoration-color: var(--block-lilac);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+.my-special-links:hover {
+  text-decoration-color: var(--ink);
+}
+
+/* Pronomentabellen */
+
+.tablepronomina {
+  overflow-x: auto;
+  margin: var(--s-lg) 0;
+}
+
+.tablepronomina table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  font-size: 0.9375rem;
+}
+
+.tablepronomina td,
+.tablepronomina th {
+  padding: 10px 14px;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.tablepronomina tr:first-child td { background: var(--surface-soft); }
+.tablepronomina tr:last-child td { border-bottom: 0; }
+
+/* ─── 6. VÄXLAREN INDIKATIV / KONJUNKTIV ────────────────────────── */
+
+.table-switch { margin: var(--s-lg) 0 var(--s-xl); }
+
+.switch-container {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-sm);
+  background: var(--surface-soft);
+  border-radius: var(--r-pill);
+  padding: 6px 16px 6px 8px;
+  margin-bottom: var(--s-md);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  flex: none;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  background-color: #c9c9c7;
+  border-radius: var(--r-full);
+  transition: background-color 0.18s ease;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #ffffff;
+  border-radius: var(--r-full);
+  transition: transform 0.18s ease;
+}
+
+.switch input:checked + .slider { background-color: var(--ink); }
+.switch input:checked + .slider::before { transform: translateX(16px); }
+.switch input:focus-visible + .slider { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+.switch-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.table-container { overflow-x: auto; }
+
+.table-content {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  font-size: 0.9375rem;
+}
+
+.table-content td,
+.table-content th {
+  padding: 10px 14px;
+  text-align: left;
+  vertical-align: middle;
+  border: 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.table-content tr:last-child td,
+.table-content tr:last-child th { border-bottom: 0; }
+
+.endingCell { background: var(--surface-soft); }
+
+.ending {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+
+/* Ram runt inbäddade exempel i grammatiken */
+
+.browser-container {
+  margin: var(--s-lg) 0;
+}
+
+/* Variantklasser på växlartabellen — bär ingen egen stil i dag,
+   men är kvar som krok för framtida skillnader. */
+
+.table-content.indikativ,
+.table-content.konjunktiv { /* avsiktligt tom */ }
+
+/* ─── 7. RESPEKTERA REDUCERAD RÖRELSE ───────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media (max-width: 560px) {
+  body { font-size: 17px; }
+}

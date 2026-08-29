@@ -1,0 +1,23 @@
+.page {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: clamp(3rem, 10vw, 7rem) var(--s-lg) var(--s-section);
+}
+
+.title {
+  font-size: clamp(2.25rem, 6vw, 3.5rem);
+  font-weight: 340;
+  line-height: 1.04;
+  letter-spacing: -0.022em;
+  margin: var(--s-md) 0;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 330;
+  line-height: 1.4;
+  max-width: 46ch;
+  margin: 0 0 var(--s-xl);
+}
+
+.actions { display: flex; flex-wrap: wrap; gap: var(--s-sm); }

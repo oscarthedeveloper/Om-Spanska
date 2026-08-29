@@ -1,0 +1,221 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# ── Omdirigeringar från de gamla Docusaurus-URL:erna ──────────────────
+
+[[redirects]]
+  from = "/docs/Grunder & uttal/Alfabet"
+  to = "/docs/grunder/alfabet"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Grunder & uttal/Uttal"
+  to = "/docs/grunder/uttal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Grunder & uttal/Ordförändringar"
+  to = "/docs/grunder/ordforandringar"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Substantiv/Genus"
+  to = "/docs/substantiv/genus"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Substantiv/Artiklar"
+  to = "/docs/substantiv/artiklar"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Substantiv/Plural"
+  to = "/docs/substantiv/plural"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Substantiv/Genitiv"
+  to = "/docs/substantiv/genitiv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adjektiv/Kongruens"
+  to = "/docs/adjektiv/kongruens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adjektiv/Komparation"
+  to = "/docs/adjektiv/komparation"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adjektiv/Ísimo"
+  to = "/docs/adjektiv/isimo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Pronomen/Personliga pronomen"
+  to = "/docs/pronomen/personliga"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Pronomen/Reflexiva pronomen"
+  to = "/docs/pronomen/reflexiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Pronomen/Possessiva pronomen"
+  to = "/docs/pronomen/possessiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Pronomen/Demonstrativa pronomen"
+  to = "/docs/pronomen/demonstrativa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Introduktion"
+  to = "/docs/verb/introduktion"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Imperativ"
+  to = "/docs/verb/imperativ"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Konjunktiv"
+  to = "/docs/verb/konjunktiv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Perifraser"
+  to = "/docs/verb/perifraser"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Oregelbundna verb"
+  to = "/docs/verb/oregelbundna-verb"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Presens"
+  to = "/docs/verb/tempus/presens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Preteritum"
+  to = "/docs/verb/tempus/preteritum"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Imperfekt"
+  to = "/docs/verb/tempus/imperfekt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Perfekt"
+  to = "/docs/verb/tempus/perfekt"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Futurum"
+  to = "/docs/verb/tempus/futurum"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Futurum II"
+  to = "/docs/verb/tempus/futurum-ii"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Konditionalis"
+  to = "/docs/verb/tempus/konditionalis"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Tempus/Gerundium"
+  to = "/docs/verb/tempus/gerundium"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adverb/Användning"
+  to = "/docs/adverb/anvandning"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adverb/Muy & mucho"
+  to = "/docs/adverb/muy-mucho"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adverb/Tan & tanto"
+  to = "/docs/adverb/tan-tanto"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Adverb/Aquí, allí, ahí"
+  to = "/docs/adverb/aqui-alli-ahi"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Syntax/Introduktion"
+  to = "/docs/syntax/introduktion"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Syntax/Ordföljd i frågor"
+  to = "/docs/syntax/ordfoljd-i-fragor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Syntax/Que"
+  to = "/docs/syntax/que"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/thank-you"
+  to = "/tack"
+  status = 301
+  force = true

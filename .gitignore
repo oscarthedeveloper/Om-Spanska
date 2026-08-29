@@ -1,9 +1,11 @@
 node_modules/
-build/
-.docusaurus/
-.cache-loader/
+.next/
+out/
+.netlify/
 .DS_Store
 .env
 .env.local
+*.tsbuildinfo
+next-env.d.ts
+public/search-index.json
 npm-debug.log*
-yarn-error.log*

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulärdefinition</title>
+  </head>
+  <body>
+    <!-- Netlify läser av det här formuläret vid bygget. Sidan visas aldrig
+         för besökare; kontaktsidan postar hit. -->
+    <form name="kontakt" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="kontakt" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="namn" />
+      <input type="email" name="epost" />
+      <textarea name="meddelande"></textarea>
+    </form>
+  </body>
+</html>

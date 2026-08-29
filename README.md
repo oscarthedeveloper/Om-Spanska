@@ -1,41 +1,71 @@
-# Website
+# Om Spanska
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+En gratis digital spansk grammatika för svenska elever. Byggd med Next.js
+(App Router, TypeScript, CSS-moduler) och driftad på Netlify.
 
-### Installation
+## Kom igång
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+`npm run dev` bygger inte om sökindexet. Kör `npm run search-index` när du
+lagt till eller döpt om innehåll och vill se det i sökrutan lokalt.
+Vid `npm run build` byggs indexet automatiskt via `prebuild`.
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+## Struktur
 
 ```
-$ USE_SSH=true yarn deploy
+app/                 Rutter (App Router)
+  docs/[...slug]/    Grammatiksidorna
+  blog/[slug]/       Bloggposterna
+  globals.css        Designsystemets tokens och alla globala klasser
+components/
+  mdx/               Komponenter som innehållet får använda
+  drills/            Verbdrillen och Glosdrillen
+content/
+  docs/              34 grammatiksidor i MDX
+  blog/              4 bloggposter i MDX
+data/                Typad glos- och verbdata
+lib/content.ts       Läser innehållet: sidomeny, slugs, rubriker, grannar
+scripts/             Sökindex + engångsmigreringen från Docusaurus
+public/              Ljud, bilder, ads.txt, formulärdefinition
 ```
 
-Not using SSH:
+## Skriva innehåll
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+En grammatiksida är en `.mdx`-fil under `content/docs/<Kategori>/`. Frontmatter:
+
+```yaml
+---
+sidebar_position: 3
+slug: /verb/tempus/futurum
+title: 'Futurum'
+description: 'Visas i sökresultat och som ingress. Håll den under ~160 tecken.'
+---
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Kategorins namn och ordning styrs av `_category_.json` i mappen.
+
+Komponenter som innehållet kan använda utan att importera något:
+`<Highlight>`, `<Admonition type="info|tip|note|caution|danger" title="…">`,
+`<Tabs>` med `<TabItem value label>`, `<BrowserWindow title>`, och de fyra
+`<KonjunktivAR />`-tabellerna.
+
+Klasser för de pedagogiska färgmarkörerna: `g-subjekt`, `g-verb`, `g-objekt`,
+`g-bindeord`, `g-konjunktiv`. Övriga innehållsklasser (`custom-quote`,
+`bokstavsbox`, `IPA`, `subject-box`, `regelruta`, `tablepronomina`,
+`my-special-links`) finns i `app/globals.css`.
+
+MDX tolkar inte `**fet**` när texten står i samma stycke som en JSX-tagg.
+Använd `<strong>` och `<em>` inuti tabeller och `<div>`-block.
+
+## Drift
+
+Netlify bygger med `@netlify/plugin-nextjs`. `netlify.toml` innehåller
+301-omdirigeringar från de gamla Docusaurus-URL:erna.
+
+Kontaktformuläret postar till `public/__forms.html`, som är den definition
+Netlify Forms läser av vid bygget. Ändrar du fälten i `components/ContactForm.tsx`
+måste samma fältnamn finnas i `__forms.html`.

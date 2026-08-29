@@ -1,0 +1,17 @@
+.shell {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--s-xl) var(--s-lg) var(--s-section);
+  display: grid;
+  grid-template-columns: 16rem minmax(0, 1fr);
+  gap: var(--s-xl);
+  align-items: start;
+}
+
+@media (max-width: 996px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding: var(--s-lg) var(--s-lg) var(--s-xxl);
+  }
+}
