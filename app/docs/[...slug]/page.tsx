@@ -55,7 +55,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
         <h1>{doc.title}</h1>
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
-        <div className={styles.content}>
+        <div className={`${styles.content} mdxContent`}>
           <Mdx source={doc.content} />
         </div>
 

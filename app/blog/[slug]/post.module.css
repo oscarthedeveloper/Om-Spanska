@@ -4,7 +4,10 @@
   padding: clamp(2rem, 5vw, 3.5rem) var(--s-lg) var(--s-section);
 }
 
-.article { max-width: 46rem; }
+.article {
+  max-width: 46rem;
+  min-width: 0;
+}
 
 .back {
   font-family: var(--font-mono);

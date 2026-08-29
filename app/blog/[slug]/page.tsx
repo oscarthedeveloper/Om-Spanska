@@ -44,7 +44,7 @@ export default async function BlogPost({params}: {params: Promise<Params>}) {
         <p className={styles.date}>{formatDate(post.date)}</p>
         <h1 className={styles.title}>{post.title}</h1>
         {post.description && <p className={styles.lead}>{post.description}</p>}
-        <div className={styles.content}>
+        <div className={`${styles.content} mdxContent`}>
           <Mdx source={post.content} />
         </div>
       </article>

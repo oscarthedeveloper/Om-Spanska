@@ -5,7 +5,11 @@
   align-items: start;
 }
 
-.article { min-width: 0; max-width: 46rem; }
+.article {
+  min-width: 0;
+  max-width: 46rem;
+  overflow-wrap: anywhere;
+}
 
 .breadcrumbs {
   font-family: var(--font-mono);
@@ -29,6 +33,10 @@
   margin: 0 0 var(--s-xl);
   padding-bottom: var(--s-lg);
   border-bottom: 1px solid var(--hairline);
+}
+
+.content {
+  min-width: 0;
 }
 
 .content > :first-child { margin-top: 0; }

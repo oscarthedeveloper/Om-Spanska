@@ -269,43 +269,58 @@ figure { margin: 0; }
 
 .tableScroll {
   overflow-x: auto;
+  max-width: 100%;
   margin: var(--s-lg) 0;
   border: 1px solid var(--hairline);
   border-radius: var(--r-md);
 }
 
-.tableScroll table {
+/* Tabellerna skrivs som rå HTML i innehållet, så de stylas på elementet
+   och inte via en komponent. */
+
+.mdxContent table {
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+  border-collapse: collapse;
+  margin: var(--s-lg) 0;
   font-size: 0.9375rem;
   font-variant-numeric: tabular-nums;
 }
 
-.tableScroll th,
-.tableScroll td {
+.tableScroll > table { margin: 0; }
+
+.mdxContent th,
+.mdxContent td {
   text-align: left;
   vertical-align: middle;
-  padding: 10px 14px;
+  padding: 9px 14px;
   border: 0;
   border-bottom: 1px solid var(--hairline-soft);
 }
 
-.tableScroll thead th,
-.tableScroll tr:first-child th {
+.mdxContent th {
+  font-weight: 600;
+  letter-spacing: -0.008em;
   background: var(--surface-soft);
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   border-bottom: 1px solid var(--hairline);
 }
 
-.tableScroll tbody tr:last-child td,
-.tableScroll tbody tr:last-child th { border-bottom: 0; }
+.mdxContent thead tr { background: var(--surface-soft); }
 
-.tableScroll tbody tr:hover { background: var(--surface-soft); }
+.mdxContent tbody tr:last-child > td,
+.mdxContent tbody tr:last-child > th { border-bottom: 0; }
+
+/* Celler som spänner över flera rader läser som etiketter */
+.mdxContent td[rowspan],
+.mdxContent th[rowspan] {
+  border-right: 1px solid var(--hairline-soft);
+  background: var(--surface-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Tabeller inuti en cell ska inte få dubbla ramar */
+.mdxContent td .tableScroll,
+.mdxContent th .tableScroll { border: 0; margin: 0; }
 
 /* Rubrik med ankarlänk */
 
@@ -432,7 +447,9 @@ th .regelruta {
 
 .bokstavsbox-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: var(--s-xs);
 }
 
 .bokstavsbox {

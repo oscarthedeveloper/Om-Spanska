@@ -30,15 +30,6 @@ function heading(Tag: 'h2' | 'h3' | 'h4') {
   };
 }
 
-/** Breda tabeller ska scrolla i sin egen behållare, inte dra iväg sidan. */
-function Table(props: HTMLAttributes<HTMLTableElement>) {
-  return (
-    <div className="tableScroll">
-      <table {...props} />
-    </div>
-  );
-}
-
 function Anchor({href = '', children, ...rest}: AnchorHTMLAttributes<HTMLAnchorElement>) {
   const internal = href.startsWith('/') && !href.startsWith('//');
   if (internal) {
@@ -64,7 +55,6 @@ export const mdxComponents = {
   h2: heading('h2'),
   h3: heading('h3'),
   h4: heading('h4'),
-  table: Table,
   Highlight,
   Admonition,
   BrowserWindow,
