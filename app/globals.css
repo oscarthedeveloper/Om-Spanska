@@ -286,7 +286,16 @@ figure { margin: 0; }
   font-variant-numeric: tabular-nums;
 }
 
-.tableScroll > table { margin: 0; }
+/* Breda tabeller ska bli så breda som innehållet kräver och scrolla i
+   behållaren. Med width: 100% pressas de i stället ihop till en bokstav
+   per kolumn. */
+.tableScroll > table {
+  margin: 0;
+  width: auto;
+  min-width: 100%;
+}
+
+.mdxContent th { white-space: nowrap; }
 
 .mdxContent th,
 .mdxContent td {
@@ -494,31 +503,12 @@ th .regelruta {
 
 /* Pronomentabellen */
 
-.tablepronomina {
-  overflow-x: auto;
-  margin: var(--s-lg) 0;
+/* Ramen och scrollen sköts av .tableScroll som sveper varje tabell.
+   Här behövs bara den grå inledningsraden. */
+.tablepronomina tr:first-child td {
+  background: var(--surface-soft);
+  font-weight: 600;
 }
-
-.tablepronomina table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  border: 1px solid var(--hairline);
-  border-radius: var(--r-md);
-  overflow: hidden;
-  font-size: 0.9375rem;
-}
-
-.tablepronomina td,
-.tablepronomina th {
-  padding: 10px 14px;
-  text-align: left;
-  border: 0;
-  border-bottom: 1px solid var(--hairline-soft);
-}
-
-.tablepronomina tr:first-child td { background: var(--surface-soft); }
-.tablepronomina tr:last-child td { border-bottom: 0; }
 
 /* ─── 6. VÄXLAREN INDIKATIV / KONJUNKTIV ────────────────────────── */
 

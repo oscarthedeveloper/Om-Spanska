@@ -331,8 +331,8 @@ export default function Verbdrillen() {
 
           {/* ── FILTER ── */}
           <div className={styles.filters}>
-            <fieldset className={styles.filterGroup}>
-              <legend className={styles.filterLabel}>Tidsform</legend>
+            <div className={styles.filterGroup} role="group" aria-label="Tidsform">
+              <span className={styles.filterLabel} aria-hidden="true">Tidsform</span>
               <div className={styles.filterBtns}>
                 {TEMPUS_OPTIONS.map(t => (
                   <button
@@ -345,10 +345,10 @@ export default function Verbdrillen() {
                   </button>
                 ))}
               </div>
-            </fieldset>
+            </div>
 
-            <fieldset className={styles.filterGroup}>
-              <legend className={styles.filterLabel}>Modus</legend>
+            <div className={styles.filterGroup} role="group" aria-label="Modus">
+              <span className={styles.filterLabel} aria-hidden="true">Modus</span>
               <div className={styles.filterBtns}>
                 {MODUS_OPTIONS.map(m => {
                   const ok = availableModus.some(o => o.id === m.id);
@@ -365,10 +365,10 @@ export default function Verbdrillen() {
                   );
                 })}
               </div>
-            </fieldset>
+            </div>
 
-            <fieldset className={styles.filterGroup}>
-              <legend className={styles.filterLabel}>Verbtyp</legend>
+            <div className={styles.filterGroup} role="group" aria-label="Verbtyp">
+              <span className={styles.filterLabel} aria-hidden="true">Verbtyp</span>
               <div className={styles.filterBtns}>
                 {TYP_OPTIONS.map(t => {
                   const ok = availableTyp.includes(t.id);
@@ -385,7 +385,7 @@ export default function Verbdrillen() {
                   );
                 })}
               </div>
-            </fieldset>
+            </div>
           </div>
 
           {/* ── ÖVNINGSYTA ── */}
