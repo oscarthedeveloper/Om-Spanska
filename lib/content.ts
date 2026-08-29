@@ -14,6 +14,24 @@ import type {
 const DOCS_DIR = path.join(process.cwd(), 'content', 'docs');
 const BLOG_DIR = path.join(process.cwd(), 'content', 'blog');
 
+/* ── Slugjämförelse ──────────────────────────────────────────────── */
+
+/** URL-segment kan komma procentkodade och med å/ä/ö i olika
+ *  unicodeformer (macOS skriver NFD, editorer NFC). Jämför alltid
+ *  avkodat och normaliserat. */
+function sameSlug(a: string, b: string): boolean {
+  const clean = (s: string) => {
+    let out = s;
+    try {
+      out = decodeURIComponent(s);
+    } catch {
+      /* redan avkodad */
+    }
+    return out.normalize('NFC').replace(/^\/+|\/+$/g, '');
+  };
+  return clean(a) === clean(b);
+}
+
 /* ── Rubriker ────────────────────────────────────────────────────── */
 
 /** Tar bort JSX/HTML så att rubrik-id:t beräknas på samma text som
@@ -119,7 +137,7 @@ export function getAllDocs(): DocMeta[] {
 
 export function getDocBySegments(segments: string[]): Doc | null {
   const target = segments.join('/');
-  const meta = getAllDocs().find(d => d.segments.join('/') === target);
+  const meta = getAllDocs().find(d => sameSlug(d.segments.join('/'), target));
   if (!meta) return null;
 
   const {content} = matter(fs.readFileSync(path.join(process.cwd(), meta.file), 'utf8'));
@@ -219,7 +237,7 @@ export function getAllPosts(): BlogPostMeta[] {
 }
 
 export function getPostBySlug(slug: string): BlogPost | null {
-  const meta = getAllPosts().find(p => p.slug === slug);
+  const meta = getAllPosts().find(p => sameSlug(p.slug, slug));
   if (!meta) return null;
   const {content} = matter(fs.readFileSync(path.join(process.cwd(), meta.file), 'utf8'));
   return {...meta, content, headings: extractHeadings(content)};

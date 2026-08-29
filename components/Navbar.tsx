@@ -37,27 +37,23 @@ export default function Navbar() {
     <>
       <header className={styles.navbar}>
         <nav className={styles.inner} aria-label="Huvudmeny">
-          <Link href="/" className={styles.brand}>
-            <svg className={styles.star} viewBox="0 0 100 100" aria-hidden="true">
-              <path
-                fill="currentColor"
-                d="M100 50C50 50 50 50 50 100 50 50 50 50 0 50 50 50 50 50 50 0 50 50 50 50 100 50Z"
-              />
-            </svg>
-            Om Spanska
-          </Link>
+          <div className={styles.left}>
+            <Link href="/" className={styles.brand}>
+              omspanska<span className={styles.brandTld}>.se</span>
+            </Link>
 
-          <ul className={styles.links}>
-            {LINKS.map(l => (
-              <li key={l.href}>
-                <Link
-                  href={l.href}
-                  className={pathname.startsWith(l.match) ? styles.linkActive : styles.link}>
-                  {l.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+            <ul className={styles.links}>
+              {LINKS.map(l => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className={pathname.startsWith(l.match) ? styles.linkActive : styles.link}>
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div className={styles.actions}>
             <button

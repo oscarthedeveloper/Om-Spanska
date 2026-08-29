@@ -52,7 +52,7 @@ export default function Footer() {
           ))}
         </div>
         <p className={styles.copyright}>
-          Om Spanska · {new Date().getFullYear()} · Gratis digital grammatika
+          omspanska.se · {new Date().getFullYear()} · Gratis digital grammatika
         </p>
       </div>
     </footer>
