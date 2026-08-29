@@ -8,6 +8,7 @@ import styles from './Navbar.module.css';
 
 const LINKS = [
   {href: '/docs/grunder/alfabet', label: 'Grammatik', match: '/docs'},
+  {href: '/mer/ser-och-estar', label: 'Mer grammatik', match: '/mer'},
   {href: '/verbdrillen', label: 'Verbdrillen', match: '/verbdrillen'},
   {href: '/glosdrillen', label: 'Glosdrillen', match: '/glosdrillen'},
   {href: '/blog', label: 'Bloggen', match: '/blog'},

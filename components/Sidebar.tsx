@@ -31,7 +31,14 @@ function Nodes({nodes, depth}: {nodes: SidebarNode[]; depth: number}) {
   );
 }
 
-export default function Sidebar({nodes}: {nodes: SidebarNode[]}) {
+export default function Sidebar({
+  nodes,
+  heading,
+}: {
+  nodes: SidebarNode[];
+  /** Visas överst när sektionen saknar egna kategorier. */
+  heading?: string;
+}) {
   const [open, setOpen] = useState(false);
   return (
     <>
@@ -44,7 +51,8 @@ export default function Sidebar({nodes}: {nodes: SidebarNode[]}) {
       </button>
       <nav
         className={`${styles.sidebar} ${open ? styles.sidebarOpen : ''}`}
-        aria-label="Grammatikens innehåll">
+        aria-label={heading ?? 'Grammatikens innehåll'}>
+        {heading && <p className={styles.heading}>{heading}</p>}
         <Nodes nodes={nodes} depth={0} />
       </nav>
     </>

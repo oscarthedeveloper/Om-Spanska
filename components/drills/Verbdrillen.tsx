@@ -1,6 +1,7 @@
 'use client';
 
 import {useState, useRef, useCallback, useEffect} from 'react';
+import {useSearchParams} from 'next/navigation';
 import {VERB_DATA, type VerbEntry} from '@/data/verbs';
 import styles from './Verbdrillen.module.css';
 
@@ -127,10 +128,26 @@ export default function Verbdrillen() {
   const [progress, setProgress] = useState<Progress>({});
   const [onlyMissed, setOnlyMissed] = useState(false);
 
+  const searchParams = useSearchParams();
   const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
   const focusedIdxRef = useRef<number | null>(null);
 
   useEffect(() => { setProgress(loadProgress()); }, []);
+
+  // Förval från adressen, t.ex. ?tempus=presens&modus=konjunktiv&typ=regular.
+  // Grammatiksidorna länkar hit med rätt kategori redan vald.
+  useEffect(() => {
+    const t = searchParams.get('tempus');
+    if (!t || !VALID_COMBOS[t]) return;
+    setTempus(t);
+
+    const m = searchParams.get('modus');
+    if (!m || !(VALID_COMBOS[t][m]?.length)) return;
+    setModus(m);
+
+    const ty = searchParams.get('typ');
+    if (ty && VALID_COMBOS[t][m].includes(ty)) setTyp(ty);
+  }, [searchParams]);
 
   // ── Härledda värden ────────────────────────────────────────────────────────
 

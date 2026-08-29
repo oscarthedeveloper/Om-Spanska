@@ -8,6 +8,17 @@
   border-right: 1px solid var(--hairline);
 }
 
+.heading {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 var(--s-sm);
+  padding: 0 10px;
+}
+
 .root,
 .nested { list-style: none; margin: 0; padding: 0; }
 

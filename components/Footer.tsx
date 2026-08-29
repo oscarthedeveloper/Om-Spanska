@@ -15,6 +15,17 @@ const COLUMNS = [
     ],
   },
   {
+    title: 'Mer grammatik',
+    items: [
+      {label: 'Ser och estar', href: '/mer/ser-och-estar'},
+      {label: 'Por och para', href: '/mer/por-och-para'},
+      {label: 'Si-satser', href: '/mer/si-satser'},
+      {label: 'Negation', href: '/mer/negation'},
+      {label: 'Apokopering', href: '/mer/apokopering'},
+      {label: 'Opersonligt se', href: '/mer/opersonligt-se'},
+    ],
+  },
+  {
     title: 'Öva',
     items: [
       {label: 'Verbdrillen', href: '/verbdrillen'},

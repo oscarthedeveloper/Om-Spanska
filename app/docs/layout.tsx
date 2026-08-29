@@ -5,7 +5,7 @@ import styles from './docs.module.css';
 export default function DocsLayout({children}: {children: React.ReactNode}) {
   return (
     <div className={styles.shell}>
-      <Sidebar nodes={getSidebar()} />
+      <Sidebar nodes={getSidebar('docs')} />
       {children}
     </div>
   );

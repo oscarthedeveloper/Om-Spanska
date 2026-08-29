@@ -3,6 +3,7 @@ import type {AnchorHTMLAttributes, HTMLAttributes, ReactNode} from 'react';
 
 import Admonition from './Admonition';
 import BrowserWindow from './BrowserWindow';
+import Drill from './Drill';
 import {Tabs, TabItem} from './Tabs';
 import KonjunktivAR from './KonjunktivAR';
 import KonjunktivERIR from './KonjunktivERIR';
@@ -58,6 +59,7 @@ export const mdxComponents = {
   Highlight,
   Admonition,
   BrowserWindow,
+  Drill,
   Tabs,
   TabItem,
   KonjunktivAR,

@@ -65,22 +65,28 @@ function headingsOf(body) {
 
 const records = [];
 
-for (const file of walk(path.join(ROOT, 'content', 'docs'))) {
-  const raw = fs.readFileSync(file, 'utf8');
-  const {data, body} = parseFrontmatter(raw);
-  if (!data.slug) continue;
-  const segments = data.slug.replace(/^\/+/, '');
-  const category = path.relative(path.join(ROOT, 'content', 'docs'), path.dirname(file))
-    .split(path.sep)[0] || 'Grammatik';
-  records.push({
-    t: data.title || segments,
-    d: data.description || '',
-    h: `/docs/${segments}`,
-    c: category,
-    k: 'grammatik',
-    s: headingsOf(body),
-    b: toPlainText(body).slice(0, 4000),
-  });
+for (const [dir, base, fallbackCategory] of [
+  ['docs', '/docs', 'Grammatik'],
+  ['mer', '/mer', 'Mer grammatik'],
+]) {
+  const root = path.join(ROOT, 'content', dir);
+  for (const file of walk(root)) {
+    const raw = fs.readFileSync(file, 'utf8');
+    const {data, body} = parseFrontmatter(raw);
+    if (!data.slug) continue;
+    const segments = data.slug.replace(/^\/+/, '');
+    const category =
+      path.relative(root, path.dirname(file)).split(path.sep)[0] || fallbackCategory;
+    records.push({
+      t: data.title || segments,
+      d: data.description || '',
+      h: `${base}/${segments}`,
+      c: category,
+      k: 'grammatik',
+      s: headingsOf(body),
+      b: toPlainText(body).slice(0, 4000),
+    });
+  }
 }
 
 for (const file of walk(path.join(ROOT, 'content', 'blog'))) {

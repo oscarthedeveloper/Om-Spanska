@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: p === '' ? 1 : 0.7,
     })),
-    ...getAllDocs().map(doc => ({
+    ...[...getAllDocs('docs'), ...getAllDocs('mer')].map(doc => ({
       url: `${BASE}${doc.href}`,
       changeFrequency: 'monthly' as const,
       priority: 0.8,

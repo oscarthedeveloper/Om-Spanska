@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import {Suspense} from 'react';
 import Verbdrillen from '@/components/drills/Verbdrillen';
 
 export const metadata: Metadata = {
@@ -11,7 +12,11 @@ export const metadata: Metadata = {
 export default function VerbdrillenPage() {
   return (
     <main>
-      <Verbdrillen />
+      {/* useSearchParams kräver en Suspense-gräns för att sidan ska
+          kunna renderas statiskt. */}
+      <Suspense fallback={null}>
+        <Verbdrillen />
+      </Suspense>
     </main>
   );
 }

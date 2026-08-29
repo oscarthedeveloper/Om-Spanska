@@ -1,6 +1,7 @@
 'use client';
 
 import {useState, useRef, useEffect} from 'react';
+import {useSearchParams} from 'next/navigation';
 import {DECKS, type Deck, type Word, type WordType} from '@/data/decks';
 import styles from './Glosdrillen.module.css';
 
@@ -155,8 +156,11 @@ export default function Glosdrillen() {
   const [isReview, setIsReview] = useState(false);
 
   const inputRef = useRef<HTMLInputElement | null>(null);
+  const searchParams = useSearchParams();
+  const startedFromUrl = useRef(false);
 
   useEffect(() => { setProgressData(loadProgress()); }, []);
+
 
   const deck = deckId !== null ? DECKS.find(d => d.id === deckId) ?? null : null;
   const word  = shuffled[idx] || null;
@@ -190,6 +194,18 @@ export default function Glosdrillen() {
     setIsReview(review);
     setPhase('drill');
   };
+
+  // Förval från adressen, t.ex. ?kortlek=3. Grammatiksidorna länkar hit
+  // med rätt kortlek redan igång.
+  useEffect(() => {
+    if (startedFromUrl.current) return;
+    const id = Number(searchParams.get('kortlek'));
+    const deckFromUrl = DECKS.find(d => d.id === id);
+    if (!deckFromUrl) return;
+    startedFromUrl.current = true;
+    beginDrill(deckFromUrl.id, deckFromUrl.words, false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
 
   const startDeck = (id: number) => {
     const d = DECKS.find(x => x.id === id);

@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import {Suspense} from 'react';
 import Glosdrillen from '@/components/drills/Glosdrillen';
 
 export const metadata: Metadata = {
@@ -11,7 +12,9 @@ export const metadata: Metadata = {
 export default function GlosdrillenPage() {
   return (
     <main>
-      <Glosdrillen />
+      <Suspense fallback={null}>
+        <Glosdrillen />
+      </Suspense>
     </main>
   );
 }

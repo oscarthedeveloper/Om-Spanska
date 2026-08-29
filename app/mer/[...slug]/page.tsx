@@ -5,19 +5,19 @@ import {notFound} from 'next/navigation';
 import Mdx from '@/components/mdx/Mdx';
 import TableOfContents from '@/components/TableOfContents';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
-import styles from './doc.module.css';
+import styles from '../../docs/[...slug]/doc.module.css';
 
 type Params = {slug: string[]};
 
 export function generateStaticParams(): Params[] {
-  return getAllDocs('docs').map(doc => ({slug: doc.segments}));
+  return getAllDocs('mer').map(doc => ({slug: doc.segments}));
 }
 
 export async function generateMetadata(
   {params}: {params: Promise<Params>},
 ): Promise<Metadata> {
   const {slug} = await params;
-  const doc = getDocBySegments('docs', slug);
+  const doc = getDocBySegments('mer', slug);
   if (!doc) return {};
   return {
     title: doc.title,
@@ -32,18 +32,18 @@ export async function generateMetadata(
   };
 }
 
-export default async function DocPage({params}: {params: Promise<Params>}) {
+export default async function MerPage({params}: {params: Promise<Params>}) {
   const {slug} = await params;
-  const doc = getDocBySegments('docs', slug);
+  const doc = getDocBySegments('mer', slug);
   if (!doc) notFound();
 
-  const {previous, next} = getDocNeighbours('docs', doc.href);
+  const {previous, next} = getDocNeighbours('mer', doc.href);
 
   return (
     <div className={styles.layout}>
       <article className={styles.article}>
         <nav className={styles.breadcrumbs} aria-label="Brödsmulor">
-          <Link href="/docs/grunder/alfabet">Grammatik</Link>
+          <Link href="/mer/ser-och-estar">Mer grammatik</Link>
           {doc.categoryPath.map(part => (
             <span key={part}>
               <span aria-hidden="true"> / </span>

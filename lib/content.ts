@@ -11,7 +11,19 @@ import type {
   BlogPostMeta,
 } from './types';
 
-const DOCS_DIR = path.join(process.cwd(), 'content', 'docs');
+/** Sajten har två läsande sektioner. Grammatik är ren formlära;
+ *  Mer grammatik samlar valfrågor och egenheter som annars skulle
+ *  svälla sidomenyn. Båda använder samma innehållslager. */
+export type SectionKey = 'docs' | 'mer';
+
+export const SECTIONS: Record<SectionKey, {dir: string; base: string; label: string}> = {
+  docs: {dir: 'docs', base: '/docs', label: 'Grammatik'},
+  mer: {dir: 'mer', base: '/mer', label: 'Mer grammatik'},
+};
+
+const sectionDir = (section: SectionKey) =>
+  path.join(process.cwd(), 'content', SECTIONS[section].dir);
+
 const BLOG_DIR = path.join(process.cwd(), 'content', 'blog');
 
 /* ── Slugjämförelse ──────────────────────────────────────────────── */
@@ -96,14 +108,14 @@ function readCategory(dir: string): CategoryMeta {
 
 /* ── Dokument ────────────────────────────────────────────────────── */
 
-let docCache: DocMeta[] | null = null;
+const docCache = new Map<SectionKey, DocMeta[]>();
 
-function readDocsDir(dir: string, categoryPath: string[]): DocMeta[] {
+function readDocsDir(dir: string, categoryPath: string[], base: string): DocMeta[] {
   const out: DocMeta[] = [];
   for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      out.push(...readDocsDir(full, [...categoryPath, readCategory(full).label]));
+      out.push(...readDocsDir(full, [...categoryPath, readCategory(full).label], base));
       continue;
     }
     if (!entry.name.endsWith('.mdx')) continue;
@@ -122,22 +134,25 @@ function readDocsDir(dir: string, categoryPath: string[]): DocMeta[] {
       sidebar_position: Number(data.sidebar_position ?? 999),
       file: path.relative(process.cwd(), full),
       segments,
-      href: `/docs/${segments.join('/')}`,
+      href: `${base}/${segments.join('/')}`,
       categoryPath,
     });
   }
   return out;
 }
 
-export function getAllDocs(): DocMeta[] {
-  if (docCache) return docCache;
-  docCache = readDocsDir(DOCS_DIR, []);
-  return docCache;
+export function getAllDocs(section: SectionKey = 'docs'): DocMeta[] {
+  const cached = docCache.get(section);
+  if (cached) return cached;
+  const dir = sectionDir(section);
+  const docs = fs.existsSync(dir) ? readDocsDir(dir, [], SECTIONS[section].base) : [];
+  docCache.set(section, docs);
+  return docs;
 }
 
-export function getDocBySegments(segments: string[]): Doc | null {
+export function getDocBySegments(section: SectionKey, segments: string[]): Doc | null {
   const target = segments.join('/');
-  const meta = getAllDocs().find(d => sameSlug(d.segments.join('/'), target));
+  const meta = getAllDocs(section).find(d => sameSlug(d.segments.join('/'), target));
   if (!meta) return null;
 
   const {content} = matter(fs.readFileSync(path.join(process.cwd(), meta.file), 'utf8'));
@@ -146,7 +161,7 @@ export function getDocBySegments(segments: string[]): Doc | null {
 
 /* ── Sidomeny ────────────────────────────────────────────────────── */
 
-function buildSidebarFor(dir: string): SidebarNode[] {
+function buildSidebarFor(dir: string, base: string): SidebarNode[] {
   const nodes: SidebarNode[] = [];
 
   for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
@@ -158,7 +173,7 @@ function buildSidebarFor(dir: string): SidebarNode[] {
         kind: 'category',
         label: meta.label,
         position: meta.position,
-        items: buildSidebarFor(full),
+        items: buildSidebarFor(full, base),
       });
       continue;
     }
@@ -169,7 +184,7 @@ function buildSidebarFor(dir: string): SidebarNode[] {
     nodes.push({
       kind: 'link',
       label: String(data.title ?? entry.name.replace(/\.mdx$/, '')),
-      href: `/docs/${segments.join('/')}`,
+      href: `${base}/${segments.join('/')}`,
       position: Number(data.sidebar_position ?? 999),
     });
   }
@@ -177,15 +192,21 @@ function buildSidebarFor(dir: string): SidebarNode[] {
   return nodes.sort((a, b) => a.position - b.position || a.label.localeCompare(b.label, 'sv'));
 }
 
-let sidebarCache: SidebarNode[] | null = null;
+const sidebarCache = new Map<SectionKey, SidebarNode[]>();
 
-export function getSidebar(): SidebarNode[] {
-  if (!sidebarCache) sidebarCache = buildSidebarFor(DOCS_DIR);
-  return sidebarCache;
+export function getSidebar(section: SectionKey = 'docs'): SidebarNode[] {
+  const cached = sidebarCache.get(section);
+  if (cached) return cached;
+  const dir = sectionDir(section);
+  const nodes = fs.existsSync(dir)
+    ? buildSidebarFor(dir, SECTIONS[section].base)
+    : [];
+  sidebarCache.set(section, nodes);
+  return nodes;
 }
 
 /** Sidorna i sidomenyns ordning — grunden för föregående/nästa. */
-export function getOrderedDocs(): {label: string; href: string}[] {
+export function getOrderedDocs(section: SectionKey = 'docs'): {label: string; href: string}[] {
   const flat: {label: string; href: string}[] = [];
   const walk = (nodes: SidebarNode[]) => {
     for (const n of nodes) {
@@ -193,12 +214,12 @@ export function getOrderedDocs(): {label: string; href: string}[] {
       else walk(n.items);
     }
   };
-  walk(getSidebar());
+  walk(getSidebar(section));
   return flat;
 }
 
-export function getDocNeighbours(href: string) {
-  const flat = getOrderedDocs();
+export function getDocNeighbours(section: SectionKey, href: string) {
+  const flat = getOrderedDocs(section);
   const i = flat.findIndex(d => d.href === href);
   return {
     previous: i > 0 ? flat[i - 1] : null,
