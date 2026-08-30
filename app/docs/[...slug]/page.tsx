@@ -4,6 +4,9 @@ import {notFound} from 'next/navigation';
 
 import Mdx from '@/components/mdx/Mdx';
 import TableOfContents from '@/components/TableOfContents';
+import LearningStepProgress from '@/components/learning/LearningStepProgress';
+import MiniQuiz from '@/components/mdx/MiniQuiz';
+import {LEARNING_QUIZZES} from '@/data/learning-quizzes';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
 import styles from './doc.module.css';
 
@@ -38,6 +41,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
   if (!doc) notFound();
 
   const {previous, next} = getDocNeighbours('docs', doc.href);
+  const learningQuiz = LEARNING_QUIZZES[doc.href];
 
   return (
     <div className={styles.layout}>
@@ -56,8 +60,14 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
         <div className={`${styles.content} mdxContent`}>
-          <Mdx source={doc.content} />
+          <Mdx source={doc.content} hideDrill={Boolean(learningQuiz)} />
         </div>
+
+        {learningQuiz && (
+          <MiniQuiz title={learningQuiz.title} questions={learningQuiz.questions} />
+        )}
+
+        <LearningStepProgress href={doc.href} />
 
         {(previous || next) && (
           <nav className={styles.pager} aria-label="Föregående och nästa avsnitt">

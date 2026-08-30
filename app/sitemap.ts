@@ -4,7 +4,7 @@ import {getAllDocs, getAllPosts} from '@/lib/content';
 const BASE = 'https://omspanska.se';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ['', '/blog', '/verbdrillen', '/glosdrillen', '/kontakt'];
+  const staticPages = ['', '/larstig', '/framsteg', '/repetition', '/blog', '/verbdrillen', '/glosdrillen', '/kontakt'];
 
   return [
     ...staticPages.map(p => ({

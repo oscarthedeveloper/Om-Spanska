@@ -22,8 +22,8 @@ export default function KonjunktivIMPERIR() {
     <td rowSpan={3}> <b>Singular</b></td>
     <td> <b>1:a</b></td>
     <td> <i>yo</i></td>
-    <th width="150px"> <span className="ending"> -iera </span></th>
-    <th width="150px"> <span className="ending"> -iese </span></th>
+    <th className="endingCell"> <span className="ending"> -iera </span></th>
+    <th className="endingCell"> <span className="ending"> -iese </span></th>
     <td> <i>comiera</i> </td>
     <td> <i>viviera</i> </td>
     <td> <i>comiese</i> </td>
@@ -32,8 +32,8 @@ export default function KonjunktivIMPERIR() {
 <tr>
 <td> <b>2:a</b></td>
     <td> <i>tú</i></td>
-    <th width="150px"> <span className="ending"> -ieras </span></th>
-    <th width="150px"> <span className="ending"> -ieses </span></th>
+    <th className="endingCell"> <span className="ending"> -ieras </span></th>
+    <th className="endingCell"> <span className="ending"> -ieses </span></th>
     <td> <i>comieras</i> </td>
     <td> <i>vivieras</i> </td>
     <td> <i>comieses</i> </td>
@@ -44,8 +44,8 @@ export default function KonjunktivIMPERIR() {
     <td> <i>él</i><br />
     <i>ella</i><br />
     <i>ello</i></td>
-    <th width="150px"> <span className="ending"> -iera </span></th>
-    <th width="150px"> <span className="ending"> -iese </span></th>
+    <th className="endingCell"> <span className="ending"> -iera </span></th>
+    <th className="endingCell"> <span className="ending"> -iese </span></th>
     <td> <i>comiera</i> </td>
     <td> <i>viviera</i> </td>
     <td> <i>comiese</i> </td>
@@ -55,8 +55,8 @@ export default function KonjunktivIMPERIR() {
     <td rowSpan={3}> <b>Plural</b></td>
     <td> <b>1:a</b> </td>
     <td> <i>nosotros</i></td>
-    <th width="150px"> <span className="ending"> -iéramos </span></th>
-    <th width="150px"> <span className="ending"> -iésemos </span></th>
+    <th className="endingCell"> <span className="ending"> -iéramos </span></th>
+    <th className="endingCell"> <span className="ending"> -iésemos </span></th>
     <td> <i>comiéramos</i> </td>
     <td> <i>viviéramos</i> </td>
     <td> <i>comiésemos</i> </td>
@@ -65,8 +65,8 @@ export default function KonjunktivIMPERIR() {
 <tr>
 <td> <b>2:a</b> </td>
     <td> <i>vosotros</i></td>
-    <th width="150px"> <span className="ending"> -ierais </span></th>
-    <th width="150px"> <span className="ending"> -ieseis </span></th>
+    <th className="endingCell"> <span className="ending"> -ierais </span></th>
+    <th className="endingCell"> <span className="ending"> -ieseis </span></th>
     <td> <i>comierais</i> </td>
     <td> <i>vivierais</i> </td>
     <td> <i>comieseis</i> </td>
@@ -75,8 +75,8 @@ export default function KonjunktivIMPERIR() {
 <tr>
 <td> <b>3:e</b> </td>
     <td> <i>ellos</i></td>
-    <th width="150px"> <span className="ending"> -ieran </span></th>
-    <th width="150px"> <span className="ending"> -iesen </span></th>
+    <th className="endingCell"> <span className="ending"> -ieran </span></th>
+    <th className="endingCell"> <span className="ending"> -iesen </span></th>
     <td> <i>comieran</i> </td>
     <td> <i>vivieran</i> </td>
     <td> <i>comiesen</i> </td>

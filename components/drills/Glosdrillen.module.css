@@ -324,7 +324,15 @@
   margin: 0;
   padding: 12px 16px;
   border-radius: var(--r-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xxs);
 }
+
+.feedbackOk p,
+.feedbackErr p { margin: 0; }
+
+.feedbackHeading { font-weight: 650; }
 
 .feedbackOk {
   background: #f0faf3;

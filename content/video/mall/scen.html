@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>Scenmall — Om Spanska video</title>
+
+<!-- Samma två familjer som next/font laddar i app/layout.tsx.
+     Inter måste laddas som variabel font: designsystemet använder
+     vikterna 320, 330, 340 och 540, som inte finns i de statiska filerna. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<!-- Sajtens egen CSS. Detta är hela poängen: designen kommer härifrån. -->
+<link rel="stylesheet" href="../../../app/globals.css">
+<link rel="stylesheet" href="video.css">
+</head>
+<body class="mdxContent">
+
+<!-- ═══ T1 · Titelkort ═══════════════════════════════════════════ -->
+<section class="scen scen--navy" data-scen="V01-01" data-langd="14">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Om Spanska · Verb 01</p>
+    <h1 class="scen__titel steg in">Verbsystemet i överblick</h1>
+    <p class="scen__lead steg in">Fyra upplysningar, ett enda ord.</p>
+  </div>
+</section>
+
+<!-- ═══ T3 · Exempelrad ══════════════════════════════════════════ -->
+<section class="scen scen--kram" data-scen="V01-02" data-langd="12">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Person</p>
+    <div class="custom-quote steg in">
+      <strong>Yo</strong> habl<span class="poang">o</span> español.<br>
+      <small>🇸🇪 <em>Jag pratar spanska.</em></small>
+    </div>
+    <div class="custom-quote steg in">
+      <strong>Nosotros</strong> habl<span class="poang">amos</span> español.<br>
+      <small>🇸🇪 <em>Vi pratar spanska.</em></small>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ T2 · Påstående ═══════════════════════════════════════════ -->
+<section class="scen scen--lime" data-scen="V01-03" data-langd="8">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Regeln</p>
+    <p class="regelruta steg in">Ändelsen bär person, tempus och modus.</p>
+  </div>
+</section>
+
+<!-- ═══ T4 · Böjningstabell ══════════════════════════════════════ -->
+<section class="scen scen--vit" data-scen="V01-04" data-langd="16">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Presens · de tre konjugationerna</p>
+    <div class="bojning">
+      <table class="table-content">
+        <tbody>
+          <tr>
+            <td class="endingCell"></td>
+            <th>hablar</th>
+            <th>comer</th>
+            <th>vivir</th>
+          </tr>
+          <tr><td class="endingCell">yo</td>
+              <td>habl<span class="poang">o</span></td>
+              <td>com<span class="poang">o</span></td>
+              <td>viv<span class="poang">o</span></td></tr>
+          <tr><td class="endingCell">tú</td>
+              <td>hablas</td>
+              <td>comes</td>
+              <td>vives</td></tr>
+          <tr><td class="endingCell">él, ella</td>
+              <td>habla</td>
+              <td>come</td>
+              <td>vive</td></tr>
+          <tr><td class="endingCell">nosotros</td>
+              <td>hablamos</td>
+              <td>comemos</td>
+              <td>vivimos</td></tr>
+          <tr><td class="endingCell">vosotros</td>
+              <td>habláis</td>
+              <td>coméis</td>
+              <td>vivís</td></tr>
+          <tr><td class="endingCell">ellos, ellas</td>
+              <td>hablan</td>
+              <td>comen</td>
+              <td>viven</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ T5 · Jämförelse ══════════════════════════════════════════ -->
+<section class="scen scen--vit" data-scen="V01-05" data-langd="15">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Modus</p>
+    <div class="jamfor">
+      <div class="jamfor__sida jamfor__sida--a steg in">
+        <p class="eyebrow">Indikativ</p>
+        <h3>Hablas mucho.</h3>
+        <p><small>🇸🇪 Du pratar mycket.</small></p>
+        <p>Konstaterar något.</p>
+      </div>
+      <div class="jamfor__sida jamfor__sida--b steg in">
+        <p class="eyebrow">Konjunktiv</p>
+        <h3>Quiero que <span class="g-konjunktiv">hables</span>.</h3>
+        <p><small>🇸🇪 Jag vill att du pratar.</small></p>
+        <p>Önskar något.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ T6 · Satsanalys ══════════════════════════════════════════ -->
+<section class="scen scen--vit" data-scen="V01-06" data-langd="12">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Ordföljd</p>
+    <div class="subject-box">
+      <span class="subject-text">Satsdelar</span>
+      <span class="blue-dot"></span> subjekt
+      <span class="red-dot"></span> verb
+      <span class="aqua-dot"></span> objekt
+    </div>
+    <h3 class="steg in">
+      <span class="g-subjekt">Mi hermano</span>
+      <span class="g-verb">escucha</span>
+      <span class="g-objekt">música</span>.
+    </h3>
+    <p><small>🇸🇪 Min bror lyssnar på musik.</small></p>
+  </div>
+</section>
+
+<!-- ═══ T7 · Tidslinje ═══════════════════════════════════════════ -->
+<section class="scen scen--vit" data-scen="V01-07" data-langd="15">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Tempus</p>
+    <div class="tidslinje">
+      <div class="tidslinje__nod">
+        <div class="tidslinje__form">hablaba</div>
+        <div class="tidslinje__glosa">brukade prata</div>
+      </div>
+      <div class="tidslinje__nod">
+        <div class="tidslinje__form">hablé</div>
+        <div class="tidslinje__glosa">pratade</div>
+      </div>
+      <div class="tidslinje__nod">
+        <div class="tidslinje__form poang">hablo</div>
+        <div class="tidslinje__glosa">pratar</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ T8 · Slutkort ════════════════════════════════════════════ -->
+<section class="scen scen--vit" data-scen="V01-08" data-langd="12">
+  <div class="scen__yta">
+    <p class="eyebrow scen__etikett">Nästa</p>
+    <h2 class="scen__rubrik steg in">Presens 1 — de tre konjugationerna</h2>
+    <p>
+      <a class="pillButton pillButton--magenta"
+         href="/verbdrillen?tempus=presens&amp;modus=indikativ">Öva verbböjning →</a>
+    </p>
+  </div>
+</section>
+
+</body>
+</html>

@@ -5,11 +5,15 @@ import rehypeWrapTables from '@/lib/rehype-wrap-tables.mjs';
 import remarkGfm from 'remark-gfm';
 import mdxComponents from './MdxComponents';
 
-export default function Mdx({source}: {source: string}) {
+export default function Mdx({source, hideDrill = false}: {source: string; hideDrill?: boolean}) {
+  const components = hideDrill
+    ? {...mdxComponents, Drill: () => null}
+    : mdxComponents;
+
   return (
     <MDXRemote
       source={source}
-      components={mdxComponents}
+      components={components}
       options={{
         mdxOptions: {
           remarkPlugins: [remarkGfm],

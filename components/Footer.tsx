@@ -28,6 +28,8 @@ const COLUMNS = [
   {
     title: 'Öva',
     items: [
+      {label: 'Spanska från början', href: '/larstig'},
+      {label: 'Mina framsteg', href: '/framsteg'},
       {label: 'Verbdrillen', href: '/verbdrillen'},
       {label: 'Glosdrillen', href: '/glosdrillen'},
       {label: 'Tidsformer', href: '/docs/verb/tempus/presens'},

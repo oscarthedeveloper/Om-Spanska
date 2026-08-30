@@ -1,0 +1,316 @@
+/* ═══════════════════════════════════════════════════════════════════
+   video.css — det ENDA som läggs ovanpå app/globals.css.
+   Får innehålla: bildrutans geometri, scenens layout, animering.
+   Får INTE innehålla: färger, typsnitt, textstorlekar, radier, mellanrum
+   som inte redan är tokens. Ser du ett hexvärde här nedan som inte är en
+   fontfamilj har någon brutit mot designspecen.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Utanför Next.js sätts fontvariablerna här. Samma två familjer som
+   next/font laddar i app/layout.tsx. */
+:root {
+  --font-inter: 'Inter';
+  --font-jetbrains: 'JetBrains Mono';
+
+  /* Bildrutan */
+  --frame-w: 1280px;
+  --frame-h: 720px;
+  --stage-w: 948px;   /* 948 × 1.35 = 1280 */
+  --stage-h: 533px;   /* 533 × 1.35 = 720  */
+  --stage-scale: 1.35;
+  --safe-y: 47px;     /* 64 px i färdig bildruta */
+  --safe-x: 59px;     /* 80 px i färdig bildruta */
+}
+
+html, body { margin: 0; padding: 0; background: var(--canvas); }
+
+/* ─── Bildrutan ─────────────────────────────────────────────────── */
+
+.scen {
+  position: relative;
+  width: var(--frame-w);
+  height: var(--frame-h);
+  overflow: hidden;
+  background: var(--canvas);
+}
+
+.scen__yta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--stage-w);
+  height: var(--stage-h);
+  transform: scale(var(--stage-scale));
+  transform-origin: top left;
+  padding: var(--safe-y) var(--safe-x);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--s-lg);
+}
+
+/* Scenytans färg. Exakt en av dessa per scen — aldrig två. */
+.scen--vit    { background: var(--canvas); }
+.scen--lime   { background: var(--block-lime); }
+.scen--lila   { background: var(--block-lilac); }
+.scen--kram   { background: var(--block-cream); }
+.scen--rosa   { background: var(--block-pink); }
+.scen--mint   { background: var(--block-mint); }
+.scen--korall { background: var(--block-coral); }
+.scen--navy   { background: var(--block-navy); color: var(--inverse-ink); }
+
+.scen--navy h1,
+.scen--navy h2,
+.scen--navy h3,
+.scen--navy p { color: inherit; }
+
+/* Etiketten uppe till vänster: SCEN 04 · PRESENS */
+.scen__etikett {
+  position: absolute;
+  top: var(--safe-y);
+  left: var(--safe-x);
+  color: var(--muted);
+}
+
+.scen--navy .scen__etikett { color: var(--inverse-ink); opacity: 0.6; }
+
+/* ─── Textroller (samma värden som startsidans hero/färgblock) ───── */
+
+.scen__titel {
+  font-size: 5.375rem;
+  font-weight: 340;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+  max-width: 16ch;
+}
+
+.scen__rubrik {
+  font-size: 3.25rem;
+  font-weight: 340;
+  line-height: 1.08;
+  letter-spacing: -0.018em;
+  margin: 0;
+  max-width: 20ch;
+}
+
+.scen__lead {
+  font-size: 1.375rem;
+  font-weight: 340;
+  line-height: 1.4;
+  letter-spacing: -0.012em;
+  max-width: 46ch;
+  margin: 0;
+}
+
+.scen p { max-width: 60ch; }
+
+/* ─── Scentyper ─────────────────────────────────────────────────── */
+
+/* T5 Jämförelse: två spalter, en färg var. Undantaget från
+   en-färg-per-scen — men bara här, och alltid korall mot mint. */
+.jamfor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s-lg);
+  align-items: stretch;
+}
+
+.jamfor__sida {
+  border-radius: var(--r-lg);
+  padding: var(--s-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-sm);
+}
+
+.jamfor__sida--a { background: var(--block-coral); }
+.jamfor__sida--b { background: var(--block-mint); }
+
+/* T7 Tidslinje: hårstreck med noder. Ingen fyllning, ingen skugga. */
+.tidslinje {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  padding-top: var(--s-lg);
+  border-top: 1px solid var(--ink);
+}
+
+.tidslinje__nod {
+  position: relative;
+  padding-top: var(--s-md);
+  text-align: center;
+}
+
+.tidslinje__nod::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--s-lg) * -1 - 4px);
+  left: 50%;
+  width: 9px;
+  height: 9px;
+  margin-left: -4.5px;
+  background: var(--ink);
+  border-radius: var(--r-full);
+}
+
+.tidslinje__form {
+  font-family: var(--font-mono);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.tidslinje__glosa {
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+/* T4 Böjningstabell: sajtens .table-content, bara centrerad och med
+   plats runt sig. Verbformerna sätts i mono i sin helhet — att bara
+   ändelsen är mono mitt inne i ett ord blir oroligt i rörlig bild. */
+.bojning { max-width: 46rem; margin: 0 auto; width: 100%; }
+
+.bojning .table-content th:not(.endingCell),
+.bojning .table-content td:not(.endingCell) {
+  font-family: var(--font-mono);
+}
+
+/* T9 Ordbild: tre spalter åtskilda av lodräta hårstreck. */
+.kolumner {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--s-xl);
+}
+
+.kolumner > * + * {
+  border-left: 1px solid var(--hairline);
+  padding-left: var(--s-xl);
+}
+
+.kolumner__spalt {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-sm);
+}
+
+/* T9 Ordbild: parallella rader med ordet på en gemensam axel. */
+.ordrader {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: var(--s-sm) var(--s-xl);
+  width: fit-content;
+}
+
+.ordrader__verb {
+  position: relative;
+}
+
+.ordrader__verb--linje::after {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  left: 50%;
+  width: 1px;
+  background: var(--ink);
+}
+
+/* T4 Böjningstabell: tidigare innehåll tonas ned när nya rader skjuts in. */
+.nedtonad {
+  opacity: 0.3;
+}
+
+/* En tunn magentaram kring den parallella form som scenen pekar ut. */
+.magentaram {
+  outline: 1px solid var(--accent-magenta);
+  outline-offset: var(--s-xxs);
+  border-radius: var(--r-xs);
+}
+
+/* T9 Ordbild: ett ord med etiketter i fyra riktningar. */
+.kors {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-items: center;
+  gap: var(--s-lg) var(--s-xl);
+}
+
+.kors__ord     { grid-column: 2; grid-row: 2; }
+.kors__topp    { grid-column: 2; grid-row: 1; }
+.kors__botten  { grid-column: 2; grid-row: 3; }
+.kors__vanster { grid-column: 1; grid-row: 2; justify-self: end; text-align: right; }
+.kors__hoger   { grid-column: 3; grid-row: 2; justify-self: start; text-align: left; }
+
+/* Hårstrecken som binder etiketterna till ordet. */
+.kors__topp::after,
+.kors__botten::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: var(--s-lg);
+  margin: var(--s-xs) auto;
+  background: var(--hairline);
+}
+
+.kors__vanster::after,
+.kors__hoger::before {
+  content: "";
+  display: inline-block;
+  width: var(--s-lg);
+  height: 1px;
+  margin: 0 var(--s-xs);
+  vertical-align: middle;
+  background: var(--hairline);
+}
+
+/* T9 Ordbild: klipplinjen som visar var stammen slutar. */
+.klipp {
+  display: inline-block;
+  width: 0;
+  height: 1.1em;
+  margin: 0 var(--s-sm);
+  border-left: 1px dashed var(--ink);
+  vertical-align: -0.15em;
+}
+
+/* Formen som är poängen i bilden. Högst en per bildruta. */
+.poang { color: var(--accent-magenta); }
+
+/* ─── Animering ─────────────────────────────────────────────────── */
+/* Elementen får klassen .in när de ska synas. Renderaren sätter den
+   scenstegvis; i förhandsvisning sköter en liten timer det. */
+
+.steg {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.steg.in {
+  opacity: 1;
+  transform: none;
+}
+
+.steg--vanster { transform: translateX(-12px); }
+.steg--snabb   { transition-duration: 0.18s; }
+
+/* Ändelse som byts ut — den enda rörelse som får dra till sig blicken. */
+@keyframes byt-andelse {
+  0%   { opacity: 1; transform: translateY(0); }
+  45%  { opacity: 0; transform: translateY(-6px); }
+  55%  { opacity: 0; transform: translateY(6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.andelse-byte { animation: byt-andelse 0.5s ease both; }
+
+/* ─── Renderingsläge ────────────────────────────────────────────── */
+/* render.mjs sätter <html class="render"> så att inget rör sig när
+   bildrutan fotograferas. */
+
+.render .steg { transition: none; }
+.render .andelse-byte { animation: none; }

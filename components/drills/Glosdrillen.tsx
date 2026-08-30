@@ -31,23 +31,71 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-function normalize(s: string): string {
+function cleanWritten(s: string): string {
   return s
     .toLowerCase().trim()
     .replace(/[¿¡?!.,;:]/g, '')
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/\s+/g, ' ').trim();
+}
+
+function withoutAccents(s: string): string {
+  return cleanWritten(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
 function displayAnswer(word: Word): string {
   return word.article ? `${word.article} ${word.es}` : word.es;
 }
 
-function checkAnswer(input: string, word: Word): boolean {
-  const u    = normalize(input);
-  const es   = normalize(word.es);
-  const full = word.article ? normalize(`${word.article} ${word.es}`) : null;
-  return u === es || (full !== null && u === full);
+type WordAssessment = {correct: boolean; detail: string};
+
+function assessWrittenAnswer(input: string, word: Word): WordAssessment {
+  const given = cleanWritten(input);
+  const bare = cleanWritten(word.es);
+  const full = word.article ? cleanWritten(`${word.article} ${word.es}`) : null;
+  const exact = given === bare || (full !== null && given === full);
+
+  if (exact) {
+    if (word.article && given === bare) {
+      return {
+        correct: true,
+        detail: `Rätt ord. Lär gärna in substantivet tillsammans med artikeln: ${displayAnswer(word)}.`,
+      };
+    }
+    if (word.note) return {correct: true, detail: `Bra. Att minnas: ${word.note}.`};
+    return {correct: true, detail: 'Bra – stavningen och betydelsen stämmer.'};
+  }
+
+  const accentMatch = withoutAccents(given) === withoutAccents(bare)
+    || (full !== null && withoutAccents(given) === withoutAccents(full));
+  if (accentMatch) {
+    return {
+      correct: false,
+      detail: 'Bokstäverna stämmer, men ett accenttecken saknas eller sitter fel.',
+    };
+  }
+
+  if (word.article && given.endsWith(` ${bare}`)) {
+    return {
+      correct: false,
+      detail: `Själva ordet är rätt, men artikeln ska vara ${word.article}.`,
+    };
+  }
+
+  if (word.note) return {correct: false, detail: `Ledtråd att minnas: ${word.note}.`};
+  if (word.type === 'subst' && word.article) {
+    return {correct: false, detail: 'Lär gärna in substantivet tillsammans med sin artikel.'};
+  }
+  return {correct: false, detail: 'Kontrollera kopplingen mellan betydelsen och den spanska stavningen.'};
+}
+
+function choiceFeedback(word: Word, correct: boolean): string {
+  if (correct && word.note) return `Bra. Att minnas: ${word.note}.`;
+  if (word.type === 'subst' && word.article) {
+    return `Lär in substantivet tillsammans med artikeln: ${displayAnswer(word)}.`;
+  }
+  return correct
+    ? 'Bra – du kopplade ihop ordet med rätt betydelse.'
+    : 'Läs det rätta svaret högt och koppla det till den svenska betydelsen.';
 }
 
 function generateChoices(deckWords: Word[], correct: Word): Word[] {
@@ -64,7 +112,7 @@ function typeDisplay(word: Word): string {
 function loadProgress(): Progress {
   if (typeof window === 'undefined') return {};
   try {
-    return JSON.parse(window.localStorage.getItem(STORAGE_KEY)) || {};
+    return JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? '{}') || {};
   } catch {
     return {};
   }
@@ -137,6 +185,23 @@ function DeckCard({deck, stat, onStart, onStartMissed}: {
   );
 }
 
+function WordFeedback({word, correct, detail}: {
+  word: Word;
+  correct: boolean;
+  detail: string;
+}) {
+  return (
+    <div
+      className={correct ? styles.feedbackOk : styles.feedbackErr}
+      role="status"
+      aria-live="polite">
+      <p className={styles.feedbackHeading}>{correct ? 'Rätt.' : 'Inte riktigt.'}</p>
+      <p>{detail}</p>
+      {!correct && <p>Rätt svar: <strong>{displayAnswer(word)}</strong></p>}
+    </div>
+  );
+}
+
 // ─── HUVUDKOMPONENT ──────────────────────────────────────────────────────────
 
 export default function Glosdrillen() {
@@ -150,16 +215,21 @@ export default function Glosdrillen() {
   const [chosen, setChosen] = useState<number | null>(null);
   const [checked,  setChecked]  = useState(false);
   const [correct, setCorrect] = useState<boolean | null>(null);
+  const [feedbackDetail, setFeedbackDetail] = useState('');
   const [score,    setScore]    = useState({ right: 0, wrong: 0 });
   const [missedNow, setMissedNow] = useState<string[]>([]);
   const [progressData, setProgressData] = useState<Progress>({});
+  const [progressReady, setProgressReady] = useState(false);
   const [isReview, setIsReview] = useState(false);
 
   const inputRef = useRef<HTMLInputElement | null>(null);
   const searchParams = useSearchParams();
   const startedFromUrl = useRef(false);
 
-  useEffect(() => { setProgressData(loadProgress()); }, []);
+  useEffect(() => {
+    setProgressData(loadProgress());
+    setProgressReady(true);
+  }, []);
 
 
   const deck = deckId !== null ? DECKS.find(d => d.id === deckId) ?? null : null;
@@ -189,6 +259,7 @@ export default function Glosdrillen() {
     setChosen(null);
     setChecked(false);
     setCorrect(null);
+    setFeedbackDetail('');
     setScore({ right: 0, wrong: 0 });
     setMissedNow([]);
     setIsReview(review);
@@ -202,10 +273,15 @@ export default function Glosdrillen() {
     const id = Number(searchParams.get('kortlek'));
     const deckFromUrl = DECKS.find(d => d.id === id);
     if (!deckFromUrl) return;
+    const wantsReview = searchParams.get('repetition') === '1';
+    if (wantsReview && !progressReady) return;
+    const missed = wantsReview ? (progressData[id]?.missed ?? []) : [];
+    const reviewWords = deckFromUrl.words.filter(word => missed.includes(word.es));
+    const useReview = wantsReview && reviewWords.length > 0;
     startedFromUrl.current = true;
-    beginDrill(deckFromUrl.id, deckFromUrl.words, false);
+    beginDrill(deckFromUrl.id, useReview ? reviewWords : deckFromUrl.words, useReview);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams]);
+  }, [searchParams, progressReady, progressData]);
 
   const startDeck = (id: number) => {
     const d = DECKS.find(x => x.id === id);
@@ -229,23 +305,28 @@ export default function Glosdrillen() {
     setChosen(null);
     setChecked(false);
     setCorrect(null);
+    setFeedbackDetail('');
   };
 
-  const register = (ok: boolean) => {
+  const register = (ok: boolean, detail: string) => {
     setChecked(true);
     setCorrect(ok);
+    setFeedbackDetail(detail);
     setScore(s => ({ right: s.right + (ok ? 1 : 0), wrong: s.wrong + (ok ? 0 : 1) }));
     if (!ok && word) setMissedNow(m => (m.includes(word.es) ? m : [...m, word.es]));
   };
 
   const handleCheck = () => {
     if (!word || checked) return;
-    register(checkAnswer(answer, word));
+    const assessment = assessWrittenAnswer(answer, word);
+    register(assessment.correct, assessment.detail);
   };
 
   const handleChoiceSelect = (i: number) => {
     if (checked || !word) return;
-    register(choices[i].es === word.es);
+    const ok = choices[i].es === word.es;
+    setChosen(i);
+    register(ok, choiceFeedback(word, ok));
   };
 
   const persistResult = (right: number) => {
@@ -268,6 +349,7 @@ export default function Glosdrillen() {
       setChosen(null);
       setChecked(false);
       setCorrect(null);
+      setFeedbackDetail('');
     } else {
       persistResult(score.right);
       setPhase('results');
@@ -412,13 +494,11 @@ export default function Glosdrillen() {
                 )}
 
                 {checked && (
-                  <p
-                    className={correct ? styles.feedbackOk : styles.feedbackErr}
-                    role="status"
-                    aria-live="polite">
-                    {correct ? 'Rätt.' : 'Fel. '}
-                    <strong>{displayAnswer(word)}</strong>
-                  </p>
+                  <WordFeedback
+                    word={word}
+                    correct={correct === true}
+                    detail={feedbackDetail}
+                  />
                 )}
 
                 <div className={styles.actions}>
@@ -463,13 +543,11 @@ export default function Glosdrillen() {
 
                 {checked && (
                   <>
-                    <p
-                      className={correct ? styles.feedbackOk : styles.feedbackErr}
-                      role="status"
-                      aria-live="polite">
-                      {correct ? 'Rätt.' : 'Fel. '}
-                      <strong>{displayAnswer(word)}</strong>
-                    </p>
+                    <WordFeedback
+                      word={word}
+                      correct={correct === true}
+                      detail={feedbackDetail}
+                    />
                     <div className={styles.actions}>
                       <button type="button" className="pillButton pillButton--primary" onClick={handleNext}>
                         {idx < total - 1 ? 'Nästa' : 'Se resultat'}

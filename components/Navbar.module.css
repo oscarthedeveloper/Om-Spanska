@@ -16,9 +16,6 @@
   gap: var(--s-lg);
 }
 
-/* Ordmärket och menylänkarna delar baslinje. Med enbart centrerad
-   flexlayout hamnar de på olika baslinjer eftersom texterna har olika
-   grad — det är den skevhet man ser annars. */
 .left {
   display: flex;
   align-items: baseline;
@@ -57,20 +54,70 @@
 
 .link,
 .linkActive {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-sans);
   font-size: 0.9375rem;
   font-weight: 450;
   letter-spacing: -0.01em;
+  line-height: 1.4;
   padding: 6px 10px;
   border-radius: var(--r-full);
   text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .link:hover,
-.linkActive:hover { background: var(--surface-soft); text-decoration: none; }
+.linkActive:hover {
+  background: var(--surface-soft);
+  color: var(--ink);
+  text-decoration: none;
+}
 
 .linkActive { font-weight: 600; }
+
+.chevron {
+  position: relative;
+  top: -1px;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.dropdown { position: relative; }
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0;
+  width: 14rem;
+  padding: var(--s-xs);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-md);
+  background: var(--canvas);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xxs);
+}
+
+.dropdownMenu a {
+  border-radius: var(--r-sm);
+  color: var(--ink);
+  padding: 10px 12px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdownMenu a:hover {
+  background: var(--surface-soft);
+  text-decoration: none;
+}
 
 .actions {
   display: flex;
@@ -80,31 +127,48 @@
 }
 
 .searchBtn {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: var(--r-full);
+  background: var(--surface-soft);
+  color: var(--ink);
   display: inline-flex;
   align-items: center;
-  gap: var(--s-xs);
-  background: var(--surface-soft);
-  border: 0;
-  border-radius: var(--r-pill);
-  font-family: var(--font-sans);
-  font-size: 0.9375rem;
-  font-weight: 450;
-  color: var(--muted);
-  padding: 8px 14px;
-  min-height: 38px;
+  justify-content: center;
   cursor: pointer;
 }
 
-.searchBtn:hover { color: var(--ink); }
-
-.kbd {
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  letter-spacing: 0.04em;
-  background: var(--canvas);
-  border-radius: var(--r-sm);
-  padding: 2px 6px;
+.searchBtn svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
 }
+
+.searchBtn:hover { background: var(--hairline); }
+
+.progressLink,
+.progressLinkActive {
+  color: var(--ink);
+  border-radius: var(--r-full);
+  padding: 8px 12px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.progressLink:hover,
+.progressLinkActive {
+  background: var(--surface-soft);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.progressLinkActive { font-weight: 600; }
 
 .pill {
   display: inline-flex;
@@ -120,16 +184,8 @@
 }
 
 .pill:hover { text-decoration: none; transform: scale(0.975); }
-
 .pillPrimary { background: var(--ink); color: var(--inverse-ink); }
 .pillPrimary:hover { color: var(--inverse-ink); }
-
-.pillSecondary {
-  background: var(--canvas);
-  color: var(--ink);
-  box-shadow: inset 0 0 0 1px var(--hairline);
-}
-.pillSecondary:hover { background: var(--surface-soft); color: var(--ink); }
 
 .toggle {
   display: none;
@@ -146,33 +202,46 @@
 .mobile {
   display: none;
   flex-direction: column;
-  gap: var(--s-xxs);
   padding: var(--s-md) var(--s-lg) var(--s-lg);
   border-top: 1px solid var(--hairline);
+  max-height: calc(100vh - var(--navbar-height));
+  overflow-y: auto;
 }
+
+.mobileHeading {
+  margin: var(--s-lg) 0 var(--s-xxs);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.mobileHeading:first-child { margin-top: 0; }
 
 .mobileLink {
+  color: var(--ink);
   font-size: 1.0625rem;
   font-weight: 500;
-  padding: 10px 0;
+  padding: 9px 0;
   text-decoration: none;
-  border-bottom: 1px solid var(--hairline-soft);
 }
 
-.mobileCta { align-self: flex-start; margin-top: var(--s-sm); }
+.mobileLink:hover { color: var(--ink); }
+.mobileCta { align-self: flex-start; margin-top: var(--s-lg); }
 
-@media (max-width: 1080px) {
+@media (max-width: 900px) {
   .links { display: none; }
   .toggle { display: inline-flex; align-items: center; justify-content: center; }
   .mobile { display: flex; }
 }
 
-@media (max-width: 720px) {
-  .searchBtn .kbd { display: none; }
-  .pillSecondary { display: none; }
+@media (max-width: 680px) {
+  .progressLink { display: none; }
 }
 
 @media (max-width: 560px) {
   .inner { padding: 0 var(--s-md); gap: var(--s-sm); }
   .pillPrimary { display: none; }
+  .mobileCta { display: inline-flex; }
 }

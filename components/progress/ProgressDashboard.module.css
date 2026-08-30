@@ -1,0 +1,121 @@
+.page {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) var(--s-lg) var(--s-section);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-md);
+  margin-bottom: var(--s-xxl);
+}
+
+.hero h1 {
+  font-size: clamp(2.75rem, 7vw, 5rem);
+  margin: 0;
+}
+
+.hero p:last-child {
+  max-width: 48ch;
+  font-size: 1.1875rem;
+  margin: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-lg);
+}
+
+.card {
+  min-height: 27rem;
+  border-radius: var(--r-lg);
+  padding: var(--s-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-md);
+}
+
+.card p { margin: 0; }
+.card :global(.pillButton) { margin-top: auto; }
+.learningCard { background: var(--block-lilac); }
+.verbCard { background: var(--block-lime); }
+.glossCard { background: var(--block-cream); }
+
+.bigNumber {
+  font-size: clamp(3rem, 7vw, 5.25rem);
+  font-weight: 340;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.bigNumber span {
+  font-size: 0.45em;
+  letter-spacing: -0.025em;
+}
+
+.detail {
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.meter {
+  width: 100%;
+  height: 10px;
+  border-radius: var(--r-full);
+  background: rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--ink);
+}
+
+.nextMove {
+  margin-top: var(--s-xxl);
+  padding: var(--s-xxl) 0;
+  border-top: 1px solid var(--ink);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.55fr);
+  gap: var(--s-xxl);
+  align-items: end;
+}
+
+.nextMove h2 {
+  max-width: 20ch;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 400;
+  margin: var(--s-sm) 0 0;
+}
+
+.nextAction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-lg);
+}
+
+.nextAction p {
+  max-width: 38ch;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .cards { grid-template-columns: minmax(0, 1fr); }
+  .card { min-height: 22rem; }
+  .nextMove { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 560px) {
+  .page { padding: var(--s-xxl) var(--s-lg) var(--s-section); }
+  .cards { margin: 0 calc(-1 * var(--s-lg)); gap: 0; }
+  .card { border-radius: 0; min-height: 21rem; }
+  .card :global(.pillButton) { width: 100%; }
+}

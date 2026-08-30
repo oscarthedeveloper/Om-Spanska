@@ -37,7 +37,7 @@ const TYP_OPTIONS = [
 
 // ─── GILTIGA KOMBINATIONER ────────────────────────────────────────────────────
 
-const VALID_COMBOS = {
+const VALID_COMBOS: Record<string, Record<string, string[]>> = {
   presens: {
     indikativ:  ['regular', 'reflexiva', 'diftongerande', 'vokalskiftande', 'oregelbundna'],
     konjunktiv: ['regular', 'oregelbundna'],
@@ -92,13 +92,74 @@ const STORAGE_KEY = 'omspanska.verbdrillen.v1';
 
 // ─── HJÄLPFUNKTIONER ──────────────────────────────────────────────────────────
 
-const norm = (s: string): string =>
-  s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim().replace(/\s+/g, ' ');
+const tidy = (s: string): string => s.toLowerCase().trim().replace(/\s+/g, ' ');
+
+const withoutAccents = (s: string): string =>
+  tidy(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+const FORM_ENDINGS: Record<string, string[]> = {
+  futurum2: ['é', 'ás', 'á', 'emos', 'éis', 'án'],
+  konditionalis: ['ía', 'ías', 'ía', 'íamos', 'íais', 'ían'],
+};
+
+function verbErrorFeedback({
+  answer,
+  correct,
+  tempus,
+  typ,
+  person,
+  index,
+}: {
+  answer: string;
+  correct: string;
+  tempus: string | null;
+  typ: string | null;
+  person: string;
+  index: number;
+}): string {
+  const given = tidy(answer);
+  const expected = tidy(correct);
+
+  if (!given) return 'Du lämnade formen tom.';
+  if (withoutAccents(given) === withoutAccents(expected)) {
+    return 'Bokstäverna stämmer, men ett accenttecken saknas eller sitter fel.';
+  }
+
+  const ending = tempus ? FORM_ENDINGS[tempus]?.[index] : undefined;
+  if (typ === 'oregelbundna' && ending) {
+    const stem = expected.slice(0, -ending.length);
+    if (given.endsWith(ending)) {
+      return 'Ändelsen är rätt. Kontrollera den oregelbundna stammen.';
+    }
+    if (given.startsWith(stem)) {
+      return `Den oregelbundna stammen är rätt. Kontrollera ändelsen för ${person}.`;
+    }
+    return 'Både den oregelbundna stammen och personändelsen behöver kontrolleras.';
+  }
+
+  if (expected.includes(' ')) {
+    const [expectedFirst, ...expectedRest] = expected.split(' ');
+    const [givenFirst, ...givenRest] = given.split(' ');
+    if (givenFirst === expectedFirst) {
+      return 'Första delen är rätt. Kontrollera huvudverbets form.';
+    }
+    if (givenRest.join(' ') === expectedRest.join(' ')) {
+      return 'Huvudverbets form är rätt. Kontrollera hjälpverbet eller pronomenet.';
+    }
+    return 'Kontrollera både hjälpordet och huvudverbets form.';
+  }
+
+  const commonPrefix = [...expected].findIndex((char, position) => given[position] !== char);
+  if (commonPrefix >= Math.min(3, expected.length - 1)) {
+    return `Stammen ser rätt ut. Kontrollera ändelsen för ${person}.`;
+  }
+  return 'Jämför stammen och personändelsen med den rätta formen.';
+}
 
 function loadProgress(): Progress {
   if (typeof window === 'undefined') return {};
   try {
-    return JSON.parse(window.localStorage.getItem(STORAGE_KEY)) || {};
+    return JSON.parse(window.localStorage.getItem(STORAGE_KEY) ?? '{}') || {};
   } catch {
     return {};
   }
@@ -254,7 +315,7 @@ export default function Verbdrillen() {
     if (!verb || checked) return;
     const newResults = verb.forms.map((correct: string, i: number) => {
       if (isImperativ && i === 0) return true;
-      return norm(answers[i]) === norm(correct);
+      return tidy(answers[i]) === tidy(correct);
     });
     setResults(newResults);
     setChecked(true);
@@ -313,6 +374,7 @@ export default function Verbdrillen() {
   const tempusLabel = TEMPUS_OPTIONS.find(t => t.id === tempus)?.label;
   const modusLabel  = MODUS_OPTIONS.find(m => m.id === modus)?.label;
   const typLabel    = TYP_OPTIONS.find(t => t.id === typ)?.label;
+  const noteRevealsAnswer = verb?.note?.startsWith('oregelbunden stam:') ?? false;
 
   return (
     <div className={styles.page}>
@@ -451,7 +513,9 @@ export default function Verbdrillen() {
                   <div>
                     <p className={styles.verbInf}>
                       {verb.inf}
-                      {verb.note && <span className={styles.verbNote}> {verb.note}</span>}
+                      {verb.note && (!noteRevealsAnswer || checked) && (
+                        <span className={styles.verbNote}> {verb.note}</span>
+                      )}
                     </p>
                     <p className={styles.verbSwe}>{verb.swe}</p>
                   </div>
@@ -506,7 +570,19 @@ export default function Verbdrillen() {
                                     aria-invalid={isErr || undefined}
                                   />
                                   {checked && isErr && (
-                                    <span className={styles.correctAnswer}>{verb.forms[i]}</span>
+                                    <span className={styles.correction}>
+                                      <span className={styles.correctAnswer}>Rätt: {verb.forms[i]}</span>
+                                      <span className={styles.errorHint}>
+                                        {verbErrorFeedback({
+                                          answer: answers[i],
+                                          correct: verb.forms[i],
+                                          tempus,
+                                          typ,
+                                          person: pron,
+                                          index: i,
+                                        })}
+                                      </span>
+                                    </span>
                                   )}
                                 </div>
                               )}

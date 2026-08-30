@@ -52,8 +52,8 @@ export default function Home() {
             som pluggar spanska i skolan eller på egen hand — och gratis, utan konto.
           </p>
           <div className={styles.heroActions}>
-            <Link href="/docs/verb/introduktion" className="pillButton pillButton--primary">
-              Börja lära dig
+            <Link href="/larstig" className="pillButton pillButton--primary">
+              Följ lärstigen
             </Link>
             <Link href="/verbdrillen" className="pillButton pillButton--secondary">
               Öva verb
@@ -177,8 +177,8 @@ export default function Home() {
             fastnat på konjunktiven? Hoppa rakt dit.
           </p>
           <div className={styles.heroActions}>
-            <Link href="/docs/grunder/alfabet" className="pillButton pillButton--primary">
-              Från början
+            <Link href="/larstig" className="pillButton pillButton--primary">
+              Spanska från början
             </Link>
             <Link href="/docs/verb/konjunktiv" className="pillButton pillButton--secondary">
               Rakt till konjunktiven

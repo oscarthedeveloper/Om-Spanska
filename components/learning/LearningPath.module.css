@@ -1,0 +1,249 @@
+.overview {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) var(--s-lg) var(--s-section);
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
+  gap: var(--s-xxl);
+  align-items: end;
+}
+
+.overviewCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-lg);
+}
+
+.overviewCopy h1 {
+  max-width: 15ch;
+  font-size: clamp(2.75rem, 7vw, 5rem);
+  margin: 0;
+}
+
+.lead {
+  max-width: 42ch;
+  font-size: 1.25rem;
+  line-height: 1.42;
+  margin: 0;
+}
+
+.completeMessage {
+  margin: 0;
+  padding: var(--s-sm) var(--s-md);
+  border-radius: var(--r-md);
+  background: var(--block-mint);
+  font-weight: 500;
+}
+
+.buttonPlaceholder {
+  display: block;
+  width: 14rem;
+  min-height: 44px;
+}
+
+.progressCard {
+  border-radius: var(--r-lg);
+  background: var(--block-lilac);
+  padding: var(--s-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-md);
+}
+
+.progressTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-md);
+}
+
+.progressTop strong {
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.progressBar {
+  display: grid;
+  grid-template-columns: repeat(15, minmax(0, 1fr));
+  gap: var(--s-xxs);
+}
+
+.progressBar span {
+  display: block;
+  height: 10px;
+  border-radius: var(--r-full);
+}
+
+.progressDone { background: var(--ink); }
+.progressTodo { background: rgba(0, 0, 0, 0.17); }
+
+.progressCard p { margin: 0; }
+
+.storageNote {
+  font-size: 0.8125rem;
+  color: rgba(0, 0, 0, 0.68);
+}
+
+.progressLink {
+  color: var(--ink);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.main {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 var(--s-lg) var(--s-section);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-section);
+}
+
+.phase {
+  display: grid;
+  grid-template-columns: minmax(13rem, 0.34fr) minmax(0, 1fr);
+  gap: var(--s-xxl);
+  align-items: start;
+}
+
+.phaseHead {
+  position: sticky;
+  top: calc(var(--navbar-height) + var(--s-lg));
+}
+
+.phaseHead h2 {
+  font-size: clamp(1.75rem, 3.4vw, 2.75rem);
+  font-weight: 400;
+  margin-top: var(--s-sm);
+}
+
+.phaseHead p:last-child {
+  color: var(--muted);
+  max-width: 27ch;
+}
+
+.stepList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.stepItem {
+  margin: 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.stepLink {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: var(--s-md);
+  align-items: center;
+  padding: var(--s-lg) var(--s-xs);
+  text-decoration: none;
+  color: var(--ink);
+  transition: background-color 0.14s ease, padding-left 0.14s ease;
+}
+
+.stepLink:hover {
+  color: var(--ink);
+  background: var(--surface-soft);
+  padding-left: var(--s-md);
+  text-decoration: none;
+}
+
+.stepCurrent {
+  background: var(--block-lime);
+}
+
+.stepCurrent:hover {
+  background: var(--block-lime);
+}
+
+.stepDone .stepTitle {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--muted);
+}
+
+.stepNumber {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.stepDone .stepNumber {
+  color: var(--success);
+  font-size: 1rem;
+}
+
+.stepCopy {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xxs);
+}
+
+.stepTitle {
+  font-size: 1.1875rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.stepDescription {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  max-width: 52ch;
+}
+
+.stepMeta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--s-md);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.currentLabel {
+  border-radius: var(--r-full);
+  background: var(--ink);
+  color: var(--inverse-ink);
+  padding: 5px 9px;
+}
+
+.quizResult {
+  color: var(--success);
+}
+
+.stepArrow {
+  font-family: var(--font-sans);
+  font-size: 1.125rem;
+  transition: transform 0.14s ease;
+}
+
+.stepLink:hover .stepArrow { transform: translateX(4px); }
+
+@media (max-width: 900px) {
+  .overview { grid-template-columns: minmax(0, 1fr); align-items: start; }
+  .progressCard { max-width: 34rem; }
+  .phase { grid-template-columns: minmax(0, 1fr); gap: var(--s-lg); }
+  .phaseHead { position: static; }
+  .phaseHead p:last-child { max-width: 42ch; }
+}
+
+@media (max-width: 640px) {
+  .overview { padding: var(--s-xxl) var(--s-lg); }
+  .overviewCopy h1 { font-size: clamp(2.5rem, 13vw, 3.75rem); }
+  .progressCard { margin: 0 calc(-1 * var(--s-lg)); border-radius: 0; }
+  .main { gap: var(--s-xxl); }
+  .stepLink { grid-template-columns: 2.25rem minmax(0, 1fr) auto; align-items: start; }
+  .stepDescription { display: none; }
+  .stepMeta { gap: var(--s-xs); }
+  .currentLabel { display: none; }
+}

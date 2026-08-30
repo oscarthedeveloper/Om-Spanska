@@ -4,6 +4,7 @@ import type {AnchorHTMLAttributes, HTMLAttributes, ReactNode} from 'react';
 import Admonition from './Admonition';
 import BrowserWindow from './BrowserWindow';
 import Drill from './Drill';
+import MiniQuiz from './MiniQuiz';
 import {Tabs, TabItem} from './Tabs';
 import KonjunktivAR from './KonjunktivAR';
 import KonjunktivERIR from './KonjunktivERIR';
@@ -60,6 +61,7 @@ export const mdxComponents = {
   Admonition,
   BrowserWindow,
   Drill,
+  MiniQuiz,
   Tabs,
   TabItem,
   KonjunktivAR,

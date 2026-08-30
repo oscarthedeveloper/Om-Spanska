@@ -1,0 +1,195 @@
+.page {
+  max-width: 960px;
+  min-height: 70vh;
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) var(--s-lg) var(--s-section);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--s-xl);
+  margin-bottom: var(--s-lg);
+}
+
+.hero h1 {
+  font-size: clamp(2.75rem, 7vw, 5rem);
+  margin: var(--s-sm) 0 0;
+}
+
+.hero > p {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.progress {
+  height: 10px;
+  background: var(--surface-soft);
+  border-radius: var(--r-full);
+  overflow: hidden;
+  margin-bottom: var(--s-xl);
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--ink);
+  transition: width 0.2s ease;
+}
+
+.session {
+  border-radius: var(--r-lg);
+  padding: clamp(1.5rem, 5vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-lg);
+}
+
+.quizCard { background: var(--block-cream); }
+.verbCard { background: var(--block-lime); }
+.glossCard { background: var(--block-lilac); }
+
+.session h1,
+.session h2,
+.session p { margin: 0; }
+
+.session h2 {
+  max-width: 25ch;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.15;
+}
+
+.hint { color: rgba(0, 0, 0, 0.68); }
+
+.options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: var(--s-sm);
+}
+
+.option {
+  min-height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: var(--r-md);
+  background: var(--canvas);
+  color: var(--ink);
+  padding: var(--s-sm) var(--s-md);
+  display: flex;
+  align-items: center;
+  gap: var(--s-sm);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.option > span {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--r-full);
+  background: var(--surface-soft);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+}
+
+.correctOption { box-shadow: inset 0 0 0 2px var(--success); font-weight: 600; }
+.wrongOption { box-shadow: inset 0 0 0 2px var(--accent-magenta); }
+.dimOption { opacity: 0.48; }
+
+.answerForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-sm);
+}
+
+.answerForm input {
+  width: 100%;
+  min-height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: var(--r-md);
+  background: var(--canvas);
+  color: var(--ink);
+  padding: 0 var(--s-md);
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+}
+
+.answerForm input:focus {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.accents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-xs);
+}
+
+.accents button {
+  width: 38px;
+  height: 34px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: var(--r-sm);
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.feedback {
+  width: 100%;
+  border-radius: var(--r-md);
+  padding: var(--s-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xxs);
+}
+
+.correctFeedback { background: var(--block-mint); }
+.wrongFeedback { background: var(--block-pink); }
+
+.finished,
+.empty {
+  background: var(--block-mint);
+  min-height: 24rem;
+  justify-content: center;
+}
+
+.finished h1,
+.empty h1 {
+  font-size: clamp(2.75rem, 7vw, 5rem);
+  font-weight: 340;
+  letter-spacing: -0.04em;
+}
+
+.finished > p,
+.empty > p { max-width: 42ch; }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-sm);
+}
+
+@media (max-width: 560px) {
+  .page { padding: var(--s-xxl) var(--s-lg) var(--s-section); }
+  .hero { align-items: flex-start; flex-direction: column; }
+  .session { margin: 0 calc(-1 * var(--s-lg)); border-radius: 0; }
+  .options { grid-template-columns: minmax(0, 1fr); }
+  .session :global(.pillButton),
+  .actions { width: 100%; }
+}
