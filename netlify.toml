@@ -215,6 +215,86 @@
   status = 301
   force = true
 
+# ── Äldre URL:er med tydliga innehållsmotsvarigheter ─────────────────
+
+[[redirects]]
+  from = "/docs/substantiv/numerus"
+  to = "/docs/substantiv/plural"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/adjektiv/b%C3%B6jning"
+  to = "/docs/adjektiv/kongruens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Verb/Konjunktiv/Presens"
+  to = "/docs/verb/konjunktiv"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pronomina/personliga%20pronomina"
+  to = "/docs/pronomen/personliga"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pronomina/possessiva%20pronomina"
+  to = "/docs/pronomen/possessiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/Pronomina/Possessiva%20pronomina"
+  to = "/docs/pronomen/possessiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pronomina/reflexiva%20pronomina"
+  to = "/docs/pronomen/reflexiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/pronomina/demonstrativa%20pronomina"
+  to = "/docs/pronomen/demonstrativa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/listor/oregelbundna%20verb"
+  to = "/docs/verb/oregelbundna-verb"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/listor/diftongerande%20verb"
+  to = "/docs/verb/tempus/presens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/listor/reflexiva%20verb"
+  to = "/docs/pronomen/reflexiva"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/adverb/anv%C3%A4ndning%20av%20adverb"
+  to = "/docs/adverb/anvandning"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/adverb/tidsadverb"
+  to = "/docs/adverb/anvandning"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/thank-you"
   to = "/tack"
