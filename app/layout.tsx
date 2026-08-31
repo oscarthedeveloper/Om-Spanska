@@ -4,6 +4,7 @@ import Script from 'next/script';
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import {SITE_URL} from '@/lib/site';
 import './globals.css';
 
 const inter = Inter({
@@ -20,7 +21,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://omspanska.se'),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'Om Spanska — spansk grammatik på svenska',
     template: '%s · Om Spanska',

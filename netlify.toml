@@ -9,21 +9,22 @@
   package = "@netlify/plugin-nextjs"
 
 # ── Omdirigeringar från de gamla Docusaurus-URL:erna ──────────────────
+# Netlify kräver att specialtecken i källsökvägar är URL-kodade.
 
 [[redirects]]
-  from = "/docs/Grunder & uttal/Alfabet"
+  from = "/docs/Grunder%20%26%20uttal/Alfabet"
   to = "/docs/grunder/alfabet"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Grunder & uttal/Uttal"
+  from = "/docs/Grunder%20%26%20uttal/Uttal"
   to = "/docs/grunder/uttal"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Grunder & uttal/Ordförändringar"
+  from = "/docs/Grunder%20%26%20uttal/Ordf%C3%B6r%C3%A4ndringar"
   to = "/docs/grunder/ordforandringar"
   status = 301
   force = true
@@ -65,31 +66,31 @@
   force = true
 
 [[redirects]]
-  from = "/docs/Adjektiv/Ísimo"
+  from = "/docs/Adjektiv/%C3%8Dsimo"
   to = "/docs/adjektiv/isimo"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Pronomen/Personliga pronomen"
+  from = "/docs/Pronomen/Personliga%20pronomen"
   to = "/docs/pronomen/personliga"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Pronomen/Reflexiva pronomen"
+  from = "/docs/Pronomen/Reflexiva%20pronomen"
   to = "/docs/pronomen/reflexiva"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Pronomen/Possessiva pronomen"
+  from = "/docs/Pronomen/Possessiva%20pronomen"
   to = "/docs/pronomen/possessiva"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Pronomen/Demonstrativa pronomen"
+  from = "/docs/Pronomen/Demonstrativa%20pronomen"
   to = "/docs/pronomen/demonstrativa"
   status = 301
   force = true
@@ -119,7 +120,7 @@
   force = true
 
 [[redirects]]
-  from = "/docs/Verb/Oregelbundna verb"
+  from = "/docs/Verb/Oregelbundna%20verb"
   to = "/docs/verb/oregelbundna-verb"
   status = 301
   force = true
@@ -155,7 +156,7 @@
   force = true
 
 [[redirects]]
-  from = "/docs/Verb/Tempus/Futurum II"
+  from = "/docs/Verb/Tempus/Futurum%20II"
   to = "/docs/verb/tempus/futurum-ii"
   status = 301
   force = true
@@ -173,25 +174,25 @@
   force = true
 
 [[redirects]]
-  from = "/docs/Adverb/Användning"
+  from = "/docs/Adverb/Anv%C3%A4ndning"
   to = "/docs/adverb/anvandning"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Adverb/Muy & mucho"
+  from = "/docs/Adverb/Muy%20%26%20mucho"
   to = "/docs/adverb/muy-mucho"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Adverb/Tan & tanto"
+  from = "/docs/Adverb/Tan%20%26%20tanto"
   to = "/docs/adverb/tan-tanto"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/docs/Adverb/Aquí, allí, ahí"
+  from = "/docs/Adverb/Aqu%C3%AD%2C%20all%C3%AD%2C%20ah%C3%AD"
   to = "/docs/adverb/aqui-alli-ahi"
   status = 301
   force = true
@@ -203,7 +204,7 @@
   force = true
 
 [[redirects]]
-  from = "/docs/Syntax/Ordföljd i frågor"
+  from = "/docs/Syntax/Ordf%C3%B6ljd%20i%20fr%C3%A5gor"
   to = "/docs/syntax/ordfoljd-i-fragor"
   status = 301
   force = true
