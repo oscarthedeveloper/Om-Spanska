@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import type {Metadata} from 'next';
-import {getAllPosts} from '@/lib/content';
+import {getAllPosts, getAllDocs} from '@/lib/content';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'Om Spanska — spansk grammatik på svenska',
   description:
-    'En gratis digital spansk grammatika för svenska elever: sju ordklasser, alla tidsformer, 750 glosor och två övningsverktyg.',
+    'En gratis digital spansk grammatika för svenska elever: grammatiska genomgångar, interaktiva exempel, 750 glosor och två drillverktyg.',
   alternates: {canonical: '/'},
 };
 
@@ -24,7 +24,9 @@ const SECTIONS = [
    tag: 'Tidsformer · Imperativ · Konjunktiv · Perifraser · Oregelbundna verb'},
   {num: '06', name: 'Adverb', path: '/docs/adverb/anvandning',
    tag: 'Användning · Muy & mucho · Tan & tanto · Aquí, allí & ahí'},
-  {num: '07', name: 'Syntax', path: '/docs/syntax/introduktion',
+  {num: '07', name: 'Prepositioner', path: '/docs/prepositioner/introduktion',
+   tag: 'Plats · Riktning · Personligt a'},
+  {num: '08', name: 'Syntax', path: '/docs/syntax/introduktion',
    tag: 'Ordföljd · Frågor · Que'},
 ];
 
@@ -48,7 +50,7 @@ export default function Home() {
         </h1>
         <div className={styles.heroBottom}>
           <p className={styles.heroLead}>
-            Sju ordklasser, alla tidsformer och två övningsverktyg. Skrivet för dig
+            Grammatik, vardagliga exempel och övningar som hjälper dig förstå sambanden. Skrivet för dig
             som pluggar spanska i skolan eller på egen hand — och gratis, utan konto.
           </p>
           <div className={styles.heroActions}>
@@ -73,8 +75,8 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.index}>
           <div className={styles.sectionHead}>
-            <p className="eyebrow">Ordklasser</p>
-            <p className="eyebrow">07 avsnitt</p>
+            <p className="eyebrow">Grammatikområden</p>
+            <Link href="/grammatik">Se alla genomgångar →</Link>
           </div>
           <ol className={styles.indexList}>
             {SECTIONS.map(s => (
@@ -88,6 +90,19 @@ export default function Home() {
               </li>
             ))}
           </ol>
+        </section>
+
+        <section className={`${styles.block} ${styles.blockCream}`}>
+          <div className={styles.blockInner}>
+            <p className="eyebrow">Förstå skillnaden</p>
+            <h2 className={styles.blockHeading}>Två sätt att säga det. Vad ändras?</h2>
+            <p className={styles.blockLead}>Växla mellan meningar, följ förklaringen steg för steg och prova själv.</p>
+            <div className={styles.postGrid}>
+              <Link className={styles.postCard} href="/docs/verb/tempus/preteritum-eller-imperfekt"><h3 className={styles.postTitle}>Preteritum eller imperfekt?</h3><p className={styles.postBlurb}>Händelser, bakgrund och vanor i samma berättelse.</p></Link>
+              <Link className={styles.postCard} href="/docs/pronomen/objektspronomen-tillsammans"><h3 className={styles.postTitle}>Från boken till se lo</h3><p className={styles.postBlurb}>Se hur objekten blir pronomen och hittar sin plats.</p></Link>
+            </div>
+            <Link href="/grammatik" className={styles.blockLink}>Hitta rätt i grammatiken →</Link>
+          </div>
         </section>
 
         <section className={`${styles.block} ${styles.blockLime}`}>
@@ -104,7 +119,7 @@ export default function Home() {
             <dl className={styles.stats}>
               <div className={styles.stat}>
                 <dt className="eyebrow">Avsnitt</dt>
-                <dd>34</dd>
+                <dd>{getAllDocs('docs').length + getAllDocs('mer').length}</dd>
               </div>
               <div className={styles.stat}>
                 <dt className="eyebrow">Glosor att öva</dt>

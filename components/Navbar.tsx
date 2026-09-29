@@ -16,6 +16,7 @@ const GRAMMAR_LINKS = [
   {href: '/docs/grunder/alfabet', label: 'Grunder & uttal'},
   {href: '/docs/substantiv/genus', label: 'Ordklasser'},
   {href: '/mer/ser-och-estar', label: 'Mer grammatik'},
+  {href: '/grammatik', label: 'Hitta rätt i grammatiken'},
 ];
 
 const PRACTICE_LINKS = [
@@ -79,7 +80,7 @@ export default function Navbar() {
     };
   }, []);
 
-  const grammarActive = pathname.startsWith('/docs') || pathname.startsWith('/mer');
+  const grammarActive = pathname.startsWith('/grammatik') || pathname.startsWith('/docs') || pathname.startsWith('/mer');
   const practiceActive = ['/larstig', '/repetition', '/verbdrillen', '/glosdrillen']
     .some(path => pathname.startsWith(path));
 

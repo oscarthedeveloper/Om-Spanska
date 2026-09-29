@@ -105,6 +105,7 @@ for (const file of walk(path.join(ROOT, 'content', 'blog'))) {
 }
 
 for (const page of [
+  {t: 'Hitta rätt i grammatiken', d: 'Alla grammatikområden, jämförelser och vanliga frågor.', h: '/grammatik', c: 'Grammatik', k: 'sida'},
   {t: 'Verbdrillen', d: 'Öva på att böja spanska verb i alla tidsformer, modus och verbtyper.', h: '/verbdrillen', c: 'Öva', k: 'övning'},
   {t: 'Glosdrillen', d: 'Öva spanska glosor i 15 kortlekar från nybörjare till avancerad nivå.', h: '/glosdrillen', c: 'Öva', k: 'övning'},
   {t: 'Kontakt', d: 'Hör av dig med frågor, förslag eller rättelser.', h: '/kontakt', c: 'Sajten', k: 'sida'},

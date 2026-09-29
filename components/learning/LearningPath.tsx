@@ -45,10 +45,10 @@ export default function LearningPath() {
     <>
       <section className={styles.overview} aria-labelledby="larstig-rubrik">
         <div className={styles.overviewCopy}>
-          <p className="eyebrow">Spanska från början · A1–A2</p>
+          <p className="eyebrow">Grammatik · från grunder till fördjupning</p>
           <h1 id="larstig-rubrik">En sak i taget, i rätt ordning.</h1>
           <p className={styles.lead}>
-            Följ femton korta genomgångar från alfabetet till dåtid. Du kan hoppa
+            Följ {LEARNING_STEPS.length} genomgångar från alfabetet till medvetna grammatikval. Du kan hoppa
             över sådant du redan kan och fortsätta precis där du slutade.
           </p>
           {ready && continueStep ? (
@@ -72,6 +72,7 @@ export default function LearningPath() {
           </div>
           <div
             className={styles.progressBar}
+            style={{gridTemplateColumns: `repeat(${LEARNING_STEPS.length}, minmax(0, 1fr))`}}
             role="progressbar"
             aria-label="Avklarade steg i lärstigen"
             aria-valuemin={0}
@@ -84,7 +85,7 @@ export default function LearningPath() {
               />
             ))}
           </div>
-          <p>{ready ? `${percent} procent klart` : 'Läser in din progression …'}</p>
+          <p>{ready ? `${percent} procent genomläst` : 'Läser in din progression …'}</p>
           <p className={styles.storageNote}>Sparas bara i den här webbläsaren. Inget konto behövs.</p>
           <Link href="/framsteg" className={styles.progressLink}>Se mina framsteg →</Link>
         </div>

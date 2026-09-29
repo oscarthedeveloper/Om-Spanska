@@ -356,4 +356,245 @@ export const LEARNING_QUIZZES: Record<string, LearningQuiz> = {
       },
     ],
   },
+  "/docs/verb/tempus/preteritum-eller-imperfekt": {
+  "title": "Välj perspektiv i dåtid",
+  "questions": [
+    {
+      "prompt": "Du höll på att läsa när Ana ringde. Vilken mening visar det tydligast?",
+      "options": [
+        "Leía cuando llamó Ana.",
+        "Leí cuando llamó Ana."
+      ],
+      "answer": 0,
+      "explanation": "Leía ger den pågående bakgrunden; llamó är händelsen.",
+      "feedback": [
+        "Precis: leía visar vad som redan pågick.",
+        "Leí presenterar läsningen som en avgränsad helhet. Här vill vi uttrycka en pågående bakgrund med leía."
+      ]
+    },
+    {
+      "prompt": "Vad uttrycker Viví allí diez años?",
+      "options": [
+        "En avgränsad period på tio år.",
+        "Att jag säkert fortfarande bor där.",
+        "En handling som måste ha varit kort."
+      ],
+      "answer": 0,
+      "explanation": "Även långa perioder kan presenteras som avgränsade helheter i preteritum."
+    },
+    {
+      "prompt": "Som liten brukade jag besöka min mormor varje söndag.",
+      "options": [
+        "De pequeña visité a mi abuela el domingo pasado.",
+        "De pequeña visitaba a mi abuela todos los domingos."
+      ],
+      "answer": 1,
+      "explanation": "Visitaba beskriver vanan. El domingo pasado betyder förra söndagen och passar inte den avsedda betydelsen."
+    }
+  ]
+},
+  "/docs/pronomen/objektspronomen-tillsammans": {
+  "title": "Vem får vad?",
+  "questions": [
+    {
+      "prompt": "Ersätt el libro och a Ana i Doy el libro a Ana.",
+      "options": [
+        "Le lo doy.",
+        "Se lo doy.",
+        "Lo se doy."
+      ],
+      "answer": 1,
+      "explanation": "Le blir se framför lo. Indirekt objekt kommer före direkt objekt.",
+      "feedback": [
+        "Le byter form till se framför lo.",
+        "Precis: se står för mottagaren och lo för boken.",
+        "Pronomenen behöver stå i ordningen se lo."
+      ]
+    },
+    {
+      "prompt": "Ersätt las llaves i Te doy las llaves.",
+      "options": [
+        "Te lo doy.",
+        "Te la doy.",
+        "Te las doy."
+      ],
+      "answer": 2,
+      "explanation": "Las llaves är femininum plural och ersätts av las."
+    },
+    {
+      "prompt": "Vilken placering fungerar med voy a mandar?",
+      "options": [
+        "Te voy a lo mandar.",
+        "Voy a mandártelo."
+      ],
+      "answer": 1,
+      "explanation": "Pronomenen hålls ihop. Voy a mandártelo och Te lo voy a mandar fungerar båda."
+    }
+  ]
+},
+  "/docs/verb/tempus/pluskvamperfekt": {
+  "title": "Det som hade hänt",
+  "questions": [
+    {
+      "prompt": "Cuando llegué, Ana ya había cenado. Vad hände först?",
+      "options": [
+        "Ana åt middag.",
+        "Jag kom fram."
+      ],
+      "answer": 0,
+      "explanation": "Había cenado placerar middagen före ankomsten."
+    },
+    {
+      "prompt": "Vi hade sett filmen.",
+      "options": [
+        "Habíamos visto la película.",
+        "Habíamos vido la película.",
+        "Hemos visto la película."
+      ],
+      "answer": 0,
+      "explanation": "Habíamos är haber i imperfekt. Ver har participet visto."
+    },
+    {
+      "prompt": "Vilken mening har rätt particip efter haber?",
+      "options": [
+        "Ellas habían llegadas.",
+        "Ellas habían llegado."
+      ],
+      "answer": 1,
+      "explanation": "Particip efter haber ändras inte efter subjektets genus eller antal."
+    }
+  ]
+},
+  "/docs/prepositioner/introduktion": {
+  "title": "Plats och riktning",
+  "questions": [
+    {
+      "prompt": "Jag är på stationen.",
+      "options": [
+        "Estoy a la estación.",
+        "Estoy en la estación."
+      ],
+      "answer": 1,
+      "explanation": "En anger platsen där du befinner dig."
+    },
+    {
+      "prompt": "Sätt ihop de + el trabajo.",
+      "options": [
+        "del trabajo",
+        "de el trabajo",
+        "de la trabajo"
+      ],
+      "answer": 0,
+      "explanation": "De + artikeln el blir del."
+    },
+    {
+      "prompt": "Vilket uttryck betyder jag tänker på semestern?",
+      "options": [
+        "Pienso de las vacaciones.",
+        "Pienso en las vacaciones."
+      ],
+      "answer": 1,
+      "explanation": "Lär dig pensar en som ett paket. Svenskans på översätts inte alltid med samma preposition."
+    }
+  ]
+},
+  "/docs/prepositioner/personligt-a": {
+  "title": "Personen som objekt",
+  "questions": [
+    {
+      "prompt": "Jag väntar på min syster.",
+      "options": [
+        "Espero mi hermana.",
+        "Espero a mi hermana."
+      ],
+      "answer": 1,
+      "explanation": "En identifierad person som direkt objekt får normalt personligt a."
+    },
+    {
+      "prompt": "Vilken funktion har a Ana i Veo a Ana?",
+      "options": [
+        "Direkt objekt.",
+        "Indirekt objekt eftersom a står framför."
+      ],
+      "answer": 0,
+      "explanation": "Ana är den som ses. A gör inte automatiskt ett objekt indirekt."
+    },
+    {
+      "prompt": "Jag har två syskon.",
+      "options": [
+        "Tengo a dos hermanos.",
+        "Tengo dos hermanos."
+      ],
+      "answer": 1,
+      "explanation": "Tener i vanlig betydelse ha använder normalt inte personligt a."
+    }
+  ]
+},
+  "/docs/grunder/betoning-och-accenter": {
+  "title": "Var ligger betoningen?",
+  "questions": [
+    {
+      "prompt": "Vilken stavelse betonas i teléfono?",
+      "options": [
+        "te",
+        "lé",
+        "fo",
+        "no"
+      ],
+      "answer": 1,
+      "explanation": "Accenttecknet visar betoningen: te-LÉ-fo-no."
+    },
+    {
+      "prompt": "Välj rätt stavning för han/hon pratade.",
+      "options": [
+        "hablo",
+        "habló"
+      ],
+      "answer": 1,
+      "explanation": "Habló betonas på sista stavelsen. Hablo betyder jag pratar."
+    },
+    {
+      "prompt": "Ditt hus — vilken form behövs?",
+      "options": [
+        "tú casa",
+        "tu casa"
+      ],
+      "answer": 1,
+      "explanation": "Tu utan accent anger ägande. Tú med accent är subjektspronomenet du."
+    }
+  ]
+},
+  "/docs/verb/tempus/imperfekt": {
+  "title": "Bakgrund och vanor",
+  "questions": [
+    {
+      "prompt": "Vi brukade äta hemma.",
+      "options": [
+        "Comíamos en casa.",
+        "Comimos en casa."
+      ],
+      "answer": 0,
+      "explanation": "Comíamos uttrycker här vanan. Comimos presenterar en avgränsad händelse eller period."
+    },
+    {
+      "prompt": "Vilken är jag-formen av ir i imperfekt?",
+      "options": [
+        "fui",
+        "iba",
+        "voy"
+      ],
+      "answer": 1,
+      "explanation": "Ir är oregelbundet i imperfekt: iba, ibas, iba, íbamos, ibais, iban."
+    },
+    {
+      "prompt": "Vilken form passar som väderbakgrund: Det var kallt?",
+      "options": [
+        "Hacía frío.",
+        "Hizo frío durante toda la semana."
+      ],
+      "answer": 0,
+      "explanation": "Hacía frío beskriver bakgrunden. Den andra meningen sammanfattar en avgränsad vecka."
+    }
+  ]
+},
 };

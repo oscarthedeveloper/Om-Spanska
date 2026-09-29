@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 
 const COLUMNS = [
   {
-    title: 'Ordklasser',
+    title: 'Grammatikområden',
     items: [
       {label: 'Grunder & uttal', href: '/docs/grunder/alfabet'},
       {label: 'Substantiv', href: '/docs/substantiv/genus'},
@@ -11,6 +11,7 @@ const COLUMNS = [
       {label: 'Pronomen', href: '/docs/pronomen/personliga'},
       {label: 'Verb', href: '/docs/verb/introduktion'},
       {label: 'Adverb', href: '/docs/adverb/anvandning'},
+      {label: 'Prepositioner', href: '/docs/prepositioner/introduktion'},
       {label: 'Syntax', href: '/docs/syntax/introduktion'},
     ],
   },
@@ -40,6 +41,7 @@ const COLUMNS = [
   {
     title: 'Sajten',
     items: [
+      {label: 'All grammatik', href: '/grammatik'},
       {label: 'Bloggen', href: '/blog'},
       {label: 'Kontakt', href: '/kontakt'},
     ],

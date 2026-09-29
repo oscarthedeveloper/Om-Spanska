@@ -58,11 +58,11 @@ export default function LearningStepProgress({href}: {href: string}) {
     <aside className={styles.card} aria-label="Lärsteg">
       <div className={styles.copy}>
         <p className="eyebrow">Spanska från början · Steg {number} av {LEARNING_STEPS.length}</p>
-        <h2>{isDone ? 'Det här steget är klart.' : 'Klar med genomgången?'}</h2>
+        <h2>{isDone ? 'Du har läst genomgången.' : 'Klar med genomgången?'}</h2>
         <p>
           {isDone
             ? 'Din progression är sparad i den här webbläsaren.'
-            : 'Markera steget som klart när du känner att du har förstått grunderna.'}
+            : 'Markera när du har läst. Ditt resultat på snabbkollen sparas separat — att ha läst och att kunna använda är två olika steg.'}
         </p>
       </div>
       <div className={styles.actions}>
@@ -71,7 +71,7 @@ export default function LearningStepProgress({href}: {href: string}) {
           className={`pillButton ${isDone ? 'pillButton--secondary' : 'pillButton--primary'}`}
           onClick={toggleComplete}
           disabled={!ready}>
-          {isDone ? 'Ångra markering' : 'Markera som klart'}
+          {isDone ? 'Ångra markering' : 'Markera som läst'}
         </button>
         {isDone && nextStep && (
           <Link href={nextStep.href} className={styles.nextLink}>

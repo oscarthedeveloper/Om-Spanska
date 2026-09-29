@@ -147,6 +147,62 @@ export const LEARNING_PATH: LearningPathPhase[] = [
       },
     ],
   },
+  {
+  "id": "valj-och-bygg",
+  "title": "Välj form och bygg vidare",
+  "description": "Jämför dåtider, få ordning på småorden och se hur meningens delar hänger ihop.",
+  "steps": [
+    {
+      "id": "betoning",
+      "title": "Betoning och accenttecken",
+      "description": "Läs betoningen och förstå när accenten behövs.",
+      "href": "/docs/grunder/betoning-och-accenter",
+      "time": "12 min"
+    },
+    {
+      "id": "prepositioner",
+      "title": "Prepositioner",
+      "description": "Visa plats, riktning och samband med småord.",
+      "href": "/docs/prepositioner/introduktion",
+      "time": "15 min"
+    },
+    {
+      "id": "personligt-a",
+      "title": "Personligt a",
+      "description": "Förstå a framför personer som direkt objekt.",
+      "href": "/docs/prepositioner/personligt-a",
+      "time": "10 min"
+    },
+    {
+      "id": "objektspronomen",
+      "title": "Objektspronomen tillsammans",
+      "description": "Bygg om meningar med se lo, te la och andra kombinationer.",
+      "href": "/docs/pronomen/objektspronomen-tillsammans",
+      "time": "18 min"
+    },
+    {
+      "id": "imperfekt",
+      "title": "Imperfekt",
+      "description": "Beskriv bakgrund, vanor och pågående situationer i dåtid.",
+      "href": "/docs/verb/tempus/imperfekt",
+      "time": "15 min"
+    },
+    {
+      "id": "datidsval",
+      "title": "Preteritum eller imperfekt?",
+      "description": "Välj perspektiv och sätt ihop en liten berättelse.",
+      "href": "/docs/verb/tempus/preteritum-eller-imperfekt",
+      "time": "15 min"
+    },
+    {
+      "id": "pluskvamperfekt",
+      "title": "Pluskvamperfekt",
+      "description": "Berätta vad som redan hade hänt.",
+      "href": "/docs/verb/tempus/pluskvamperfekt",
+      "time": "12 min"
+    }
+  ]
+},
 ];
 
 export const LEARNING_STEPS = LEARNING_PATH.flatMap(phase => phase.steps);

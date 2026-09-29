@@ -3,7 +3,7 @@ import {getAllDocs, getAllPosts} from '@/lib/content';
 import {absoluteUrl} from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPages = ['', '/larstig', '/framsteg', '/repetition', '/blog', '/verbdrillen', '/glosdrillen', '/kontakt'];
+  const staticPages = ['', '/grammatik', '/larstig', '/framsteg', '/repetition', '/blog', '/verbdrillen', '/glosdrillen', '/kontakt'];
 
   return [
     ...staticPages.map(p => ({

@@ -1,3 +1,7 @@
+import MeaningSwitch from './MeaningSwitch';
+import SentenceSteps from './SentenceSteps';
+import SentenceTransform from './SentenceTransform';
+import {LessonIntro, RelatedLessons} from './LessonGuide';
 import Link from 'next/link';
 import type {AnchorHTMLAttributes, HTMLAttributes, ReactNode} from 'react';
 
@@ -53,6 +57,7 @@ function Anchor({href = '', children, ...rest}: AnchorHTMLAttributes<HTMLAnchorE
 }
 
 export const mdxComponents = {
+  MeaningSwitch, SentenceSteps, SentenceTransform, LessonIntro, RelatedLessons,
   a: Anchor,
   h2: heading('h2'),
   h3: heading('h3'),

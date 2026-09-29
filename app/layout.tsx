@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s · Om Spanska',
   },
   description:
-    'En gratis digital spansk grammatika för svenska elever: sju ordklasser, alla tidsformer, 750 glosor och två övningsverktyg.',
+    'En gratis digital spansk grammatika för svenska elever: grammatiska genomgångar, interaktiva exempel, 750 glosor och två drillverktyg.',
   keywords: [
     'spansk grammatik', 'spanska', 'grammatika', 'konjunktiv', 'preteritum',
     'verbböjning', 'glosor', 'svenska',

@@ -106,7 +106,7 @@ export default function MiniQuiz({title = 'Snabbkoll', questions}: Props) {
         <div className={styles.resultActions}>
           {step && !stepMarked && (
             <button type="button" className="pillButton pillButton--primary" onClick={markStepComplete}>
-              Markera steget som klart
+              Markera genomgången som läst
             </button>
           )}
           {stepMarked && nextStep && (

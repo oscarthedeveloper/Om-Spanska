@@ -25,8 +25,8 @@ components/
   mdx/               Komponenter som innehållet får använda
   drills/            Verbdrillen och Glosdrillen
 content/
-  docs/              34 grammatiksidor i MDX
-  blog/              4 bloggposter i MDX
+  docs/              Grammatiksidor i MDX
+  blog/              Bloggposter i MDX
 data/                Typad glos- och verbdata
 lib/content.ts       Läser innehållet: sidomeny, slugs, rubriker, grannar
 scripts/             Sökindex + engångsmigreringen från Docusaurus
@@ -69,3 +69,22 @@ Netlify bygger med `@netlify/plugin-nextjs`. `netlify.toml` innehåller
 Kontaktformuläret postar till `public/__forms.html`, som är den definition
 Netlify Forms läser av vid bygget. Ändrar du fälten i `components/ContactForm.tsx`
 måste samma fältnamn finnas i `__forms.html`.
+
+## Interaktiva grammatikgenomgångar
+
+MDX kan använda `LessonIntro` (mål och förkunskaper), `RelatedLessons`
+(relaterade länkar), `MeaningSwitch` (jämför betydelser), `SentenceSteps`
+(stegvis förklaring med valfria etiketter) och `SentenceTransform`
+(meningsomvandling med återkoppling per alternativ). Se de nya sidorna
+Preteritum eller imperfekt och Objektspronomen tillsammans för exempel.
+
+Skriv först situationen, sedan huvudregeln, ett genomarbetat exempel,
+en egen uppgift och sist nyanserna. Markera spanska meningar med `lang="es"`
+i komponenterna. Färg ska alltid kompletteras med en etikett.
+
+Lägg nya lärsteg i `lib/learning-path.ts` med stabila id:n och slutquiz i
+`data/learning-quizzes.ts`. Då sparas resultaten och missade frågor ingår i
+Dagens repetition. Ändra inte ordningen på publicerade quizfrågor utan att
+hantera redan sparade frågeindex. Läsmarkeringen är skild från quizresultat.
+Grammatiköversikten på `/grammatik` läser kategorier och sidor automatiskt;
+jämförelsekort och bloggingångar väljs redaktionellt.

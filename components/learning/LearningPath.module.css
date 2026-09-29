@@ -65,7 +65,6 @@
 
 .progressBar {
   display: grid;
-  grid-template-columns: repeat(15, minmax(0, 1fr));
   gap: var(--s-xxs);
 }
 

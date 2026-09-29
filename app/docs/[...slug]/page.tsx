@@ -47,7 +47,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
     <div className={styles.layout}>
       <article className={styles.article}>
         <nav className={styles.breadcrumbs} aria-label="Brödsmulor">
-          <Link href="/docs/grunder/alfabet">Grammatik</Link>
+          <Link href="/grammatik">Grammatik</Link>
           {doc.categoryPath.map(part => (
             <span key={part}>
               <span aria-hidden="true"> / </span>
@@ -60,11 +60,11 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
         <div className={`${styles.content} mdxContent`}>
-          <Mdx source={doc.content} hideDrill={Boolean(learningQuiz)} />
+          <Mdx key={doc.href} source={doc.content} hideDrill={Boolean(learningQuiz)} />
         </div>
 
         {learningQuiz && (
-          <MiniQuiz title={learningQuiz.title} questions={learningQuiz.questions} />
+          <MiniQuiz key={doc.href} title={learningQuiz.title} questions={learningQuiz.questions} />
         )}
 
         <LearningStepProgress href={doc.href} />

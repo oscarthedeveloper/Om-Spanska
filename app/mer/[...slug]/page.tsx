@@ -43,7 +43,7 @@ export default async function MerPage({params}: {params: Promise<Params>}) {
     <div className={styles.layout}>
       <article className={styles.article}>
         <nav className={styles.breadcrumbs} aria-label="Brödsmulor">
-          <Link href="/mer/ser-och-estar">Mer grammatik</Link>
+          <Link href="/grammatik">Grammatik</Link>
           {doc.categoryPath.map(part => (
             <span key={part}>
               <span aria-hidden="true"> / </span>
@@ -56,7 +56,7 @@ export default async function MerPage({params}: {params: Promise<Params>}) {
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
         <div className={`${styles.content} mdxContent`}>
-          <Mdx source={doc.content} />
+          <Mdx key={doc.href} source={doc.content} />
         </div>
 
         {(previous || next) && (

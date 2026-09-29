@@ -105,7 +105,7 @@ export default function ProgressDashboard() {
         <article className={`${styles.card} ${styles.learningCard}`}>
           <p className="eyebrow">Lärstigen</p>
           <p className={styles.bigNumber}>{stats.completed}<span> / {LEARNING_STEPS.length}</span></p>
-          <p>genomgångar klara · {learningPercent} procent</p>
+          <p>genomgångar lästa · {learningPercent} procent</p>
           <div className={styles.meter} aria-hidden="true">
             <span style={{width: `${learningPercent}%`}} />
           </div>
