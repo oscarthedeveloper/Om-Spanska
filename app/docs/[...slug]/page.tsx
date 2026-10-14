@@ -6,6 +6,7 @@ import Mdx from '@/components/mdx/Mdx';
 import TableOfContents from '@/components/TableOfContents';
 import LearningStepProgress from '@/components/learning/LearningStepProgress';
 import MiniQuiz from '@/components/mdx/MiniQuiz';
+import RigorosBanner from '@/components/RigorosBanner';
 import {LEARNING_QUIZZES} from '@/data/learning-quizzes';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
 import styles from './doc.module.css';
@@ -57,6 +58,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
         </nav>
 
         <h1>{doc.title}</h1>
+        {doc.rigoros && <RigorosBanner />}
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
         <div className={`${styles.content} mdxContent`}>

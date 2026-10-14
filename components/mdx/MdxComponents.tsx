@@ -14,6 +14,7 @@ import KonjunktivAR from './KonjunktivAR';
 import KonjunktivERIR from './KonjunktivERIR';
 import KonjunktivIMPAR from './KonjunktivIMPAR';
 import KonjunktivIMPERIR from './KonjunktivIMPERIR';
+import Rigoros from './Rigoros';
 
 /** Pastellmarkering i rubriker och löptext. */
 function Highlight({children}: {children: ReactNode}) {
@@ -73,6 +74,7 @@ export const mdxComponents = {
   KonjunktivERIR,
   KonjunktivIMPAR,
   KonjunktivIMPERIR,
+  Rigoros,
 };
 
 export default mdxComponents;

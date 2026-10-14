@@ -89,17 +89,18 @@ export function extractHeadings(content: string): Heading[] {
 
 /* ── Kategorier ──────────────────────────────────────────────────── */
 
-type CategoryMeta = {label: string; position: number};
+type CategoryMeta = {label: string; position: number; rigoros?: boolean};
 
 function readCategory(dir: string): CategoryMeta {
   const file = path.join(dir, '_category_.json');
-  const fallback = {label: path.basename(dir), position: 999};
+  const fallback = {label: path.basename(dir), position: 999, rigoros: false};
   if (!fs.existsSync(file)) return fallback;
   try {
     const parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
     return {
       label: typeof parsed.label === 'string' ? parsed.label : fallback.label,
       position: typeof parsed.position === 'number' ? parsed.position : 999,
+      rigoros: Boolean(parsed.rigoros),
     };
   } catch {
     return fallback;
@@ -132,6 +133,7 @@ function readDocsDir(dir: string, categoryPath: string[], base: string): DocMeta
       description: String(data.description ?? ''),
       slug,
       sidebar_position: Number(data.sidebar_position ?? 999),
+      rigoros: Boolean(data.rigoros),
       file: path.relative(process.cwd(), full),
       segments,
       href: `${base}/${segments.join('/')}`,
@@ -169,11 +171,13 @@ function buildSidebarFor(dir: string, base: string): SidebarNode[] {
 
     if (entry.isDirectory()) {
       const meta = readCategory(full);
+      const items = buildSidebarFor(full, base);
       nodes.push({
         kind: 'category',
         label: meta.label,
         position: meta.position,
-        items: buildSidebarFor(full, base),
+        rigoros: Boolean(meta.rigoros || (items.length > 0 && items.every(i => i.rigoros))),
+        items,
       });
       continue;
     }
@@ -186,6 +190,7 @@ function buildSidebarFor(dir: string, base: string): SidebarNode[] {
       label: String(data.title ?? entry.name.replace(/\.mdx$/, '')),
       href: `${base}/${segments.join('/')}`,
       position: Number(data.sidebar_position ?? 999),
+      rigoros: Boolean(data.rigoros),
     });
   }
 

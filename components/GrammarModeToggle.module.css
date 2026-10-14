@@ -1,0 +1,62 @@
+.toggleGroup {
+  display: inline-flex;
+  align-items: center;
+  background: var(--surface-soft);
+  padding: 2px;
+  border-radius: var(--r-full);
+  border: 1px solid var(--hairline);
+  position: relative;
+  user-select: none;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: var(--r-full);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.button:hover {
+  color: var(--ink);
+}
+
+.buttonActive {
+  background: var(--canvas);
+  color: var(--ink);
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+.mobileContainer {
+  margin: var(--s-sm) 0;
+  padding: var(--s-sm);
+  background: var(--surface-soft);
+  border-radius: var(--r-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-xs);
+}
+
+.mobileLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0;
+}

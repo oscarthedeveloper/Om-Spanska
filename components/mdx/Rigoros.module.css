@@ -1,0 +1,11 @@
+.rigorosBlock {
+  margin-top: var(--s-xl, 2rem);
+  padding-top: var(--s-lg, 1.5rem);
+  border-top: 1px dashed var(--hairline, #e5e7eb);
+  position: relative;
+}
+
+:global(html[data-grammar-mode="lattsam"]) .rigorosBlock,
+:global(html:not([data-grammar-mode="rigoros"])) .rigorosBlock {
+  display: none !important;
+}

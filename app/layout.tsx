@@ -49,7 +49,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="sv" className={`${inter.variable} ${jetbrains.variable}`}>
+    <html lang="sv" className={`${inter.variable} ${jetbrains.variable}`} data-grammar-mode="lattsam">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var m=localStorage.getItem('omspanska_grammar_mode');if(m==='rigoros'){document.documentElement.setAttribute('data-grammar-mode','rigoros');}}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body>
         <a href="#innehall" className="skipLink">Hoppa till innehållet</a>
         <Navbar />

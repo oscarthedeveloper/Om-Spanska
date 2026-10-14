@@ -4,6 +4,7 @@ import {notFound} from 'next/navigation';
 
 import Mdx from '@/components/mdx/Mdx';
 import TableOfContents from '@/components/TableOfContents';
+import RigorosBanner from '@/components/RigorosBanner';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
 import styles from '../../docs/[...slug]/doc.module.css';
 
@@ -53,6 +54,7 @@ export default async function MerPage({params}: {params: Promise<Params>}) {
         </nav>
 
         <h1>{doc.title}</h1>
+        {doc.rigoros && <RigorosBanner />}
         {doc.description && <p className={styles.lead}>{doc.description}</p>}
 
         <div className={`${styles.content} mdxContent`}>

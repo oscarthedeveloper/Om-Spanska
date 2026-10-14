@@ -3,6 +3,7 @@ export type DocFrontmatter = {
   description: string;
   slug: string;
   sidebar_position: number;
+  rigoros?: boolean;
 };
 
 export type DocMeta = DocFrontmatter & {
@@ -31,12 +32,14 @@ export type SidebarCategory = {
   label: string;
   position: number;
   items: SidebarNode[];
+  rigoros?: boolean;
 };
 
 export type SidebarLink = {
   label: string;
   href: string;
   position: number;
+  rigoros?: boolean;
 };
 
 export type SidebarNode =

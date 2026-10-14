@@ -10,6 +10,7 @@ import {
   type LearningProgress,
 } from '@/lib/learning-progress';
 import SearchDialog from './SearchDialog';
+import GrammarModeToggle from './GrammarModeToggle';
 import styles from './Navbar.module.css';
 
 const GRAMMAR_LINKS = [
@@ -141,6 +142,7 @@ export default function Navbar() {
           </div>
 
           <div className={styles.actions}>
+            <GrammarModeToggle />
             <button
               type="button"
               className={styles.searchBtn}
@@ -174,6 +176,7 @@ export default function Navbar() {
 
         {mobileOpen && (
           <div id="mobilmeny" className={styles.mobile}>
+            <GrammarModeToggle mobile />
             <p className={styles.mobileHeading}>Grammatik</p>
             {GRAMMAR_LINKS.map(link => (
               <Link key={link.href} href={link.href} className={styles.mobileLink}>{link.label}</Link>
