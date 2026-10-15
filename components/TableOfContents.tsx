@@ -5,7 +5,13 @@ import type {Heading} from '@/lib/types';
 import {useGrammarMode} from '@/lib/grammar-mode';
 import styles from './TableOfContents.module.css';
 
-export default function TableOfContents({headings}: {headings: Heading[]}) {
+export default function TableOfContents({
+  headings,
+  headingsLattsam,
+}: {
+  headings: Heading[];
+  headingsLattsam?: Heading[];
+}) {
   const [mode] = useGrammarMode();
   const [rigorosIds, setRigorosIds] = useState<Set<string>>(new Set());
 
@@ -20,9 +26,12 @@ export default function TableOfContents({headings}: {headings: Heading[]}) {
     setRigorosIds(found);
   }, [headings]);
 
-  const visibleHeadings = mode === 'rigoros'
-    ? headings
-    : headings.filter(h => !rigorosIds.has(h.id));
+  const visibleHeadings =
+    mode === 'lattsam' && headingsLattsam
+      ? headingsLattsam
+      : mode === 'rigoros'
+      ? headings
+      : headings.filter(h => !rigorosIds.has(h.id));
 
   if (visibleHeadings.length < 2) return null;
 

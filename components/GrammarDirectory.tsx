@@ -23,7 +23,10 @@ function filterNodes(nodes: SidebarNode[], mode: 'lattsam' | 'rigoros'): Sidebar
 function flatten(nodes: SidebarNode[], mode: 'lattsam' | 'rigoros'): {href: string; label: string; rigoros?: boolean}[] {
   return nodes.flatMap(node => {
     if (mode === 'lattsam' && node.rigoros) return [];
-    if (node.kind === 'link') return [node];
+    if (node.kind === 'link') {
+      const label = mode === 'lattsam' && node.labelLattsam ? node.labelLattsam : node.label;
+      return [{href: node.href, label, rigoros: node.rigoros}];
+    }
     return flatten(node.items, mode);
   });
 }
@@ -48,10 +51,10 @@ export default function GrammarDirectory({
       <section aria-labelledby="alla">
         <div className={styles.sectionHeader}>
           <h2 id="alla">
-            {mode === 'lattsam' ? 'Grundläggande grammatikområden (Högstadiet)' : 'Samtliga grammatikområden (Referensverk)'}
+            {mode === 'lattsam' ? 'Alla grammatikområden' : 'Samtliga grammatikområden'}
           </h2>
           <span className={styles.modeTag}>
-            {mode === 'lattsam' ? '☕ Visar basnivå · steg 1–2' : '🔬 Visar komplett referens · steg 1–7'}
+            {mode === 'lattsam' ? '☕ Lättsam' : '🔬 Rigorös'}
           </span>
         </div>
         <div className={styles.grid}>
@@ -64,7 +67,7 @@ export default function GrammarDirectory({
                     <Link href={link.href}>
                       {link.label}
                       {mode === 'rigoros' && link.rigoros && (
-                        <span className={styles.itemBadge}>🔬 Uni</span>
+                        <span className={styles.itemBadge}>🔬 Rigorös</span>
                       )}
                     </Link>
                   </li>
@@ -83,7 +86,7 @@ export default function GrammarDirectory({
               type="button"
               onClick={() => setMode('rigoros')}
               className={styles.switchLink}>
-              Visa universitetsartiklar (slå på Rigoröst läge) →
+              Visa fördjupade artiklar (slå på Rigoröst läge) →
             </button>
           )}
         </div>
@@ -92,7 +95,7 @@ export default function GrammarDirectory({
             <li key={doc.href}>
               <Link href={doc.href}>
                 {doc.title}
-                {doc.rigoros && <span className={styles.itemBadge}>🔬 Gymnasium & Uni</span>}
+                {doc.rigoros && <span className={styles.itemBadge}>🔬 Rigorös</span>}
               </Link>
               <p>{doc.description}</p>
             </li>

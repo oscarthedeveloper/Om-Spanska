@@ -635,3 +635,14 @@ th .regelruta {
 @media (max-width: 560px) {
   body { font-size: 17px; }
 }
+
+/* ─── 8. GRAMMATIKLÄGEN (LÄTTSAM vs RIGORÖS) ────────────────────── */
+
+html[data-grammar-mode="lattsam"] .rigoros-only,
+html:not([data-grammar-mode="rigoros"]) .rigoros-only {
+  display: none !important;
+}
+
+html[data-grammar-mode="rigoros"] .lattsam-only {
+  display: none !important;
+}

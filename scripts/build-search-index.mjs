@@ -70,6 +70,7 @@ for (const [dir, base, fallbackCategory] of [
   ['mer', '/mer', 'Mer grammatik'],
 ]) {
   const root = path.join(ROOT, 'content', dir);
+  const rootLattsam = path.join(ROOT, 'content_lattsam', dir);
   for (const file of walk(root)) {
     const raw = fs.readFileSync(file, 'utf8');
     const {data, body} = parseFrontmatter(raw);
@@ -77,9 +78,21 @@ for (const [dir, base, fallbackCategory] of [
     const segments = data.slug.replace(/^\/+/, '');
     const category =
       path.relative(root, path.dirname(file)).split(path.sep)[0] || fallbackCategory;
+
+    const lattsamFile = path.join(rootLattsam, path.relative(root, file));
+    let tLattsam;
+    let dLattsam;
+    if (fs.existsSync(lattsamFile)) {
+      const parsedL = parseFrontmatter(fs.readFileSync(lattsamFile, 'utf8'));
+      if (parsedL.data.title) tLattsam = parsedL.data.title;
+      if (parsedL.data.description) dLattsam = parsedL.data.description;
+    }
+
     records.push({
       t: data.title || segments,
+      tl: tLattsam,
       d: data.description || '',
+      dl: dLattsam,
       h: `${base}/${segments}`,
       c: category,
       k: 'grammatik',

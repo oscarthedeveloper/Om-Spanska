@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {getAllDocs, getSidebar} from '@/lib/content';
+import type {SidebarNode} from '@/lib/types';
 import GrammarDirectory from '@/components/GrammarDirectory';
 import styles from './page.module.css';
 
@@ -26,18 +27,47 @@ const questions = [
   {href: '/blog/sambandsord', label: 'Hur binder man ihop resonemang?'},
 ];
 
+function filterLattsamNodes(nodes: SidebarNode[]): SidebarNode[] {
+  return nodes
+    .filter(node => !node.rigoros)
+    .map(node => {
+      if (node.kind === 'category') {
+        const filteredItems = filterLattsamNodes(node.items);
+        if (filteredItems.length === 0) return null;
+        return {...node, items: filteredItems};
+      }
+      return node;
+    })
+    .filter((node): node is SidebarNode => node !== null);
+}
+
+function flattenLattsam(nodes: SidebarNode[]): {href: string; label: string}[] {
+  return nodes.flatMap(node => {
+    if (node.rigoros) return [];
+    if (node.kind === 'link') {
+      return [{href: node.href, label: node.labelLattsam ?? node.label}];
+    }
+    return flattenLattsam(node.items);
+  });
+}
+
 export default function GrammarPage() {
   const categories = getSidebar();
   const extra = getAllDocs('mer').sort((a, b) => a.sidebar_position - b.sidebar_position);
+
+  const categoriesLattsam = filterLattsamNodes(categories);
+  const extraLattsam = extra.filter(d => !d.rigoros);
 
   return (
     <main className={styles.page}>
       <header className={styles.hero}>
         <p className="eyebrow">Grammatik · exempel · övningar</p>
         <h1>Vad vill du få ordning på?</h1>
-        <p>
-          Slå upp en regel, jämför två former eller följ en genomgång från början.
-          Välj mellan Lättsam (Högstadiet) och Rigorös (Gymnasium & Universitet) i menyn ovan.
+        <p className="lattsam-only">
+          Slå upp en regel, jämför två former eller följ en genomgång från början. Varje liten bit hjälper nästa mening på traven.
+        </p>
+        <p className="rigoros-only">
+          Slå upp en regel, jämför två former eller följ en genomgång från början. Komplett referensgrammatik med teoretiska fördjupningar och historisk kontext.
         </p>
         <Link className="pillButton pillButton--primary" href="/larstig">
           Följ lärstigen
@@ -57,7 +87,43 @@ export default function GrammarPage() {
         </div>
       </section>
 
-      <GrammarDirectory categories={categories} extra={extra} />
+      {/* Lättsam: exakt layout och innehåll som www.omspanska.se */}
+      <div className="lattsam-only">
+        <section aria-labelledby="alla-lattsam">
+          <h2 id="alla-lattsam">Alla grammatikområden</h2>
+          <div className={styles.grid}>
+            {categoriesLattsam.map(node => (
+              <div className={styles.category} key={node.label}>
+                <h3>{node.label}</h3>
+                <ul>
+                  {flattenLattsam([node]).map(link => (
+                    <li key={link.href}>
+                      <Link href={link.href}>{link.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section aria-labelledby="fordjupa-lattsam">
+          <h2 id="fordjupa-lattsam">Fördjupningar och klurigheter</h2>
+          <ul className={styles.linkList}>
+            {extraLattsam.map(doc => (
+              <li key={doc.href}>
+                <Link href={doc.href}>{doc.titleLattsam ?? doc.title}</Link>
+                <p>{doc.descriptionLattsam ?? doc.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+
+      {/* Rigorös: komplett referensverk med alla 61 artiklar + fördjupningar */}
+      <div className="rigoros-only">
+        <GrammarDirectory categories={categories} extra={extra} />
+      </div>
 
       <section aria-labelledby="fragor">
         <h2 id="fragor">Små frågor, användbara svar</h2>

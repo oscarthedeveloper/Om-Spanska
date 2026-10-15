@@ -15,11 +15,15 @@ export type DocMeta = DocFrontmatter & {
   href: string;
   /** Kategorierna ovanför sidan, ytterst först. */
   categoryPath: string[];
+  titleLattsam?: string;
+  descriptionLattsam?: string;
 };
 
 export type Doc = DocMeta & {
   content: string;
   headings: Heading[];
+  contentLattsam?: string;
+  headingsLattsam?: Heading[];
 };
 
 export type Heading = {
@@ -37,6 +41,7 @@ export type SidebarCategory = {
 
 export type SidebarLink = {
   label: string;
+  labelLattsam?: string;
   href: string;
   position: number;
   rigoros?: boolean;

@@ -22,7 +22,15 @@ function filterNodes(nodes: SidebarNode[], mode: 'lattsam' | 'rigoros'): Sidebar
     .filter((node): node is SidebarNode => node !== null);
 }
 
-function Nodes({nodes, depth}: {nodes: SidebarNode[]; depth: number}) {
+function Nodes({
+  nodes,
+  depth,
+  mode,
+}: {
+  nodes: SidebarNode[];
+  depth: number;
+  mode: 'lattsam' | 'rigoros';
+}) {
   const pathname = usePathname();
   return (
     <ul className={depth === 0 ? styles.root : styles.nested}>
@@ -30,7 +38,7 @@ function Nodes({nodes, depth}: {nodes: SidebarNode[]; depth: number}) {
         node.kind === 'category' ? (
           <li key={`${node.label}-${node.position}`} className={styles.category}>
             <p className={styles.categoryLabel}>{node.label}</p>
-            <Nodes nodes={node.items} depth={depth + 1} />
+            <Nodes nodes={node.items} depth={depth + 1} mode={mode} />
           </li>
         ) : (
           <li key={node.href}>
@@ -38,7 +46,7 @@ function Nodes({nodes, depth}: {nodes: SidebarNode[]; depth: number}) {
               href={node.href}
               aria-current={pathname === node.href ? 'page' : undefined}
               className={pathname === node.href ? styles.linkActive : styles.link}>
-              {node.label}
+              {mode === 'lattsam' && node.labelLattsam ? node.labelLattsam : node.label}
             </Link>
           </li>
         ),
@@ -71,7 +79,7 @@ export default function Sidebar({
         className={`${styles.sidebar} ${open ? styles.sidebarOpen : ''}`}
         aria-label={heading ?? 'Grammatikens innehåll'}>
         {heading && <p className={styles.heading}>{heading}</p>}
-        <Nodes nodes={visibleNodes} depth={0} />
+        <Nodes nodes={visibleNodes} depth={0} mode={mode} />
       </nav>
     </>
   );

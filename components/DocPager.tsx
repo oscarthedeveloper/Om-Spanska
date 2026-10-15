@@ -26,7 +26,7 @@ export default function DocPager({
           <span className={styles.pagerLabel}>Föregående</span>
           <span className={styles.pagerTitle}>{previous.label}</span>
           {mode === 'rigoros' && previous.rigoros && (
-            <span className={styles.pagerBadge}>🔬 Gymnasium & Uni</span>
+            <span className={styles.pagerBadge}>🔬 Rigorös</span>
           )}
         </Link>
       ) : (
@@ -37,7 +37,7 @@ export default function DocPager({
           <span className={styles.pagerLabel}>Nästa</span>
           <span className={styles.pagerTitle}>{next.label}</span>
           {mode === 'rigoros' && next.rigoros && (
-            <span className={styles.pagerBadge}>🔬 Gymnasium & Uni</span>
+            <span className={styles.pagerBadge}>🔬 Rigorös</span>
           )}
         </Link>
       ) : (

@@ -7,13 +7,15 @@ import styles from './SearchDialog.module.css';
 
 type SearchRecord = {
   t: string;   // titel
+  tl?: string; // titel lättsam
   d: string;   // beskrivning
+  dl?: string; // beskrivning lättsam
   h: string;   // href
   c: string;   // kategori
   k: string;   // sort
   s: string[]; // underrubriker
   b: string;   // brödtext
-  r?: boolean; // rigoros (gymnasium & universitet)
+  r?: boolean; // rigoros
 };
 
 type Hit = SearchRecord & {score: number; excerpt: string};
@@ -35,8 +37,10 @@ function search(records: SearchRecord[], raw: string, mode: 'lattsam' | 'rigoros
 
   const hits: Hit[] = [];
   for (const r of records) {
-    const title = fold(r.t);
-    const desc = fold(r.d);
+    if (mode === 'lattsam' && r.r) continue;
+    const searchTitle = mode === 'lattsam' && r.tl ? r.tl : r.t;
+    const title = fold(searchTitle);
+    const desc = fold(mode === 'lattsam' && r.dl ? r.dl : r.d);
     const subs = fold(r.s.join(' '));
     const body = fold(r.b);
 
@@ -57,10 +61,7 @@ function search(records: SearchRecord[], raw: string, mode: 'lattsam' | 'rigoros
 
     if (!matchedAll || score === 0) continue;
     if (r.k === 'grammatik') score += 4;
-    if (mode === 'lattsam') {
-      if (!r.r) score += 40;
-      else score -= 15;
-    }
+    if (mode === 'lattsam' && r.r) continue;
     hits.push({...r, score, excerpt: excerptAround(r.b || r.d, terms[0])});
   }
 
@@ -167,32 +168,30 @@ export default function SearchDialog({
             </p>
           )}
 
-          {hits.map((hit, i) => (
-            <Link
-              key={hit.h}
-              href={hit.h}
-              role="option"
-              aria-selected={i === active}
-              className={`${styles.hit} ${i === active ? styles.hitActive : ''}`}
-              onMouseEnter={() => setActive(i)}
-              onClick={onClose}>
-              <span className={styles.hitCategory}>
-                <span>{hit.c}</span>
-                {hit.r && (
-                  <span className={`${styles.levelTag} ${styles.rigorosTag}`}>
-                    🔬 Gymnasium & Uni
-                  </span>
-                )}
-                {!hit.r && hit.k === 'grammatik' && (
-                  <span className={`${styles.levelTag} ${styles.lattsamTag}`}>
-                    ☕ Högstadiet
-                  </span>
-                )}
-              </span>
-              <span className={styles.hitTitle}>{hit.t}</span>
-              <span className={styles.hitExcerpt}>{hit.excerpt}</span>
-            </Link>
-          ))}
+          {hits.map((hit, i) => {
+            const hitTitle = mode === 'lattsam' && hit.tl ? hit.tl : hit.t;
+            return (
+              <Link
+                key={hit.h}
+                href={hit.h}
+                role="option"
+                aria-selected={i === active}
+                className={`${styles.hit} ${i === active ? styles.hitActive : ''}`}
+                onMouseEnter={() => setActive(i)}
+                onClick={onClose}>
+                <span className={styles.hitCategory}>
+                  <span>{hit.c}</span>
+                  {mode === 'rigoros' && hit.r && (
+                    <span className={`${styles.levelTag} ${styles.rigorosTag}`}>
+                      🔬 Rigorös
+                    </span>
+                  )}
+                </span>
+                <span className={styles.hitTitle}>{hitTitle}</span>
+                <span className={styles.hitExcerpt}>{hit.excerpt}</span>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>

@@ -128,6 +128,19 @@ function readDocsDir(dir: string, categoryPath: string[], base: string): DocMeta
     }
     const segments = slug.replace(/^\/+/, '').split('/').filter(Boolean);
 
+    const lattsamRel = full.replace(path.join(process.cwd(), 'content'), path.join(process.cwd(), 'content_lattsam'));
+    let titleLattsam: string | undefined;
+    let descriptionLattsam: string | undefined;
+    if (fs.existsSync(lattsamRel)) {
+      const parsedLattsam = matter(fs.readFileSync(lattsamRel, 'utf8'));
+      if (parsedLattsam.data.title) {
+        titleLattsam = String(parsedLattsam.data.title);
+      }
+      if (parsedLattsam.data.description) {
+        descriptionLattsam = String(parsedLattsam.data.description);
+      }
+    }
+
     out.push({
       title: String(data.title ?? segments[segments.length - 1]),
       description: String(data.description ?? ''),
@@ -138,6 +151,8 @@ function readDocsDir(dir: string, categoryPath: string[], base: string): DocMeta
       segments,
       href: `${base}/${segments.join('/')}`,
       categoryPath,
+      titleLattsam,
+      descriptionLattsam,
     });
   }
   return out;
@@ -157,8 +172,38 @@ export function getDocBySegments(section: SectionKey, segments: string[]): Doc |
   const meta = getAllDocs(section).find(d => sameSlug(d.segments.join('/'), target));
   if (!meta) return null;
 
-  const {content} = matter(fs.readFileSync(path.join(process.cwd(), meta.file), 'utf8'));
-  return {...meta, content, headings: extractHeadings(content)};
+  const fullPath = path.join(process.cwd(), meta.file);
+  const {content} = matter(fs.readFileSync(fullPath, 'utf8'));
+
+  const lattsamRel = meta.file.replace(/^content\//, 'content_lattsam/');
+  const lattsamFull = path.join(process.cwd(), lattsamRel);
+
+  let contentLattsam: string | undefined;
+  let headingsLattsam: Heading[] | undefined;
+  let descriptionLattsam: string | undefined;
+  let titleLattsam: string | undefined;
+
+  if (fs.existsSync(lattsamFull)) {
+    const parsedLattsam = matter(fs.readFileSync(lattsamFull, 'utf8'));
+    contentLattsam = parsedLattsam.content;
+    headingsLattsam = extractHeadings(contentLattsam);
+    if (parsedLattsam.data.description) {
+      descriptionLattsam = String(parsedLattsam.data.description);
+    }
+    if (parsedLattsam.data.title) {
+      titleLattsam = String(parsedLattsam.data.title);
+    }
+  }
+
+  return {
+    ...meta,
+    content,
+    headings: extractHeadings(content),
+    contentLattsam,
+    headingsLattsam,
+    descriptionLattsam,
+    titleLattsam,
+  };
 }
 
 /* ── Sidomeny ────────────────────────────────────────────────────── */
@@ -185,9 +230,20 @@ function buildSidebarFor(dir: string, base: string): SidebarNode[] {
 
     const {data} = matter(fs.readFileSync(full, 'utf8'));
     const segments = String(data.slug ?? '').replace(/^\/+/, '').split('/').filter(Boolean);
+
+    const lattsamRel = full.replace(path.join(process.cwd(), 'content'), path.join(process.cwd(), 'content_lattsam'));
+    let labelLattsam: string | undefined;
+    if (fs.existsSync(lattsamRel)) {
+      const parsedLattsam = matter(fs.readFileSync(lattsamRel, 'utf8'));
+      if (parsedLattsam.data.title) {
+        labelLattsam = String(parsedLattsam.data.title);
+      }
+    }
+
     nodes.push({
       kind: 'link',
       label: String(data.title ?? entry.name.replace(/\.mdx$/, '')),
+      labelLattsam,
       href: `${base}/${segments.join('/')}`,
       position: Number(data.sidebar_position ?? 999),
       rigoros: Boolean(data.rigoros),
@@ -219,7 +275,8 @@ export function getOrderedDocs(section: SectionKey = 'docs', mode?: 'lattsam' | 
     for (const n of nodes) {
       if (mode === 'lattsam' && n.rigoros) continue;
       if (n.kind === 'link') {
-        flat.push({label: n.label, href: n.href, rigoros: Boolean(n.rigoros)});
+        const label = mode === 'lattsam' && n.labelLattsam ? n.labelLattsam : n.label;
+        flat.push({label, href: n.href, rigoros: Boolean(n.rigoros)});
       } else {
         walk(n.items);
       }
