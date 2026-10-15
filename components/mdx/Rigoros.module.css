@@ -5,6 +5,31 @@
   position: relative;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--s-sm, 0.75rem);
+  margin-bottom: var(--s-md, 1rem);
+  flex-wrap: wrap;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  background: var(--surface-soft, #f3f4f6);
+  border: 1px solid var(--hairline, #e5e7eb);
+  border-radius: var(--r-full, 9999px);
+  color: var(--ink, #111827);
+  display: inline-flex;
+  align-items: center;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: var(--muted, #6b7280);
+}
+
 :global(html[data-grammar-mode="lattsam"]) .rigorosBlock,
 :global(html:not([data-grammar-mode="rigoros"])) .rigorosBlock {
   display: none !important;

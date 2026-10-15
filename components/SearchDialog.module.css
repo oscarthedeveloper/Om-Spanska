@@ -91,6 +91,32 @@
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.levelTag {
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: var(--r-full);
+  text-transform: none;
+  letter-spacing: normal;
+  display: inline-flex;
+  align-items: center;
+}
+
+.lattsamTag {
+  background: var(--block-cream);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+}
+
+.rigorosTag {
+  background: var(--surface-soft);
+  color: var(--muted);
+  border: 1px solid var(--hairline);
 }
 
 .hitTitle {

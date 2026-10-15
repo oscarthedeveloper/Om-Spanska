@@ -83,6 +83,7 @@ for (const [dir, base, fallbackCategory] of [
       h: `${base}/${segments}`,
       c: category,
       k: 'grammatik',
+      r: Boolean(data.rigoros),
       s: headingsOf(body),
       b: toPlainText(body).slice(0, 4000),
     });

@@ -210,13 +210,19 @@ export function getSidebar(section: SectionKey = 'docs'): SidebarNode[] {
   return nodes;
 }
 
+export type OrderedDoc = {label: string; href: string; rigoros?: boolean};
+
 /** Sidorna i sidomenyns ordning — grunden för föregående/nästa. */
-export function getOrderedDocs(section: SectionKey = 'docs'): {label: string; href: string}[] {
-  const flat: {label: string; href: string}[] = [];
+export function getOrderedDocs(section: SectionKey = 'docs', mode?: 'lattsam' | 'rigoros'): OrderedDoc[] {
+  const flat: OrderedDoc[] = [];
   const walk = (nodes: SidebarNode[]) => {
     for (const n of nodes) {
-      if (n.kind === 'link') flat.push({label: n.label, href: n.href});
-      else walk(n.items);
+      if (mode === 'lattsam' && n.rigoros) continue;
+      if (n.kind === 'link') {
+        flat.push({label: n.label, href: n.href, rigoros: Boolean(n.rigoros)});
+      } else {
+        walk(n.items);
+      }
     }
   };
   walk(getSidebar(section));
@@ -224,11 +230,21 @@ export function getOrderedDocs(section: SectionKey = 'docs'): {label: string; hr
 }
 
 export function getDocNeighbours(section: SectionKey, href: string) {
-  const flat = getOrderedDocs(section);
-  const i = flat.findIndex(d => d.href === href);
+  const rigorosDocs = getOrderedDocs(section, 'rigoros');
+  const lattsamDocs = getOrderedDocs(section, 'lattsam');
+
+  const rIdx = rigorosDocs.findIndex(d => d.href === href);
+  const lIdx = lattsamDocs.findIndex(d => d.href === href);
+
   return {
-    previous: i > 0 ? flat[i - 1] : null,
-    next: i >= 0 && i < flat.length - 1 ? flat[i + 1] : null,
+    rigoros: {
+      previous: rIdx > 0 ? rigorosDocs[rIdx - 1] : null,
+      next: rIdx >= 0 && rIdx < rigorosDocs.length - 1 ? rigorosDocs[rIdx + 1] : null,
+    },
+    lattsam: {
+      previous: lIdx > 0 ? lattsamDocs[lIdx - 1] : null,
+      next: lIdx >= 0 && lIdx < lattsamDocs.length - 1 ? lattsamDocs[lIdx + 1] : null,
+    },
   };
 }
 

@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import {useEffect, useMemo, useRef, useState} from 'react';
+import {useGrammarMode} from '@/lib/grammar-mode';
 import styles from './SearchDialog.module.css';
 
 type SearchRecord = {
@@ -12,6 +13,7 @@ type SearchRecord = {
   k: string;   // sort
   s: string[]; // underrubriker
   b: string;   // brödtext
+  r?: boolean; // rigoros (gymnasium & universitet)
 };
 
 type Hit = SearchRecord & {score: number; excerpt: string};
@@ -27,7 +29,7 @@ function excerptAround(body: string, term: string) {
   return (start > 0 ? '…' : '') + body.slice(start, start + 150).trim() + '…';
 }
 
-function search(records: SearchRecord[], raw: string): Hit[] {
+function search(records: SearchRecord[], raw: string, mode: 'lattsam' | 'rigoros'): Hit[] {
   const terms = fold(raw).split(/\s+/).filter(t => t.length > 1);
   if (terms.length === 0) return [];
 
@@ -55,6 +57,10 @@ function search(records: SearchRecord[], raw: string): Hit[] {
 
     if (!matchedAll || score === 0) continue;
     if (r.k === 'grammatik') score += 4;
+    if (mode === 'lattsam') {
+      if (!r.r) score += 40;
+      else score -= 15;
+    }
     hits.push({...r, score, excerpt: excerptAround(r.b || r.d, terms[0])});
   }
 
@@ -94,9 +100,11 @@ export default function SearchDialog({
     return undefined;
   }, [open]);
 
+  const [mode] = useGrammarMode();
+
   const hits = useMemo(
-    () => (records ? search(records, query) : []),
-    [records, query],
+    () => (records ? search(records, query, mode) : []),
+    [records, query, mode],
   );
 
   useEffect(() => { setActive(0); }, [query]);
@@ -168,7 +176,19 @@ export default function SearchDialog({
               className={`${styles.hit} ${i === active ? styles.hitActive : ''}`}
               onMouseEnter={() => setActive(i)}
               onClick={onClose}>
-              <span className={styles.hitCategory}>{hit.c}</span>
+              <span className={styles.hitCategory}>
+                <span>{hit.c}</span>
+                {hit.r && (
+                  <span className={`${styles.levelTag} ${styles.rigorosTag}`}>
+                    🔬 Gymnasium & Uni
+                  </span>
+                )}
+                {!hit.r && hit.k === 'grammatik' && (
+                  <span className={`${styles.levelTag} ${styles.lattsamTag}`}>
+                    ☕ Högstadiet
+                  </span>
+                )}
+              </span>
               <span className={styles.hitTitle}>{hit.t}</span>
               <span className={styles.hitExcerpt}>{hit.excerpt}</span>
             </Link>

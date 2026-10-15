@@ -5,6 +5,7 @@ import {notFound} from 'next/navigation';
 import Mdx from '@/components/mdx/Mdx';
 import TableOfContents from '@/components/TableOfContents';
 import RigorosBanner from '@/components/RigorosBanner';
+import DocPager from '@/components/DocPager';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
 import styles from '../../docs/[...slug]/doc.module.css';
 
@@ -38,7 +39,7 @@ export default async function MerPage({params}: {params: Promise<Params>}) {
   const doc = getDocBySegments('mer', slug);
   if (!doc) notFound();
 
-  const {previous, next} = getDocNeighbours('mer', doc.href);
+  const neighbours = getDocNeighbours('mer', doc.href);
 
   return (
     <div className={styles.layout}>
@@ -61,22 +62,7 @@ export default async function MerPage({params}: {params: Promise<Params>}) {
           <Mdx key={doc.href} source={doc.content} />
         </div>
 
-        {(previous || next) && (
-          <nav className={styles.pager} aria-label="Föregående och nästa avsnitt">
-            {previous ? (
-              <Link href={previous.href} className={styles.pagerLink}>
-                <span className={styles.pagerLabel}>Föregående</span>
-                <span className={styles.pagerTitle}>{previous.label}</span>
-              </Link>
-            ) : <span />}
-            {next ? (
-              <Link href={next.href} className={`${styles.pagerLink} ${styles.pagerNext}`}>
-                <span className={styles.pagerLabel}>Nästa</span>
-                <span className={styles.pagerTitle}>{next.label}</span>
-              </Link>
-            ) : <span />}
-          </nav>
-        )}
+        <DocPager lattsam={neighbours.lattsam} rigoros={neighbours.rigoros} />
       </article>
 
       <TableOfContents headings={doc.headings} />

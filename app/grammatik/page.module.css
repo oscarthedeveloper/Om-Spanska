@@ -13,4 +13,51 @@
 .linkList { padding-left: 1.2rem; }
 .linkList li { margin: 1rem 0; }
 .linkList p { font-size: .95rem; color: var(--muted); margin: .3rem 0; }
+
+.sectionHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.modeTag {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--surface-soft);
+  padding: 3px 10px;
+  border-radius: var(--r-full);
+  border: 1px solid var(--hairline);
+}
+
+.switchLink {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.switchLink:hover {
+  color: var(--muted);
+}
+
+.itemBadge {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-left: 6px;
+  background: var(--surface-soft);
+  padding: 1px 6px;
+  border-radius: var(--r-full);
+}
+
 @media (max-width: 640px) { .grid { grid-template-columns: minmax(0, 1fr); } }

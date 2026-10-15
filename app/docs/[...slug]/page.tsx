@@ -7,6 +7,7 @@ import TableOfContents from '@/components/TableOfContents';
 import LearningStepProgress from '@/components/learning/LearningStepProgress';
 import MiniQuiz from '@/components/mdx/MiniQuiz';
 import RigorosBanner from '@/components/RigorosBanner';
+import DocPager from '@/components/DocPager';
 import {LEARNING_QUIZZES} from '@/data/learning-quizzes';
 import {getAllDocs, getDocBySegments, getDocNeighbours} from '@/lib/content';
 import styles from './doc.module.css';
@@ -41,7 +42,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
   const doc = getDocBySegments('docs', slug);
   if (!doc) notFound();
 
-  const {previous, next} = getDocNeighbours('docs', doc.href);
+  const neighbours = getDocNeighbours('docs', doc.href);
   const learningQuiz = LEARNING_QUIZZES[doc.href];
 
   return (
@@ -71,22 +72,7 @@ export default async function DocPage({params}: {params: Promise<Params>}) {
 
         <LearningStepProgress href={doc.href} />
 
-        {(previous || next) && (
-          <nav className={styles.pager} aria-label="Föregående och nästa avsnitt">
-            {previous ? (
-              <Link href={previous.href} className={styles.pagerLink}>
-                <span className={styles.pagerLabel}>Föregående</span>
-                <span className={styles.pagerTitle}>{previous.label}</span>
-              </Link>
-            ) : <span />}
-            {next ? (
-              <Link href={next.href} className={`${styles.pagerLink} ${styles.pagerNext}`}>
-                <span className={styles.pagerLabel}>Nästa</span>
-                <span className={styles.pagerTitle}>{next.label}</span>
-              </Link>
-            ) : <span />}
-          </nav>
-        )}
+        <DocPager lattsam={neighbours.lattsam} rigoros={neighbours.rigoros} />
       </article>
 
       <TableOfContents headings={doc.headings} />
