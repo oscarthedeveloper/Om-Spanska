@@ -49,7 +49,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="sv" className={`${inter.variable} ${jetbrains.variable}`} data-grammar-mode="lattsam">
+    <html
+      lang="sv"
+      className={`${inter.variable} ${jetbrains.variable}`}
+      data-grammar-mode="lattsam"
+      suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
