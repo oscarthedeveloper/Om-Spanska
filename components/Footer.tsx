@@ -67,7 +67,7 @@ export default function Footer() {
           ))}
         </div>
         <p className={styles.copyright}>
-          omspanska.se · {new Date().getFullYear()} · Gratis digital grammatika
+          omspanska.se · <a href="https://oscarohrn.com" className={styles.creditLink}>oscarohrn.com</a>
         </p>
       </div>
     </footer>

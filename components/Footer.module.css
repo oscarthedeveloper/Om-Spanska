@@ -47,11 +47,18 @@
   font-family: var(--font-mono);
   font-size: 0.6875rem;
   letter-spacing: 0.07em;
-  text-transform: uppercase;
   color: var(--muted);
   border-top: 1px solid var(--hairline-soft);
   padding-top: var(--s-lg);
   margin: 0;
+  text-align: center;
+}
+
+.creditLink,
+.creditLink:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
