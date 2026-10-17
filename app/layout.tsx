@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['/img/social-card.png'],
   },
-  icons: {icon: '/img/favicon.ico'},
+  icons: {icon: {url: '/img/ohrn.svg', type: 'image/svg+xml'}},
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
